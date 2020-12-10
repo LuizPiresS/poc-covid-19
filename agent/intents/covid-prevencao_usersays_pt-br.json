@@ -1,0 +1,67 @@
+[
+  {
+    "id": "e64e4377-ca56-4171-8355-79a1543fdade",
+    "data": [
+      {
+        "text": "Como prevenir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d8f0fcc0-1798-402d-92ed-00fb11b80589",
+    "data": [
+      {
+        "text": "Não quero pegar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f0a1d600-0b62-4da2-9bde-41e45b77bd83",
+    "data": [
+      {
+        "text": "Como não pegar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "376e251a-b399-42e1-a88f-bd02f02cbf3a",
+    "data": [
+      {
+        "text": "Como evitar pegar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3b88a744-9685-492d-b24f-dc49a80ba259",
+    "data": [
+      {
+        "text": "Prevenção",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

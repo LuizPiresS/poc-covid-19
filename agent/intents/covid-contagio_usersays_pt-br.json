@@ -1,0 +1,87 @@
+[
+  {
+    "id": "731bfca6-fd72-4a8b-a725-229420cf5545",
+    "data": [
+      {
+        "text": "Como se contagiar com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o ",
+        "userDefined": false
+      },
+      {
+        "text": "Corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " virus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c223be01-908a-4293-a07e-1a1aff01aecf",
+    "data": [
+      {
+        "text": "Como se contagiar com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o Covid-",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "30ad3e77-99be-4868-a09e-c29ca524e543",
+    "data": [
+      {
+        "text": "Como pega o coronga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5f3f7023-d83a-42e8-99b6-a6aa53da12fd",
+    "data": [
+      {
+        "text": "Como ",
+        "userDefined": false
+      },
+      {
+        "text": "pego",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

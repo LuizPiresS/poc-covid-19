@@ -1,0 +1,81 @@
+[
+  {
+    "id": "446424a7-dc47-4c58-9268-1e972eb84eb6",
+    "data": [
+      {
+        "text": "piquei a mula",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7e26cc60-a07c-4c0b-85ce-7bd11ea0b2b3",
+    "data": [
+      {
+        "text": "Larguei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2038b11b-6926-486d-be1e-fe95ae2a3bb2",
+    "data": [
+      {
+        "text": "Deitei o cabelo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c3f223bf-9995-4166-be92-f8b1c6146d61",
+    "data": [
+      {
+        "text": "Tchau",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5ad0b60e-db99-48fd-95fb-267060227f41",
+    "data": [
+      {
+        "text": "Fui",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "97d8839a-0d39-4782-a595-1b478be7aaa0",
+    "data": [
+      {
+        "text": "Adeus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]
