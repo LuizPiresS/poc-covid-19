@@ -3,8 +3,8 @@ import { WebhookClient } from 'dialogflow-fulfillment'
 import express from 'express'
 
 import { saudacoesMensagemBoasVindas, saudacoesMensagemDespedida } from '../intents'
+
 const app = express()
-process.env.DEBUG = 'dialogflow:debug' // enables lib debugging statements
 app
   .use(bodyParser.json())
   .post('/', (req, res) => {
