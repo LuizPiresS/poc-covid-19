@@ -2,8 +2,10 @@ import { Text } from 'dialogflow-fulfillment'
 
 function saudacoesMensagemDespedida (agent) {
   const message = 'Se você precisar de mais informações sobre o Coronavírus, pode me chamar. \n \nE caso sentir que se enquadra em alguns dos sintomas, ligue para o Disque Saúde 136! ☎'
+  const firstName = agent.originalRequest.payload.data.from.first_name
+  const lastName = agent.originalRequest.payload.data.from.last_name
 
-  const farewellMessage = `Tenha ${farewell()} ${agent.originalRequest.payload.data.from.first_name} ${agent.originalRequest.payload.data.from.last_name}. 👋`
+  const farewellMessage = `Tenha ${farewell()},  ${firstName} ${lastName}! 👋`
 
   agent.add(new Text(message))
   agent.add(new Text(farewellMessage))
