@@ -9,7 +9,11 @@
     "start:dev": "nodemon -w src --exec babel-node src/main/server --presets env",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --colors --noStackTrace",
+    "test:unit": "npm run test -- --watch --passWithNoTests -c jest-unit-config.js",
+    "test:integration": "npm run test -- --watch --runInBand -c jest-integration-config.js",
+    "test:staged": "npm run test -- --findRelatedTests --silent",
+    "test:ci": "npm run test -- --coverage --silent --passWithNoTests"
   },
   "repository": {
     "type": "git",
@@ -30,6 +34,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "jest": "^26.6.3",
     "@types/express": "^4.17.9",
     "nodemon": "^2.0.6",
     "eslint": "^7.14.0",
