@@ -1,0 +1,15 @@
+{
+  "App": {
+    "domain": "",
+    "port": 1313,
+    "database": {
+      "dbHost": "database",
+      "dbUser": "user",
+      "dbPass": "pass",
+      "dbName": "development"
+    },
+    "Auth": {
+      "tokenSecret": "YOUR_TOKEN_SECRET"
+    }
+  }
+}
