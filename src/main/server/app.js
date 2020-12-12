@@ -2,7 +2,7 @@ import bodyParser from 'body-parser'
 import { WebhookClient } from 'dialogflow-fulfillment'
 import express from 'express'
 
-import { saudacoesMensagemBoasVindas, saudacoesMensagemDespedida } from '../intents'
+import { saudacoesMensagemBoasVindas, saudacoesMensagemDespedida, covidPrevencao, covidPrevencaoBasica } from '../intents'
 
 const app = express()
 app
@@ -12,8 +12,9 @@ app
     const intentMap = new Map()
     intentMap.set('saudacoes-mensagem-boas-vindas', saudacoesMensagemBoasVindas)
     intentMap.set('saudacoes-mensagem-despedida', saudacoesMensagemDespedida)
+    intentMap.set('covid-prevencao', covidPrevencao)
+    intentMap.set('covid-prevencao-basica', covidPrevencaoBasica)
     agent.handleRequest(intentMap)
-    // console.log(agent.originalRequest.payload.data.from)
   })
   .get('/', (req, res) => {
     res.json('Tu não deveria estar aqui')
