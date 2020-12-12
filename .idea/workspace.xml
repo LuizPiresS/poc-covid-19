@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bc4ce4-6f5c-43f8-bd43-8b929ade970d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="45bc4ce4-6f5c-43f8-bd43-8b929ade970d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +81,7 @@
       <workItem from="1607694964971" duration="16912000" />
       <workItem from="1607741701165" duration="1236000" />
       <workItem from="1607744764829" duration="97000" />
-      <workItem from="1607747570581" duration="1350000" />
+      <workItem from="1607747570581" duration="1687000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -124,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607703471068</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="chore: adicionado host remoto para o mongo">
+      <created>1607749167996</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607749167996</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: adicionado covid-prevencao-basica e covid-prevencao">
+      <created>1607749228955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607749228955</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +157,9 @@
     <MESSAGE value="feat: adicionado mongoose para realizar o controle dos usuários" />
     <MESSAGE value="fiz: adicionado botões para as opções" />
     <MESSAGE value="fix: adicionado botões para as opções" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: adicionado botões para as opções" />
+    <MESSAGE value="chore: adicionado host remoto para o mongo" />
+    <MESSAGE value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
