@@ -1,0 +1,28 @@
+[
+  {
+    "id": "5bcc8a43-c414-4e1d-a179-fa18f1cf34d9",
+    "data": [
+      {
+        "text": "prev pro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e1c4c7e6-2e1c-4648-9430-015724913a29",
+    "data": [
+      {
+        "text": "Prevenção do profissional",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]
