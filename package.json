@@ -35,23 +35,21 @@
     "express": "^4.17.1",
     "mongodb": "^3.6.3",
     "mongoose": "^5.11.7",
-    "rimraf": "^3.0.2",
-      "node-forge": ">=0.10.0"
-
+    "rimraf": "^3.0.2"
   },
   "devDependencies": {
-      "@types/express": "^4.17.9",
-      "@types/mongodb": "^3.6.3",
-      "@types/mongoose": "^5.10.2",
-      "eslint": "^7.14.0",
-      "eslint-config-standard": "^16.0.2",
-      "eslint-plugin-boundaries": "^1.1.0",
-      "eslint-plugin-import": "^2.22.1",
-      "eslint-plugin-import-helpers": "^1.1.0",
-      "eslint-plugin-node": "^11.1.0",
-      "eslint-plugin-promise": "^4.2.1",
-      "git-commit-msg-linter": "^3.0.0",
-      "jest": "^26.6.3",
-      "nodemon": "^2.0.6"
+    "@types/express": "^4.17.9",
+    "@types/mongodb": "^3.6.3",
+    "@types/mongoose": "^5.10.2",
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-boundaries": "^1.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "git-commit-msg-linter": "^3.0.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
   }
 }

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/periodo-incubacao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagio/periodo-incubacao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -135,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607749228955</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: adicionado nova versão agent">
+      <created>1607940098976</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607940098977</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: fix database connection">
+      <created>1607940804474</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607940804474</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +178,9 @@
     <MESSAGE value="fix: adicionado botões para as opções" />
     <MESSAGE value="chore: adicionado host remoto para o mongo" />
     <MESSAGE value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
+    <MESSAGE value="feat: adicionado nova versão agent" />
+    <MESSAGE value="feat: fix database connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fix database connection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
