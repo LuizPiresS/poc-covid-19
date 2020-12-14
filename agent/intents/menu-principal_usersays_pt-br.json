@@ -1,0 +1,55 @@
+[
+  {
+    "id": "a1d9391e-0c1e-41e6-9bd3-3c8ad4334cb6",
+    "data": [
+      {
+        "text": "Sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "43ab76a9-9dc1-4e16-9a03-88b15bbc6880",
+    "data": [
+      {
+        "text": "sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 5,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d6159b3e-2a6b-4970-a327-ea3ea9f2f9d6",
+    "data": [
+      {
+        "text": "Menu principal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "fc389676-92b4-478d-8736-4ec8ebe22f2d",
+    "data": [
+      {
+        "text": "menu",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

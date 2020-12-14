@@ -1,9 +1,35 @@
 [
   {
-    "id": "71febc68-6be7-450d-8169-e0ee6ec78def",
+    "id": "0366b1a8-41b2-4667-9c02-04b382839e6e",
     "data": [
       {
         "text": "Não, era só isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0475e56f-f21f-473e-9058-43d6e523aee4",
+    "data": [
+      {
+        "text": "não",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "43c674aa-6b4d-4c4b-8cbc-8524d538381c",
+    "data": [
+      {
+        "text": "Não,era só isso",
         "userDefined": false
       }
     ],
@@ -22,19 +48,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "e5aa8f9f-2fac-49c6-8206-9fa3772ab1d5",
-    "data": [
-      {
-        "text": "Não,era só isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },

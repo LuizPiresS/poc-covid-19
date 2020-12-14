@@ -1,6 +1,6 @@
 [
   {
-    "id": "ee9ac7c0-0473-4749-9169-9c3fce10445a",
+    "id": "75bbe86c-055d-4233-a3a4-42a1fa94e24d",
     "data": [
       {
         "text": "Contágio",
@@ -8,7 +8,20 @@
       }
     ],
     "isTemplate": false,
-    "count": 1,
+    "count": 2,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "364f2e60-864d-41db-badb-7cd81c032c8b",
+    "data": [
+      {
+        "text": "contágio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
     "lang": "pt-br",
     "updated": 0
   },

@@ -1,6 +1,19 @@
 [
   {
-    "id": "f90ec1cd-fb70-42d3-be90-a8d443b40565",
+    "id": "75f069e6-a22f-42c3-bb79-94f7cdeb6c09",
+    "data": [
+      {
+        "text": "prevenção",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ddbfa707-d8a3-46ab-8c2c-566fdaeaaae8",
     "data": [
       {
         "text": "Prevenção",
