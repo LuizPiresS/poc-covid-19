@@ -11,6 +11,7 @@ function incubacao (agent) {
   agent.add(new Text('Posso ajudar em algo mais? '))
   agent.add(new Suggestion('Sim'))
   agent.add(new Suggestion('Não, era só isso'))
+  console.log(agent)
 }
 
 export { incubacao }
