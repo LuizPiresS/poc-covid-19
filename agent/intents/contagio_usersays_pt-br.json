@@ -1,9 +1,9 @@
 [
   {
-    "id": "71febc68-6be7-450d-8169-e0ee6ec78def",
+    "id": "ee9ac7c0-0473-4749-9169-9c3fce10445a",
     "data": [
       {
-        "text": "Não, era só isso",
+        "text": "Contágio",
         "userDefined": false
       }
     ],
@@ -13,10 +13,10 @@
     "updated": 0
   },
   {
-    "id": "92b08cb5-d74d-441a-9c0b-b26a95358f9f",
+    "id": "598dcde7-2d16-4eb2-81d1-3afd4b8013e8",
     "data": [
       {
-        "text": "sair",
+        "text": "Como se contamina",
         "userDefined": false
       }
     ],
@@ -26,36 +26,10 @@
     "updated": 0
   },
   {
-    "id": "e5aa8f9f-2fac-49c6-8206-9fa3772ab1d5",
+    "id": "56cc35bf-b3cb-4122-8f72-9470f88a351d",
     "data": [
       {
-        "text": "Não,era só isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "9ad99b9c-9842-486c-9e64-bac7e0c049f0",
-    "data": [
-      {
-        "text": "Não",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "0fb7045c-39c8-4e08-9312-4f9dccbe31c9",
-    "data": [
-      {
-        "text": "piquei a mula",
+        "text": "Como pega este trem",
         "userDefined": false
       }
     ],
@@ -65,10 +39,10 @@
     "updated": 0
   },
   {
-    "id": "e5f10d45-e704-49ec-b30d-367784ac42ca",
+    "id": "349feaf2-4a8f-43b2-814d-9427d283e36d",
     "data": [
       {
-        "text": "Larguei",
+        "text": "Contagiar",
         "userDefined": false
       }
     ],
@@ -78,10 +52,10 @@
     "updated": 0
   },
   {
-    "id": "bfc50fdb-8643-439c-a80d-50231040913c",
+    "id": "ae6dae65-eac7-4332-99a7-ee528b094bd8",
     "data": [
       {
-        "text": "Deitei o cabelo",
+        "text": "Contagio",
         "userDefined": false
       }
     ],
@@ -91,10 +65,24 @@
     "updated": 0
   },
   {
-    "id": "a87c0903-44af-440f-a53d-415fa93e8f54",
+    "id": "c27d62d9-cc70-41e1-a72b-5c94a6ca30c2",
     "data": [
       {
-        "text": "Tchau",
+        "text": "Como se contagiar com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o ",
+        "userDefined": false
+      },
+      {
+        "text": "Corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " virus",
         "userDefined": false
       }
     ],
@@ -104,10 +92,19 @@
     "updated": 0
   },
   {
-    "id": "904eff05-f04c-493a-a0f4-c09cc8d7a6a1",
+    "id": "25c1dd8e-7d74-442d-9cae-46d10b8f49ec",
     "data": [
       {
-        "text": "Fui",
+        "text": "Como se contagiar com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o Covid-",
+        "userDefined": false
+      },
+      {
+        "text": "19",
         "meta": "@sys.ignore",
         "userDefined": false
       }
@@ -118,10 +115,32 @@
     "updated": 0
   },
   {
-    "id": "c63c0874-bb32-422b-bb3a-6cdb78d6646e",
+    "id": "73969365-602d-4a3b-984c-19c78d45be9b",
     "data": [
       {
-        "text": "Adeus",
+        "text": "Como pega o coronga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "500937e1-23cc-4342-bce2-20b3540ef3a8",
+    "data": [
+      {
+        "text": "Como ",
+        "userDefined": false
+      },
+      {
+        "text": "pego",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " isso",
         "userDefined": false
       }
     ],
