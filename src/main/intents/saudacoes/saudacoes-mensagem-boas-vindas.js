@@ -21,8 +21,8 @@ async function saudacoesMensagemBoasVindas (agent) {
   agent.add(new Text('Sobre qual assunto você quer saber?'))
   agent.add(new Suggestion('Prevenção'))
   agent.add(new Suggestion('Contágio'))
-  agent.add(new Suggestion('Casos no Brasil'))
-  agent.add(new Suggestion('Outras dúvidas'))
+  // agent.add(new Suggestion('Casos no Brasil'))
+  // agent.add(new Suggestion('Outras dúvidas'))
 }
 
 export { saudacoesMensagemBoasVindas }

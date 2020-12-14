@@ -9,7 +9,9 @@ import {
   covidPrevencaoBasica,
   covidPrevencaoProfissional,
   contagio,
-  formasDeContagio, incubacao
+  formasDeContagio,
+  incubacao,
+  menuPrincial
 } from '../intents'
 
 const app = express()
@@ -26,6 +28,7 @@ app
     intentMap.set('contagio-formas-de-contagio', formasDeContagio)
     intentMap.set('contagio', contagio)
     intentMap.set('incubacao', incubacao)
+    intentMap.set('menu-principal', menuPrincial)
 
     agent.handleRequest(intentMap)
   })

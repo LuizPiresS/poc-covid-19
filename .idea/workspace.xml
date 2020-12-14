@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -65,11 +66,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start:dev" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -151,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607940804474</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: removendo depência">
+      <created>1607941065269</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607941065269</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +183,8 @@
     <MESSAGE value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
     <MESSAGE value="feat: adicionado nova versão agent" />
     <MESSAGE value="feat: fix database connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: fix database connection" />
+    <MESSAGE value="fix: removendo depência" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: removendo depência" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
