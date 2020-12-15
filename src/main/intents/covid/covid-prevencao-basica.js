@@ -23,9 +23,14 @@ function covidPrevencaoBasica (agent) {
   agent.add(new Text('Você também pode assistir o video\n informativo do Ministério da Saúde:\n \n https://www.youtube.com/watch?v=cvdskDhw-Ps \n\n Posso ajudar em algo mais?'))
 
   // TODO: Implementar o fluxo do sim para o menu iniciar
-  agent.add(new Suggestion('Sim'))
-  agent.add(new Suggestion('Não,era só isso'))
-
+  agent.add(new Suggestion({
+    title: 'Posso ajudar em algo mais?',
+    reply: 'Sim'
+  }))
+  agent.add(new Suggestion({
+    title: 'Não,era só isso',
+    reply: 'Não,era só isso'
+  }))
   console.log(agent.context.content)
 }
 

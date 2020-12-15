@@ -5,10 +5,18 @@ function menuPrincial (agent) {
     '\n' +
     'Sobre qual assunto você quer saber?'
 
-  agent.add(new Text(mensagem))
+  // agent.add(new Text(mensagem))
 
-  agent.add(new Suggestion('Prevenção'))
-  agent.add(new Suggestion('Contágio'))
+  // agent.add(new Suggestion('Prevenção'))
+  agent.add(new Suggestion({
+    title: mensagem,
+    reply: 'Prevenção'
+  }))
+  agent.add(new Suggestion({
+    title: 'Contágio',
+    reply: 'Contágio'
+    // platform: 'TELEGRAM'
+  }))
 }
 
 export { menuPrincial }

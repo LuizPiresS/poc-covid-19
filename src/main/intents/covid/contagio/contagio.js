@@ -5,9 +5,14 @@ function contagio (agent) {
     '\n' +
     'Mas fique a vontade para me perguntar qualquer outra questão relacionada ao assunto contágio. '
   agent.add(new Text(mensagem))
-  agent.add(new Text('Qual a sua dúvida? '))
-  agent.add(new Suggestion('Formas de contágio'))
-  agent.add(new Suggestion('Período de incubação'))
+  agent.add(new Suggestion({
+    title: 'Qual a sua dúvida?',
+    reply: 'Formas de contágio'
+  }))
+  agent.add(new Suggestion({
+    title: 'Período de incubação',
+    reply: 'Período de incubação'
+  }))
 }
 
 export { contagio }

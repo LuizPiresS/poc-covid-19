@@ -8,9 +8,14 @@ function incubacao (agent) {
     '⚠ No entanto, dados preliminares do Coronavírus sugerem que a transmissão possa ocorrer também mesmo sem o aparecimento de sinais e sintomas.'
 
   agent.add(new Text(mensagem))
-  agent.add(new Text('Posso ajudar em algo mais? '))
-  agent.add(new Suggestion('Sim'))
-  agent.add(new Suggestion('Não, era só isso'))
+  agent.add(new Suggestion({
+    title: 'Posso ajudar em algo mais? ',
+    reply: 'sim'
+  }))
+  agent.add(new Suggestion({
+    title: 'Não, era só isso',
+    reply: 'Não, era só isso'
+  }))
   console.log(agent)
 }
 

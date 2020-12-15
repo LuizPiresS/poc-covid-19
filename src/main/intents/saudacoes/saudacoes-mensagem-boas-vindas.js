@@ -18,9 +18,16 @@ async function saudacoesMensagemBoasVindas (agent) {
   }
 
   agent.add(new Text(message))
-  agent.add(new Text('Sobre qual assunto você quer saber?'))
-  agent.add(new Suggestion('Prevenção'))
-  agent.add(new Suggestion('Contágio'))
+  // agent.add(new Text('Sobre qual assunto você quer saber?'))
+  agent.add(new Suggestion({
+    title: 'Sobre qual assunto você quer saber?',
+    reply: 'Prevenção'
+  }))
+  // agent.add(new Suggestion('Prevenção'))
+  agent.add(new Suggestion({
+    title: 'Contágio',
+    reply: 'Contágio'
+  }))
   // agent.add(new Suggestion('Casos no Brasil'))
   // agent.add(new Suggestion('Outras dúvidas'))
 }

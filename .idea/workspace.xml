@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio-formas-de-contagio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio-formas-de-contagio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/periodo-incubacao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagio/periodo-incubacao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao-basica.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao-basica.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao-profissional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao-profissional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/menu/menu-principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/menu/menu-principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +52,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +61,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -65,7 +79,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45bc4ce4-6f5c-43f8-bd43-8b929ade970d" name="Default Changelist" comment="" />
+      <changelist id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
       <created>1607652563842</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -78,6 +92,8 @@
       <workItem from="1607741701165" duration="1236000" />
       <workItem from="1607744764829" duration="97000" />
       <workItem from="1607747570581" duration="1687000" />
+      <workItem from="1607973904239" duration="522000" />
+      <workItem from="1607974496250" duration="4882000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -156,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607953180009</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: adicionado nova versão agent">
+      <created>1607953810774</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607953810774</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,11 +206,22 @@
     <MESSAGE value="fix: adicionado botões para as opções" />
     <MESSAGE value="chore: adicionado host remoto para o mongo" />
     <MESSAGE value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
-    <MESSAGE value="feat: adicionado nova versão agent" />
     <MESSAGE value="feat: fix database connection" />
     <MESSAGE value="fix: removendo depência" />
     <MESSAGE value="fix: adicionado menu-princial" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: adicionado menu-princial" />
+    <MESSAGE value="feat: adicionado nova versão agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado nova versão agent" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/dialogflow-fulfillment/src/rich-responses/suggestions-response.js</url>
+          <line>114</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

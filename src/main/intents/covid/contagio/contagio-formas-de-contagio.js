@@ -14,9 +14,15 @@ function formasDeContagio (agent) {
     'o contato com roupas e objetos\n' +
     ' contaminados.'
   agent.add(new Text(mensagem))
-  agent.add(new Text('Posso ajudar em algo mais? '))
-  agent.add(new Suggestion('Sim'))
-  agent.add(new Suggestion('Não'))
+  agent.add(new Text(''))
+  agent.add(new Suggestion({
+    title: 'Posso ajudar em algo mais? ',
+    reply: 'sim'
+  }))
+  agent.add(new Suggestion({
+    title: 'Não ',
+    reply: 'Não'
+  }))
 }
 
 export { formasDeContagio }
