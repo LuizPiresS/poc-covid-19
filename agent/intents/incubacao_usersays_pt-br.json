@@ -1,5 +1,18 @@
 [
   {
+    "id": "52f05668-7480-431f-9be4-0990f3cc98f2",
+    "data": [
+      {
+        "text": "Período de incubação",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "5d59100b-d193-4688-a155-87994f074258",
     "data": [
       {
@@ -9,19 +22,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "b01c67dc-b0f4-4ce7-8328-43807ede4842",
-    "data": [
-      {
-        "text": "Período de incubação",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },

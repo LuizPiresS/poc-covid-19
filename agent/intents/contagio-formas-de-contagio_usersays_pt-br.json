@@ -1,6 +1,6 @@
 [
   {
-    "id": "c3527655-2ea1-48c2-adaf-1f55ecb0ee07",
+    "id": "3ba8a310-d3fe-465e-8c61-d26170a0a20c",
     "data": [
       {
         "text": "Formas de contágio",
@@ -9,6 +9,67 @@
     ],
     "isTemplate": false,
     "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "72aa1df2-8b08-45dc-96d0-44db56e49150",
+    "data": [
+      {
+        "text": "Como pegar o coronga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c396226c-c9f5-4cbc-ad74-53732179ff77",
+    "data": [
+      {
+        "text": "Como pegar o virus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d8f1d1a2-20ef-4a52-addc-cc739d387fd4",
+    "data": [
+      {
+        "text": "Como ",
+        "userDefined": false
+      },
+      {
+        "text": "pego",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d8e04130-f9ff-4081-a2ca-95c72a0873c8",
+    "data": [
+      {
+        "text": "Como o vírus é transmitido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
     "lang": "pt-br",
     "updated": 0
   },
