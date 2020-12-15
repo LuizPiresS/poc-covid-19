@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/menu/menu-principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/menu/menu-principal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid\prevencao" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -87,7 +94,8 @@
       <workItem from="1607747570581" duration="1687000" />
       <workItem from="1607973904239" duration="522000" />
       <workItem from="1607974496250" duration="5758000" />
-      <workItem from="1608023629355" duration="1500000" />
+      <workItem from="1608023629355" duration="1973000" />
+      <workItem from="1608031040373" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -187,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607996677297</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="refactor: movido os arquivos para seus diretórios e remoção de comentários no código">
+      <created>1608026183617</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608026183618</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: adicionado nova versao do agent">
+      <created>1608026321353</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608026321353</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +242,9 @@
     <MESSAGE value="feat: adicionado nova versão agent" />
     <MESSAGE value="refactor: removido as mensagens 'choose an item'" />
     <MESSAGE value="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs" />
+    <MESSAGE value="refactor: movido os arquivos para seus diretórios e remoção de comentários no código" />
+    <MESSAGE value="feat: adicionado nova versao do agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado nova versao do agent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -229,6 +253,12 @@
           <url>file://$PROJECT_DIR$/node_modules/dialogflow-fulfillment/src/rich-responses/suggestions-response.js</url>
           <line>114</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/server/app.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
