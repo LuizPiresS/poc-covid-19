@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +89,7 @@
       <workItem from="1607973904239" duration="522000" />
       <workItem from="1607974496250" duration="5758000" />
       <workItem from="1608023629355" duration="1973000" />
-      <workItem from="1608031040373" duration="2748000" />
+      <workItem from="1608031040373" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -209,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608026321353</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="chore: adiconado o diretorio dist">
+      <created>1608035508439</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608035508439</updated>
+    </task>
+    <task id="LOCAL-00018" summary="chore: adiconado regenerator-runtime">
+      <created>1608035538511</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608035538511</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +252,9 @@
     <MESSAGE value="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs" />
     <MESSAGE value="refactor: movido os arquivos para seus diretórios e remoção de comentários no código" />
     <MESSAGE value="feat: adicionado nova versao do agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado nova versao do agent" />
+    <MESSAGE value="chore: adiconado o diretorio dist" />
+    <MESSAGE value="chore: adiconado regenerator-runtime" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: adiconado regenerator-runtime" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

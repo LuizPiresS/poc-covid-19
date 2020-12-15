@@ -32,7 +32,7 @@
   },
   "defaultTimezone": "America/Buenos_Aires",
   "webhook": {
-    "url": "https://1e02b1b2272d.ngrok.io",
+    "url": "https://poc-corona.herokuapp.com/",
     "username": "",
     "headers": {},
     "available": true,
