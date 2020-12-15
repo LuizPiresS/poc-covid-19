@@ -7,8 +7,6 @@ function covidPrevencao (agent) {
     title: 'Qual a sua dúvida?',
     reply: 'Prevenção básica'
   }))
-  // agent.add(new Suggestion('Prevenção básica'))
-  // agent.add(new Suggestion('Prevenção do profissional'))
   agent.add(new Suggestion({
     title: 'Prevenção do profissional',
     reply: 'Prevenção do profissional'

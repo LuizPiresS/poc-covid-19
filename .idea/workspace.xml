@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio-formas-de-contagio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio-formas-de-contagio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/periodo-incubacao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagio/periodo-incubacao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao-basica.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao-basica.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao-profissional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao-profissional.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/covid-prevencao.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/covid/menu/menu-principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/menu/menu-principal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" afterDir="false" />
@@ -93,7 +86,8 @@
       <workItem from="1607744764829" duration="97000" />
       <workItem from="1607747570581" duration="1687000" />
       <workItem from="1607973904239" duration="522000" />
-      <workItem from="1607974496250" duration="4882000" />
+      <workItem from="1607974496250" duration="5758000" />
+      <workItem from="1608023629355" duration="1500000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -179,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607953810774</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactor: removido as mensagens 'choose an item'">
+      <created>1607996606012</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607996606012</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs">
+      <created>1607996677297</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607996677297</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +218,9 @@
     <MESSAGE value="fix: removendo depência" />
     <MESSAGE value="fix: adicionado menu-princial" />
     <MESSAGE value="feat: adicionado nova versão agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado nova versão agent" />
+    <MESSAGE value="refactor: removido as mensagens 'choose an item'" />
+    <MESSAGE value="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
