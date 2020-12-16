@@ -95,7 +95,7 @@
       <workItem from="1608031040373" duration="3438000" />
       <workItem from="1608040141946" duration="4775000" />
       <workItem from="1608062142763" duration="30000" />
-      <workItem from="1608117239311" duration="1118000" />
+      <workItem from="1608117239311" duration="2994000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608035538511</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix: corrigido o espaçamento inicial do segundo e terceiro paragrafos da saudação">
+      <created>1608119647768</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608119647768</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +267,8 @@
     <MESSAGE value="feat: adicionado nova versao do agent" />
     <MESSAGE value="chore: adiconado o diretorio dist" />
     <MESSAGE value="chore: adiconado regenerator-runtime" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: adiconado regenerator-runtime" />
+    <MESSAGE value="fix: corrigido o espaçamento inicial do segundo e terceiro paragrafos da saudação" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: corrigido o espaçamento inicial do segundo e terceiro paragrafos da saudação" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
