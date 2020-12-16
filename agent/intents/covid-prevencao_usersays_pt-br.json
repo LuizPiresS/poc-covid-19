@@ -1,5 +1,70 @@
 [
   {
+    "id": "8fc2e36e-2c17-4501-9d1d-175cef72335d",
+    "data": [
+      {
+        "text": "formas de prevenção",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d0dcfa8a-6183-40e6-a509-c55c21b8df57",
+    "data": [
+      {
+        "text": "quais formas de me previnir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "36d5284b-23a3-4c10-9294-a4e3350f1563",
+    "data": [
+      {
+        "text": "como me previno",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "aae84e35-8c36-4084-b02d-5afa8c8bc935",
+    "data": [
+      {
+        "text": "Não quero pegar isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ec770063-1397-4711-ba15-8cdcee9189f9",
+    "data": [
+      {
+        "text": "quero saber de prevenção",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "4190da75-1a62-4fb0-b9fb-fcb7f660cf24",
     "data": [
       {
@@ -9,19 +74,6 @@
     ],
     "isTemplate": false,
     "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "75f069e6-a22f-42c3-bb79-94f7cdeb6c09",
-    "data": [
-      {
-        "text": "prevenção",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
     "lang": "pt-br",
     "updated": 0
   },

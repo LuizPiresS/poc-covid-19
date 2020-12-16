@@ -7,12 +7,7 @@
     {
       "resetContexts": false,
       "action": "input.welcome",
-      "affectedContexts": [
-        {
-          "name": "sim",
-          "lifespan": 5
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {

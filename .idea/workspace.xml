@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agent.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/agent.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/Default Fallback Intent_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/Default Fallback Intent_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagio-formas-de-contagio.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/contagio-formas-de-contagio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagio-formas-de-contagio_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/contagio-formas-de-contagio_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagio.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/contagio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagio_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/contagio_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/covid-prevencao-basica.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/covid-prevencao-basica.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/covid-prevencao-basica_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/covid-prevencao-basica_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/covid-prevencao-profissional.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/covid-prevencao-profissional.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/covid-prevencao-profissional_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/covid-prevencao-profissional_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/covid-prevencao_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/covid-prevencao_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/incubacao.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/incubacao.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/incubacao_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/incubacao_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/menu-principal.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/menu-principal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/menu-principal_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/menu-principal_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/saudacoes-mensagem-boas-vindas.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/saudacoes-mensagem-boas-vindas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/saudacoes-mensagem-boas-vindas_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/saudacoes-mensagem-boas-vindas_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/saudacoes-mensagem-despedida_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/saudacoes-mensagem-despedida_usersays_pt-br.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +111,7 @@
       <workItem from="1608031040373" duration="3438000" />
       <workItem from="1608040141946" duration="4775000" />
       <workItem from="1608062142763" duration="30000" />
-      <workItem from="1608117239311" duration="2994000" />
+      <workItem from="1608117239311" duration="3671000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -230,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608119647768</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix: corrigido bug do retorno do nome como undefined">
+      <created>1608122160975</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608122160975</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +291,8 @@
     <MESSAGE value="chore: adiconado o diretorio dist" />
     <MESSAGE value="chore: adiconado regenerator-runtime" />
     <MESSAGE value="fix: corrigido o espaçamento inicial do segundo e terceiro paragrafos da saudação" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: corrigido o espaçamento inicial do segundo e terceiro paragrafos da saudação" />
+    <MESSAGE value="fix: corrigido bug do retorno do nome como undefined" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: corrigido bug do retorno do nome como undefined" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,70 @@
 [
   {
+    "id": "5755eda1-fa35-48bb-b1ed-7d33f2091f58",
+    "data": [
+      {
+        "text": "cuidador",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1bf7a23f-b585-46b5-9573-3c6972141a61",
+    "data": [
+      {
+        "text": "doutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a182afff-f1bd-46bd-a3ab-2eb5378ad1d3",
+    "data": [
+      {
+        "text": "medico",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "20762bd0-bee3-4908-9c54-a71b62bc165a",
+    "data": [
+      {
+        "text": "sou médico",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "591fd2b3-15cd-4852-a432-6f43a4a478dd",
+    "data": [
+      {
+        "text": "sou enfermeiro qual equipamento eu preciso usar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "fff58f12-49df-4b47-af66-bdc5d2c16272",
     "data": [
       {
