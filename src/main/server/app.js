@@ -11,7 +11,7 @@ import {
   covidPrevencaoProfissional,
   contagio,
   formasDeContagio,
-  incubacao,
+  periodoIncubacao,
   menuPrincial
 } from '../intents'
 
@@ -28,10 +28,12 @@ app
     intentMap.set('covid-prevencao-profissional', covidPrevencaoProfissional)
     intentMap.set('contagio-formas-de-contagio', formasDeContagio)
     intentMap.set('contagio', contagio)
-    intentMap.set('incubacao', incubacao)
+    intentMap.set('contagio-periodo-incubacao', periodoIncubacao)
     intentMap.set('menu-principal', menuPrincial)
 
     agent.handleRequest(intentMap)
+
+    console.log(`Usuario conectado:${agent.originalRequest.payload.data.from.id}`)
   })
   .get('/', (req, res) => {
     res.json('Tu não deveria estar aqui')
