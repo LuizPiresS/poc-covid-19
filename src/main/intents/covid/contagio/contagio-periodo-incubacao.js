@@ -1,6 +1,6 @@
 import { Text, Suggestion } from 'dialogflow-fulfillment'
 
-function periodoIncubacao (agent) {
+function contagioPeriodoIncubacao (agent) {
   const mensagem = 'O "período de incubação" significa o tempo entre a contração do vírus e o início dos sintomas da doença.\n' +
     '\n' +
     '  Esse tempo varia de 1 a 14 dias, mas geralmente pode ocorrer em torno de 5 dias. \n' +
@@ -19,4 +19,4 @@ function periodoIncubacao (agent) {
   console.log(agent)
 }
 
-export { periodoIncubacao }
+export { contagioPeriodoIncubacao }

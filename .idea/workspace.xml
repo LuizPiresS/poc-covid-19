@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/agent.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/agent.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/contagio-formas-de-contagio.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/contagio-formas-de-contagio.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/contagio.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/contagio.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/covid-prevencao-basica.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/covid-prevencao-basica.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/covid-prevencao-profissional.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/covid-prevencao-profissional.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/covid-prevencao.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/covid-prevencao.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/saudacoes-mensagem-despedida.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/saudacoes-mensagem-despedida.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +98,8 @@
       <workItem from="1608117239311" duration="7463000" />
       <workItem from="1608148693745" duration="21000" />
       <workItem from="1608207244877" duration="227000" />
-      <workItem from="1608207495845" duration="2154000" />
+      <workItem from="1608207495845" duration="3420000" />
+      <workItem from="1608213045573" duration="877000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -261,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608207456801</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="test: adicionado alguns contexts para testes">
+      <created>1608210441048</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608210441049</updated>
+    </task>
+    <task id="LOCAL-00024" summary="test: adicionado alguns contexts para testes">
+      <created>1608210474741</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608210474741</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +310,8 @@
     <MESSAGE value="fix: corrigido bug do retorno do nome como undefined" />
     <MESSAGE value="fix: adicionado novas frases de treinamento para solucionar alguns problemas de fluxo" />
     <MESSAGE value="refactor: renomeado o nome da função de incubacao para periodoIncubacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: renomeado o nome da função de incubacao para periodoIncubacao" />
+    <MESSAGE value="test: adicionado alguns contexts para testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: adicionado alguns contexts para testes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

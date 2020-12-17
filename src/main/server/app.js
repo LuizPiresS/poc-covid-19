@@ -11,7 +11,7 @@ import {
   covidPrevencaoProfissional,
   contagio,
   formasDeContagio,
-  periodoIncubacao,
+  contagioPeriodoIncubacao,
   menuPrincial
 } from '../intents'
 
@@ -28,7 +28,7 @@ app
     intentMap.set('covid-prevencao-profissional', covidPrevencaoProfissional)
     intentMap.set('contagio-formas-de-contagio', formasDeContagio)
     intentMap.set('contagio', contagio)
-    intentMap.set('contagio-periodo-incubacao', periodoIncubacao)
+    intentMap.set('contagio-periodo-incubacao', contagioPeriodoIncubacao)
     intentMap.set('menu-principal', menuPrincial)
 
     agent.handleRequest(intentMap)
