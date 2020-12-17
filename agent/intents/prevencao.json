@@ -1,15 +1,30 @@
 {
-  "id": "bc3b0541-0724-45dc-8ea9-03400e7a7f7b",
-  "name": "incubacao",
+  "id": "39407213-7f3a-435a-8739-6051a15c3424",
+  "name": "prevencao",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "prevencao",
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Prevenção"
+          ],
+          "condition": ""
+        },
         {
           "type": "0",
           "title": "",

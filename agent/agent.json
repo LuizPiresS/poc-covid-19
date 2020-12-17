@@ -41,7 +41,7 @@
     "cloudFunctionsInitialized": true
   },
   "isPrivate": true,
-  "mlMinConfidence": 0.6,
+  "mlMinConfidence": 0.7,
   "supportedLanguages": [],
   "enableOnePlatformApi": true,
   "onePlatformApiVersion": "v2beta1",

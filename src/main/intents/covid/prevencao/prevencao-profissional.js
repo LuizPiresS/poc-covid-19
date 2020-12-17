@@ -1,6 +1,6 @@
 import { Text, Suggestion } from 'dialogflow-fulfillment'
 
-function covidPrevencaoProfissional (agent) {
+function prevencaoProfissional (agent) {
   const mensagem = 'Os profissionais de saúde devem utilizar as medidas de precaução padrão estabelecidas. 👍\n' +
     '\n' +
     'Ao prestar serviços que atendam casos suspeitos do vírus, é orientado que os profissionais tenham disponibilidade dos seguintes equipamentos de proteção individual:\n' +
@@ -26,4 +26,4 @@ function covidPrevencaoProfissional (agent) {
   }))
 }
 
-export { covidPrevencaoProfissional }
+export { prevencaoProfissional }

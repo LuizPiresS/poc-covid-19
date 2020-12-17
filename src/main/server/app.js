@@ -6,9 +6,9 @@ import regeneratorRuntime from 'regenerator-runtime'
 import {
   saudacoesMensagemBoasVindas,
   saudacoesMensagemDespedida,
-  covidPrevencao,
-  covidPrevencaoBasica,
-  covidPrevencaoProfissional,
+  prevencao,
+  prevencaoBasica,
+  prevencaoProfissional,
   contagio,
   formasDeContagio,
   contagioPeriodoIncubacao,
@@ -23,16 +23,16 @@ app
     const intentMap = new Map()
     intentMap.set('saudacoes-mensagem-boas-vindas', saudacoesMensagemBoasVindas)
     intentMap.set('saudacoes-mensagem-despedida', saudacoesMensagemDespedida)
-    intentMap.set('covid-prevencao', covidPrevencao)
-    intentMap.set('covid-prevencao-basica', covidPrevencaoBasica)
-    intentMap.set('covid-prevencao-profissional', covidPrevencaoProfissional)
+    intentMap.set('prevencao', prevencao)
+    intentMap.set('prevencao-basica', prevencaoBasica)
+    intentMap.set('prevencao-profissional', prevencaoProfissional)
     intentMap.set('contagio-formas-de-contagio', formasDeContagio)
     intentMap.set('contagio', contagio)
     intentMap.set('contagio-periodo-incubacao', contagioPeriodoIncubacao)
     intentMap.set('menu-principal', menuPrincial)
 
     agent.handleRequest(intentMap)
-
+    console.log(agent.contexts)
     console.log(`Usuario conectado:${agent.originalRequest.payload.data.from.id}`)
   })
   .get('/', (req, res) => {

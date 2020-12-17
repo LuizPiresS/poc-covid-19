@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/covid-prevencao-basica.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao-basica.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/covid-prevencao-profissional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao-profissional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/covid-prevencao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +103,7 @@
       <workItem from="1608148693745" duration="21000" />
       <workItem from="1608207244877" duration="227000" />
       <workItem from="1608207495845" duration="3420000" />
-      <workItem from="1608213045573" duration="877000" />
+      <workItem from="1608213045573" duration="2527000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -269,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608210474741</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao">
+      <created>1608214074243</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608214074243</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +322,8 @@
     <MESSAGE value="fix: adicionado novas frases de treinamento para solucionar alguns problemas de fluxo" />
     <MESSAGE value="refactor: renomeado o nome da função de incubacao para periodoIncubacao" />
     <MESSAGE value="test: adicionado alguns contexts para testes" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: adicionado alguns contexts para testes" />
+    <MESSAGE value="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

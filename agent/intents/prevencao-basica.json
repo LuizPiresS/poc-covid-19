@@ -1,13 +1,24 @@
 {
-  "id": "09a03718-5a4d-47aa-8fbc-f9f63b1b780c",
-  "name": "covid-contagio",
+  "id": "5daab705-028a-4c50-a8cc-6ae17b915e60",
+  "name": "prevencao-basica",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "prevencao"
+  ],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "sair",
+          "lifespan": 5
+        },
+        {
+          "name": "prevencao",
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {

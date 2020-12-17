@@ -1,6 +1,6 @@
 import { Text, Suggestion } from 'dialogflow-fulfillment'
 
-function covidPrevencao (agent) {
+function prevencao (agent) {
   const mensagem = 'Eu sei ótimas dicas de prevenções básica e do profissional da saúde. Mas fique a vontade para me perguntar qualquer outra questão relacionada ao assunto prevenção. 🙂'
   agent.add(new Text(mensagem))
   agent.add(new Suggestion({
@@ -13,4 +13,4 @@ function covidPrevencao (agent) {
   }))
 }
 
-export { covidPrevencao }
+export { prevencao }

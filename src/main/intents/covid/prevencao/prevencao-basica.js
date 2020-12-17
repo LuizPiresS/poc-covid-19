@@ -1,6 +1,6 @@
 import { Text, Suggestion } from 'dialogflow-fulfillment'
 
-function covidPrevencaoBasica (agent) {
+function prevencaoBasica (agent) {
   const mensagem = 'Vou citar alguns cuidados básicos que reduzem o risco geral de contrair ou transmitir infecções respiratórias agudas, incluindo o coronavírus: \n' +
     '\n' +
     '🖐 Lave com frequência as mãos até a altura dos punhos, com água e sabão, ou use álcool em gel 70%;\n' +
@@ -34,4 +34,4 @@ function covidPrevencaoBasica (agent) {
   console.log(agent.context.content)
 }
 
-export { covidPrevencaoBasica }
+export { prevencaoBasica }
