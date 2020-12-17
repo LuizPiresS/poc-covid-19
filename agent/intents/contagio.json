@@ -7,7 +7,12 @@
     {
       "resetContexts": false,
       "action": "",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "contagio",
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {

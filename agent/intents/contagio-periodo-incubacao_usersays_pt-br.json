@@ -1,0 +1,76 @@
+[
+  {
+    "id": "52f05668-7480-431f-9be4-0990f3cc98f2",
+    "data": [
+      {
+        "text": "Período de incubação",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5d59100b-d193-4688-a155-87994f074258",
+    "data": [
+      {
+        "text": "me fale sobre período de incubação",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c70055a9-22c7-4e85-b2e3-22ad3f6311b6",
+    "data": [
+      {
+        "text": "Quanto tempo leva ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ficar doente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5fc510f7-8215-4f93-8fc6-dc6279f9e124",
+    "data": [
+      {
+        "text": "Incubação",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3b0f693d-c868-4672-9688-2254533e58fa",
+    "data": [
+      {
+        "text": "Tempo de incubação",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

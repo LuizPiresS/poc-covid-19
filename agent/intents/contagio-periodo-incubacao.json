@@ -1,9 +1,9 @@
 {
-  "id": "8c55d8a1-d755-4e41-a991-359eb6fc5a88",
-  "name": "covid-prevencao-profissional",
+  "id": "bc3b0541-0724-45dc-8ea9-03400e7a7f7b",
+  "name": "contagio-periodo-incubacao",
   "auto": true,
   "contexts": [
-    "prevencao"
+    "contagio"
   ],
   "responses": [
     {
@@ -11,11 +11,11 @@
       "action": "",
       "affectedContexts": [
         {
-          "name": "sair",
+          "name": "contagio",
           "lifespan": 5
         },
         {
-          "name": "prevencao",
+          "name": "sair",
           "lifespan": 5
         }
       ],

@@ -2,12 +2,19 @@
   "id": "f2091453-fa51-4639-a00c-1864f33f825e",
   "name": "saudacoes-mensagem-despedida",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "sair"
+  ],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "sair",
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {

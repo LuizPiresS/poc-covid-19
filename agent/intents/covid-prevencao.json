@@ -7,7 +7,12 @@
     {
       "resetContexts": false,
       "action": "",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "prevencao",
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {
