@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/covid-prevencao-basica.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao-basica.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/covid-prevencao-profissional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao-profissional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/covid-prevencao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - COMPASSO TECNOLOGIA LTDA/Documents/dicinarios/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_without-accents.dic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,7 +53,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -77,7 +75,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder1="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder2="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder3="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="4" CustomDictionary0="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" CustomDictionary1="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_without-accents.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
@@ -103,7 +101,14 @@
       <workItem from="1608148693745" duration="21000" />
       <workItem from="1608207244877" duration="227000" />
       <workItem from="1608207495845" duration="3420000" />
-      <workItem from="1608213045573" duration="2527000" />
+      <workItem from="1608213045573" duration="2724000" />
+      <workItem from="1608216323974" duration="911000" />
+      <workItem from="1608225748297" duration="621000" />
+      <workItem from="1608275198134" duration="181000" />
+      <workItem from="1608275395282" duration="181000" />
+      <workItem from="1608289018436" duration="3050000" />
+      <workItem from="1608301947296" duration="601000" />
+      <workItem from="1608312799754" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -280,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608214074243</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="refactor: renomeado as intents do agent">
+      <created>1608216279714</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608216279714</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +335,8 @@
     <MESSAGE value="refactor: renomeado o nome da função de incubacao para periodoIncubacao" />
     <MESSAGE value="test: adicionado alguns contexts para testes" />
     <MESSAGE value="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao" />
+    <MESSAGE value="refactor: renomeado as intents do agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: renomeado as intents do agent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,7 +348,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/server/app.js</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
