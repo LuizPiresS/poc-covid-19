@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
+      <change afterPath="$PROJECT_DIR$/src/main/intents/mensagens/boas-vindas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-despedida.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/mensagens/despedida.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +25,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="refactor-change-to-class" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1609167149" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="refactor-change-to-class" />
+                    <option name="lastUsedInstant" value="1609157463" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
@@ -63,7 +93,7 @@
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid\prevencao" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start:dev">
     <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -74,6 +104,34 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start:production" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:production" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:telegram" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:telegram" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start:telegram" />
+        <item itemvalue="npm.start:production" />
+        <item itemvalue="npm.start:production" />
+        <item itemvalue="npm.start:telegram" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder1="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder2="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder3="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="4" CustomDictionary0="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" CustomDictionary1="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Users\luiz.pires\OneDrive - COMPASSO TECNOLOGIA LTDA\Documents\dicinarios\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_without-accents.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -303,7 +361,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -311,7 +381,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chore: adicionado novo gitignore" />
     <MESSAGE value="chore: adicionado gitignore" />
     <MESSAGE value="feat: adicionado saudções boas vindas" />
     <MESSAGE value="feat: adicionado mongoose para realizar o controle dos usuários" />
@@ -336,7 +405,8 @@
     <MESSAGE value="test: adicionado alguns contexts para testes" />
     <MESSAGE value="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao" />
     <MESSAGE value="refactor: renomeado as intents do agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: renomeado as intents do agent" />
+    <MESSAGE value="refactor: Refatorado para o uso de classes para aplicar o conceito de single" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Refatorado para o uso de classes para aplicar o conceito de single" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -347,9 +417,9 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/server/app.js</url>
-          <line>6</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/src/main/intents/respostas/xingamentos.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

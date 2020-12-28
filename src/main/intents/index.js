@@ -1,5 +1,5 @@
-export * from './saudacoes/saudacoes-mensagem-boas-vindas'
-export * from './saudacoes/saudacoes-mensagem-despedida'
+export * from './mensagens/boas-vindas'
+export * from './mensagens/despedida'
 export * from './covid/prevencao/prevencao'
 export * from './covid/prevencao/prevencao-basica'
 export * from './covid/prevencao/prevencao-profissional'
