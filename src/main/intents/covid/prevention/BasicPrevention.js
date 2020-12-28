@@ -27,7 +27,6 @@ export class BasicPrevention {
     agent.add(new Text(mensagem))
     agent.add(new Text('Você também pode assistir o video\n informativo do Ministério da Saúde:\n \n https://www.youtube.com/watch?v=cvdskDhw-Ps \n\n Posso ajudar em algo mais?'))
 
-    // TODO: Implementar o fluxo do sim para o menu iniciar
     agent.add(new Suggestion({
       title: 'Posso ajudar em algo mais?',
       reply: 'Sim'

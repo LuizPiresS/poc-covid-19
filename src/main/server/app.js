@@ -8,7 +8,7 @@ import {
   Farewell,
   Prevention,
   BasicPrevention,
-  prevencaoProfissional,
+  ProfessionalPrevention,
   contagio,
   formasDeContagio,
   contagioPeriodoIncubacao,
@@ -25,7 +25,7 @@ app
     intentMap.set('message-farewell', Farewell.execute)
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
-    intentMap.set('prevention-profissional', prevencaoProfissional)
+    intentMap.set('prevention-professional-prevention', ProfessionalPrevention.execute)
     intentMap.set('contagio-formas-de-contagio', formasDeContagio)
     intentMap.set('contagio', contagio)
     intentMap.set('contagio-periodo-incubacao', contagioPeriodoIncubacao)
