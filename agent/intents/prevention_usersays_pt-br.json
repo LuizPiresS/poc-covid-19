@@ -1,9 +1,9 @@
 [
   {
-    "id": "1b8cb4ce-d1c6-48a8-8918-04fe2a9f5ef3",
+    "id": "dbe77016-31dc-4a14-afbc-5f140282b339",
     "data": [
       {
-        "text": "Propagação do vírus",
+        "text": "prevenir simples",
         "userDefined": false
       }
     ],
@@ -13,10 +13,10 @@
     "updated": 0
   },
   {
-    "id": "f9a6cc9c-80da-45e2-8a66-ebdf60647c37",
+    "id": "06097b88-a8dc-4e28-ba8d-61548e64e30b",
     "data": [
       {
-        "text": "Como o vírus se propaga",
+        "text": "prevenir",
         "userDefined": false
       }
     ],
@@ -26,10 +26,10 @@
     "updated": 0
   },
   {
-    "id": "0b3ef64f-4ca8-49a4-98b5-ae79124091ab",
+    "id": "c79aff14-4c84-4a5d-a74c-e50e18e4df97",
     "data": [
       {
-        "text": "Como se contagia",
+        "text": "Quais são as formas de me prevenir",
         "userDefined": false
       }
     ],
@@ -39,23 +39,88 @@
     "updated": 0
   },
   {
-    "id": "65804294-8a4f-4028-b37b-ef36359923b2",
+    "id": "16ddf104-8018-4e04-aa78-eca393bb7223",
     "data": [
       {
-        "text": "Contágio",
+        "text": "Quero saber sobre prevenção",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 4,
+    "count": 0,
     "lang": "pt-br",
     "updated": 0
   },
   {
-    "id": "bda4debc-25cd-487e-86b7-0311066aec4b",
+    "id": "8fc2e36e-2c17-4501-9d1d-175cef72335d",
     "data": [
       {
-        "text": "contagio",
+        "text": "formas de prevenção",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d0dcfa8a-6183-40e6-a509-c55c21b8df57",
+    "data": [
+      {
+        "text": "quais formas de me previnir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "36d5284b-23a3-4c10-9294-a4e3350f1563",
+    "data": [
+      {
+        "text": "como me previno",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "aae84e35-8c36-4084-b02d-5afa8c8bc935",
+    "data": [
+      {
+        "text": "Não quero pegar isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ec770063-1397-4711-ba15-8cdcee9189f9",
+    "data": [
+      {
+        "text": "quero saber de prevenção",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4190da75-1a62-4fb0-b9fb-fcb7f660cf24",
+    "data": [
+      {
+        "text": "Prevenção",
         "userDefined": false
       }
     ],
@@ -65,10 +130,23 @@
     "updated": 0
   },
   {
-    "id": "598dcde7-2d16-4eb2-81d1-3afd4b8013e8",
+    "id": "4db45649-772c-4bdd-97aa-d11e747a603a",
     "data": [
       {
-        "text": "Como se contamina",
+        "text": "Como prevenir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "cc667c72-683c-4be3-b77a-151c06508d67",
+    "data": [
+      {
+        "text": "Não quero pegar",
         "userDefined": false
       }
     ],
@@ -78,10 +156,10 @@
     "updated": 0
   },
   {
-    "id": "56cc35bf-b3cb-4122-8f72-9470f88a351d",
+    "id": "e25ebcd0-60f1-4063-920a-00bdaa2ea45b",
     "data": [
       {
-        "text": "Como pega este trem",
+        "text": "Como não pegar",
         "userDefined": false
       }
     ],
@@ -91,108 +169,10 @@
     "updated": 0
   },
   {
-    "id": "349feaf2-4a8f-43b2-814d-9427d283e36d",
+    "id": "d8b4343e-3961-48ae-84bb-6bf98a91ede2",
     "data": [
       {
-        "text": "Contagiar",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "ae6dae65-eac7-4332-99a7-ee528b094bd8",
-    "data": [
-      {
-        "text": "Contagio",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "c27d62d9-cc70-41e1-a72b-5c94a6ca30c2",
-    "data": [
-      {
-        "text": "Como se contagiar com",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " o ",
-        "userDefined": false
-      },
-      {
-        "text": "Corona",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " virus",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "25c1dd8e-7d74-442d-9cae-46d10b8f49ec",
-    "data": [
-      {
-        "text": "Como se contagiar com",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " o Covid-",
-        "userDefined": false
-      },
-      {
-        "text": "19",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "73969365-602d-4a3b-984c-19c78d45be9b",
-    "data": [
-      {
-        "text": "Como pega o coronga",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "500937e1-23cc-4342-bce2-20b3540ef3a8",
-    "data": [
-      {
-        "text": "Como ",
-        "userDefined": false
-      },
-      {
-        "text": "pego",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " isso",
+        "text": "Como evitar pegar",
         "userDefined": false
       }
     ],

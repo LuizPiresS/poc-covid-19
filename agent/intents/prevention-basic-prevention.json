@@ -1,0 +1,43 @@
+{
+  "id": "5daab705-028a-4c50-a8cc-6ae17b915e60",
+  "name": "prevention-basic-prevention",
+  "auto": true,
+  "contexts": [
+    "prevencao"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "sair",
+          "lifespan": 5
+        },
+        {
+          "name": "prevencao",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

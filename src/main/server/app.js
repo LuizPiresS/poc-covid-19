@@ -6,8 +6,8 @@ import regeneratorRuntime from 'regenerator-runtime'
 import {
   Welcome,
   Farewell,
-  prevencao,
-  prevencaoBasica,
+  Prevention,
+  basicPrevention,
   prevencaoProfissional,
   contagio,
   formasDeContagio,
@@ -21,11 +21,11 @@ app
   .post('/', (req, res) => {
     const agent = new WebhookClient({ request: req, response: res })
     const intentMap = new Map()
-    intentMap.set('respostas-boas-vindas', Welcome.execute)
-    intentMap.set('respostas-despedida', Farewell.execute)
-    intentMap.set('prevencao', prevencao)
-    intentMap.set('prevencao-basica', prevencaoBasica)
-    intentMap.set('prevencao-profissional', prevencaoProfissional)
+    intentMap.set('message-welcome', Welcome.execute)
+    intentMap.set('message-farewell', Farewell.execute)
+    intentMap.set('prevention', Prevention.execute)
+    intentMap.set('prevention-basica', basicPrevention)
+    intentMap.set('prevention-profissional', prevencaoProfissional)
     intentMap.set('contagio-formas-de-contagio', formasDeContagio)
     intentMap.set('contagio', contagio)
     intentMap.set('contagio-periodo-incubacao', contagioPeriodoIncubacao)

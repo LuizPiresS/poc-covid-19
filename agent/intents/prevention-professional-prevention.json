@@ -1,0 +1,58 @@
+{
+  "id": "8c55d8a1-d755-4e41-a991-359eb6fc5a88",
+  "name": "prevention-professional-prevention",
+  "auto": true,
+  "contexts": [
+    "prevencao"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "sair",
+          "lifespan": 5
+        },
+        {
+          "name": "prevencao",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "51c07e1e-cedf-4928-a34f-e00ce866f9dc",
+          "name": "profissionais-saude",
+          "required": false,
+          "dataType": "@profissionais-saude",
+          "value": "$profissionais-saude",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

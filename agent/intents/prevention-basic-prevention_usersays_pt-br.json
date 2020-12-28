@@ -1,9 +1,9 @@
 [
   {
-    "id": "e0cd45f7-9e31-49a5-8605-af07f6843995",
+    "id": "6aa03152-727a-4d51-81c9-4d30c9eed99c",
     "data": [
       {
-        "text": "Por onde devo começar",
+        "text": "básica",
         "userDefined": false
       }
     ],
@@ -13,10 +13,10 @@
     "updated": 0
   },
   {
-    "id": "5b962f38-677d-4cd3-898b-71cfb4aa06e7",
+    "id": "db5c3a0d-9f84-4924-9500-e86fe1359371",
     "data": [
       {
-        "text": "quais são as opções",
+        "text": "basica",
         "userDefined": false
       }
     ],
@@ -26,10 +26,10 @@
     "updated": 0
   },
   {
-    "id": "15b89c64-c5ff-4e0b-a55b-f7340d542b15",
+    "id": "2654135f-7470-4d2a-8a6e-7e90605ab496",
     "data": [
       {
-        "text": "o que posso perguntar mesmo ?",
+        "text": "sinples",
         "userDefined": false
       }
     ],
@@ -39,55 +39,67 @@
     "updated": 0
   },
   {
-    "id": "3ccf7782-9519-43d3-a64b-57f14db87934",
+    "id": "00c7afce-2a78-485c-9c0f-79ffd3a564a9",
     "data": [
       {
-        "text": "Sim",
+        "text": "simples",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 3,
+    "count": 0,
     "lang": "pt-br",
     "updated": 0
   },
   {
-    "id": "da0854d2-5dfe-471e-ab6a-2218277548fa",
+    "id": "deda1ebd-ac1e-44b3-8b1b-9f7d0591215f",
     "data": [
       {
-        "text": "sim",
+        "text": "prevenção simples",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c87c9d02-c403-4cd9-b28a-af339f1fc7d3",
+    "data": [
+      {
+        "text": "prevencao basica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "aca6909f-79c8-41b7-baee-5abc1ced4a59",
+    "data": [
+      {
+        "text": "Prevenção basica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5afab0c0-5fe8-4daf-9b01-f7cdb5a1e08c",
+    "data": [
+      {
+        "text": "Prevenção básica",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "d6159b3e-2a6b-4970-a327-ea3ea9f2f9d6",
-    "data": [
-      {
-        "text": "Menu principal",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "fc389676-92b4-478d-8736-4ec8ebe22f2d",
-    "data": [
-      {
-        "text": "menu",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
     "lang": "pt-br",
     "updated": 0
   }

@@ -1,0 +1,9 @@
+{
+  "id": "db21e7f1-87c4-495e-88fd-c6b245356e36",
+  "name": "profissionais-saude",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,22 +1,9 @@
 [
   {
-    "id": "3ba8a310-d3fe-465e-8c61-d26170a0a20c",
+    "id": "b171a1ad-b7a6-4ee6-932b-9727a20b2567",
     "data": [
       {
-        "text": "Formas de contágio",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "72aa1df2-8b08-45dc-96d0-44db56e49150",
-    "data": [
-      {
-        "text": "Como pegar o coronga",
+        "text": "contágio do virus",
         "userDefined": false
       }
     ],
@@ -26,10 +13,10 @@
     "updated": 0
   },
   {
-    "id": "c396226c-c9f5-4cbc-ad74-53732179ff77",
+    "id": "bfb82fc3-e820-4e34-bf13-4bb8efedf48e",
     "data": [
       {
-        "text": "Como pegar o virus",
+        "text": "Como é feita a transmissão do covid",
         "userDefined": false
       }
     ],
@@ -39,7 +26,7 @@
     "updated": 0
   },
   {
-    "id": "d8f1d1a2-20ef-4a52-addc-cc739d387fd4",
+    "id": "1b216592-10d8-4a2c-9fa5-745d49d5a175",
     "data": [
       {
         "text": "Como ",
@@ -51,7 +38,7 @@
         "userDefined": false
       },
       {
-        "text": " isso",
+        "text": " este trem",
         "userDefined": false
       }
     ],
@@ -61,10 +48,10 @@
     "updated": 0
   },
   {
-    "id": "d8e04130-f9ff-4081-a2ca-95c72a0873c8",
+    "id": "a256f391-033e-47b8-9d45-7cfb59cb6ecc",
     "data": [
       {
-        "text": "Como o vírus é transmitido",
+        "text": "Como se transmite isso",
         "userDefined": false
       }
     ],
@@ -74,10 +61,76 @@
     "updated": 0
   },
   {
-    "id": "acf76084-6e4f-414f-905a-e416b70ffb6b",
+    "id": "88ff2729-9429-481c-870a-aaf79668e0e2",
+    "data": [
+      {
+        "text": "Como pegar coronga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5b572847-3d6e-4e62-ad83-1b02ec02952e",
+    "data": [
+      {
+        "text": "Como ",
+        "userDefined": false
+      },
+      {
+        "text": "pego",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o ",
+        "userDefined": false
+      },
+      {
+        "text": "corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e669e65e-d166-40eb-933f-e1319e3a36fe",
     "data": [
       {
         "text": "Como se contagiar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ca523556-04da-4790-b81c-57a07f681042",
+    "data": [
+      {
+        "text": "Formas de contagio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0f8a891b-df2b-43a4-8c9e-ab171e8e2a58",
+    "data": [
+      {
+        "text": "Formas de contágio",
         "userDefined": false
       }
     ],

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "4520afb9-2535-4f75-bff8-131fd26e5120",
+    "data": [
+      {
+        "text": "ai que burro de ",
+        "userDefined": false
+      },
+      {
+        "text": "zero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ele",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5ff39a95-a3d2-413f-a4e5-92b239932251",
+    "data": [
+      {
+        "text": "burra",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ecb0881c-8bd0-46d2-bb8f-bf6856545fbe",
+    "data": [
+      {
+        "text": "Burro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e78ecb59-ffea-4434-9229-3e613da5ee5a",
+    "data": [
+      {
+        "text": "Que bosta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1dad2d25-e41a-47f6-8b8e-de17d15e28f3",
+    "data": [
+      {
+        "text": "imbecil",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "56cffc77-1712-4d30-97cc-1057c94e6d65",
+    "data": [
+      {
+        "text": "idiota",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b9916714-2ba2-414a-9901-c0d32d6861ab",
+    "data": [
+      {
+        "text": "trouxa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "71462565-2590-471c-a8b7-c2418eb606a9",
+    "data": [
+      {
+        "text": "toma no cu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9a02fd4b-f242-499b-be00-959dacf46ef2",
+    "data": [
+      {
+        "text": "merda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b1dd4de8-b9a2-4cf6-a32e-e4da94b36b99",
+    "data": [
+      {
+        "text": "vai se fuder",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "00f45b6a-6ff7-4f7c-bea2-a9548225de3c",
+    "data": [
+      {
+        "text": "tnc",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

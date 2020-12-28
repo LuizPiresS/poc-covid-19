@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change afterPath="$PROJECT_DIR$/src/main/intents/messages/Farewell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/intents/messages/Welcome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao-basica.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/prevencao-basica.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao-profissional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/prevencao-profissional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/Prevention.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/mensagens/boas-vindas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-despedida.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/messages/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/message/Farewell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/messages/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/message/Welcome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +34,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -65,6 +67,7 @@
   </component>
   <component name="ProjectId" id="1lUXIB25wwrY5nHc5iAGrA37VD8" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -170,6 +173,7 @@
       <workItem from="1608289018436" duration="3050000" />
       <workItem from="1608301947296" duration="601000" />
       <workItem from="1608312799754" duration="1351000" />
+      <workItem from="1609181701349" duration="1934000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -360,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609174379694</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="refactor: refatorado para o uso de classes para aplicar os princípios SOLID">
+      <created>1609181413812</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609181413812</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +388,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "e982ab86-d7fc-4507-a8f6-2b08d1b50ca6",
+    "data": [
+      {
+        "text": "profisional",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5755eda1-fa35-48bb-b1ed-7d33f2091f58",
+    "data": [
+      {
+        "text": "cuidador",
+        "meta": "@profissionais-saude",
+        "alias": "profissionais-saude",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1bf7a23f-b585-46b5-9573-3c6972141a61",
+    "data": [
+      {
+        "text": "doutor",
+        "meta": "@profissionais-saude",
+        "alias": "profissionais-saude",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a182afff-f1bd-46bd-a3ab-2eb5378ad1d3",
+    "data": [
+      {
+        "text": "medico",
+        "meta": "@profissionais-saude",
+        "alias": "profissionais-saude",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "20762bd0-bee3-4908-9c54-a71b62bc165a",
+    "data": [
+      {
+        "text": "sou ",
+        "userDefined": false
+      },
+      {
+        "text": "médico",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "591fd2b3-15cd-4852-a432-6f43a4a478dd",
+    "data": [
+      {
+        "text": "sou ",
+        "userDefined": false
+      },
+      {
+        "text": "enfermeiro",
+        "meta": "@profissionais-saude",
+        "alias": "profissionais-saude",
+        "userDefined": true
+      },
+      {
+        "text": " qual equipamento eu preciso usar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "fff58f12-49df-4b47-af66-bdc5d2c16272",
+    "data": [
+      {
+        "text": "profissional",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 4,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7a9dea1c-5f22-47e3-b5ca-d0d07a0742a2",
+    "data": [
+      {
+        "text": "Prevenção do profissional",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5bcc8a43-c414-4e1d-a179-fa18f1cf34d9",
+    "data": [
+      {
+        "text": "prev pro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,20 +1,30 @@
 {
-  "id": "09a03718-5a4d-47aa-8fbc-f9f63b1b780c",
-  "name": "contagio",
+  "id": "f2091453-fa51-4639-a00c-1864f33f825e",
+  "name": "message-farewell",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "sair"
+  ],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
       "affectedContexts": [
         {
-          "name": "contagio",
-          "lifespan": 1
+          "name": "sair",
+          "lifespan": 5
         }
       ],
       "parameters": [],
-      "messages": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
       "speech": []
     }
   ],
