@@ -7,7 +7,7 @@ import {
   Welcome,
   Farewell,
   Prevention,
-  basicPrevention,
+  BasicPrevention,
   prevencaoProfissional,
   contagio,
   formasDeContagio,
@@ -24,7 +24,7 @@ app
     intentMap.set('message-welcome', Welcome.execute)
     intentMap.set('message-farewell', Farewell.execute)
     intentMap.set('prevention', Prevention.execute)
-    intentMap.set('prevention-basica', basicPrevention)
+    intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
     intentMap.set('prevention-profissional', prevencaoProfissional)
     intentMap.set('contagio-formas-de-contagio', formasDeContagio)
     intentMap.set('contagio', contagio)

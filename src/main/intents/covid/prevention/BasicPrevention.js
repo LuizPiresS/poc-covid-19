@@ -1,7 +1,12 @@
 import { Text, Suggestion } from 'dialogflow-fulfillment'
 
-function basicPrevention (agent) {
-  const mensagem = 'Vou citar alguns cuidados básicos que reduzem o risco geral de contrair ou transmitir infecções respiratórias agudas, incluindo o coronavírus: \n' +
+export class BasicPrevention {
+  /**
+   * Executa intent de prevenção básica
+   * @param agent
+   */
+  static execute (agent) {
+    const mensagem = 'Vou citar alguns cuidados básicos que reduzem o risco geral de contrair ou transmitir infecções respiratórias agudas, incluindo o coronavírus: \n' +
     '\n' +
     '🖐 Lave com frequência as mãos até a altura dos punhos, com água e sabão, ou use álcool em gel 70%;\n' +
     '\n' +
@@ -19,19 +24,17 @@ function basicPrevention (agent) {
     '\n' +
     '😷 Quando precisar sair de sua residência, sempre utilize máscaras caseiras feitas de tecido.'
 
-  agent.add(new Text(mensagem))
-  agent.add(new Text('Você também pode assistir o video\n informativo do Ministério da Saúde:\n \n https://www.youtube.com/watch?v=cvdskDhw-Ps \n\n Posso ajudar em algo mais?'))
+    agent.add(new Text(mensagem))
+    agent.add(new Text('Você também pode assistir o video\n informativo do Ministério da Saúde:\n \n https://www.youtube.com/watch?v=cvdskDhw-Ps \n\n Posso ajudar em algo mais?'))
 
-  // TODO: Implementar o fluxo do sim para o menu iniciar
-  agent.add(new Suggestion({
-    title: 'Posso ajudar em algo mais?',
-    reply: 'Sim'
-  }))
-  agent.add(new Suggestion({
-    title: 'Não,era só isso',
-    reply: 'Não,era só isso'
-  }))
-  console.log(agent.context.content)
+    // TODO: Implementar o fluxo do sim para o menu iniciar
+    agent.add(new Suggestion({
+      title: 'Posso ajudar em algo mais?',
+      reply: 'Sim'
+    }))
+    agent.add(new Suggestion({
+      title: 'Não,era só isso',
+      reply: 'Não,era só isso'
+    }))
+  }
 }
-
-export { basicPrevention }

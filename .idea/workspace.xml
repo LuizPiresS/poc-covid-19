@@ -3,19 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao-basica.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/prevencao-basica.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao-profissional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/prevencao-profissional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevencao/prevencao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/Prevention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/mensagens/boas-vindas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/messages/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/message/Farewell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/messages/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/message/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevention/BasicPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/BasicPrevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevention/Prevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/Prevention.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="EditorConfigPreviewManager">
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" />
@@ -173,7 +173,7 @@
       <workItem from="1608289018436" duration="3050000" />
       <workItem from="1608301947296" duration="601000" />
       <workItem from="1608312799754" duration="1351000" />
-      <workItem from="1609181701349" duration="1934000" />
+      <workItem from="1609181701349" duration="2975000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609181413812</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: adicionado nova versão  agente">
+      <created>1609184440736</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1609184440736</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +409,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adicionado saudções boas vindas" />
     <MESSAGE value="feat: adicionado mongoose para realizar o controle dos usuários" />
     <MESSAGE value="fiz: adicionado botões para as opções" />
     <MESSAGE value="fix: adicionado botões para as opções" />
@@ -427,7 +433,8 @@
     <MESSAGE value="refactor: renomeado as intents do agent" />
     <MESSAGE value="refactor: Refatorado para o uso de classes para aplicar o conceito de single" />
     <MESSAGE value="refactor: refatorado para o uso de classes para aplicar os princípios SOLID" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: refatorado para o uso de classes para aplicar os princípios SOLID" />
+    <MESSAGE value="feat: adicionado nova versão  agente" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado nova versão  agente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
