@@ -4,8 +4,8 @@ import express from 'express'
 import regeneratorRuntime from 'regenerator-runtime'
 
 import {
-  saudacoesMensagemBoasVindas,
-  saudacoesMensagemDespedida,
+  Welcome,
+  Farewell,
   prevencao,
   prevencaoBasica,
   prevencaoProfissional,
@@ -21,8 +21,8 @@ app
   .post('/', (req, res) => {
     const agent = new WebhookClient({ request: req, response: res })
     const intentMap = new Map()
-    intentMap.set('saudacoes-mensagem-boas-vindas', saudacoesMensagemBoasVindas)
-    intentMap.set('saudacoes-mensagem-despedida', saudacoesMensagemDespedida)
+    intentMap.set('respostas-boas-vindas', Welcome.execute)
+    intentMap.set('respostas-despedida', Farewell.execute)
     intentMap.set('prevencao', prevencao)
     intentMap.set('prevencao-basica', prevencaoBasica)
     intentMap.set('prevencao-profissional', prevencaoProfissional)
@@ -36,6 +36,6 @@ app
     console.log(`Usuario conectado:${agent.originalRequest.payload.data.from.id}`)
   })
   .get('/', (req, res) => {
-    res.json('Tu não deveria estar aqui')
+    res.json('Tu não deveria estar aqui, ou deveria?')
   })
 export default app
