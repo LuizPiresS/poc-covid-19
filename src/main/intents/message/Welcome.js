@@ -1,7 +1,5 @@
-import { Suggestion, Text } from 'dialogflow-fulfillment'
-
-import { UtilsIntents } from '../utils/Utils'
-
+import { MainMenu } from '../menu/MainMenu'
+import { UtilsIntents } from '../utils/UtilsIntents'
 export class Welcome {
   /**
    * Exibe mensagem de boas-vindas
@@ -13,18 +11,15 @@ export class Welcome {
 
     let message = `Olá, ${name.firstName} ${name.lastName}! Sou a Doutora Silvia, uma assistente virtual treinada para tirar suas dúvidas relacionadas ao Coronavírus. 👩\n\nNeste canal, você poderá tirar dúvidas comigo sobre prevenção, contágio, casos no Brasil ou realizar um pré-diagnóstico, por exemplo.\n\nE não se preocupe, pois todos os dados que eu te contar são retirados de fontes seguras que você pode confiar.`
 
-    if (await UtilsIntents.firsVisit(agent)) {
+    // Primeira visita
+    if (!(await UtilsIntents.firsVisit(agent))) {
+      await UtilsIntents.addUserID(agent)
+      MainMenu.execute(agent, message)
+      // segunda ou mais visita
+    } else {
       message = `Olá novamente, ${name.firstName} ${name.lastName} ! Sou uma assistente virtual treinada para tirar suas dúvidas relacionadas ao Coronavírus.️ 👩`
-    }
 
-    agent.add(new Text(message))
-    agent.add(new Suggestion({
-      title: 'Sobre qual assunto você quer saber?',
-      reply: 'Prevenção'
-    }))
-    agent.add(new Suggestion({
-      title: 'Contágio',
-      reply: 'Contágio'
-    }))
+      MainMenu.execute(agent, message, true)
+    }
   }
 }

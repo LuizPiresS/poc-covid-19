@@ -1,18 +1,30 @@
-import { Suggestion } from 'dialogflow-fulfillment'
+import { Suggestion, Text } from 'dialogflow-fulfillment'
 
 export class MainMenu {
-  static execute (agent) {
-    const mensagem = 'Você pode tirar dúvidas comigo sobre prevenção, contágio, casos no Brasil ou realizar um pré-diagnóstico. \n' +
-    '\n' +
-    'Sobre qual assunto você quer saber?'
-
+  /**
+   * Exibe o menu principal
+   * @param agent
+   * @param message
+   * @param menu (define se o messageMenu será exibido ou não)
+   */
+  static execute (agent, message, menu = false) {
+    const messageMenu = 'Você pode tirar dúvidas comigo sobre\n prevenção, contágio, casos no Brasil ou\n realizar um pré-diagnóstico.'
+    agent.add(new Text(message))
+    if (menu) {
+      agent.add(new Text(messageMenu))
+    }
+    agent.add(new Text('Sobre qual assunto você quer saber?'))
     agent.add(new Suggestion({
-      title: mensagem,
+      title: ' ',
       reply: 'Prevenção'
     }))
     agent.add(new Suggestion({
       title: 'Contágio',
       reply: 'Contágio'
+    }))
+    agent.add(new Suggestion({
+      title: 'Casos no Brasil',
+      reply: 'Casos no Brasil'
     }))
   }
 }

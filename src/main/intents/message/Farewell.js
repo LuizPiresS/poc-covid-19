@@ -1,7 +1,7 @@
 import { Text } from 'dialogflow-fulfillment'
 
 import { Utils } from '../../utils/Utils'
-import { UtilsIntents } from '../utils/Utils'
+import { UtilsIntents } from '../utils/UtilsIntents'
 
 export class Farewell {
   /**

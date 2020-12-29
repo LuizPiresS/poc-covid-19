@@ -29,4 +29,18 @@ export class UtilsIntents {
       console.log(error)
     }
   }
+
+  /**
+   * Adiciona a id do usuário vinda do Telegram no database
+   * @param agent
+   * @returns {Promise<void>}
+   */
+  static async addUserID (agent) {
+    const userId = agent.originalRequest.payload.data.from.id
+    try {
+      await User.create({ userId })
+    } catch (error) {
+      console.log(error)
+    }
+  }
 }
