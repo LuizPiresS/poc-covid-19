@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/menu-principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/ProfessionalPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/ProfessionalPrevention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +175,7 @@
       <workItem from="1609242373296" duration="286000" />
       <workItem from="1609242672824" duration="140000" />
       <workItem from="1609242822303" duration="35000" />
-      <workItem from="1609242871650" duration="2115000" />
+      <workItem from="1609242871650" duration="2476000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -415,7 +408,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609244331065</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="refactor: removendo comentarios desnecessarios">
+      <created>1609245036041</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1609245036041</updated>
+    </task>
+    <task id="LOCAL-00035" summary="refactor: removendo comentarios desnecessarios">
+      <created>1609245073205</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1609245073205</updated>
+    </task>
+    <task id="LOCAL-00036" summary="refactor: refatorando o menu principal para usar classes">
+      <created>1609245106158</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1609245106158</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,8 +460,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
-    <MESSAGE value="feat: fix database connection" />
     <MESSAGE value="fix: removendo depência" />
     <MESSAGE value="fix: adicionado menu-princial" />
     <MESSAGE value="feat: adicionado nova versão agent" />
@@ -471,7 +483,9 @@
     <MESSAGE value="refactor: refatorando intent de prevenção profissional para usar classe" />
     <MESSAGE value="refactor: contagio refatorado para a utilização de classes" />
     <MESSAGE value="refactor: removendo o diretorio covid" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: removendo o diretorio covid" />
+    <MESSAGE value="refactor: removendo comentarios desnecessarios" />
+    <MESSAGE value="refactor: refatorando o menu principal para usar classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: refatorando o menu principal para usar classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

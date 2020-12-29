@@ -1,0 +1,43 @@
+{
+  "id": "bc3b0541-0724-45dc-8ea9-03400e7a7f7b",
+  "name": "contagion-incubation-period",
+  "auto": true,
+  "contexts": [
+    "contagio"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "contagio",
+          "lifespan": 5
+        },
+        {
+          "name": "sair",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

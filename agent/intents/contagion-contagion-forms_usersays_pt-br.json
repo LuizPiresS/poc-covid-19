@@ -1,0 +1,142 @@
+[
+  {
+    "id": "b171a1ad-b7a6-4ee6-932b-9727a20b2567",
+    "data": [
+      {
+        "text": "contágio do virus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "bfb82fc3-e820-4e34-bf13-4bb8efedf48e",
+    "data": [
+      {
+        "text": "Como é feita a transmissão do covid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1b216592-10d8-4a2c-9fa5-745d49d5a175",
+    "data": [
+      {
+        "text": "Como ",
+        "userDefined": false
+      },
+      {
+        "text": "pego",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " este trem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a256f391-033e-47b8-9d45-7cfb59cb6ecc",
+    "data": [
+      {
+        "text": "Como se transmite isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "88ff2729-9429-481c-870a-aaf79668e0e2",
+    "data": [
+      {
+        "text": "Como pegar coronga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5b572847-3d6e-4e62-ad83-1b02ec02952e",
+    "data": [
+      {
+        "text": "Como ",
+        "userDefined": false
+      },
+      {
+        "text": "pego",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o ",
+        "userDefined": false
+      },
+      {
+        "text": "corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e669e65e-d166-40eb-933f-e1319e3a36fe",
+    "data": [
+      {
+        "text": "Como se contagiar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ca523556-04da-4790-b81c-57a07f681042",
+    "data": [
+      {
+        "text": "Formas de contagio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0f8a891b-df2b-43a4-8c9e-ab171e8e2a58",
+    "data": [
+      {
+        "text": "Formas de contágio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]
