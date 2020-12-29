@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +178,7 @@
       <workItem from="1609242373296" duration="286000" />
       <workItem from="1609242672824" duration="140000" />
       <workItem from="1609242822303" duration="35000" />
-      <workItem from="1609242871650" duration="2809000" />
+      <workItem from="1609242871650" duration="3125000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -438,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609245574413</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="refactor: removendo os comentarios desnecessários">
+      <created>1609245787291</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1609245787291</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +477,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: adicionado menu-princial" />
     <MESSAGE value="feat: adicionado nova versão agent" />
     <MESSAGE value="refactor: removido as mensagens 'choose an item'" />
     <MESSAGE value="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs" />
@@ -494,7 +501,8 @@
     <MESSAGE value="refactor: removendo comentarios desnecessarios" />
     <MESSAGE value="refactor: refatorando o menu principal para usar classes" />
     <MESSAGE value="feat: nova versão do agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão do agent" />
+    <MESSAGE value="refactor: removendo os comentarios desnecessários" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: removendo os comentarios desnecessários" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
