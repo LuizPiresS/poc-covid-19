@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio-formas-de-contagio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagion/ContagionForms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio-periodo-incubacao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagion/IncubationPeriod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagion/Contagion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/menu-principal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/ProfessionalPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/ProfessionalPrevention.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,8 +98,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid\prevencao" />
     </key>
   </component>
@@ -182,7 +182,7 @@
       <workItem from="1609242373296" duration="286000" />
       <workItem from="1609242672824" duration="140000" />
       <workItem from="1609242822303" duration="35000" />
-      <workItem from="1609242871650" duration="1285000" />
+      <workItem from="1609242871650" duration="2115000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -401,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609185704999</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="refactor: contagio refatorado para a utilização de classes">
+      <created>1609244272358</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1609244272358</updated>
+    </task>
+    <task id="LOCAL-00033" summary="refactor: removendo o diretorio covid">
+      <created>1609244331065</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1609244331065</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,8 +446,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: adicionado botões para as opções" />
-    <MESSAGE value="chore: adicionado host remoto para o mongo" />
     <MESSAGE value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
     <MESSAGE value="feat: fix database connection" />
     <MESSAGE value="fix: removendo depência" />
@@ -457,7 +469,9 @@
     <MESSAGE value="feat: adicionado nova versão  agente" />
     <MESSAGE value="refactor: refatorando intent de prevenção básica para usar classe" />
     <MESSAGE value="refactor: refatorando intent de prevenção profissional para usar classe" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: refatorando intent de prevenção profissional para usar classe" />
+    <MESSAGE value="refactor: contagio refatorado para a utilização de classes" />
+    <MESSAGE value="refactor: removendo o diretorio covid" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: removendo o diretorio covid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

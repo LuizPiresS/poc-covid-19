@@ -12,7 +12,7 @@ import {
   Contagion,
   ContagionForms,
   IncubationPeriod,
-  menuPrincial
+  MainMenu
 } from '../intents'
 
 const app = express()
@@ -29,7 +29,7 @@ app
     intentMap.set('contagion-contagion', Contagion.execute)
     intentMap.set('contagion-contagion-forms', ContagionForms.execute)
     intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
-    intentMap.set('menu-principal', menuPrincial)
+    intentMap.set('main-menu', MainMenu.execute)
 
     agent.handleRequest(intentMap)
     console.log(agent.contexts)
