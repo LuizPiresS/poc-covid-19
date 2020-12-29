@@ -9,9 +9,9 @@ import {
   Prevention,
   BasicPrevention,
   ProfessionalPrevention,
-  contagio,
-  formasDeContagio,
-  contagioPeriodoIncubacao,
+  Contagion,
+  ContagionForms,
+  IncubationPeriod,
   menuPrincial
 } from '../intents'
 
@@ -26,9 +26,9 @@ app
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
     intentMap.set('prevention-professional-prevention', ProfessionalPrevention.execute)
-    intentMap.set('contagio-formas-de-contagio', formasDeContagio)
-    intentMap.set('contagio', contagio)
-    intentMap.set('contagio-periodo-incubacao', contagioPeriodoIncubacao)
+    intentMap.set('contagion-contagion', Contagion.execute)
+    intentMap.set('contagion-contagion-forms', ContagionForms.execute)
+    intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
     intentMap.set('menu-principal', menuPrincial)
 
     agent.handleRequest(intentMap)

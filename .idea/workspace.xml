@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevention/BasicPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/BasicPrevention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/prevention/prevencao-profissional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/prevention/ProfessionalPrevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio-formas-de-contagio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagion/ContagionForms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio-periodo-incubacao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagion/IncubationPeriod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/covid/contagio/contagio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/covid/contagion/Contagion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
@@ -80,8 +81,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/dist/main/intents/covid/contagio/contagio.js" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - COMPASSO TECNOLOGIA LTDA/Documents/dicinarios/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_without-accents.dic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,12 +92,13 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid\prevencao" />
     </key>
@@ -174,7 +177,12 @@
       <workItem from="1608289018436" duration="3050000" />
       <workItem from="1608301947296" duration="601000" />
       <workItem from="1608312799754" duration="1351000" />
-      <workItem from="1609181701349" duration="3430000" />
+      <workItem from="1609181701349" duration="6537000" />
+      <workItem from="1609241989690" duration="323000" />
+      <workItem from="1609242373296" duration="286000" />
+      <workItem from="1609242672824" duration="140000" />
+      <workItem from="1609242822303" duration="35000" />
+      <workItem from="1609242871650" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -386,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609185259993</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="refactor: refatorando intent de prevenção profissional para usar classe">
+      <created>1609185704999</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1609185704999</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +418,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -417,7 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fiz: adicionado botões para as opções" />
     <MESSAGE value="fix: adicionado botões para as opções" />
     <MESSAGE value="chore: adicionado host remoto para o mongo" />
     <MESSAGE value="feat: adicionado covid-prevencao-basica e covid-prevencao" />
@@ -442,7 +456,8 @@
     <MESSAGE value="refactor: refatorado para o uso de classes para aplicar os princípios SOLID" />
     <MESSAGE value="feat: adicionado nova versão  agente" />
     <MESSAGE value="refactor: refatorando intent de prevenção básica para usar classe" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: refatorando intent de prevenção básica para usar classe" />
+    <MESSAGE value="refactor: refatorando intent de prevenção profissional para usar classe" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: refatorando intent de prevenção profissional para usar classe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
