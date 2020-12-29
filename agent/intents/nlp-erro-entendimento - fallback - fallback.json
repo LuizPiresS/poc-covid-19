@@ -10,7 +10,12 @@
     {
       "resetContexts": false,
       "action": "nlp-erro-entendimento.nlp-erro-entendimento-fallback.nlp-erro-entendimento-fallback-fallback",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "nlp-erro-entendimento-fallback-fallback-followup",
+          "lifespan": 2
+        }
+      ],
       "parameters": [],
       "messages": [
         {

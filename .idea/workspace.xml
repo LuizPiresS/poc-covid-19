@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/message/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/message/Farewell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/message/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/message/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/UtilsIntents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-contagion.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/contagion-contagion.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento - fallback - fallback.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento - fallback - fallback.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento - fallback.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento - fallback.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +181,7 @@
       <workItem from="1609242672824" duration="140000" />
       <workItem from="1609242822303" duration="35000" />
       <workItem from="1609242871650" duration="9080000" />
-      <workItem from="1609258240422" duration="1637000" />
+      <workItem from="1609258240422" duration="1813000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -457,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609247518525</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="fix: bugs do menu principal arrumados">
+      <created>1609259941242</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1609259941242</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +494,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: removido as mensagens 'choose an item'" />
     <MESSAGE value="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs" />
     <MESSAGE value="refactor: movido os arquivos para seus diretórios e remoção de comentários no código" />
     <MESSAGE value="feat: adicionado nova versao do agent" />
@@ -513,7 +518,8 @@
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="refactor: removendo os comentarios desnecessários" />
     <MESSAGE value="refactor: formatanto textos" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: formatanto textos" />
+    <MESSAGE value="fix: bugs do menu principal arrumados" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: bugs do menu principal arrumados" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

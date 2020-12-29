@@ -11,6 +11,10 @@
         {
           "name": "contagio",
           "lifespan": 1
+        },
+        {
+          "name": "contagion-contagion-followup",
+          "lifespan": 2
         }
       ],
       "parameters": [],

@@ -24,7 +24,7 @@
           "textToSpeech": "",
           "lang": "pt-br",
           "speech": [
-            "Eu ainda não entendi o que você disse. Vamos tentar novamente..."
+            "Ainda não consegui identificar a sua dúvida.\\n\\n\nVocê pode me perguntar sobre\\n prevenção, contágio, casos no Brasil\\n ou realizar um\\n pré-diagnóstico, por exemplo. 😊"
           ],
           "condition": ""
         }
