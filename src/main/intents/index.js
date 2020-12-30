@@ -1,5 +1,5 @@
-export * from './message/Welcome'
-export * from './message/Farewell'
+export * from './response/Welcome'
+export * from './response/Farewell'
 export * from './prevention/Prevention'
 export * from './prevention/BasicPrevention'
 export * from './prevention/ProfessionalPrevention'

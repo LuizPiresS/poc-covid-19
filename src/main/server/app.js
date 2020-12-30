@@ -21,8 +21,8 @@ app
   .post('/', (req, res) => {
     const agent = new WebhookClient({ request: req, response: res })
     const intentMap = new Map()
-    intentMap.set('message-welcome', Welcome.execute)
-    intentMap.set('message-farewell', Farewell.execute)
+    intentMap.set('response-welcome', Welcome.execute)
+    intentMap.set('response-farewell', Farewell.execute)
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
     intentMap.set('prevention-professional-prevention', ProfessionalPrevention.execute)

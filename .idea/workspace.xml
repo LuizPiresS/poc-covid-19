@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-contagion.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/contagion-contagion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento - fallback - fallback.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento - fallback - fallback.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento - fallback.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento - fallback.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="HOTFIX_customHotfixCommitMessage_text" value="Tagging hotfix %name%" />
+    <property name="RELEASE_customTagCommitMessage_text" value="Tagging version %name%" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -90,7 +91,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -181,7 +182,11 @@
       <workItem from="1609242672824" duration="140000" />
       <workItem from="1609242822303" duration="35000" />
       <workItem from="1609242871650" duration="9080000" />
-      <workItem from="1609258240422" duration="1813000" />
+      <workItem from="1609258240422" duration="5505000" />
+      <workItem from="1609332774232" duration="383000" />
+      <workItem from="1609333195750" duration="1945000" />
+      <workItem from="1609338788004" duration="1076000" />
+      <workItem from="1609348301314" duration="6179000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -463,7 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609259941242</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="feat: nova versão do client">
+      <created>1609260076410</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1609260076410</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: nova versão do client">
+      <created>1609260090371</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1609260090371</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +513,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs" />
     <MESSAGE value="refactor: movido os arquivos para seus diretórios e remoção de comentários no código" />
     <MESSAGE value="feat: adicionado nova versao do agent" />
     <MESSAGE value="chore: adiconado o diretorio dist" />
@@ -519,7 +537,8 @@
     <MESSAGE value="refactor: removendo os comentarios desnecessários" />
     <MESSAGE value="refactor: formatanto textos" />
     <MESSAGE value="fix: bugs do menu principal arrumados" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: bugs do menu principal arrumados" />
+    <MESSAGE value="feat: nova versão do client" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão do client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
