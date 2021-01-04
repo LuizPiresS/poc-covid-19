@@ -9,7 +9,7 @@
       "dbName": "development"
     },
     "Auth": {
-      "tokenSecret": "YOUR_TOKEN_SECRET"
+      "tokenAPICovid": "9bbfe596e4642833247989ec464db2159a013298"
     }
   }
 }

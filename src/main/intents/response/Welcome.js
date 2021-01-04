@@ -18,7 +18,6 @@ export class Welcome {
       // segunda ou mais visita
     } else {
       message = `Olá novamente, ${name.firstName} ${name.lastName} ! Sou uma assistente virtual treinada para tirar suas dúvidas relacionadas ao Coronavírus.️ 👩`
-
       MainMenu.execute(agent, message, true)
     }
   }

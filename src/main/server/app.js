@@ -12,7 +12,8 @@ import {
   Contagion,
   ContagionForms,
   IncubationPeriod,
-  MainMenu
+  MainMenu,
+  CasesBrazil
 } from '../intents'
 
 const app = express()
@@ -30,6 +31,7 @@ app
     intentMap.set('contagion-contagion-forms', ContagionForms.execute)
     intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
     intentMap.set('main-menu', MainMenu.execute)
+    intentMap.set('cases-cases-brazil', CasesBrazil.execute)
 
     agent.handleRequest(intentMap)
     console.log(agent.contexts)
