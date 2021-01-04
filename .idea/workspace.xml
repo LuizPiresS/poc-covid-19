@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,18 +78,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/dist/main/intents/covid/contagio/contagio.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/dist/main/intents/covid/contagio/contagio.js&#10;C:/Users/luiz.pires/Development/poc-covid-19/node_modules/dialogflow-fulfillment/src/dialogflow-fulfillment.js" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.stylesheets.stylelint" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -103,6 +106,9 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
+    <configuration name="DataAnalysis.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/data-analysis/DataAnalysis.js" working-dir="$PROJECT_DIR$/src/main/data-analysis">
+      <method v="2" />
+    </configuration>
     <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -135,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.DataAnalysis.js" />
         <item itemvalue="npm.start:telegram" />
         <item itemvalue="npm.start:production" />
         <item itemvalue="npm.start:production" />
@@ -186,7 +193,10 @@
       <workItem from="1609332774232" duration="383000" />
       <workItem from="1609333195750" duration="1945000" />
       <workItem from="1609338788004" duration="1076000" />
-      <workItem from="1609348301314" duration="6179000" />
+      <workItem from="1609348301314" duration="8968000" />
+      <workItem from="1609416267673" duration="14698000" />
+      <workItem from="1609436855916" duration="1687000" />
+      <workItem from="1609760387178" duration="26462000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -482,7 +492,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609260090371</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="refactor: renomeado diretório de message para response">
+      <created>1609359974251</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1609359974251</updated>
+    </task>
+    <task id="LOCAL-00044" summary="refactor: renomeado menu para show menu">
+      <created>1609772640168</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1609772640168</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: adicionado casos brasil">
+      <created>1609793192252</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609793192252</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,9 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: movido os arquivos para seus diretórios e remoção de comentários no código" />
-    <MESSAGE value="feat: adicionado nova versao do agent" />
-    <MESSAGE value="chore: adiconado o diretorio dist" />
     <MESSAGE value="chore: adiconado regenerator-runtime" />
     <MESSAGE value="fix: corrigido o espaçamento inicial do segundo e terceiro paragrafos da saudação" />
     <MESSAGE value="fix: corrigido bug do retorno do nome como undefined" />
@@ -538,7 +566,10 @@
     <MESSAGE value="refactor: formatanto textos" />
     <MESSAGE value="fix: bugs do menu principal arrumados" />
     <MESSAGE value="feat: nova versão do client" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão do client" />
+    <MESSAGE value="refactor: renomeado diretório de message para response" />
+    <MESSAGE value="refactor: renomeado menu para show menu" />
+    <MESSAGE value="feat: adicionado casos brasil" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado casos brasil" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

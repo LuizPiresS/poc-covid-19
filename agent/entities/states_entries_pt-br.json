@@ -1,0 +1,184 @@
+[
+  {
+    "value": "AC",
+    "synonyms": [
+      "Acre",
+      "AC"
+    ]
+  },
+  {
+    "value": "AL",
+    "synonyms": [
+      "Alagoas",
+      "AL"
+    ]
+  },
+  {
+    "value": "AP",
+    "synonyms": [
+      "Amapá",
+      "AP"
+    ]
+  },
+  {
+    "value": "AM",
+    "synonyms": [
+      "Amazonas",
+      "AM"
+    ]
+  },
+  {
+    "value": "BA",
+    "synonyms": [
+      "Bahia",
+      "BA"
+    ]
+  },
+  {
+    "value": "CE",
+    "synonyms": [
+      "Ceará",
+      "CE"
+    ]
+  },
+  {
+    "value": "ES",
+    "synonyms": [
+      "Espírito Santo",
+      "ES"
+    ]
+  },
+  {
+    "value": "GO",
+    "synonyms": [
+      "Goiás",
+      "GO"
+    ]
+  },
+  {
+    "value": "MA",
+    "synonyms": [
+      "Maranhão",
+      "MA"
+    ]
+  },
+  {
+    "value": "MS",
+    "synonyms": [
+      "Mato Grosso do Sul",
+      "MS"
+    ]
+  },
+  {
+    "value": "MT",
+    "synonyms": [
+      "Mato Grosso",
+      "MT"
+    ]
+  },
+  {
+    "value": "MG",
+    "synonyms": [
+      "Minas Gerais",
+      "MG"
+    ]
+  },
+  {
+    "value": "PA",
+    "synonyms": [
+      "Pará",
+      "PA"
+    ]
+  },
+  {
+    "value": "PB",
+    "synonyms": [
+      "Paraíba",
+      "PB"
+    ]
+  },
+  {
+    "value": "PR",
+    "synonyms": [
+      "Paraná",
+      "PR"
+    ]
+  },
+  {
+    "value": "PE",
+    "synonyms": [
+      "Pernambuco",
+      "PE"
+    ]
+  },
+  {
+    "value": "PI",
+    "synonyms": [
+      "Piauí",
+      "PI"
+    ]
+  },
+  {
+    "value": "RJ",
+    "synonyms": [
+      "Rio de Janeiro",
+      "RJ"
+    ]
+  },
+  {
+    "value": "RN",
+    "synonyms": [
+      "Rio Grande do Norte",
+      "RN"
+    ]
+  },
+  {
+    "value": "RS",
+    "synonyms": [
+      "Rio Grande do Sul",
+      "RS"
+    ]
+  },
+  {
+    "value": "RO",
+    "synonyms": [
+      "Rondônia",
+      "RO"
+    ]
+  },
+  {
+    "value": "RR",
+    "synonyms": [
+      "Roraima",
+      "RR"
+    ]
+  },
+  {
+    "value": "SC",
+    "synonyms": [
+      "Santa Catarina",
+      "SC"
+    ]
+  },
+  {
+    "value": "SP",
+    "synonyms": [
+      "São Paulo",
+      "SP"
+    ]
+  },
+  {
+    "value": "SE",
+    "synonyms": [
+      "Sergipe",
+      "SE"
+    ]
+  },
+  {
+    "value": "TO",
+    "synonyms": [
+      "Tocantins",
+      "TO"
+    ]
+  }
+]
