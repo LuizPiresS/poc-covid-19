@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazil.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +197,8 @@
       <workItem from="1609348301314" duration="8968000" />
       <workItem from="1609416267673" duration="14698000" />
       <workItem from="1609436855916" duration="1687000" />
-      <workItem from="1609760387178" duration="26462000" />
+      <workItem from="1609760387178" duration="27375000" />
+      <workItem from="1609847893291" duration="9517000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -513,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609793192252</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat: adicionado casos brasil">
+      <created>1609794637397</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1609794637397</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
