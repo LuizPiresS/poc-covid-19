@@ -40,9 +40,7 @@ Aqui estão os dados mais recentes para o estado ${state}:
 - Confirmados: ${res.data.results[0].new_confirmed}
 - Mortes: ${res.data.results[0].new_deaths}
 
------- ${messageSPRJ} ------
-
-Posso ajudar em algo mais?`
+------ ${messageSPRJ} ------`
       })
       .catch(err => {
         console.log(err)
@@ -71,7 +69,7 @@ Posso ajudar em algo mais?`
           return `O Brasil possui mais de uma cidade com o nome de ${city}, por favor informe a cidade e o estado para que eu possa te ajudar\n\n <nome da cidade> <nome do estado> `
         }
         if (res.data.results[0].last_available_confirmed === 0) {
-          return `A cidade de ${city} não possui infectatos pelo COVID-19`
+          return `A cidade de ${city} não possui pessoas infectadas pelo COVID-19`
         }
         return `
 Aqui estão os dados mais recentes para a cidade de ${city}:
@@ -86,8 +84,7 @@ Aqui estão os dados mais recentes para a cidade de ${city}:
 - Confirmados: ${res.data.results[0].new_confirmed}
 - Mortes: ${res.data.results[0].new_deaths}
 
-
-Posso ajudar em algo mais?`
+`
       })
       .catch(err => {
         console.log(err)
@@ -105,7 +102,10 @@ Posso ajudar em algo mais?`
 - Recuperados: ${res.data.data.recovered}
 - Mortes: ${res.data.data.deaths}
 
-Posso ajudar em algo mais?
+Você pode consultar o status de casos de
+qualquer cidade ou estado no Brasil.
+
+Qual local você quer consultar? 🔎
 `
       })
       .catch(err => {

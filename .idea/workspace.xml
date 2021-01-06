@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/apis/APICasesBrazil.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,14 +207,7 @@
       <workItem from="1609858230504" duration="9440000" />
       <workItem from="1609880333300" duration="1916000" />
       <workItem from="1609904003278" duration="157000" />
-      <workItem from="1609904679119" duration="21788000" />
-    </task>
-    <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
-      <created>1607656019574</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607656019574</updated>
+      <workItem from="1609904679119" duration="23519000" />
     </task>
     <task id="LOCAL-00002" summary="chore: adicionado gitignore">
       <created>1607675732564</created>
@@ -547,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609955968446</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos">
+      <created>1609956775716</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1609956775717</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
