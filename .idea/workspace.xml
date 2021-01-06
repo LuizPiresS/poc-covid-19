@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.igormaznitsa.ideamindmap.settings.MindMapSettingsComponent" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -207,14 +209,7 @@
       <workItem from="1609904003278" duration="157000" />
       <workItem from="1609904679119" duration="23964000" />
       <workItem from="1609958597115" duration="476000" />
-      <workItem from="1609959112826" duration="1801000" />
-    </task>
-    <task id="LOCAL-00003" summary="feat: adicionado saudções boas vindas">
-      <created>1607676239430</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1607676239430</updated>
+      <workItem from="1609959112826" duration="2934000" />
     </task>
     <task id="LOCAL-00004" summary="feat: adicionado mongoose para realizar o controle dos usuários">
       <created>1607696965269</created>
@@ -552,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609958351831</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;">
+      <created>1609961053409</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1609961053409</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +585,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao" />
     <MESSAGE value="refactor: renomeado as intents do agent" />
     <MESSAGE value="refactor: Refatorado para o uso de classes para aplicar o conceito de single" />
     <MESSAGE value="refactor: refatorado para o uso de classes para aplicar os princípios SOLID" />
@@ -608,7 +609,8 @@
     <MESSAGE value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos e para cidades sem casos de covid" />
     <MESSAGE value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos" />
     <MESSAGE value="feat: adicionado o menu de ajuda" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado o menu de ajuda" />
+    <MESSAGE value="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

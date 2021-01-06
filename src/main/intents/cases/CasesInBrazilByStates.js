@@ -1,7 +1,7 @@
 import { Text } from 'dialogflow-fulfillment-helper'
 
+import { APICasesBrazil } from '../../external/apis/APICasesBrazil'
 import { HelpMenu } from '../menu/HelpMenu'
-import { APICasesBrazil } from '../utils/apis/APICasesBrazil'
 
 export class CasesInBrazilByStates {
   static async execute (agent) {
