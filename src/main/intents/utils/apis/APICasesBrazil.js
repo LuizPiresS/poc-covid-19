@@ -3,30 +3,32 @@ import config from 'config'
 
 export class APICasesBrazil {
   /**
-   * Pega os dados dos casos de covid no Brasil por estadado ou Cidade
+   * Pega as informações sobre o número de casos no brasil por estado
    * @param agent
-   * @returns {Promise<AxiosResponse<any> | void>}
+   * @returns {Promise<string | void>}
    */
-  async getCasesFromStatesOrCities (agent) {
+  async getCasesByStates (agent) {
     const tokenAPICovid = config.get('App.Auth.tokenAPICovid')
 
-    let placeType = 'city'
-    let city = agent.parameters.location[0].city
     const state = agent.parameters.states
-    if (state && !city) {
-      placeType = 'state'
-      city = null
-    }
 
-    return axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?place_type=${placeType}&city=${city}&state=${state}&is_last=True`,
+    return axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?state=${state}&place_type=state&&is_last=True`,
       {
         headers: {
           Authorization: `Token ${tokenAPICovid}`
         }
       })
       .then(res => {
+        let messageSPRJ
+        if (agent.parameters.states === 'SP') {
+          messageSPRJ = 'Caso você queira ver informações sobre a cidade de São Paulo busque por:\n ' +
+            'São Paulo SP'
+        } else if (agent.parameters.states === 'SP') {
+          messageSPRJ = 'Caso você queira ver informações sobre a cidade do Rio de Janeiro busque por:\n ' +
+            'Rio de Janeiro RJ'
+        }
         return `
-Aqui estão os dados mais recentes para ${city} ${state}:
+Aqui estão os dados mais recentes para o estado ${state}:
 
 ⚠ Total de casos:
 
@@ -37,6 +39,53 @@ Aqui estão os dados mais recentes para ${city} ${state}:
 
 - Confirmados: ${res.data.results[0].new_confirmed}
 - Mortes: ${res.data.results[0].new_deaths}
+
+------ ${messageSPRJ} ------
+
+Posso ajudar em algo mais?`
+      })
+      .catch(err => {
+        console.log(err)
+      })
+  }
+
+  /**
+   * Pega as informações sobre o número de casos no brasil por cidade
+   * @param agent
+   * @returns {Promise<string | void>}
+   */
+  async getCasesByCities (agent) {
+    const tokenAPICovid = config.get('App.Auth.tokenAPICovid')
+
+    const city = agent.parameters.location.city
+    const state = agent.parameters.states
+
+    return axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?city=${city}&place_type=city&state=${state}&is_last=True`,
+      {
+        headers: {
+          Authorization: `Token ${tokenAPICovid}`
+        }
+      })
+      .then(res => {
+        if (res.data.count > 1) {
+          return `O Brasil possui mais de uma cidade com o nome de ${city}, por favor informe a cidade e o estado para que eu possa te ajudar\n\n <nome da cidade> <nome do estado> `
+        }
+        if (res.data.results[0].last_available_confirmed === 0) {
+          return `A cidade de ${city} não possui infectatos pelo COVID-19`
+        }
+        return `
+Aqui estão os dados mais recentes para a cidade de ${city}:
+
+⚠ Total de casos:
+
+- Confirmados: ${res.data.results[0].last_available_confirmed}
+- Mortes: ${res.data.results[0].last_available_deaths}
+
+⚠ Casos no dia de hoje:
+
+- Confirmados: ${res.data.results[0].new_confirmed}
+- Mortes: ${res.data.results[0].new_deaths}
+
 
 Posso ajudar em algo mais?`
       })

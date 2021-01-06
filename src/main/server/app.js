@@ -12,7 +12,9 @@ import {
   ContagionForms,
   IncubationPeriod,
   MainMenu,
-  CasesBrazil
+  CasesInBrazil,
+  CasesInBrazilByCities,
+  CasesInBrazilByStates
 } from '../intents'
 
 const app = express()
@@ -30,11 +32,12 @@ app
     intentMap.set('contagion-contagion-forms', ContagionForms.execute)
     intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
     intentMap.set('main-menu', MainMenu.execute)
-    intentMap.set('cases-cases-brazil', CasesBrazil.execute)
+    intentMap.set('cases-cases-brazil', CasesInBrazil.execute)
+    intentMap.set('cases-cases-brazil-cities', CasesInBrazilByCities.execute)
+    intentMap.set('cases-cases-brazil-states', CasesInBrazilByStates.execute)
 
-    agent.handleRequest(intentMap)
-    console.log(agent.contexts)
-    console.log(`Usuario conectado:${agent.originalRequest.payload.data.from.id}`)
+    agent.handleRequest(intentMap).catch(err => console.log(err))
+    console.log(agent)
   })
   .get('/', (req, res) => {
     res.json('Tu não deveria estar aqui, ou deveria?')

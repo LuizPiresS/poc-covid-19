@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change afterPath="$PROJECT_DIR$/src/main/intents/menu/HelpMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/ContagionForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/ContagionForms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/ProfessionalPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/ProfessionalPrevention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/utils/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/apis/APICasesBrazil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
@@ -97,7 +89,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dialogflow-fulfillment-nodejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compassouoldiveo-cognitiveservices.dialogflow.template-3ca72536e3af" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -109,11 +101,14 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.stylesheets.stylelint" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid" />
@@ -216,7 +211,7 @@
       <workItem from="1609858230504" duration="9440000" />
       <workItem from="1609880333300" duration="1916000" />
       <workItem from="1609904003278" duration="157000" />
-      <workItem from="1609904679119" duration="2178000" />
+      <workItem from="1609904679119" duration="21400000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -547,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609858551356</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper">
+      <created>1609907529941</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1609907529941</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,8 +580,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: corrigido bug do retorno do nome como undefined" />
-    <MESSAGE value="fix: adicionado novas frases de treinamento para solucionar alguns problemas de fluxo" />
     <MESSAGE value="refactor: renomeado o nome da função de incubacao para periodoIncubacao" />
     <MESSAGE value="test: adicionado alguns contexts para testes" />
     <MESSAGE value="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao" />
@@ -603,7 +603,9 @@
     <MESSAGE value="feat: adicionado casos brasil" />
     <MESSAGE value="feat: integrando o casos brasil ao Telegram e formatando o texto" />
     <MESSAGE value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper ao invés da dialogflow-fulfillment antiga" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper ao invés da dialogflow-fulfillment antiga" />
+    <MESSAGE value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper" />
+    <MESSAGE value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos e para cidades sem casos de covid" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos e para cidades sem casos de covid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
