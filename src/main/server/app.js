@@ -37,7 +37,7 @@ app
     intentMap.set('cases-cases-brazil-states', CasesInBrazilByStates.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
-    console.log(agent)
+    console.log(agent.originalRequest.payload.data.sender)
   })
   .get('/', (req, res) => {
     res.json('Tu não deveria estar aqui, ou deveria?')

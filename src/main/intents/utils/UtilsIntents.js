@@ -7,8 +7,8 @@ export class UtilsIntents {
    * @returns {{firstName: (string|string), lastName: (string|string)}}
    */
   static getName (agent) {
-    const firstName = agent.originalRequest.payload.data.from.first_name || ''
-    const lastName = agent.originalRequest.payload.data.from.last_name || ''
+    const firstName = agent.first_name
+    const lastName = agent.last_name
 
     return {
       firstName,
@@ -22,7 +22,12 @@ export class UtilsIntents {
    * @returns {Promise<boolean>}
    */
   static async firsVisit (agent) {
-    const userId = agent.originalRequest.payload.data.from.id
+    let userId
+    if (agent.source === 'FACEBOOK') {
+      userId = agent.originalRequest.payload.data.sender.id
+    } else {
+      userId = agent.originalRequest.payload.data.from.id
+    }
     try {
       return !!(await User.findOne({ userId }))
     } catch (error) {
@@ -36,7 +41,12 @@ export class UtilsIntents {
    * @returns {Promise<void>}
    */
   static async addUserID (agent) {
-    const userId = agent.originalRequest.payload.data.from.id
+    let userId
+    if (agent.source === 'FACEBOOK') {
+      userId = agent.originalRequest.payload.data.sender.id
+    } else {
+      userId = agent.originalRequest.payload.data.from.id
+    }
     try {
       await User.create({ userId })
     } catch (error) {
