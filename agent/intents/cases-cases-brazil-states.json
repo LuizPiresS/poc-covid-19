@@ -1,25 +1,24 @@
 {
-  "id": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "name": "cases-cases-brazil",
+  "id": "53654baf-90a2-46b8-af84-ef5038181609",
+  "parentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "name": "cases-cases-brazil-states",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "cases-cases-brazil-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
-      "affectedContexts": [
-        {
-          "name": "cases-cases-brazil-followup",
-          "lifespan": 5
-        }
-      ],
+      "action": "cases-cases-brazil.cases-cases-brazil-custom",
+      "affectedContexts": [],
       "parameters": [
         {
-          "id": "2a0d767a-e732-4f83-9502-42ae78f26fea",
-          "name": "location",
+          "id": "1f6ea5c9-4547-4a5d-a39b-554a44176cfc",
+          "name": "states",
           "required": false,
-          "dataType": "@sys.location",
-          "value": "$location",
+          "dataType": "@states",
+          "value": "$states",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "8817d7cd-7ffb-4c34-9b4f-bca973b9df7e",
+    "data": [
+      {
+        "text": "Pelotas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "70c3c14f-ca92-4257-bcbf-b2e303732096",
+    "data": [
+      {
+        "text": "Água boa",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "MG",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "393cc3e2-91eb-440d-aa79-77d00a2344b0",
+    "data": [
+      {
+        "text": "Casos em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8cf72aca-2838-4790-b265-caafc7ad9aac",
+    "data": [
+      {
+        "text": "Casos em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "RS",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c8fafc8f-baca-4513-9c22-eb5059396aa0",
+    "data": [
+      {
+        "text": "Quantas mortes em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b25c8db4-24c6-4a16-9265-53aff70b9637",
+    "data": [
+      {
+        "text": "Quantos contaminados em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a8937425-7aba-4770-8904-78dd4472f500",
+    "data": [
+      {
+        "text": "Número de casos em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

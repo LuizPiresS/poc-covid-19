@@ -1,25 +1,38 @@
 {
-  "id": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "name": "cases-cases-brazil",
+  "id": "e8a9912f-b061-4427-8775-ce10bb8791b4",
+  "parentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "name": "cases-cases-brazil-cities",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "cases-cases-brazil-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
-      "affectedContexts": [
-        {
-          "name": "cases-cases-brazil-followup",
-          "lifespan": 5
-        }
-      ],
+      "action": "cases-cases-brazil.cases-cases-brazil-custom",
+      "affectedContexts": [],
       "parameters": [
         {
-          "id": "2a0d767a-e732-4f83-9502-42ae78f26fea",
+          "id": "d8dd70b3-f635-4b49-b671-d3a3fb2fbc49",
           "name": "location",
           "required": false,
           "dataType": "@sys.location",
           "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dcbb9bc2-13c1-4832-b15f-cdea98ce9af7",
+          "name": "states",
+          "required": false,
+          "dataType": "@states",
+          "value": "$states",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

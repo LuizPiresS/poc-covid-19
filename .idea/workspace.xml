@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazil.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +202,7 @@
       <workItem from="1609858230504" duration="9440000" />
       <workItem from="1609880333300" duration="1916000" />
       <workItem from="1609904003278" duration="157000" />
-      <workItem from="1609904679119" duration="21400000" />
+      <workItem from="1609904679119" duration="21788000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -549,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609907529941</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos">
+      <created>1609955968446</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1609955968446</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +578,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: renomeado o nome da função de incubacao para periodoIncubacao" />
     <MESSAGE value="test: adicionado alguns contexts para testes" />
     <MESSAGE value="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao" />
     <MESSAGE value="refactor: renomeado as intents do agent" />
@@ -605,7 +602,8 @@
     <MESSAGE value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper ao invés da dialogflow-fulfillment antiga" />
     <MESSAGE value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper" />
     <MESSAGE value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos e para cidades sem casos de covid" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos e para cidades sem casos de covid" />
+    <MESSAGE value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

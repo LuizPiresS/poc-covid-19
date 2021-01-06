@@ -37,6 +37,9 @@
     },
     {
       "name": "TELEGRAM_WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
     }
   ],
   "conditionalResponses": [],
