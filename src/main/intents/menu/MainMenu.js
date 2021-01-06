@@ -9,10 +9,10 @@ export class MainMenu {
    */
   static execute (agent, message, showMenu = false) {
     const messageMenu = 'Você pode tirar dúvidas comigo sobre\n prevenção, contágio, casos no Brasil ou\n realizar um pré-diagnóstico.'
-    agent.add(new Text(message || null))
+    agent.add(new Text(message || ' '))
 
     agent.add(new Suggestion({
-      title: showMenu ? messageMenu : null,
+      title: showMenu ? messageMenu : 'Sobre qual assunto você quer saber?',
       reply: 'Prevenção'
     }))
     agent.add(new Suggestion({
@@ -23,6 +23,6 @@ export class MainMenu {
       title: 'Casos no Brasil',
       reply: 'Casos no Brasil'
     }))
-    agent.add(new Text('Sobre qual assunto você quer saber?'))
+    agent.add(new Text(showMenu ? 'Sobre qual assunto você quer saber?' : messageMenu))
   }
 }
