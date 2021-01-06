@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
+      <change afterPath="$PROJECT_DIR$/src/main/intents/menu/HelpMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/ContagionForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/ContagionForms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/ProfessionalPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/ProfessionalPrevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/apis/APICasesBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +97,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dialogflow-fulfillment-nodejs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -199,6 +213,10 @@
       <workItem from="1609436855916" duration="1687000" />
       <workItem from="1609760387178" duration="27375000" />
       <workItem from="1609847893291" duration="9517000" />
+      <workItem from="1609858230504" duration="9440000" />
+      <workItem from="1609880333300" duration="1916000" />
+      <workItem from="1609904003278" duration="157000" />
+      <workItem from="1609904679119" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="chore: adicionado novo gitignore">
       <created>1607656019574</created>
@@ -522,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609794637397</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="feat: integrando o casos brasil ao Telegram e formatando o texto">
+      <created>1609858551356</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1609858551356</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,8 +578,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chore: adiconado regenerator-runtime" />
-    <MESSAGE value="fix: corrigido o espaçamento inicial do segundo e terceiro paragrafos da saudação" />
     <MESSAGE value="fix: corrigido bug do retorno do nome como undefined" />
     <MESSAGE value="fix: adicionado novas frases de treinamento para solucionar alguns problemas de fluxo" />
     <MESSAGE value="refactor: renomeado o nome da função de incubacao para periodoIncubacao" />
@@ -578,16 +601,13 @@
     <MESSAGE value="refactor: renomeado diretório de message para response" />
     <MESSAGE value="refactor: renomeado menu para show menu" />
     <MESSAGE value="feat: adicionado casos brasil" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado casos brasil" />
+    <MESSAGE value="feat: integrando o casos brasil ao Telegram e formatando o texto" />
+    <MESSAGE value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper ao invés da dialogflow-fulfillment antiga" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper ao invés da dialogflow-fulfillment antiga" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/dialogflow-fulfillment/src/rich-responses/suggestions-response.js</url>
-          <line>114</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/intents/respostas/xingamentos.js</url>
           <line>7</line>

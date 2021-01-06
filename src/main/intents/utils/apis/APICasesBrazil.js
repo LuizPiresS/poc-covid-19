@@ -11,12 +11,11 @@ export class APICasesBrazil {
     const tokenAPICovid = config.get('App.Auth.tokenAPICovid')
 
     let placeType = 'city'
-    let city = agent.parameters.location.city
+    let city = agent.parameters.location[0].city
     const state = agent.parameters.states
-
     if (state && !city) {
       placeType = 'state'
-      city = ''
+      city = null
     }
 
     return axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?place_type=${placeType}&city=${city}&state=${state}&is_last=True`,

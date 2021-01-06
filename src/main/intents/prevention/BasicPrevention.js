@@ -1,4 +1,6 @@
-import { Text, Suggestion } from 'dialogflow-fulfillment'
+import { Text } from 'dialogflow-fulfillment-helper'
+
+import { HelpMenu } from '../menu/HelpMenu'
 
 export class BasicPrevention {
   /**
@@ -27,13 +29,6 @@ export class BasicPrevention {
     agent.add(new Text(mensagem))
     agent.add(new Text('Você também pode assistir o video\n informativo do Ministério da Saúde:\n \n https://www.youtube.com/watch?v=cvdskDhw-Ps \n\n Posso ajudar em algo mais?'))
 
-    agent.add(new Suggestion({
-      title: 'Posso ajudar em algo mais?',
-      reply: 'Sim'
-    }))
-    agent.add(new Suggestion({
-      title: 'Não,era só isso',
-      reply: 'Não,era só isso'
-    }))
+    HelpMenu.helpMenu(agent)
   }
 }

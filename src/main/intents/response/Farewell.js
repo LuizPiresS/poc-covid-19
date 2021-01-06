@@ -1,4 +1,4 @@
-import { Text } from 'dialogflow-fulfillment'
+import { Text } from 'dialogflow-fulfillment-helper'
 
 import { Utils } from '../../utils/Utils'
 import { UtilsIntents } from '../utils/UtilsIntents'

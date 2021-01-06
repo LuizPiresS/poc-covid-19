@@ -1,4 +1,4 @@
-import { Text, Suggestion } from 'dialogflow-fulfillment'
+import { Text, Suggestion } from 'dialogflow-fulfillment-helper'
 
 export class ContagionForms {
   static execute (agent) {

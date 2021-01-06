@@ -1,7 +1,6 @@
 import bodyParser from 'body-parser'
-import { WebhookClient } from 'dialogflow-fulfillment'
+import { WebhookClient } from 'dialogflow-fulfillment-helper'
 import express from 'express'
-import regeneratorRuntime from 'regenerator-runtime'
 
 import {
   Welcome,

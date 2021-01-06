@@ -1,4 +1,4 @@
-import { Text, Suggestion } from 'dialogflow-fulfillment'
+import { Text, Suggestion } from 'dialogflow-fulfillment-helper'
 
 export class ProfessionalPrevention {
   static execute (agent) {
