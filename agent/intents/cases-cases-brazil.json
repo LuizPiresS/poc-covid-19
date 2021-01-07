@@ -11,11 +11,19 @@
         {
           "name": "cases-cases-brazil-followup",
           "lifespan": 5
+        },
+        {
+          "name": "Casos",
+          "lifespan": 5
+        },
+        {
+          "name": "por",
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "2a0d767a-e732-4f83-9502-42ae78f26fea",
+          "id": "a722c1c1-4c44-47c1-8e15-06f6dcacdbda",
           "name": "location",
           "required": false,
           "dataType": "@sys.location",

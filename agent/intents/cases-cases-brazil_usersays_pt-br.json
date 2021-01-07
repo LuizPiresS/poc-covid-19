@@ -1,5 +1,121 @@
 [
   {
+    "id": "7459053b-0277-4a26-9aec-2478e6672673",
+    "data": [
+      {
+        "text": "Casos ",
+        "userDefined": false
+      },
+      {
+        "text": "por",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " aqui",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7fcd58c9-6cb1-4f3d-9921-4680b81501e5",
+    "data": [
+      {
+        "text": "Casos no nosso ",
+        "userDefined": false
+      },
+      {
+        "text": "país",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1839b263-e003-4873-a956-f3684914f88b",
+    "data": [
+      {
+        "text": "Número de mortes no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "388c3028-0d02-4562-9263-8ab42f16cb43",
+    "data": [
+      {
+        "text": "Mortes no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6a43ed4d-132d-451f-ae28-d91e9c2b9900",
+    "data": [
+      {
+        "text": "Doentes no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "73693558-b484-4b6b-b028-d73beff52fe8",
+    "data": [
+      {
+        "text": "Número de casos no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "76703b98-1a56-4238-bc4c-9d2d2d716086",
     "data": [
       {

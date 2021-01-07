@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-cases-brazil-cities.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/cases-cases-brazil-cities.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-cases-brazil.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/cases-cases-brazil.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-cases-brazil_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/cases-cases-brazil_usersays_pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/HelpMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/HelpMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,14 +216,7 @@
       <workItem from="1609904679119" duration="23964000" />
       <workItem from="1609958597115" duration="476000" />
       <workItem from="1609959112826" duration="14123000" />
-      <workItem from="1610022239856" duration="2239000" />
-    </task>
-    <task id="LOCAL-00008" summary="feat: adicionado nova versão agent">
-      <created>1607940098976</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1607940098977</updated>
+      <workItem from="1610022239856" duration="10462000" />
     </task>
     <task id="LOCAL-00009" summary="feat: fix database connection">
       <created>1607940804474</created>
@@ -556,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610004744240</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="feat: adicionado fallback no contagio">
+      <created>1610029322814</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1610029322815</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: refatorando intent de prevenção básica para usar classe" />
     <MESSAGE value="refactor: refatorando intent de prevenção profissional para usar classe" />
     <MESSAGE value="refactor: contagio refatorado para a utilização de classes" />
     <MESSAGE value="refactor: removendo o diretorio covid" />
@@ -612,7 +616,8 @@
     <MESSAGE value="feat: Integração parcial com o Messenger" />
     <MESSAGE value="feat: integração parcial com o Messenger" />
     <MESSAGE value="feat: adicionado o fallback &quot;Casos no Brasil&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado o fallback &quot;Casos no Brasil&quot;" />
+    <MESSAGE value="feat: adicionado fallback no contagio" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fallback no contagio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

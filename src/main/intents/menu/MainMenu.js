@@ -13,15 +13,21 @@ export class MainMenu {
 
     agent.add(new Suggestion({
       title: showMenu ? messageMenu : 'Sobre qual assunto você quer saber?',
-      reply: 'Prevenção'
+      reply: 'Prevenção',
+      platform: agent.source
+
     }))
     agent.add(new Suggestion({
       title: 'Contágio',
-      reply: 'Contágio'
+      reply: 'Contágio',
+      platform: agent.source
+
     }))
     agent.add(new Suggestion({
       title: 'Casos no Brasil',
-      reply: 'Casos no Brasil'
+      reply: 'Casos no Brasil',
+      platform: 'FACEBOOK'
+
     }))
     agent.add(new Text(showMenu ? 'Sobre qual assunto você quer saber?' : messageMenu))
   }

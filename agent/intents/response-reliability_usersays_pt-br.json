@@ -1,0 +1,209 @@
+[
+  {
+    "id": "3b461ea5-36c5-4d02-a96f-5f78b81f98b6",
+    "data": [
+      {
+        "text": "Origem dos dados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "83a1484a-0a37-45c2-99ba-a90d479ad4e1",
+    "data": [
+      {
+        "text": "És",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pandego",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b3570f35-0fe9-448e-9ed8-f8da2cc94ac5",
+    "data": [
+      {
+        "text": "De onde são estes dados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8eac384b-2714-4b07-997d-fae67e2f9ada",
+    "data": [
+      {
+        "text": "Ta de brinks",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b93a6f0d-72d8-4208-b9f5-02821d27ebde",
+    "data": [
+      {
+        "text": "Ta zoando",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4d5a373f-7253-407f-be08-637b803ac85a",
+    "data": [
+      {
+        "text": "Quais as ",
+        "userDefined": false
+      },
+      {
+        "text": "fontes",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "528098a1-487e-4f8f-ad8b-dcb1499fb85b",
+    "data": [
+      {
+        "text": "Ta falando sério",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d03f62a4-f77a-4a2c-9ce2-35d97ba9a26b",
+    "data": [
+      {
+        "text": "De onde tu tirou isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d5682675-fe57-4d73-bfd4-07d4e8e96d5f",
+    "data": [
+      {
+        "text": "As ",
+        "userDefined": false
+      },
+      {
+        "text": "fontes",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " são confiáveis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "80363f3b-bb62-4acb-9c7a-0277bd3c2913",
+    "data": [
+      {
+        "text": "Estas informações estão corretas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "004942ae-0d0e-4dd1-bc5d-133362b6c6f0",
+    "data": [
+      {
+        "text": "De onde vocês tiraram estas informações?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "058d2b31-016c-4fe6-b077-405cceedbe30",
+    "data": [
+      {
+        "text": "Quais são  as ",
+        "userDefined": false
+      },
+      {
+        "text": "fontes",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " destas informações",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "499456f2-551a-4fdb-a4e1-1c5f7274bb18",
+    "data": [
+      {
+        "text": "Estas informações são confiáveis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]
