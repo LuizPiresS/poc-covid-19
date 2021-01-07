@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,14 +210,8 @@
       <workItem from="1609904003278" duration="157000" />
       <workItem from="1609904679119" duration="23964000" />
       <workItem from="1609958597115" duration="476000" />
-      <workItem from="1609959112826" duration="13049000" />
-    </task>
-    <task id="LOCAL-00007" summary="feat: adicionado covid-prevencao-basica e covid-prevencao">
-      <created>1607749228955</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1607749228955</updated>
+      <workItem from="1609959112826" duration="14123000" />
+      <workItem from="1610022239856" duration="2239000" />
     </task>
     <task id="LOCAL-00008" summary="feat: adicionado nova versão agent">
       <created>1607940098976</created>
@@ -553,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610004694403</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="feat: adicionado o fallback &quot;Casos no Brasil&quot;">
+      <created>1610004744240</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1610004744240</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,48 @@
+{
+  "id": "4022d07e-3ab6-44f3-8ee1-97dc5c50f4db",
+  "parentId": "09a03718-5a4d-47aa-8fbc-f9f63b1b780c",
+  "rootParentId": "09a03718-5a4d-47aa-8fbc-f9f63b1b780c",
+  "name": "contagion-contagion - fallback",
+  "contexts": [
+    "contagio",
+    "contagion-contagion-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "contagion-contagion.contagion-contagion-fallback",
+      "affectedContexts": [
+        {
+          "name": "contagion-contagion-fallback-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Desculpe, algumas perguntas\nainda não consigo te responder. 😓 \n\n\nMe diga, qual a sua dúvida relacionada ao contagio?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

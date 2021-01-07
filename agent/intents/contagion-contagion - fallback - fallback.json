@@ -1,0 +1,47 @@
+{
+  "id": "bd37d704-3ac3-4133-b649-45863a7197b3",
+  "parentId": "4022d07e-3ab6-44f3-8ee1-97dc5c50f4db",
+  "rootParentId": "09a03718-5a4d-47aa-8fbc-f9f63b1b780c",
+  "name": "contagion-contagion - fallback - fallback",
+  "contexts": [
+    "contagion-contagion-fallback-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "contagion-contagion.contagion-contagion-fallback.contagion-contagion-fallback-fallback",
+      "affectedContexts": [
+        {
+          "name": "contagion-contagion-fallback-fallback-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Ainda não consegui identificar a\nsua dúvida.\n\nVocê pode me perguntar sobre \nprevenção, contágio, casos no\n Brasil ou realizar um\n pré-diagnóstico, por exemplo. 😊\n\nMe conta, qual a sua dúvida?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
