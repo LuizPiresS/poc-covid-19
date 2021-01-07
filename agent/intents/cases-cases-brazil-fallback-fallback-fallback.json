@@ -1,0 +1,43 @@
+{
+  "id": "95cf9dad-7033-4cef-9dfc-aeaf55b2bf9d",
+  "parentId": "7b5a185f-f15a-4594-8215-ed3da906649c",
+  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "name": "cases-cases-brazil-fallback-fallback-fallback",
+  "contexts": [
+    "cases-cases-brazil-fallback-fallback-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cases-cases-brazil.cases-cases-brazil-fallback.cases-cases-brazil-fallback-fallback.cases-cases-brazil-fallback-fallback-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Desculpe, sigo sem conseguir identificar o local que você informou. 😓\n\nPosso ajudar em algo mais?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

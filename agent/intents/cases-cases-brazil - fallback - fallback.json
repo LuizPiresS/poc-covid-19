@@ -1,0 +1,47 @@
+{
+  "id": "7b5a185f-f15a-4594-8215-ed3da906649c",
+  "parentId": "f26b18b2-4d59-408a-8e50-2af164479c4b",
+  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "name": "cases-cases-brazil - fallback - fallback",
+  "contexts": [
+    "cases-cases-brazil-fallback-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cases-cases-brazil.cases-cases-brazil-fallback.cases-cases-brazil-fallback-fallback",
+      "affectedContexts": [
+        {
+          "name": "cases-cases-brazil-fallback-fallback-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Ainda não consegui identificar o local selecionado.\n\nVocê pode consultar casos de qualquer cidade ou estado no Brasil. Qual gostaria de consultar? 🔎"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

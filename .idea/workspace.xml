@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/UtilsIntents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/UtilsIntents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,21 +208,7 @@
       <workItem from="1609904003278" duration="157000" />
       <workItem from="1609904679119" duration="23964000" />
       <workItem from="1609958597115" duration="476000" />
-      <workItem from="1609959112826" duration="6806000" />
-    </task>
-    <task id="LOCAL-00005" summary="fix: adicionado botões para as opções">
-      <created>1607703471068</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1607703471068</updated>
-    </task>
-    <task id="LOCAL-00006" summary="chore: adicionado host remoto para o mongo">
-      <created>1607749167996</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1607749167996</updated>
+      <workItem from="1609959112826" duration="13049000" />
     </task>
     <task id="LOCAL-00007" summary="feat: adicionado covid-prevencao-basica e covid-prevencao">
       <created>1607749228955</created>
@@ -558,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609962482279</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="feat: integração parcial com o Messenger">
+      <created>1609966161413</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1609966161413</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat: adicionado o fallback &quot;Casos no Brasil&quot;">
+      <created>1610004694403</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1610004694403</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,9 +584,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: Refatorado para o uso de classes para aplicar o conceito de single" />
-    <MESSAGE value="refactor: refatorado para o uso de classes para aplicar os princípios SOLID" />
-    <MESSAGE value="feat: adicionado nova versão  agente" />
     <MESSAGE value="refactor: refatorando intent de prevenção básica para usar classe" />
     <MESSAGE value="refactor: refatorando intent de prevenção profissional para usar classe" />
     <MESSAGE value="refactor: contagio refatorado para a utilização de classes" />
@@ -614,7 +606,10 @@
     <MESSAGE value="feat: adicionado o menu de ajuda" />
     <MESSAGE value="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;" />
     <MESSAGE value="refactor: api movido para o diretorio external em src" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: api movido para o diretorio external em src" />
+    <MESSAGE value="feat: Integração parcial com o Messenger" />
+    <MESSAGE value="feat: integração parcial com o Messenger" />
+    <MESSAGE value="feat: adicionado o fallback &quot;Casos no Brasil&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado o fallback &quot;Casos no Brasil&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

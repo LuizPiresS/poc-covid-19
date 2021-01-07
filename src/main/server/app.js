@@ -14,7 +14,8 @@ import {
   MainMenu,
   CasesInBrazil,
   CasesInBrazilByCities,
-  CasesInBrazilByStates
+  CasesInBrazilByStates,
+  FallBackCasesFromBrazil
 } from '../intents'
 
 const app = express()
@@ -35,6 +36,7 @@ app
     intentMap.set('cases-cases-brazil', CasesInBrazil.execute)
     intentMap.set('cases-cases-brazil-cities', CasesInBrazilByCities.execute)
     intentMap.set('cases-cases-brazil-states', CasesInBrazilByStates.execute)
+    intentMap.set('cases-cases-brazil-fallback-fallback-fallback', FallBackCasesFromBrazil.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
     console.log(agent.originalRequest.payload.data.sender)
