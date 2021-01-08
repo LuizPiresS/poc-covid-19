@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/FallBackCasesFromBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/FallBackCasesFromBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,21 +214,8 @@
       <workItem from="1610022239856" duration="11565000" />
       <workItem from="1610081701102" duration="1208000" />
       <workItem from="1610094056284" duration="20837000" />
-      <workItem from="1610130941185" duration="2860000" />
-    </task>
-    <task id="LOCAL-00013" summary="refactor: removido as mensagens 'choose an item'">
-      <created>1607996606012</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1607996606012</updated>
-    </task>
-    <task id="LOCAL-00014" summary="refactor: adicionado fork da lib dialogflow-fulfillment-nodejs">
-      <created>1607996677297</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1607996677297</updated>
+      <workItem from="1610130941185" duration="3222000" />
+      <workItem from="1610134256462" duration="1681000" />
     </task>
     <task id="LOCAL-00015" summary="refactor: movido os arquivos para seus diretórios e remoção de comentários no código">
       <created>1608026183617</created>
@@ -562,7 +546,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610129830981</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
+      <created>1610133931801</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1610133931802</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
+      <created>1610134088038</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1610134088038</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: refatorando o menu principal para usar classes" />
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="refactor: removendo os comentarios desnecessários" />
     <MESSAGE value="refactor: formatanto textos" />
@@ -617,6 +614,7 @@
     <MESSAGE value="feat: adicionado fluxo de confiabilidade" />
     <MESSAGE value="refactor: helpMenu renomeado para AnythingElse e movido de lugar" />
     <MESSAGE value="feat: adicionado métodos para a manipulação das suggestions e responses" />
+    <MESSAGE value="feat: adicionado contágio" />
     <MESSAGE value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
   </component>

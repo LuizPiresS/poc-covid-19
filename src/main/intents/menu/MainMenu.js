@@ -16,6 +16,10 @@ export class MainMenu {
         'Sobre qual assunto você quer saber? \n\n' +
         '👇 Você pode escolher o assunto por de um dos botões abaixo 👇 '
     }]
+
+    if (!title) {
+      title = '😁 Fico feliz em ajudar 😁'
+    }
     UtilsIntents.setSuggestion(agent, title, suggestions)
 
     UtilsIntents.setResponse(agent, response)
