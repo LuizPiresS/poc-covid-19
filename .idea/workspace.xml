@@ -6,9 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/UtilsIntents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/UtilsIntents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,14 +220,7 @@
       <workItem from="1609959112826" duration="14123000" />
       <workItem from="1610022239856" duration="11565000" />
       <workItem from="1610081701102" duration="1208000" />
-      <workItem from="1610094056284" duration="10114000" />
-    </task>
-    <task id="LOCAL-00011" summary="fix: adicionado menu-princial">
-      <created>1607953180009</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1607953180009</updated>
+      <workItem from="1610094056284" duration="19757000" />
     </task>
     <task id="LOCAL-00012" summary="feat: adicionado nova versão agent">
       <created>1607953810774</created>
@@ -560,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610106863176</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="feat: adicionado métodos para a manipulação das suggestions e responses">
+      <created>1610107055985</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1610107055985</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

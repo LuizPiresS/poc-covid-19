@@ -11,7 +11,7 @@ export class IncubationPeriod {
     agent.add(new Text(mensagem))
     agent.add(new Suggestion({
       title: 'Posso ajudar em algo mais? ',
-      reply: 'sim'
+      reply: 'Sim'
     }))
     agent.add(new Suggestion({
       title: 'Não, era só isso',

@@ -1,5 +1,64 @@
 [
   {
+    "id": "8cfa0127-e551-46f0-bf29-7fb6bfa9185f",
+    "data": [
+      {
+        "text": "São Paulo",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "cb636718-d2a1-42c3-b80c-c35e6d807d69",
+    "data": [
+      {
+        "text": "Pelotas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e3f1a5b5-99d9-4dc6-8d53-f1f6bdd45d65",
+    "data": [
+      {
+        "text": "Doentes em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "RS",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "7459053b-0277-4a26-9aec-2478e6672673",
     "data": [
       {
@@ -50,7 +109,7 @@
         "text": "Brasil",
         "meta": "@sys.location",
         "alias": "location",
-        "userDefined": false
+        "userDefined": true
       }
     ],
     "isTemplate": false,

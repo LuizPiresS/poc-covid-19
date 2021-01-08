@@ -14,7 +14,7 @@ export class MainMenu {
       text: 'Você pode tirar dúvidas comigo sobre prevenção, contágio, casos no Brasil ou realizar um pré-diagnóstico. \n' +
         '\n' +
         'Sobre qual assunto você quer saber? \n\n' +
-        'Você pode escolher o assunto através de um dos botões abaixo 👇 '
+        '👇 Você pode escolher o assunto por de um dos botões abaixo 👇 '
     }]
     UtilsIntents.setSuggestion(agent, title, suggestions)
 

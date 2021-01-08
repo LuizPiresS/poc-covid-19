@@ -21,11 +21,13 @@ export class APICasesBrazil {
       .then(res => {
         let messageSPRJ
         if (agent.parameters.states === 'SP') {
-          messageSPRJ = 'Caso você queira ver informações sobre a cidade de São Paulo busque por:\n ' +
-            'São Paulo SP'
-        } else if (agent.parameters.states === 'SP') {
-          messageSPRJ = 'Caso você queira ver informações sobre a cidade do Rio de Janeiro busque por:\n ' +
-            'Rio de Janeiro RJ'
+          messageSPRJ = '👉 Para informações sobre a cidade de São Paulo busque por:\n ' +
+            'São Paulo SP  👈'
+        } else if (agent.parameters.states === 'RJ') {
+          messageSPRJ = '👉 Para informações sobre a cidade do Rio de Janeiro busque por:\n ' +
+            'Rio de Janeiro RJ  👈'
+        } else {
+          messageSPRJ = ''
         }
         return `
 Aqui estão os dados mais recentes para o estado ${state}:
@@ -40,7 +42,7 @@ Aqui estão os dados mais recentes para o estado ${state}:
 - Confirmados: ${res.data.results[0].new_confirmed}
 - Mortes: ${res.data.results[0].new_deaths}
 
------- ${messageSPRJ} ------`
+ ${messageSPRJ}`
       })
       .catch(err => {
         console.log(err)
@@ -66,7 +68,7 @@ Aqui estão os dados mais recentes para o estado ${state}:
       })
       .then(res => {
         if (res.data.count > 1) {
-          return `O Brasil possui mais de uma cidade com o nome de ${city}, por favor informe a cidade e o estado para que eu possa te ajudar\n\n <nome da cidade> <nome do estado> `
+          return `O Brasil possui mais de uma cidade com o nome de ${city}, por favor informe a cidade e o estado para que eu possa te ajudar\n\n 👉<nome da cidade> <nome do estado>👈`
         }
         if (res.data.results[0].last_available_confirmed === 0) {
           return `A cidade de ${city} não possui pessoas infectadas pelo COVID-19`

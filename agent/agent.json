@@ -32,13 +32,13 @@
   },
   "defaultTimezone": "America/Buenos_Aires",
   "webhook": {
-    "url": "https://bfb11aaad3a2.ngrok.io",
+    "url": "https://51010a979d3e.ngrok.io",
     "username": "",
     "headers": {},
     "available": true,
     "useForDomains": false,
     "cloudFunctionsEnabled": false,
-    "cloudFunctionsInitialized": true
+    "cloudFunctionsInitialized": false
   },
   "isPrivate": true,
   "mlMinConfidence": 0.7,

@@ -13,8 +13,6 @@ import {
   IncubationPeriod,
   MainMenu,
   CasesInBrazil,
-  CasesInBrazilByCities,
-  CasesInBrazilByStates,
   FallBackCasesFromBrazil
 } from '../intents'
 
@@ -34,8 +32,6 @@ app
     intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
     intentMap.set('main-menu', MainMenu.execute)
     intentMap.set('cases-cases-brazil', CasesInBrazil.execute)
-    intentMap.set('cases-cases-brazil-cities', CasesInBrazilByCities.execute)
-    intentMap.set('cases-cases-brazil-states', CasesInBrazilByStates.execute)
     intentMap.set('cases-cases-brazil-fallback-fallback-fallback', FallBackCasesFromBrazil.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))

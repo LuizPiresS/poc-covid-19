@@ -15,9 +15,15 @@
           "title": "",
           "textToSpeech": "",
           "lang": "pt-br",
+          "speech": [
+            "Sobre qual assunto você quer saber?\u0027"
+          ],
           "condition": ""
         }
       ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
       "speech": []
     }
   ],
