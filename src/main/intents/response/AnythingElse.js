@@ -1,9 +1,9 @@
 import { Suggestion } from 'dialogflow-fulfillment-helper'
 
-export class HelpMenu {
+export class AnythingElse {
   static helpMenu (agent) {
     agent.add(new Suggestion({
-      title: 'Posso ajudar em algo mais?',
+      title: 'Posso ajudar em mais algo? 🙂',
       reply: 'Sim',
       platform: agent.source
     }))

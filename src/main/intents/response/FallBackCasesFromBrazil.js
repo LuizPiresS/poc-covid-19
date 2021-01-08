@@ -1,7 +1,7 @@
-import { HelpMenu } from '../menu/HelpMenu'
+import { AnythingElse } from './AnythingElse'
 
 export class FallBackCasesFromBrazil {
   static execute (agent) {
-    HelpMenu.helpMenu(agent)
+    AnythingElse.helpMenu(agent)
   }
 }

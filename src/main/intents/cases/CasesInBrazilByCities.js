@@ -1,14 +1,14 @@
 import { Text } from 'dialogflow-fulfillment-helper'
 
 import { APICasesBrazil } from '../../external/apis/APICasesBrazil'
-import { HelpMenu } from '../menu/HelpMenu'
+import { AnythingElse } from '../response/AnythingElse'
 
 export class CasesInBrazilByCities {
   static async execute (agent) {
     try {
       const apiCasesBrazil = new APICasesBrazil()
       agent.add(new Text(await apiCasesBrazil.getCasesByCities(agent)))
-      HelpMenu.helpMenu(agent)
+      AnythingElse.helpMenu(agent)
     } catch (error) {
       console.log(error)
     }
