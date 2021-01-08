@@ -1,0 +1,35 @@
+{
+  "id": "e40a0ae4-7e0a-426b-a742-910317d4fced",
+  "parentId": "5d5b963d-9042-4c7e-9ac6-8d171e79f360",
+  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "name": "fallback-cases-brazil-final",
+  "contexts": [
+    "cases-cases-brazil-fallback-fallback-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cases-cases-brazil.cases-cases-brazil-fallback.cases-cases-brazil-fallback-fallback.cases-cases-brazil-fallback-fallback-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

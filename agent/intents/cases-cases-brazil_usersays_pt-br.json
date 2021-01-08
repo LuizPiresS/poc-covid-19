@@ -59,46 +59,6 @@
     "updated": 0
   },
   {
-    "id": "7459053b-0277-4a26-9aec-2478e6672673",
-    "data": [
-      {
-        "text": "Casos ",
-        "userDefined": false
-      },
-      {
-        "text": "por",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " aqui",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "7fcd58c9-6cb1-4f3d-9921-4680b81501e5",
-    "data": [
-      {
-        "text": "Casos no nosso ",
-        "userDefined": false
-      },
-      {
-        "text": "país",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
     "id": "1839b263-e003-4873-a956-f3684914f88b",
     "data": [
       {
