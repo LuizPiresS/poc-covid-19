@@ -21,9 +21,14 @@ export class CasesInBrazil {
       }
 
       // Seleciona os dados no Brasil
-      if (agent.parameters.location.country) {
+      if (agent.parameters.location.country === 'Brasil') {
         const apiCasesBrazil = new APICasesBrazil()
         agent.add(new Text(await apiCasesBrazil.getCasesFromCountries(agent)))
+      } else {
+        agent.add(new Text('Desculpe, no momento eu consigo te\n ' +
+          'informar apenas sobre casos\n ' +
+          'de Coronavírus no Brasil. 😕'))
+        agent.add(new Text('Qual local você quer consultar? 🔎'))
       }
     } catch (error) {
       console.log(error)

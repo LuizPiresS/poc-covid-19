@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,14 +215,7 @@
       <workItem from="1610081701102" duration="1208000" />
       <workItem from="1610094056284" duration="20837000" />
       <workItem from="1610130941185" duration="3222000" />
-      <workItem from="1610134256462" duration="1681000" />
-    </task>
-    <task id="LOCAL-00015" summary="refactor: movido os arquivos para seus diretórios e remoção de comentários no código">
-      <created>1608026183617</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1608026183618</updated>
+      <workItem from="1610134256462" duration="2160000" />
     </task>
     <task id="LOCAL-00016" summary="feat: adicionado nova versao do agent">
       <created>1608026321353</created>
@@ -560,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610134088038</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="fix: concertado bug no fluxo do menu principal">
+      <created>1610136615732</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1610136615732</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="refactor: removendo os comentarios desnecessários" />
     <MESSAGE value="refactor: formatanto textos" />
     <MESSAGE value="fix: bugs do menu principal arrumados" />
@@ -616,7 +615,8 @@
     <MESSAGE value="feat: adicionado métodos para a manipulação das suggestions e responses" />
     <MESSAGE value="feat: adicionado contágio" />
     <MESSAGE value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
+    <MESSAGE value="fix: concertado bug no fluxo do menu principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: concertado bug no fluxo do menu principal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
