@@ -7,12 +7,8 @@
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/IncubationPeriod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/FallBackCasesFromBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/FallBackCasesFromBrazil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,11 +110,11 @@
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\response" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\external" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid\prevencao" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
@@ -220,14 +216,8 @@
       <workItem from="1609959112826" duration="14123000" />
       <workItem from="1610022239856" duration="11565000" />
       <workItem from="1610081701102" duration="1208000" />
-      <workItem from="1610094056284" duration="19757000" />
-    </task>
-    <task id="LOCAL-00012" summary="feat: adicionado nova versão agent">
-      <created>1607953810774</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1607953810774</updated>
+      <workItem from="1610094056284" duration="20837000" />
+      <workItem from="1610130941185" duration="2860000" />
     </task>
     <task id="LOCAL-00013" summary="refactor: removido as mensagens 'choose an item'">
       <created>1607996606012</created>
@@ -565,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610107055985</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
+      <created>1610129830981</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1610129830981</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +593,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: removendo comentarios desnecessarios" />
     <MESSAGE value="refactor: refatorando o menu principal para usar classes" />
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="refactor: removendo os comentarios desnecessários" />
@@ -621,7 +617,8 @@
     <MESSAGE value="feat: adicionado fluxo de confiabilidade" />
     <MESSAGE value="refactor: helpMenu renomeado para AnythingElse e movido de lugar" />
     <MESSAGE value="feat: adicionado métodos para a manipulação das suggestions e responses" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado métodos para a manipulação das suggestions e responses" />
+    <MESSAGE value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

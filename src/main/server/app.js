@@ -32,7 +32,7 @@ app
     intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
     intentMap.set('main-menu', MainMenu.execute)
     intentMap.set('cases-cases-brazil', CasesInBrazil.execute)
-    intentMap.set('cases-cases-brazil-fallback-fallback-fallback', FallBackCasesFromBrazil.execute)
+    intentMap.set('fallback-cases-brazil-final', FallBackCasesFromBrazil.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
     console.log(agent.originalRequest.payload.data.sender)

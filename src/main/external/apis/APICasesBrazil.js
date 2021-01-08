@@ -12,7 +12,7 @@ export class APICasesBrazil {
 
     const state = agent.parameters.states
 
-    return axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?state=${state}&place_type=state&&is_last=True`,
+    return axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?state=${state}&place_type=state&is_last=True`,
       {
         headers: {
           Authorization: `Token ${tokenAPICovid}`
