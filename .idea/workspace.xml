@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado contágio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/cases-cases-brazil-cities.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/cases-cases-brazil-cities.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/cases-cases-brazil.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/cases-cases-brazil.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/intents/cases-cases-brazil_usersays_pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/intents/cases-cases-brazil_usersays_pt-br.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/HelpMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/HelpMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/UtilsIntents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/UtilsIntents.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -111,6 +109,7 @@
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\response" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\external" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid" />
@@ -153,11 +152,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start:telegram" />
+        <item itemvalue="npm.start:production" />
         <item itemvalue="Node.js.DataAnalysis.js" />
-        <item itemvalue="npm.start:telegram" />
-        <item itemvalue="npm.start:production" />
-        <item itemvalue="npm.start:production" />
-        <item itemvalue="npm.start:telegram" />
       </list>
     </recent_temporary>
   </component>
@@ -216,21 +213,9 @@
       <workItem from="1609904679119" duration="23964000" />
       <workItem from="1609958597115" duration="476000" />
       <workItem from="1609959112826" duration="14123000" />
-      <workItem from="1610022239856" duration="10462000" />
-    </task>
-    <task id="LOCAL-00009" summary="feat: fix database connection">
-      <created>1607940804474</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1607940804474</updated>
-    </task>
-    <task id="LOCAL-00010" summary="fix: removendo depência">
-      <created>1607941065269</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1607941065269</updated>
+      <workItem from="1610022239856" duration="11565000" />
+      <workItem from="1610081701102" duration="1208000" />
+      <workItem from="1610094056284" duration="10114000" />
     </task>
     <task id="LOCAL-00011" summary="fix: adicionado menu-princial">
       <created>1607953180009</created>
@@ -561,7 +546,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610029322815</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat: adicionado fluxo de confiabilidade">
+      <created>1610051686424</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1610051686424</updated>
+    </task>
+    <task id="LOCAL-00059" summary="refactor: helpMenu renomeado para AnythingElse e movido de lugar">
+      <created>1610106863175</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1610106863176</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,9 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: refatorando intent de prevenção profissional para usar classe" />
-    <MESSAGE value="refactor: contagio refatorado para a utilização de classes" />
-    <MESSAGE value="refactor: removendo o diretorio covid" />
     <MESSAGE value="refactor: removendo comentarios desnecessarios" />
     <MESSAGE value="refactor: refatorando o menu principal para usar classes" />
     <MESSAGE value="feat: nova versão do agent" />
@@ -617,7 +613,10 @@
     <MESSAGE value="feat: integração parcial com o Messenger" />
     <MESSAGE value="feat: adicionado o fallback &quot;Casos no Brasil&quot;" />
     <MESSAGE value="feat: adicionado fallback no contagio" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fallback no contagio" />
+    <MESSAGE value="feat: adicionado fluxo de confiabilidade" />
+    <MESSAGE value="refactor: helpMenu renomeado para AnythingElse e movido de lugar" />
+    <MESSAGE value="feat: adicionado métodos para a manipulação das suggestions e responses" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado métodos para a manipulação das suggestions e responses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

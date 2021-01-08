@@ -1,3 +1,5 @@
+import { Suggestion, Text } from 'dialogflow-fulfillment-helper'
+
 import User from '../../../database/models/user'
 
 export class UtilsIntents {
@@ -52,5 +54,49 @@ export class UtilsIntents {
     } catch (error) {
       console.log(error)
     }
+  }
+
+  /**
+   *
+   * @param agent
+   * @param title
+   * @param suggestions
+   */
+  static setSuggestion (agent, title, suggestions) {
+    const platform = agent.source
+
+    if (platform != null) {
+      const currentSuggestions = new Suggestion({
+        title: title,
+        reply: suggestions[0],
+        platform: platform
+      })
+
+      for (let index = 1; index < suggestions.length; index++) {
+        currentSuggestions.addReply_(suggestions[index])
+      }
+
+      agent.add(currentSuggestions)
+    }
+  }
+
+  /**
+   *
+   * @param agent
+   * @param responses
+   */
+  static setResponse (agent, responses) {
+    const platform = agent.source
+
+    // eslint-disable-next-line array-callback-return
+    responses.map((response) => {
+      if (platform === 'ACTIONS_ON_GOOGLE') {
+        const ssmlText = new Text(response.text)
+        ssmlText.setSsml(response.ssml)
+        agent.add(ssmlText)
+      } else {
+        agent.add(response.text)
+      }
+    })
   }
 }
