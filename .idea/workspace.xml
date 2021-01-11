@@ -215,14 +215,8 @@
       <workItem from="1610081701102" duration="1208000" />
       <workItem from="1610094056284" duration="20837000" />
       <workItem from="1610130941185" duration="3222000" />
-      <workItem from="1610134256462" duration="2160000" />
-    </task>
-    <task id="LOCAL-00016" summary="feat: adicionado nova versao do agent">
-      <created>1608026321353</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1608026321353</updated>
+      <workItem from="1610134256462" duration="4521000" />
+      <workItem from="1610304647562" duration="6862000" />
     </task>
     <task id="LOCAL-00017" summary="chore: adiconado o diretorio dist">
       <created>1608035508439</created>
@@ -560,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610136615732</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="feat: adicionado o fluxo para perguntas de fora do brasil">
+      <created>1610137109027</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1610137109027</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: removendo os comentarios desnecessários" />
     <MESSAGE value="refactor: formatanto textos" />
     <MESSAGE value="fix: bugs do menu principal arrumados" />
     <MESSAGE value="feat: nova versão do client" />
@@ -616,7 +616,8 @@
     <MESSAGE value="feat: adicionado contágio" />
     <MESSAGE value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
     <MESSAGE value="fix: concertado bug no fluxo do menu principal" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: concertado bug no fluxo do menu principal" />
+    <MESSAGE value="feat: adicionado o fluxo para perguntas de fora do brasil" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado o fluxo para perguntas de fora do brasil" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

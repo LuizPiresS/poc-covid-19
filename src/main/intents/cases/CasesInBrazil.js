@@ -6,7 +6,6 @@ import { AnythingElse } from '../response/AnythingElse'
 export class CasesInBrazil {
   static async execute (agent) {
     try {
-      console.log(agent.parameters.location.city)
       // Seleciona os casos por estado
       if (agent.parameters.states) {
         const apiCasesBrazil = new APICasesBrazil()
@@ -24,11 +23,15 @@ export class CasesInBrazil {
       if (agent.parameters.location.country === 'Brasil') {
         const apiCasesBrazil = new APICasesBrazil()
         agent.add(new Text(await apiCasesBrazil.getCasesFromCountries(agent)))
-      } else {
-        agent.add(new Text('Desculpe, no momento eu consigo te\n ' +
-          'informar apenas sobre casos\n ' +
-          'de Coronavírus no Brasil. 😕'))
-        agent.add(new Text('Qual local você quer consultar? 🔎'))
+      }
+      if (agent.parameters.location.country) {
+        if (agent.parameters.location.city === '' && agent.parameters.location.country !== 'Brasil') {
+          console.log('------------' + agent.parameters.location.country)
+          agent.add(new Text('Desculpe, no momento eu consigo te\n ' +
+              'informar apenas sobre casos\n ' +
+              'de Coronavírus no Brasil. 😕'))
+          agent.add(new Text('Qual local você quer consultar? 🔎'))
+        }
       }
     } catch (error) {
       console.log(error)
