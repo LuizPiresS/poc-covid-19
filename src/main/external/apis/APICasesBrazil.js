@@ -1,5 +1,6 @@
 import axios from 'axios'
 import config from 'config'
+import { Text } from 'dialogflow-fulfillment-helper'
 
 export class APICasesBrazil {
   /**
@@ -55,6 +56,8 @@ Aqui estão os dados mais recentes para o estado ${state}:
    * @returns {Promise<string | void>}
    */
   async getCasesByCities (agent) {
+    console.log(agent.parameters.location)
+
     const tokenAPICovid = config.get('App.Auth.tokenAPICovid')
 
     const city = agent.parameters.location.city
@@ -93,10 +96,22 @@ Aqui estão os dados mais recentes para a cidade de ${city}:
       })
   }
 
+  /**
+   * Trás as informações sobre o número de casos no brasil
+   * @param agent
+   * @returns {Promise<string | void>}
+   */
   async getCasesFromCountries (agent) {
-    return axios.get('https://covid19-brazil-api.now.sh/api/report/v1/brazil')
-      .then(res => {
-        return `Aqui estão os dados mais recentes para o Brasil:
+    if (agent.parameters.location.city === '' && agent.parameters.location.country !== 'Brasil') {
+      agent.add(new Text('Desculpe, no momento eu consigo te\n ' +
+              'informar apenas sobre casos\n ' +
+              'de Coronavírus no Brasil. 😕'))
+      agent.add(new Text('Qual local você quer consultar? 🔎'))
+    }
+    if (agent.parameters.location.country === 'Brasil') {
+      return axios.get('https://covid19-brazil-api.now.sh/api/report/v1/brazil')
+        .then(res => {
+          return `Aqui estão os dados mais recentes para o Brasil:
 
 ⚠ Total de casos:
 
@@ -109,9 +124,10 @@ qualquer cidade ou estado no Brasil.
 
 Qual local você quer consultar? 🔎
 `
-      })
-      .catch(err => {
-        console.log(err)
-      })
+        })
+        .catch(err => {
+          console.log(err)
+        })
+    }
   }
 }

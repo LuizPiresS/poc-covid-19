@@ -13,7 +13,9 @@ import {
   IncubationPeriod,
   MainMenu,
   CasesInBrazil,
-  FallBackCasesFromBrazil
+  FallBackCasesFromBrazil,
+  CasesInBrazilByCities,
+  CasesInBrazilByStates
 } from '../intents'
 
 const app = express()
@@ -24,14 +26,20 @@ app
     const intentMap = new Map()
     intentMap.set('response-welcome', Welcome.execute)
     intentMap.set('response-farewell', Farewell.execute)
+
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
     intentMap.set('prevention-professional-prevention', ProfessionalPrevention.execute)
+
     intentMap.set('contagion-contagion', Contagion.execute)
     intentMap.set('contagion-contagion-forms', ContagionForms.execute)
     intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
+
     intentMap.set('main-menu', MainMenu.execute)
+
     intentMap.set('cases-cases-brazil', CasesInBrazil.execute)
+    intentMap.set('cases-brasil-states', CasesInBrazilByStates.execute)
+    intentMap.set('cases-brasil-cities', CasesInBrazilByCities.execute)
     intentMap.set('fallback-cases-brazil-final', FallBackCasesFromBrazil.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="fix: correção de bug de logica &quot;Casos no Brasil&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +22,6 @@
     <option name="groupingKeys">
       <option value="directory" />
     </option>
-  </component>
-  <component name="EditorConfigPreviewManager">
-    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/src/main/intents/saudacoes/saudacoes-mensagem-boas-vindas.js" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,14 +218,8 @@
       <workItem from="1610094056284" duration="20837000" />
       <workItem from="1610130941185" duration="3222000" />
       <workItem from="1610134256462" duration="4521000" />
-      <workItem from="1610304647562" duration="6862000" />
-    </task>
-    <task id="LOCAL-00017" summary="chore: adiconado o diretorio dist">
-      <created>1608035508439</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1608035508439</updated>
+      <workItem from="1610304647562" duration="30392000" />
+      <workItem from="1610450201342" duration="2908000" />
     </task>
     <task id="LOCAL-00018" summary="chore: adiconado regenerator-runtime">
       <created>1608035538511</created>
@@ -561,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610137109027</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="fix: correção de bug de logica &quot;Casos no Brasil&quot;">
+      <created>1610371031217</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1610371031218</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +595,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: formatanto textos" />
     <MESSAGE value="fix: bugs do menu principal arrumados" />
     <MESSAGE value="feat: nova versão do client" />
     <MESSAGE value="refactor: renomeado diretório de message para response" />
@@ -617,7 +619,8 @@
     <MESSAGE value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
     <MESSAGE value="fix: concertado bug no fluxo do menu principal" />
     <MESSAGE value="feat: adicionado o fluxo para perguntas de fora do brasil" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado o fluxo para perguntas de fora do brasil" />
+    <MESSAGE value="fix: correção de bug de logica &quot;Casos no Brasil&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: correção de bug de logica &quot;Casos no Brasil&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

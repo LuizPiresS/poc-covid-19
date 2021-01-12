@@ -2,10 +2,13 @@ import { Text, Suggestion } from 'dialogflow-fulfillment-helper'
 
 export class Prevention {
   static execute (agent) {
-    const mensagem = 'Eu sei ótimas dicas de prevenções básica e do profissional da saúde. Mas fique a vontade para me perguntar qualquer outra questão relacionada ao assunto prevenção. 🙂'
+    const mensagem = 'Eu sei ótimas dicas de prevenções' +
+      'básica e do profissional da saúde.🙂\n\n'
+
     agent.add(new Text(mensagem))
     agent.add(new Suggestion({
-      title: 'Qual a sua dúvida?',
+      title: 'Qual a sua dúvida?\n\n' +
+        '👇 Use um dos botões abaixo 👇 ',
       reply: 'Prevenção básica'
     }))
     agent.add(new Suggestion({
