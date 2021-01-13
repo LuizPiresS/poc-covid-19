@@ -7,10 +7,10 @@
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="fix: correção de bug de logica &quot;Casos no Brasil&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/AnythingElse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/AnythingElse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="refactor-change-to-class" />
+        <entry key="$PROJECT_DIR$" value="093013018cc8e36c0982dbb36e83f181db4610e1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,15 +109,18 @@
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\data" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\response" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\external" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\covid" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
     <configuration name="DataAnalysis.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/data-analysis/DataAnalysis.js" working-dir="$PROJECT_DIR$/src/main/data-analysis">
+      <method v="2" />
+    </configuration>
+    <configuration name="jsonParse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/utils/jsonParse.js" working-dir="$PROJECT_DIR$/src/main/utils">
       <method v="2" />
     </configuration>
     <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
@@ -154,6 +157,7 @@
       <list>
         <item itemvalue="npm.start:telegram" />
         <item itemvalue="npm.start:production" />
+        <item itemvalue="Node.js.jsonParse.js" />
         <item itemvalue="Node.js.DataAnalysis.js" />
       </list>
     </recent_temporary>
@@ -220,6 +224,7 @@
       <workItem from="1610134256462" duration="4521000" />
       <workItem from="1610304647562" duration="30392000" />
       <workItem from="1610450201342" duration="2908000" />
+      <workItem from="1610525788071" duration="2589000" />
     </task>
     <task id="LOCAL-00018" summary="chore: adiconado regenerator-runtime">
       <created>1608035538511</created>
@@ -595,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: bugs do menu principal arrumados" />
     <MESSAGE value="feat: nova versão do client" />
     <MESSAGE value="refactor: renomeado diretório de message para response" />
     <MESSAGE value="refactor: renomeado menu para show menu" />
@@ -620,7 +624,8 @@
     <MESSAGE value="fix: concertado bug no fluxo do menu principal" />
     <MESSAGE value="feat: adicionado o fluxo para perguntas de fora do brasil" />
     <MESSAGE value="fix: correção de bug de logica &quot;Casos no Brasil&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: correção de bug de logica &quot;Casos no Brasil&quot;" />
+    <MESSAGE value="feat: converte json de cidades para um csv no padrão das entities do dialogflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: converte json de cidades para um csv no padrão das entities do dialogflow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -55,12 +55,13 @@ Aqui estão os dados mais recentes para o estado ${state}:
    * @param agent
    * @returns {Promise<string | void>}
    */
+
   async getCasesByCities (agent) {
     console.log(agent.parameters.location)
 
     const tokenAPICovid = config.get('App.Auth.tokenAPICovid')
 
-    const city = agent.parameters.location.city
+    const city = agent.parameters.cities
     const state = agent.parameters.states
 
     return axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?city=${city}&place_type=city&state=${state}&is_last=True`,
@@ -70,11 +71,15 @@ Aqui estão os dados mais recentes para o estado ${state}:
         }
       })
       .then(res => {
-        if (res.data.count > 1) {
-          return `O Brasil possui mais de uma cidade com o nome de ${city}, por favor informe a cidade e o estado para que eu possa te ajudar\n\n 👉<nome da cidade> <nome do estado>👈`
+        if (res.data.count === 0) {
+          return 'Sinto muito! Por enquanto meu banco de dados\n' +
+            'ainda não possui estas informações detalhadas.\n' +
+            '\n' +
+            'Mas estou sempre aprendendo. Você pode\n' +
+            'tentar de novo no futuro.'
         }
-        if (res.data.results[0].last_available_confirmed === 0) {
-          return `A cidade de ${city} não possui pessoas infectadas pelo COVID-19`
+        if (res.data.count > 1) {
+          return `O Brasil possui mais de uma cidade com o nome de ${res.data.results[0].city}, por favor informe a cidade e o estado para que eu possa te ajudar\n\n 👉<nome da cidade> <nome do estado>👈`
         }
         return `
 Aqui estão os dados mais recentes para a cidade de ${city}:
@@ -102,13 +107,13 @@ Aqui estão os dados mais recentes para a cidade de ${city}:
    * @returns {Promise<string | void>}
    */
   async getCasesFromCountries (agent) {
-    if (agent.parameters.location.city === '' && agent.parameters.location.country !== 'Brasil') {
+    if (agent.parameters.country !== 'Brasil') {
       agent.add(new Text('Desculpe, no momento eu consigo te\n ' +
               'informar apenas sobre casos\n ' +
               'de Coronavírus no Brasil. 😕'))
       agent.add(new Text('Qual local você quer consultar? 🔎'))
     }
-    if (agent.parameters.location.country === 'Brasil') {
+    if (agent.parameters.country === 'Brasil') {
       return axios.get('https://covid19-brazil-api.now.sh/api/report/v1/brazil')
         .then(res => {
           return `Aqui estão os dados mais recentes para o Brasil:
