@@ -9,8 +9,8 @@ export class AnythingElse {
     }))
     console.log(agent.source)
     agent.add(new Suggestion({
-      title: 'Não,era só isso',
-      reply: 'Não,era só isso',
+      title: 'Não, era só isso',
+      reply: 'Não, era só isso',
       platform: agent.source
 
     }))

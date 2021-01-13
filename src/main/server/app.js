@@ -37,9 +37,9 @@ app
 
     intentMap.set('main-menu', MainMenu.execute)
 
-    intentMap.set('cases-cases-brazil', CasesInBrazil.execute)
-    intentMap.set('cases-brasil-states', CasesInBrazilByStates.execute)
-    intentMap.set('cases-brasil-cities', CasesInBrazilByCities.execute)
+    intentMap.set('cases-brazil', CasesInBrazil.execute)
+    intentMap.set('cases-brazil-states', CasesInBrazilByStates.execute)
+    intentMap.set('cases-brazil-cities', CasesInBrazilByCities.execute)
     intentMap.set('fallback-cases-brazil-final', FallBackCasesFromBrazil.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))

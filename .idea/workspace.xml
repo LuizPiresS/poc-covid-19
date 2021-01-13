@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="fix: correção de bug de logica &quot;Casos no Brasil&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: removendo console log desnecessario">
       <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/response/AnythingElse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/AnythingElse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" afterDir="false" />
@@ -224,21 +221,7 @@
       <workItem from="1610134256462" duration="4521000" />
       <workItem from="1610304647562" duration="30392000" />
       <workItem from="1610450201342" duration="2908000" />
-      <workItem from="1610525788071" duration="2589000" />
-    </task>
-    <task id="LOCAL-00018" summary="chore: adiconado regenerator-runtime">
-      <created>1608035538511</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1608035538511</updated>
-    </task>
-    <task id="LOCAL-00019" summary="fix: corrigido o espaçamento inicial do segundo e terceiro paragrafos da saudação">
-      <created>1608119647768</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1608119647768</updated>
+      <workItem from="1610525788071" duration="2953000" />
     </task>
     <task id="LOCAL-00020" summary="fix: corrigido bug do retorno do nome como undefined">
       <created>1608122160975</created>
@@ -569,7 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610371031218</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="feat: adicionado validação se a api esta retornando alguma cidade">
+      <created>1610531133342</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1610531133342</updated>
+    </task>
+    <task id="LOCAL-00068" summary="refactor: removendo console log desnecessario">
+      <created>1610531211953</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1610531211953</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,8 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: nova versão do client" />
-    <MESSAGE value="refactor: renomeado diretório de message para response" />
     <MESSAGE value="refactor: renomeado menu para show menu" />
     <MESSAGE value="feat: adicionado casos brasil" />
     <MESSAGE value="feat: integrando o casos brasil ao Telegram e formatando o texto" />
@@ -625,7 +620,9 @@
     <MESSAGE value="feat: adicionado o fluxo para perguntas de fora do brasil" />
     <MESSAGE value="fix: correção de bug de logica &quot;Casos no Brasil&quot;" />
     <MESSAGE value="feat: converte json de cidades para um csv no padrão das entities do dialogflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: converte json de cidades para um csv no padrão das entities do dialogflow" />
+    <MESSAGE value="feat: adicionado validação se a api esta retornando alguma cidade" />
+    <MESSAGE value="refactor: removendo console log desnecessario" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: removendo console log desnecessario" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
