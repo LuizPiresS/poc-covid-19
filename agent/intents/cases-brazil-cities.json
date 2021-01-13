@@ -1,0 +1,84 @@
+{
+  "id": "c1b6a416-3bf9-4b73-a031-863bcbffff83",
+  "name": "cases-brazil-cities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cases-cases-brazil-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "response-farewell",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "18fb4b4a-0d3d-4617-8823-14524c4e66f4",
+          "name": "states",
+          "required": false,
+          "dataType": "@states",
+          "value": "$states",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "944bcc86-3c52-4216-b316-aaca1da23a87",
+          "name": "contaminados",
+          "required": false,
+          "dataType": "@contaminados",
+          "value": "$contaminados",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e2f3641f-0fea-4a65-b281-28400aedae48",
+          "name": "cities",
+          "required": false,
+          "dataType": "@cities",
+          "value": "$cities",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

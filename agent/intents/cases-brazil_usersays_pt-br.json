@@ -1,0 +1,192 @@
+[
+  {
+    "id": "4a600a1d-6a63-4945-b5fd-c7067d98b6c3",
+    "data": [
+      {
+        "text": "Casos no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ccf184c1-23d0-47fa-8e7a-951d33c353ca",
+    "data": [
+      {
+        "text": "Casos",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0f524b4d-0442-48f1-b2b9-d64f07af742e",
+    "data": [
+      {
+        "text": "Casos ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "13e3c6ab-586a-4962-8ae1-4e1574a35ac8",
+    "data": [
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ceed962c-6143-4b8b-92f0-f3dbb36aeff5",
+    "data": [
+      {
+        "text": "Número de ",
+        "userDefined": false
+      },
+      {
+        "text": "casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": true
+      },
+      {
+        "text": " no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8478d661-1337-43ca-a83a-705aa8cfaf3d",
+    "data": [
+      {
+        "text": "Casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": true
+      },
+      {
+        "text": " aqui",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "727a65a9-1007-4eb6-8d0f-fd26628a6294",
+    "data": [
+      {
+        "text": "Casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasileiro",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "32087cd1-e650-4a6a-993c-48178fed3ea1",
+    "data": [
+      {
+        "text": "Casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": true
+      },
+      {
+        "text": " do ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3bb4281f-98b9-4358-b5f9-0faf82c3d33f",
+    "data": [
+      {
+        "text": "Casos",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

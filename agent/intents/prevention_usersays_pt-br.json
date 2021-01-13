@@ -1,5 +1,18 @@
 [
   {
+    "id": "85ae37d3-bb86-4e88-bcd8-ac0d0b3362f2",
+    "data": [
+      {
+        "text": "Prevenção",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "dbe77016-31dc-4a14-afbc-5f140282b339",
     "data": [
       {
@@ -113,19 +126,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "4190da75-1a62-4fb0-b9fb-fcb7f660cf24",
-    "data": [
-      {
-        "text": "Prevenção",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },

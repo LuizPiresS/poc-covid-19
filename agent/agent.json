@@ -32,7 +32,7 @@
   },
   "defaultTimezone": "America/Buenos_Aires",
   "webhook": {
-    "url": "https://51010a979d3e.ngrok.io",
+    "url": "https://457e6ff3f7c3.ngrok.io",
     "username": "",
     "headers": {},
     "available": true,
@@ -41,7 +41,7 @@
     "cloudFunctionsInitialized": false
   },
   "isPrivate": true,
-  "mlMinConfidence": 0.7,
+  "mlMinConfidence": 0.6,
   "supportedLanguages": [],
   "enableOnePlatformApi": true,
   "onePlatformApiVersion": "v2beta1",

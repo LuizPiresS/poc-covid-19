@@ -1,18 +1,18 @@
 {
-  "id": "7b5a185f-f15a-4594-8215-ed3da906649c",
-  "parentId": "f26b18b2-4d59-408a-8e50-2af164479c4b",
-  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "name": "cases-cases-brazil - fallback - fallback",
+  "id": "4120d0f8-de10-49c4-928f-ed5b2b049626",
+  "parentId": "d6c024b4-09b8-4942-869a-1b4ee4477e0c",
+  "rootParentId": "39407213-7f3a-435a-8739-6051a15c3424",
+  "name": "prevention-fallback - fallback",
   "contexts": [
-    "cases-cases-brazil-fallback-followup"
+    "prevention-fallback-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "cases-cases-brazil.cases-cases-brazil-fallback.cases-cases-brazil-fallback-fallback",
+      "action": "prevention.prevention-fallback.prevention-fallback-fallback",
       "affectedContexts": [
         {
-          "name": "cases-cases-brazil-fallback-fallback-followup",
+          "name": "prevention-fallback-fallback-followup",
           "lifespan": 2
         }
       ],
@@ -24,7 +24,7 @@
           "textToSpeech": "",
           "lang": "pt-br",
           "speech": [
-            "Ainda não consegui identificar o local selecionado.\n\nVocê pode consultar casos de qualquer cidade ou estado no Brasil. Qual gostaria de consultar? 🔎"
+            "Ainda não consegui identificar a\nsua dúvida.\n\nVocê pode me perguntar sobre\nprevenção, contágio, casos no \nBrasil ou realizar um\npré-diagnóstico, por exemplo. 😊\n\n\nMe conta, qual a sua dúvida?"
           ],
           "condition": ""
         }

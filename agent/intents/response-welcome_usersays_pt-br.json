@@ -1,5 +1,18 @@
 [
   {
+    "id": "6b0f4b40-557f-4a43-924d-3bb04a5f26a2",
+    "data": [
+      {
+        "text": "sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "11a7ad2f-6904-4f90-bcaf-cef1ef0d2267",
     "data": [
       {
@@ -230,19 +243,6 @@
     "data": [
       {
         "text": "Sim",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "3b9d23f3-323c-4e65-a28f-97509dbc701e",
-    "data": [
-      {
-        "text": "sim",
         "userDefined": false
       }
     ],

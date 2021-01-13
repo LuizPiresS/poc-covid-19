@@ -2,19 +2,12 @@
   "id": "f2091453-fa51-4639-a00c-1864f33f825e",
   "name": "response-farewell",
   "auto": true,
-  "contexts": [
-    "sair"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
-      "affectedContexts": [
-        {
-          "name": "sair",
-          "lifespan": 5
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {

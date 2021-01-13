@@ -1,15 +1,15 @@
 {
-  "id": "8b8f1f3e-1bf8-443b-92c5-5f3681cc6547",
-  "parentId": "645babde-a7a4-4fbe-8c40-a8aa1148b5bf",
-  "rootParentId": "05997fa7-c7ac-4f0e-b420-0224aa05aaee",
-  "name": "nlp-erro-entendimento - fallback - fallback - fallback",
+  "id": "20680288-7d0e-41aa-bf8f-9072fdf53a29",
+  "parentId": "4120d0f8-de10-49c4-928f-ed5b2b049626",
+  "rootParentId": "39407213-7f3a-435a-8739-6051a15c3424",
+  "name": "prevention-fallback - fallback - fallback",
   "contexts": [
-    "nlp-erro-entendimento-fallback-fallback-followup"
+    "prevention-fallback-fallback-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "nlp-erro-entendimento.nlp-erro-entendimento-fallback.nlp-erro-entendimento-fallback-fallback.nlp-erro-entendimento-fallback-fallback-fallback",
+      "action": "prevention.prevention-fallback.prevention-fallback-fallback.prevention-fallback-fallback-fallback",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -19,11 +19,15 @@
           "textToSpeech": "",
           "lang": "pt-br",
           "speech": [
-            "Desculpe, não consegui identificar a sua dúvida.\nVamos parar por aqui. 😓"
+            "Desculpe, não consegui identificar a \nsua dúvida. Vamos parar por aqui. 😓"
           ],
           "condition": ""
         }
       ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
       "speech": []
     }
   ],

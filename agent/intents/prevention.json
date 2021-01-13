@@ -15,6 +15,10 @@
         {
           "name": "prevencao-followup",
           "lifespan": 2
+        },
+        {
+          "name": "prevention-followup",
+          "lifespan": 2
         }
       ],
       "parameters": [],

@@ -1,5 +1,23 @@
 [
   {
+    "id": "4d996d9d-5d3a-41f6-8b89-73ac5e25510d",
+    "data": [
+      {
+        "text": "Como",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pega",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "b171a1ad-b7a6-4ee6-932b-9727a20b2567",
     "data": [
       {

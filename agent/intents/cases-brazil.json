@@ -1,6 +1,6 @@
 {
   "id": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "name": "cases-cases-brazil",
+  "name": "cases-brazil",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -11,15 +11,19 @@
         {
           "name": "cases-cases-brazil-followup",
           "lifespan": 5
+        },
+        {
+          "name": "response-farewell",
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "d3b3ecc9-3cdd-4afd-84e2-8b246b216308",
-          "name": "states",
+          "id": "9d10fadd-eb43-455f-943d-3a0884c0baa8",
+          "name": "contaminados",
           "required": false,
-          "dataType": "@states",
-          "value": "$states",
+          "dataType": "@contaminados",
+          "value": "$contaminados",
           "defaultValue": "",
           "isList": false,
           "prompts": [],
@@ -29,11 +33,11 @@
           "outputDialogContexts": []
         },
         {
-          "id": "5faadb8f-5756-4cab-8ad9-b1cccfc4180c",
-          "name": "location",
+          "id": "8c8d35b1-b34c-4849-870b-983a901c4245",
+          "name": "country",
           "required": false,
-          "dataType": "@sys.location",
-          "value": "$location",
+          "dataType": "@country",
+          "value": "$country",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

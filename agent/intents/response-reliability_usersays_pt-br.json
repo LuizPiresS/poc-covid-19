@@ -159,6 +159,20 @@
     "updated": 0
   },
   {
+    "id": "d72f897e-bacf-4595-b4ae-10388e6301f6",
+    "data": [
+      {
+        "text": "sério",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "004942ae-0d0e-4dd1-bc5d-133362b6c6f0",
     "data": [
       {

@@ -1,5 +1,18 @@
 [
   {
+    "id": "6cf57f44-766d-4082-8332-4e2aed77b27e",
+    "data": [
+      {
+        "text": "Contágio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "1b8cb4ce-d1c6-48a8-8918-04fe2a9f5ef3",
     "data": [
       {
@@ -35,19 +48,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "65804294-8a4f-4028-b37b-ef36359923b2",
-    "data": [
-      {
-        "text": "Contágio",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 4,
     "lang": "pt-br",
     "updated": 0
   },

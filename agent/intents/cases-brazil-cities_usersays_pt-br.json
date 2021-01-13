@@ -1,0 +1,136 @@
+[
+  {
+    "id": "58708160-ce6c-4700-85ab-a672b3584cf3",
+    "data": [
+      {
+        "text": "Pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a4e08eb1-1cec-4f57-8d73-2f248c4b2c6e",
+    "data": [
+      {
+        "text": "Caçador",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "494f9c2b-5f5c-4639-9377-da9d1b17edce",
+    "data": [
+      {
+        "text": "Doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": true
+      },
+      {
+        "text": " em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "bb5f545f-63fe-4964-83b0-e5b735340291",
+    "data": [
+      {
+        "text": "Número de ",
+        "userDefined": false
+      },
+      {
+        "text": "casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": true
+      },
+      {
+        "text": " em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "941794f6-a63c-440a-8c93-d7e31247c198",
+    "data": [
+      {
+        "text": "Casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": true
+      },
+      {
+        "text": " em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "08f3361c-c787-477d-bae0-10c8a3345a80",
+    "data": [
+      {
+        "text": "Pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "RS",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

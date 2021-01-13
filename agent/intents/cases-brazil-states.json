@@ -1,24 +1,29 @@
 {
-  "id": "e8a9912f-b061-4427-8775-ce10bb8791b4",
-  "parentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "name": "cases-cases-brazil-cities",
+  "id": "0ab375f9-d7e2-4a55-adfd-0d2e389ab7d1",
+  "name": "cases-brazil-states",
   "auto": true,
-  "contexts": [
-    "cases-cases-brazil-followup"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "cases-cases-brazil.cases-cases-brazil-custom",
-      "affectedContexts": [],
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cases-cases-brazil-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "response-farewell",
+          "lifespan": 1
+        }
+      ],
       "parameters": [
         {
-          "id": "f3a88e75-f274-41f9-bc13-6fd919ed3c84",
-          "name": "location",
+          "id": "fb2c55a9-b87f-41be-8fa4-800b59fe577e",
+          "name": "states",
           "required": false,
-          "dataType": "@sys.location",
-          "value": "$location",
+          "dataType": "@states",
+          "value": "$states",
           "defaultValue": "",
           "isList": false,
           "prompts": [],
@@ -28,11 +33,11 @@
           "outputDialogContexts": []
         },
         {
-          "id": "efc3b71e-3173-4ab3-9d19-bb084de025b9",
-          "name": "states",
+          "id": "06bc6b79-ef56-4984-80a9-75205fec4a3a",
+          "name": "contaminados",
           "required": false,
-          "dataType": "@states",
-          "value": "$states",
+          "dataType": "@contaminados",
+          "value": "$contaminados",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

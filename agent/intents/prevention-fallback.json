@@ -1,18 +1,20 @@
 {
-  "id": "f26b18b2-4d59-408a-8e50-2af164479c4b",
-  "parentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "name": "cases-cases-brazil - fallback",
+  "id": "d6c024b4-09b8-4942-869a-1b4ee4477e0c",
+  "parentId": "39407213-7f3a-435a-8739-6051a15c3424",
+  "rootParentId": "39407213-7f3a-435a-8739-6051a15c3424",
+  "name": "prevention-fallback",
   "contexts": [
-    "cases-cases-brazil-followup"
+    "prevencao",
+    "prevencao-followup",
+    "prevention-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "cases-cases-brazil.cases-cases-brazil-fallback",
+      "action": "prevention.prevention-fallback",
       "affectedContexts": [
         {
-          "name": "cases-cases-brazil-fallback-followup",
+          "name": "prevention-fallback-followup",
           "lifespan": 2
         }
       ],
@@ -24,7 +26,7 @@
           "textToSpeech": "",
           "lang": "pt-br",
           "speech": [
-            "Desculpe, não consegui identificar o local selecionado. 😕\n\n\nQual local você quer consultar? 🔎"
+            "Desculpe, algumas perguntas ainda \nnão consigo te responder. 😓\n\n\nMe diga, qual a sua dúvida relacionada\n ao Coronavírus?"
           ],
           "condition": ""
         }

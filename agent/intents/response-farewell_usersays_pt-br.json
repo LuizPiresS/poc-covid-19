@@ -1,5 +1,31 @@
 [
   {
+    "id": "233a2939-9750-48c0-9306-45740ec5627f",
+    "data": [
+      {
+        "text": "Não",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "26233520-a7a0-43bd-b103-e61fc079e073",
+    "data": [
+      {
+        "text": "Não, era só isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "98d692df-28f2-486a-9d60-6f58214fd3d8",
     "data": [
       {
@@ -39,45 +65,6 @@
     "updated": 0
   },
   {
-    "id": "ec414c58-0f9c-4611-aaa6-676de9d850f9",
-    "data": [
-      {
-        "text": "Não, era só isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "0475e56f-f21f-473e-9058-43d6e523aee4",
-    "data": [
-      {
-        "text": "não",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "43c674aa-6b4d-4c4b-8cbc-8524d538381c",
-    "data": [
-      {
-        "text": "Não,era só isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
     "id": "92b08cb5-d74d-441a-9c0b-b26a95358f9f",
     "data": [
       {
@@ -87,19 +74,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "9ad99b9c-9842-486c-9e64-bac7e0c049f0",
-    "data": [
-      {
-        "text": "Não",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
     "lang": "pt-br",
     "updated": 0
   },

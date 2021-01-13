@@ -1,5 +1,18 @@
 [
   {
+    "id": "d4694ecb-63e8-4232-9b2f-9c4f41646a5e",
+    "data": [
+      {
+        "text": "Prevenção básica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "6aa03152-727a-4d51-81c9-4d30c9eed99c",
     "data": [
       {
@@ -87,19 +100,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "5afab0c0-5fe8-4daf-9b01-f7cdb5a1e08c",
-    "data": [
-      {
-        "text": "Prevenção básica",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   }

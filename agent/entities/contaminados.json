@@ -1,0 +1,9 @@
+{
+  "id": "333ca303-39eb-43da-bb9b-b0c8759e1e1d",
+  "name": "contaminados",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
