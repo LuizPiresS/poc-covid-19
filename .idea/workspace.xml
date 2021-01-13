@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: removendo console log desnecessario">
-      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/Contagion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/AnythingElse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/AnythingElse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: novos argumentos para os métodos para desacoplar código">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compassouoldiveo-cognitiveservices.dialogflow.template-3ca72536e3af" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mocks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -103,14 +103,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\mocks" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\external\apis" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\data" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\response" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\external" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
@@ -221,28 +222,7 @@
       <workItem from="1610134256462" duration="4521000" />
       <workItem from="1610304647562" duration="30392000" />
       <workItem from="1610450201342" duration="2908000" />
-      <workItem from="1610525788071" duration="2953000" />
-    </task>
-    <task id="LOCAL-00020" summary="fix: corrigido bug do retorno do nome como undefined">
-      <created>1608122160975</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1608122160975</updated>
-    </task>
-    <task id="LOCAL-00021" summary="fix: adicionado novas frases de treinamento para solucionar alguns problemas de fluxo">
-      <created>1608122828939</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1608122828939</updated>
-    </task>
-    <task id="LOCAL-00022" summary="refactor: renomeado o nome da função de incubacao para periodoIncubacao">
-      <created>1608207456801</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1608207456801</updated>
+      <workItem from="1610525788071" duration="21023000" />
     </task>
     <task id="LOCAL-00023" summary="test: adicionado alguns contexts para testes">
       <created>1608210441048</created>
@@ -566,7 +546,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610531211953</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="fix: correção da formatação de textos e nomenclatura de metodos e intents">
+      <created>1610531444853</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1610531444853</updated>
+    </task>
+    <task id="LOCAL-00070" summary="chore: adicionado husky e lint-staged para execução dos testes antes dos commits e push">
+      <created>1610547536334</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1610547536334</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix: resolvido problema no ci">
+      <created>1610547806139</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1610547806139</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,12 +598,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: renomeado menu para show menu" />
-    <MESSAGE value="feat: adicionado casos brasil" />
-    <MESSAGE value="feat: integrando o casos brasil ao Telegram e formatando o texto" />
-    <MESSAGE value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper ao invés da dialogflow-fulfillment antiga" />
-    <MESSAGE value="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper" />
-    <MESSAGE value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos e para cidades sem casos de covid" />
     <MESSAGE value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos" />
     <MESSAGE value="feat: adicionado o menu de ajuda" />
     <MESSAGE value="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;" />
@@ -622,7 +617,13 @@
     <MESSAGE value="feat: converte json de cidades para um csv no padrão das entities do dialogflow" />
     <MESSAGE value="feat: adicionado validação se a api esta retornando alguma cidade" />
     <MESSAGE value="refactor: removendo console log desnecessario" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: removendo console log desnecessario" />
+    <MESSAGE value="fix: correção da formatação de textos e nomenclatura de metodos e intents" />
+    <MESSAGE value="chore: adicionado husky e lint-staged para execução dos testes automaticamente antes dos commits e push" />
+    <MESSAGE value="chore: adicionado husky e lint-staged para execução dos testes antes dos commits e push" />
+    <MESSAGE value="fix: resolvido problema no ci" />
+    <MESSAGE value="feat: nova versão do agent" />
+    <MESSAGE value="refactor: novos argumentos para os métodos para desacoplar código" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: novos argumentos para os métodos para desacoplar código" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

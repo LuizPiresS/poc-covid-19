@@ -7,7 +7,7 @@ export class CasesInBrazilByStates {
   static async execute (agent) {
     try {
       const apiCasesBrazil = new APICasesBrazil()
-      agent.add(new Text(await apiCasesBrazil.getCasesByStates(agent)))
+      agent.add(new Text(await apiCasesBrazil.getCasesByStates(agent.parameters.states)))
       AnythingElse.helpMenu(agent)
     } catch (error) {
       console.log(error)
