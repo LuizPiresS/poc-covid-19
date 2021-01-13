@@ -7,7 +7,6 @@ import { AnythingElse } from '../response/AnythingElse'
 export class CasesInBrazilByCities {
   static async execute (agent) {
     try {
-      console.log()
       const apiCasesBrazil = new APICasesBrazil()
       agent.add(new Text(await apiCasesBrazil.getCasesByCities(agent)))
       AnythingElse.helpMenu(agent)
