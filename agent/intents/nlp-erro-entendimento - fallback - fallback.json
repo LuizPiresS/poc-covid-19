@@ -13,7 +13,7 @@
       "affectedContexts": [
         {
           "name": "nlp-erro-entendimento-fallback-fallback-followup",
-          "lifespan": 2
+          "lifespan": 1
         }
       ],
       "parameters": [],

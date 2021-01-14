@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: novos argumentos para os métodos para desacoplar código">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -246,28 +246,7 @@
       <workItem from="1610304647562" duration="30392000" />
       <workItem from="1610450201342" duration="2908000" />
       <workItem from="1610525788071" duration="24435000" />
-      <workItem from="1610623272557" duration="3033000" />
-    </task>
-    <task id="LOCAL-00025" summary="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao">
-      <created>1608214074243</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1608214074243</updated>
-    </task>
-    <task id="LOCAL-00026" summary="refactor: renomeado as intents do agent">
-      <created>1608216279714</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1608216279714</updated>
-    </task>
-    <task id="LOCAL-00027" summary="refactor: refatorado para o uso de classes para aplicar os princípios SOLID">
-      <created>1609174379694</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1609174379694</updated>
+      <workItem from="1610623272557" duration="9239000" />
     </task>
     <task id="LOCAL-00028" summary="refactor: refatorado para o uso de classes para aplicar os princípios SOLID">
       <created>1609181413812</created>
@@ -591,7 +570,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610625408214</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="fix: bug fix nos scripts de test">
+      <created>1610626407085</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1610626407085</updated>
+    </task>
+    <task id="LOCAL-00075" summary="test: adicionado os mocks para os testes unitarios">
+      <created>1610626730523</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1610626730523</updated>
+    </task>
+    <task id="LOCAL-00076" summary="test: adicionado os mocks para os testes unitarios">
+      <created>1610626754921</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1610626754921</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,8 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adicionado o menu de ajuda" />
-    <MESSAGE value="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;" />
     <MESSAGE value="refactor: api movido para o diretorio external em src" />
     <MESSAGE value="feat: Integração parcial com o Messenger" />
     <MESSAGE value="feat: integração parcial com o Messenger" />
@@ -647,7 +645,9 @@
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="refactor: novos argumentos para os métodos para desacoplar código" />
     <MESSAGE value="fix: bug fix na mensagem do estado do RJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: bug fix na mensagem do estado do RJ" />
+    <MESSAGE value="fix: bug fix nos scripts de test" />
+    <MESSAGE value="test: adicionado os mocks para os testes unitarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: adicionado os mocks para os testes unitarios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

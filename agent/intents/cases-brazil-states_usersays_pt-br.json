@@ -1,5 +1,65 @@
 [
   {
+    "id": "309bcd7b-163c-4cb0-a72a-3f37b556af21",
+    "data": [
+      {
+        "text": "Rio grande do Sul",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ae5fd0dd-1cc3-4e52-b537-e1f1437503dc",
+    "data": [
+      {
+        "text": "Para",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9c565695-ba8c-49c7-ac46-93acad97235d",
+    "data": [
+      {
+        "text": "SP",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "61d1730e-10f5-4af5-ac73-3aaa1c5b5f70",
+    "data": [
+      {
+        "text": "RJ",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "43bbebf2-b728-468d-bedd-c802ab2bce11",
     "data": [
       {

@@ -15,7 +15,7 @@
       "affectedContexts": [
         {
           "name": "prevention-fallback-followup",
-          "lifespan": 2
+          "lifespan": 1
         }
       ],
       "parameters": [],
@@ -26,7 +26,7 @@
           "textToSpeech": "",
           "lang": "pt-br",
           "speech": [
-            "Desculpe, algumas perguntas ainda \nnão consigo te responder. 😓\n\n\nMe diga, qual a sua dúvida relacionada\n ao Coronavírus?"
+            "Desculpe, algumas perguntas ainda \nnão consigo te responder. 😓\n\nMe diga, qual a sua dúvida relacionada\n ao Coronavírus?"
           ],
           "condition": ""
         }

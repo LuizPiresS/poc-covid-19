@@ -1,6 +1,6 @@
 [
   {
-    "id": "58708160-ce6c-4700-85ab-a672b3584cf3",
+    "id": "97a337b8-a055-4634-adbe-fb6e94edbbe7",
     "data": [
       {
         "text": "Pelotas",
@@ -10,15 +10,55 @@
       }
     ],
     "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ec955370-c57f-44c5-88c2-9da90cda2cbc",
+    "data": [
+      {
+        "text": "Caçador",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "68c8f955-aa3d-4dd7-9fe4-0fea5bb191ba",
+    "data": [
+      {
+        "text": "Balneario Camboriu",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Santa Catarina",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
     "count": 0,
     "lang": "pt-br",
     "updated": 0
   },
   {
-    "id": "a4e08eb1-1cec-4f57-8d73-2f248c4b2c6e",
+    "id": "e88ffa27-b4e3-4b20-84d9-bd0e8e9e8462",
     "data": [
       {
-        "text": "Caçador",
+        "text": "Rio Grande",
         "meta": "@cities",
         "alias": "cities",
         "userDefined": false

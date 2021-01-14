@@ -1,5 +1,18 @@
 [
   {
+    "id": "6e3520bc-eaf3-43a4-97be-37cba14e9b51",
+    "data": [
+      {
+        "text": "Não, era só isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "233a2939-9750-48c0-9306-45740ec5627f",
     "data": [
       {
@@ -9,19 +22,6 @@
     ],
     "isTemplate": false,
     "count": 2,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "26233520-a7a0-43bd-b103-e61fc079e073",
-    "data": [
-      {
-        "text": "Não, era só isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },
