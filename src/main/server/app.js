@@ -2,6 +2,9 @@ import bodyParser from 'body-parser'
 import { WebhookClient } from 'dialogflow-fulfillment-helper'
 import express from 'express'
 
+// eslint-disable-next-line no-unused-vars
+import regeneratorRuntime from 'regenerator-runtime'
+
 import {
   Welcome,
   Farewell,
