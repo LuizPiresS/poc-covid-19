@@ -12,8 +12,8 @@
     "test": "jest --colors --noStackTrace",
     "test:unit": "npm run test -- --watch --passWithNoTests -c jest-unit-config.js",
     "test:integration": "npm run test -- --watch --runInBand -c jest-integration-config.js",
-    "test:staged": "npm run test -- --findRelatedTests --silent",
-    "test:ci": "npm run test -- --coverage --silent --passWithNoTests"
+    "test:staged": "npm run test -- --silent --passWithNoTests",
+    "test:ci": "npm run test -- --coverage --passWithNoTests"
   },
   "repository": {
     "type": "git",
