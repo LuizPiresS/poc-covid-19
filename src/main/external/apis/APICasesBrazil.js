@@ -5,8 +5,8 @@ import { Text } from 'dialogflow-fulfillment-helper'
 export class APICasesBrazil {
   /**
    * Pega as informações sobre o número de casos no brasil por estado
-   * @param agent
    * @returns {Promise<string | void>}
+   * @param state
    */
   async getCasesByStates (state) {
     const tokenAPICovid = config.get('App.Auth.tokenAPICovid')
@@ -22,7 +22,7 @@ export class APICasesBrazil {
         if (res.data.results[0].state === 'SP') {
           messageSPRJ = '👉 Para informações sobre a cidade de São Paulo busque por:\n ' +
             'São Paulo SP  👈'
-        } else if (res.data.results[0].state) {
+        } else if (res.data.results[0].state === 'RJ') {
           messageSPRJ = '👉 Para informações sobre a cidade do Rio de Janeiro busque por:\n ' +
             'Rio de Janeiro RJ  👈'
         } else {
