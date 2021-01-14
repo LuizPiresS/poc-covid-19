@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: novos argumentos para os métodos para desacoplar código">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,12 +113,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
-    <configuration name="DataAnalysis.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/data-analysis/DataAnalysis.js" working-dir="$PROJECT_DIR$/src/main/data-analysis">
-      <method v="2" />
-    </configuration>
-    <configuration name="jsonParse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/utils/jsonParse.js" working-dir="$PROJECT_DIR$/src/main/utils">
-      <method v="2" />
-    </configuration>
     <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -131,21 +123,51 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start:production" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start:production" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start:telegram" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test:ci" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start:telegram" />
+        <script value="test:ci" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:integration" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:integration" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:staged" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:staged" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:unit" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:unit" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -153,10 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start:telegram" />
-        <item itemvalue="npm.start:production" />
-        <item itemvalue="Node.js.jsonParse.js" />
-        <item itemvalue="Node.js.DataAnalysis.js" />
+        <item itemvalue="npm.test:staged" />
+        <item itemvalue="npm.test:unit" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.test:integration" />
+        <item itemvalue="npm.test:ci" />
       </list>
     </recent_temporary>
   </component>
@@ -222,21 +245,8 @@
       <workItem from="1610134256462" duration="4521000" />
       <workItem from="1610304647562" duration="30392000" />
       <workItem from="1610450201342" duration="2908000" />
-      <workItem from="1610525788071" duration="21023000" />
-    </task>
-    <task id="LOCAL-00023" summary="test: adicionado alguns contexts para testes">
-      <created>1608210441048</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1608210441049</updated>
-    </task>
-    <task id="LOCAL-00024" summary="test: adicionado alguns contexts para testes">
-      <created>1608210474741</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1608210474741</updated>
+      <workItem from="1610525788071" duration="24435000" />
+      <workItem from="1610623272557" duration="3033000" />
     </task>
     <task id="LOCAL-00025" summary="refactor: renomeado o arquivo periodo-incubaca para contagio-periodo-incubacao">
       <created>1608214074243</created>
@@ -567,7 +577,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610547806139</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="refactor: novos argumentos para os métodos para desacoplar código">
+      <created>1610566136751</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1610566136751</updated>
+    </task>
+    <task id="LOCAL-00073" summary="fix: bug fix na mensagem do estado do RJ">
+      <created>1610625408214</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1610625408214</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos" />
     <MESSAGE value="feat: adicionado o menu de ajuda" />
     <MESSAGE value="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;" />
     <MESSAGE value="refactor: api movido para o diretorio external em src" />
@@ -623,7 +646,8 @@
     <MESSAGE value="fix: resolvido problema no ci" />
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="refactor: novos argumentos para os métodos para desacoplar código" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: novos argumentos para os métodos para desacoplar código" />
+    <MESSAGE value="fix: bug fix na mensagem do estado do RJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: bug fix na mensagem do estado do RJ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

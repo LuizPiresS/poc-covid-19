@@ -1,0 +1,10 @@
+{
+    "data": {
+        "country": "Brazil",
+        "cases": 706002,
+        "confirmed": 8195637,
+        "deaths": 204690,
+        "recovered": 7284945,
+        "updated_at": "2021-01-13T16:22:25.000Z"
+    }
+}

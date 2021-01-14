@@ -1,0 +1,27 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "city": "Pelotas",
+            "city_ibge_code": 4314407,
+            "date": "2021-01-10",
+            "epidemiological_week": 2,
+            "estimated_population": 343132,
+            "estimated_population_2019": 342405,
+            "is_last": true,
+            "is_repeated": false,
+            "last_available_confirmed": 11381,
+            "last_available_confirmed_per_100k_inhabitants": 3316.79937,
+            "last_available_date": "2021-01-10",
+            "last_available_death_rate": 0.0247,
+            "last_available_deaths": 281,
+            "new_confirmed": 144,
+            "new_deaths": 1,
+            "order_for_place": 292,
+            "place_type": "city",
+            "state": "RS"
+        }
+    ]
+}

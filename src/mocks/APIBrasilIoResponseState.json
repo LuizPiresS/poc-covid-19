@@ -1,0 +1,27 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "city": null,
+            "city_ibge_code": 35,
+            "date": "2021-01-12",
+            "epidemiological_week": 2,
+            "estimated_population": 46289333,
+            "estimated_population_2019": 45919049,
+            "is_last": true,
+            "is_repeated": false,
+            "last_available_confirmed": 1561844,
+            "last_available_confirmed_per_100k_inhabitants": 3374.09053,
+            "last_available_date": "2021-01-12",
+            "last_available_death_rate": 0.0312,
+            "last_available_deaths": 48662,
+            "new_confirmed": 12702,
+            "new_deaths": 283,
+            "order_for_place": 323,
+            "place_type": "state",
+            "state": "SP"
+        }
+    ]
+}
