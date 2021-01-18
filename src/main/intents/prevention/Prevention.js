@@ -7,8 +7,7 @@ export class Prevention {
 
     agent.add(new Text(mensagem))
     agent.add(new Suggestion({
-      title: 'Qual a sua dúvida?\n\n' +
-        '👇 Use um dos botões abaixo 👇 ',
+      title: 'Qual a sua dúvida?\n\n',
       reply: 'Prevenção básica'
     }))
     agent.add(new Suggestion({

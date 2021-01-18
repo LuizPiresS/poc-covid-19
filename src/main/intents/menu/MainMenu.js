@@ -13,8 +13,7 @@ export class MainMenu {
     const response = [{
       text: 'Você pode tirar dúvidas comigo sobre prevenção, contágio, casos no Brasil\n' +
         '\n' +
-        'Sobre qual assunto você quer saber? \n\n' +
-        '👇 Você pode escolher o assunto por de um dos botões abaixo 👇 '
+        'Sobre qual assunto você quer saber? \n\n'
     }]
 
     if (!title) {
