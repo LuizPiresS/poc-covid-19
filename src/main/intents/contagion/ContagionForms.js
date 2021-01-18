@@ -20,8 +20,8 @@ export class ContagionForms {
       reply: 'sim'
     }))
     agent.add(new Suggestion({
-      title: 'Não ',
-      reply: 'Não'
+      title: 'Não',
+      reply: 'Não, era só isso'
     }))
   }
 }

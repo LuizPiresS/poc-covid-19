@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="fix: adicionado regeneratorRuntime">
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: separado os dados das mensagens e foram adiconados verificação de erros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/FallBackCasesFromBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/FallBackCasesFromBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/ContagionForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/ContagionForms.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,42 +252,7 @@
       <workItem from="1610709953541" duration="27000" />
       <workItem from="1610710011812" duration="4483000" />
       <workItem from="1610732646592" duration="4785000" />
-      <workItem from="1610962926253" duration="7416000" />
-    </task>
-    <task id="LOCAL-00031" summary="refactor: refatorando intent de prevenção profissional para usar classe">
-      <created>1609185704999</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1609185704999</updated>
-    </task>
-    <task id="LOCAL-00032" summary="refactor: contagio refatorado para a utilização de classes">
-      <created>1609244272358</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1609244272358</updated>
-    </task>
-    <task id="LOCAL-00033" summary="refactor: removendo o diretorio covid">
-      <created>1609244331065</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1609244331065</updated>
-    </task>
-    <task id="LOCAL-00034" summary="refactor: removendo comentarios desnecessarios">
-      <created>1609245036041</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1609245036041</updated>
-    </task>
-    <task id="LOCAL-00035" summary="refactor: removendo comentarios desnecessarios">
-      <created>1609245073205</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1609245073205</updated>
+      <workItem from="1610962926253" duration="21222000" />
     </task>
     <task id="LOCAL-00036" summary="refactor: refatorando o menu principal para usar classes">
       <created>1609245106158</created>
@@ -599,7 +562,42 @@
       <option name="project" value="LOCAL" />
       <updated>1610973633541</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="feat: adicionado validação de error de comunicação com a api">
+      <created>1610973761551</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1610973761551</updated>
+    </task>
+    <task id="LOCAL-00081" summary="refactor: movido o local das mensagens que serão mostradas para o usuario final">
+      <created>1610973823081</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1610973823081</updated>
+    </task>
+    <task id="LOCAL-00082" summary="fix: removido a mensagem para clicar nos botões">
+      <created>1610973903813</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1610973903813</updated>
+    </task>
+    <task id="LOCAL-00083" summary="fix: removido a mensagem duplicada de &quot;Posso ajudar&quot;">
+      <created>1610973955929</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1610973955930</updated>
+    </task>
+    <task id="LOCAL-00084" summary="feat: adicionado verificação de erro">
+      <created>1610981756982</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1610981756982</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,13 +628,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adicionado fluxo de confiabilidade" />
-    <MESSAGE value="refactor: helpMenu renomeado para AnythingElse e movido de lugar" />
-    <MESSAGE value="feat: adicionado métodos para a manipulação das suggestions e responses" />
-    <MESSAGE value="feat: adicionado contágio" />
-    <MESSAGE value="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;" />
-    <MESSAGE value="fix: concertado bug no fluxo do menu principal" />
-    <MESSAGE value="feat: adicionado o fluxo para perguntas de fora do brasil" />
     <MESSAGE value="fix: correção de bug de logica &quot;Casos no Brasil&quot;" />
     <MESSAGE value="feat: converte json de cidades para um csv no padrão das entities do dialogflow" />
     <MESSAGE value="feat: adicionado validação se a api esta retornando alguma cidade" />
@@ -651,11 +642,18 @@
     <MESSAGE value="fix: bug fix nos scripts de test" />
     <MESSAGE value="test: adicionado os mocks para os testes unitarios" />
     <MESSAGE value="feat: nova versão agent" />
-    <MESSAGE value="fix: adicionado regeneratorRuntime" />
     <MESSAGE value=" fiz: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value=" fix: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value="fix: resolvido problemas de espaçamento nos paragrafos" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: resolvido problemas de espaçamento nos paragrafos" />
+    <MESSAGE value="feat: adicionado validação de error de comunicação com a api" />
+    <MESSAGE value="refactor: movido o local das mensagens que serão mostradas para o usuario final" />
+    <MESSAGE value="fiz: removido a mensagem para clicar nos botões" />
+    <MESSAGE value="fix: removido a mensagem para clicar nos botões" />
+    <MESSAGE value="fix: removido a mensagem duplicada de &quot;Posso ajudar&quot;" />
+    <MESSAGE value="feat: adicionado verificação de erro" />
+    <MESSAGE value="fix: adicionado regeneratorRuntime" />
+    <MESSAGE value="refactor: separado os dados das mensagens e foram adiconados verificação de erros" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: separado os dados das mensagens e foram adiconados verificação de erros" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
