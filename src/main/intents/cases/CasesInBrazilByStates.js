@@ -8,10 +8,13 @@ export class CasesInBrazilByStates {
     try {
       const apiCasesBrazil = new APICasesBrazil()
       const stateData = await apiCasesBrazil.getCasesByStates(agent.parameters.states)
+
+      // Verifica se houve algum erro  com a comunicação com a api
       if (stateData.statusCode === 500) {
         agent.add(new Text('Desculpe, não estou conseguindo acessar o\n sistema no momento. Por favor, tente\n novamente mais tarde.'))
         AnythingElse.helpMenu(agent)
       }
+
       const results = stateData.results[0]
       const state = results.state
       let messageSPRJ
@@ -46,6 +49,8 @@ export class CasesInBrazilByStates {
       AnythingElse.helpMenu(agent)
     } catch (error) {
       console.log(error)
+      agent.add(new Text('Desculpe, não estou conseguindo acessar o\n sistema no momento. Por favor, tente\n novamente mais tarde.'))
+      AnythingElse.helpMenu(agent)
     }
   }
 }
