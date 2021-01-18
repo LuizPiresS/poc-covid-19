@@ -27,7 +27,7 @@ export class BasicPrevention {
     '😷 Quando precisar sair de sua residência, sempre utilize máscaras caseiras feitas de tecido.'
 
     agent.add(new Text(mensagem))
-    agent.add(new Text('Você também pode assistir o video\n informativo do Ministério da Saúde:\n \n https://www.youtube.com/watch?v=cvdskDhw-Ps \n\n Posso ajudar em algo mais?'))
+    agent.add(new Text('Você também pode assistir o video\n informativo do Ministério da Saúde:\n \n https://www.youtube.com/watch?v=cvdskDhw-Ps'))
 
     AnythingElse.helpMenu(agent)
   }

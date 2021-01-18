@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: novos argumentos para os métodos para desacoplar código">
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="fix: adicionado regeneratorRuntime">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/FallBackCasesFromBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/FallBackCasesFromBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/Prevention.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +100,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -123,21 +128,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start:production" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test" />
+        <script value="start:production" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test:ci" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test:ci" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -179,7 +184,6 @@
         <item itemvalue="npm.test:unit" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.test:integration" />
-        <item itemvalue="npm.test:ci" />
       </list>
     </recent_temporary>
   </component>
@@ -246,28 +250,11 @@
       <workItem from="1610304647562" duration="30392000" />
       <workItem from="1610450201342" duration="2908000" />
       <workItem from="1610525788071" duration="24435000" />
-      <workItem from="1610623272557" duration="9239000" />
-    </task>
-    <task id="LOCAL-00028" summary="refactor: refatorado para o uso de classes para aplicar os princípios SOLID">
-      <created>1609181413812</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1609181413812</updated>
-    </task>
-    <task id="LOCAL-00029" summary="feat: adicionado nova versão  agente">
-      <created>1609184440736</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1609184440736</updated>
-    </task>
-    <task id="LOCAL-00030" summary="refactor: refatorando intent de prevenção básica para usar classe">
-      <created>1609185259993</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1609185259993</updated>
+      <workItem from="1610623272557" duration="17495000" />
+      <workItem from="1610709953541" duration="27000" />
+      <workItem from="1610710011812" duration="4483000" />
+      <workItem from="1610732646592" duration="4785000" />
+      <workItem from="1610962926253" duration="7416000" />
     </task>
     <task id="LOCAL-00031" summary="refactor: refatorando intent de prevenção profissional para usar classe">
       <created>1609185704999</created>
@@ -591,7 +578,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610626754921</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="feat: nova versão agent">
+      <created>1610635546100</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1610635546100</updated>
+    </task>
+    <task id="LOCAL-00078" summary="fix: adicionado regeneratorRuntime">
+      <created>1610648386869</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1610648386870</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fix: resolvido problemas de espaçamento nos paragrafos">
+      <created>1610973633541</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1610973633541</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,11 +630,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: api movido para o diretorio external em src" />
-    <MESSAGE value="feat: Integração parcial com o Messenger" />
-    <MESSAGE value="feat: integração parcial com o Messenger" />
-    <MESSAGE value="feat: adicionado o fallback &quot;Casos no Brasil&quot;" />
-    <MESSAGE value="feat: adicionado fallback no contagio" />
     <MESSAGE value="feat: adicionado fluxo de confiabilidade" />
     <MESSAGE value="refactor: helpMenu renomeado para AnythingElse e movido de lugar" />
     <MESSAGE value="feat: adicionado métodos para a manipulação das suggestions e responses" />
@@ -647,7 +650,12 @@
     <MESSAGE value="fix: bug fix na mensagem do estado do RJ" />
     <MESSAGE value="fix: bug fix nos scripts de test" />
     <MESSAGE value="test: adicionado os mocks para os testes unitarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: adicionado os mocks para os testes unitarios" />
+    <MESSAGE value="feat: nova versão agent" />
+    <MESSAGE value="fix: adicionado regeneratorRuntime" />
+    <MESSAGE value=" fiz: resolvido problemas de espaçamento nos paragrafos" />
+    <MESSAGE value=" fix: resolvido problemas de espaçamento nos paragrafos" />
+    <MESSAGE value="fix: resolvido problemas de espaçamento nos paragrafos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: resolvido problemas de espaçamento nos paragrafos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
