@@ -11,40 +11,22 @@ export class APICasesBrazil {
   async getCasesByStates (state) {
     const tokenAPICovid = config.get('App.Auth.tokenAPICovid')
 
-    return axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?state=${state}&place_type=state&is_last=True`,
+    return await axios.get(`https://api.brasil.io/v1/dataset/covid19/caso_full/data/?state=${state}&place_type=state&is_last=True`,
       {
         headers: {
           Authorization: `Token ${tokenAPICovid}`
         }
       })
       .then(res => {
-        let messageSPRJ
-        if (res.data.results[0].state === 'SP') {
-          messageSPRJ = '👉 Para informações sobre a cidade de São Paulo busque por:\n ' +
-            'São Paulo SP  👈'
-        } else if (res.data.results[0].state === 'RJ') {
-          messageSPRJ = '👉 Para informações sobre a cidade do Rio de Janeiro busque por:\n ' +
-            'Rio de Janeiro RJ  👈'
-        } else {
-          messageSPRJ = ''
-        }
-        return `
-Aqui estão os dados mais recentes para o estado ${state}:
-
-⚠ Total de casos:
-
-- Confirmados: ${res.data.results[0].last_available_confirmed}
-- Mortes: ${res.data.results[0].last_available_deaths}
-
-⚠ Casos no dia de hoje:
-
-- Confirmados: ${res.data.results[0].new_confirmed}
-- Mortes: ${res.data.results[0].new_deaths}
-
- ${messageSPRJ}`
+        return res.data
       })
       .catch(err => {
         console.log(err)
+        if (err.response.status === 500 || err.response.status === 400) {
+          return {
+            statusCode: 500
+          }
+        }
       })
   }
 
@@ -73,7 +55,7 @@ Aqui estão os dados mais recentes para o estado ${state}:
             'tentar de novo no futuro.'
         }
         if (res.data.count > 1) {
-          return `O Brasil possui mais de uma cidade com o nome de ${res.data.results[0].city}, por favor informe a cidade e o estado para que eu possa te ajudar\n\n 👉<nome da cidade> <nome do estado>👈`
+          return `O Brasil possui mais de uma cidade com o nome de ${res.data.results[0].city}, por favor informe a cidade e o estado para que eu possa te ajudar\n\n 👉 <nome da cidade> <nome do estado> 👈`
         }
         return `
 Aqui estão os dados mais recentes para a cidade de ${city}:
