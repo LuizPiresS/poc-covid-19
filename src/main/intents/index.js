@@ -6,6 +6,8 @@ export * from './cases/CasesInBrazilByStates'
 export * from './cases/CasesInBrazilByCities'
 
 export * from './cases/FallBackCasesFromBrazil'
+export * from './cases/CasesBrazilFallbackInitial'
+export * from './cases/CasesBrazilFallbackMiddle'
 
 export * from './prevention/Prevention'
 export * from './prevention/BasicPrevention'

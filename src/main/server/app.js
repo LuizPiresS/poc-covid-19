@@ -19,6 +19,8 @@ import {
   FallBackCasesFromBrazil,
   CasesInBrazilByCities,
   CasesInBrazilByStates,
+  CasesBrazilFallbackInitial,
+  CasesBrazilFallbackMiddle,
   ContagionPreventionFallbackInitial,
   ContagionPreventionFallbackResponseMiddle,
   ContagionPreventionFallbackResponseFinal
@@ -43,13 +45,16 @@ app
 
     intentMap.set('contagion-prevention-fallback-initial', ContagionPreventionFallbackInitial.execute)
     intentMap.set('contagion-prevention-fallback-middle', ContagionPreventionFallbackResponseMiddle.execute)
-    intentMap.set('contagion-prevention-fallback-final', ContagionPreventionFallbackResponseFinal.execute)
+    intentMap.set('contagion-prevention-fallback-end', ContagionPreventionFallbackResponseFinal.execute)
 
     intentMap.set('main-menu', MainMenu.execute)
 
     intentMap.set('cases-brazil', CasesInBrazil.execute)
     intentMap.set('cases-brazil-states', CasesInBrazilByStates.execute)
     intentMap.set('cases-brazil-cities', CasesInBrazilByCities.execute)
+
+    intentMap.set('cases-brazil-fallback-initial', CasesBrazilFallbackInitial.execute)
+    intentMap.set('cases-brazil-fallback-middle', CasesBrazilFallbackMiddle.execute)
     intentMap.set('fallback-cases-brazil-final', FallBackCasesFromBrazil.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
