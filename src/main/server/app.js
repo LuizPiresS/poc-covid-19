@@ -23,10 +23,9 @@ import {
   CasesBrazilFallbackMiddle,
   ContagionPreventionFallbackInitial,
   ContagionPreventionFallbackResponseMiddle,
-  // ContagionPreventionFallbackResponseFinal
+  ContagionPreventionFallbackResponseFinal,
   NLPErroEntendimentoFallbackInitial,
-  NLPErroEntendimentoFallbackMiddle,
-  ContagionPreventionFallbackResponseFinal
+  NLPErroEntendimentoFallbackMiddle
 } from '../intents'
 
 const app = express()
@@ -52,7 +51,7 @@ app
 
     intentMap.set('contagion-prevention-fallback-initial', ContagionPreventionFallbackInitial.execute)
     intentMap.set('contagion-prevention-fallback-middle', ContagionPreventionFallbackResponseMiddle.execute)
-    // intentMap.set('contagion-prevention-fallback-final', ContagionPreventionFallbackResponseFinal.execute)
+    intentMap.set('contagion-prevention-fallback-fina', ContagionPreventionFallbackResponseFinal.execute)
 
     intentMap.set('main-menu', MainMenu.execute)
 
