@@ -1,0 +1,46 @@
+{
+  "id": "0d954253-4262-420c-831c-12a12ee11c37",
+  "parentId": "05997fa7-c7ac-4f0e-b420-0224aa05aaee",
+  "rootParentId": "05997fa7-c7ac-4f0e-b420-0224aa05aaee",
+  "name": "nlp-erro-entendimento-fallback-middle",
+  "contexts": [
+    "nlp-erro-entendimento-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "nlp-erro-entendimento.nlp-erro-entendimento-fallback",
+      "affectedContexts": [
+        {
+          "name": "nlp-erro-entendimento-fallback-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Ainda não consegui identificar a sua dúvida.\n\n\nVocê pode me perguntar sobre\nprevenção, contágio, casos no Brasil\nou realizar um\npré-diagnóstico, por exemplo. 😊"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
