@@ -22,8 +22,11 @@ import {
   CasesBrazilFallbackInitial,
   CasesBrazilFallbackMiddle,
   ContagionPreventionFallbackInitial,
-  ContagionPreventionFallbackResponseMiddle
+  ContagionPreventionFallbackResponseMiddle,
   // ContagionPreventionFallbackResponseFinal
+  NLPErroEntendimentoFallbackInitial,
+  NLPErroEntendimentoFallbackMiddle,
+  ContagionPreventionFallbackResponseFinal
 } from '../intents'
 
 const app = express()
@@ -34,6 +37,10 @@ app
     const intentMap = new Map()
     intentMap.set('response-welcome', Welcome.execute)
     intentMap.set('response-farewell', Farewell.execute)
+
+    intentMap.set('nlp-erro-entendimento-fallback-initial', NLPErroEntendimentoFallbackInitial.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-middle', NLPErroEntendimentoFallbackMiddle.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-final', ContagionPreventionFallbackResponseFinal.execute)
 
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)

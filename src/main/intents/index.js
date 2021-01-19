@@ -20,4 +20,8 @@ export * from './contagion/ContagionPreventionFallbackInitial'
 export * from './contagion/ContagionPreventionFallbackResponseMiddle'
 export * from './contagion/ContagionPreventionFallbackResponseFinal'
 
+export * from './fallbacks/nlp-generic/NLPErroEntendimentoFallbackInitial'
+export * from './fallbacks/nlp-generic/NLPErroEntendimentoFallbackMiddle'
+export * from './fallbacks/nlp-generic/NLPErroEntendimentoFallbackFinal'
+
 export * from './menu/MainMenu'

@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: separado os dados das mensagens e foram adiconados verificação de erros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/FallBackCasesFromBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazilFallbackFinal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
@@ -87,7 +84,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/cases" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/fallbacks/nlp-generic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -105,6 +102,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\fallbacks\nlp-generic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\contagion" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\mocks" />
@@ -256,14 +254,7 @@
       <workItem from="1610732646592" duration="4785000" />
       <workItem from="1610962926253" duration="27260000" />
       <workItem from="1611036458745" duration="3769000" />
-      <workItem from="1611042026520" duration="13176000" />
-    </task>
-    <task id="LOCAL-00039" summary="refactor: formatanto textos">
-      <created>1609247518525</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1609247518525</updated>
+      <workItem from="1611042026520" duration="18407000" />
     </task>
     <task id="LOCAL-00040" summary="fix: bugs do menu principal arrumados">
       <created>1609259941242</created>
@@ -601,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611064326741</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="refactor: adicionado nova versão do agent">
+      <created>1611068005758</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1611068005758</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +630,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: removendo console log desnecessario" />
     <MESSAGE value="fix: correção da formatação de textos e nomenclatura de metodos e intents" />
     <MESSAGE value="chore: adicionado husky e lint-staged para execução dos testes automaticamente antes dos commits e push" />
     <MESSAGE value="chore: adicionado husky e lint-staged para execução dos testes antes dos commits e push" />
@@ -657,7 +654,8 @@
     <MESSAGE value="refactor: Fallbacks implementados via fulfillment" />
     <MESSAGE value="refactor: fallbacks implementados via fulfillment" />
     <MESSAGE value="feat: adicionado os fallbacks de &quot;casos no brasil&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado os fallbacks de &quot;casos no brasil&quot;" />
+    <MESSAGE value="refactor: adicionado nova versão do agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: adicionado nova versão do agent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
