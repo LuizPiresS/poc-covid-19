@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: separado os dados das mensagens e foram adiconados verificação de erros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/external/apis/APICasesBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/ContagionForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/contagion/ContagionForms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mocks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/contagion" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -104,6 +102,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\contagion" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\mocks" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
     </key>
@@ -178,10 +177,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test:staged" />
         <item itemvalue="npm.test:unit" />
-        <item itemvalue="npm.test" />
+        <item itemvalue="npm.test:staged" />
         <item itemvalue="npm.test:integration" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -252,14 +251,9 @@
       <workItem from="1610709953541" duration="27000" />
       <workItem from="1610710011812" duration="4483000" />
       <workItem from="1610732646592" duration="4785000" />
-      <workItem from="1610962926253" duration="21222000" />
-    </task>
-    <task id="LOCAL-00036" summary="refactor: refatorando o menu principal para usar classes">
-      <created>1609245106158</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1609245106158</updated>
+      <workItem from="1610962926253" duration="27260000" />
+      <workItem from="1611036458745" duration="3769000" />
+      <workItem from="1611042026520" duration="3868000" />
     </task>
     <task id="LOCAL-00037" summary="feat: nova versão do agent">
       <created>1609245574413</created>
@@ -597,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610981756982</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="refactor: separado os dados das mensagens e foram adiconados verificação de erros">
+      <created>1610995645890</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1610995645890</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,9 +1,9 @@
+
 import bodyParser from 'body-parser'
 import { WebhookClient } from 'dialogflow-fulfillment-helper'
 import express from 'express'
-
 // eslint-disable-next-line no-unused-vars
-import regeneratorRuntime from 'regenerator-runtime'
+import regeneratorRuntime from 'regenerator-runtime' // necessario para a compilação do projeto
 
 import {
   Welcome,
@@ -18,7 +18,10 @@ import {
   CasesInBrazil,
   FallBackCasesFromBrazil,
   CasesInBrazilByCities,
-  CasesInBrazilByStates
+  CasesInBrazilByStates,
+  ContagionPreventionFallbackInitial,
+  ContagionPreventionFallbackResponseMiddle,
+  ContagionPreventionFallbackResponseFinal
 } from '../intents'
 
 const app = express()
@@ -34,9 +37,13 @@ app
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
     intentMap.set('prevention-professional-prevention', ProfessionalPrevention.execute)
 
-    intentMap.set('contagion-contagion', Contagion.execute)
-    intentMap.set('contagion-contagion-forms', ContagionForms.execute)
+    intentMap.set('contagion', Contagion.execute)
+    intentMap.set('contagion-forms', ContagionForms.execute)
     intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
+
+    intentMap.set('contagion-prevention-fallback-initial', ContagionPreventionFallbackInitial.execute)
+    intentMap.set('contagion-prevention-fallback-middle', ContagionPreventionFallbackResponseMiddle.execute)
+    intentMap.set('contagion-prevention-fallback-final', ContagionPreventionFallbackResponseFinal.execute)
 
     intentMap.set('main-menu', MainMenu.execute)
 
@@ -46,7 +53,6 @@ app
     intentMap.set('fallback-cases-brazil-final', FallBackCasesFromBrazil.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
-    console.log(agent.originalRequest.payload.data.sender)
   })
   .get('/', (req, res) => {
     res.json('Tu não deveria estar aqui, ou deveria?')
