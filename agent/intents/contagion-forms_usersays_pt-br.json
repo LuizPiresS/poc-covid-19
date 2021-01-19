@@ -1,5 +1,31 @@
 [
   {
+    "id": "c9c0deec-8f4c-4dc9-8456-835d98cdb1da",
+    "data": [
+      {
+        "text": "Pegar corona",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a598789f-536e-4454-9205-9a8d697ca71d",
+    "data": [
+      {
+        "text": "Como pego o vírus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "4d996d9d-5d3a-41f6-8b89-73ac5e25510d",
     "data": [
       {

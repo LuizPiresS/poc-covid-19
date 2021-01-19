@@ -1,9 +1,13 @@
 [
   {
-    "id": "309bcd7b-163c-4cb0-a72a-3f37b556af21",
+    "id": "cd10cbdb-2a7f-4460-9585-6f90ae8c7d33",
     "data": [
       {
-        "text": "Rio grande do Sul",
+        "text": "Casos no estado de ",
+        "userDefined": false
+      },
+      {
+        "text": "São Paulo",
         "meta": "@states",
         "alias": "states",
         "userDefined": false
@@ -15,13 +19,17 @@
     "updated": 0
   },
   {
-    "id": "ae5fd0dd-1cc3-4e52-b537-e1f1437503dc",
+    "id": "e4ea82f9-1b4b-4221-80fb-6a5074342cfa",
     "data": [
       {
-        "text": "Para",
+        "text": "Casos no estado do ",
+        "userDefined": false
+      },
+      {
+        "text": "rio de janeiro",
         "meta": "@states",
         "alias": "states",
-        "userDefined": false
+        "userDefined": true
       }
     ],
     "isTemplate": false,
@@ -30,50 +38,135 @@
     "updated": 0
   },
   {
-    "id": "9c565695-ba8c-49c7-ac46-93acad97235d",
+    "id": "c2c687dd-6825-4975-abb5-ca62277504b2",
     "data": [
       {
-        "text": "SP",
-        "meta": "@states",
-        "alias": "states",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "61d1730e-10f5-4af5-ac73-3aaa1c5b5f70",
-    "data": [
-      {
-        "text": "RJ",
-        "meta": "@states",
-        "alias": "states",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "43bbebf2-b728-468d-bedd-c802ab2bce11",
-    "data": [
-      {
-        "text": "Contaminados",
+        "text": "casos",
         "meta": "@contaminados",
         "alias": "contaminados",
-        "userDefined": true
+        "userDefined": false
+      },
+      {
+        "text": " na ",
+        "userDefined": false
+      },
+      {
+        "text": "bahia",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d5083a0a-d185-4a22-8d56-06fa0c108d49",
+    "data": [
+      {
+        "text": "os casos de ",
+        "userDefined": false
+      },
+      {
+        "text": "corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
       },
       {
         "text": " em ",
         "userDefined": false
       },
       {
-        "text": "SP",
+        "text": "pernambuco",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "84dceee6-2d6c-43f4-ab29-b3d1f41b505d",
+    "data": [
+      {
+        "text": "doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " em ",
+        "userDefined": false
+      },
+      {
+        "text": "Mato Grosso",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "181e17d9-a55c-47e5-ab3e-ac0558693ae7",
+    "data": [
+      {
+        "text": "Mortes ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o ",
+        "userDefined": false
+      },
+      {
+        "text": "Piauí",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "db1051d6-b236-4324-916c-cc83ce005d17",
+    "data": [
+      {
+        "text": "Casos no estado do ",
+        "userDefined": false
+      },
+      {
+        "text": "Paraná",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "309bcd7b-163c-4cb0-a72a-3f37b556af21",
+    "data": [
+      {
+        "text": "Rio grande do Sul",
         "meta": "@states",
         "alias": "states",
         "userDefined": false
@@ -178,21 +271,6 @@
       },
       {
         "text": "Rio Grande do Sul",
-        "meta": "@states",
-        "alias": "states",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "5069d1a9-42f0-492c-bc5d-aaeabf021613",
-    "data": [
-      {
-        "text": "São Paulo",
         "meta": "@states",
         "alias": "states",
         "userDefined": false

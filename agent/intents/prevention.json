@@ -9,16 +9,8 @@
       "action": "",
       "affectedContexts": [
         {
-          "name": "prevencao",
-          "lifespan": 5
-        },
-        {
-          "name": "prevencao-followup",
-          "lifespan": 2
-        },
-        {
-          "name": "prevention-followup",
-          "lifespan": 2
+          "name": "contagion-prevention-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],
@@ -28,9 +20,6 @@
           "title": "",
           "textToSpeech": "",
           "lang": "pt-br",
-          "speech": [
-            "Prevenção"
-          ],
           "condition": ""
         },
         {

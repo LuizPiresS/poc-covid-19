@@ -10,16 +10,20 @@
       "affectedContexts": [
         {
           "name": "cases-cases-brazil-followup",
-          "lifespan": 5
+          "lifespan": 1
         },
         {
           "name": "response-farewell",
-          "lifespan": 5
+          "lifespan": 1
+        },
+        {
+          "name": "cases-brazil",
+          "lifespan": 1
         }
       ],
       "parameters": [
         {
-          "id": "9d10fadd-eb43-455f-943d-3a0884c0baa8",
+          "id": "da710ff5-d018-4be4-86b7-dde528e8275c",
           "name": "contaminados",
           "required": false,
           "dataType": "@contaminados",
@@ -33,11 +37,25 @@
           "outputDialogContexts": []
         },
         {
-          "id": "8c8d35b1-b34c-4849-870b-983a901c4245",
+          "id": "b73b9142-e969-4055-89fe-95005ae58e0d",
           "name": "country",
           "required": false,
           "dataType": "@country",
           "value": "$country",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6653e1d3-4230-41b3-91c9-e911cff1f601",
+          "name": "states",
+          "required": false,
+          "dataType": "@states",
+          "value": "$states",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

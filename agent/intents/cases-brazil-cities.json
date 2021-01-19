@@ -2,7 +2,9 @@
   "id": "c1b6a416-3bf9-4b73-a031-863bcbffff83",
   "name": "cases-brazil-cities",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "cases-brazil"
+  ],
   "responses": [
     {
       "resetContexts": false,
@@ -10,16 +12,20 @@
       "affectedContexts": [
         {
           "name": "cases-cases-brazil-followup",
-          "lifespan": 5
+          "lifespan": 1
         },
         {
           "name": "response-farewell",
+          "lifespan": 1
+        },
+        {
+          "name": "cases-brazil",
           "lifespan": 1
         }
       ],
       "parameters": [
         {
-          "id": "18fb4b4a-0d3d-4617-8823-14524c4e66f4",
+          "id": "20ff6294-9baa-44b2-89ad-be0990d985ba",
           "name": "states",
           "required": false,
           "dataType": "@states",
@@ -33,7 +39,7 @@
           "outputDialogContexts": []
         },
         {
-          "id": "944bcc86-3c52-4216-b316-aaca1da23a87",
+          "id": "81abee22-c356-4d8a-a5cd-f9fa12a44b17",
           "name": "contaminados",
           "required": false,
           "dataType": "@contaminados",
@@ -47,7 +53,7 @@
           "outputDialogContexts": []
         },
         {
-          "id": "e2f3641f-0fea-4a65-b281-28400aedae48",
+          "id": "7837358d-b771-4209-8a90-34395a407cde",
           "name": "cities",
           "required": false,
           "dataType": "@cities",

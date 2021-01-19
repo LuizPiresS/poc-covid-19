@@ -1,15 +1,18 @@
 {
-  "id": "5daab705-028a-4c50-a8cc-6ae17b915e60",
-  "name": "prevention-basic-prevention",
-  "auto": true,
-  "contexts": [],
+  "id": "ffd985eb-11ab-4a71-9229-7a31f5b11cee",
+  "parentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
+  "name": "cases-brazil-fallback-initial",
+  "contexts": [
+    "cases-cases-brazil-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
+      "action": "cases-cases-brazil.cases-cases-brazil-fallback-initial",
       "affectedContexts": [
         {
-          "name": "contagion-prevention-followup",
+          "name": "cases-cases-brazil-fallback-followup",
           "lifespan": 1
         }
       ],
@@ -29,7 +32,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "fallbackIntent": false,
+  "fallbackIntent": true,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

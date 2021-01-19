@@ -2,7 +2,7 @@
   "id": "5d5b963d-9042-4c7e-9ac6-8d171e79f360",
   "parentId": "ffd985eb-11ab-4a71-9229-7a31f5b11cee",
   "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "name": "cases-cases-brazil-fallback-fallback",
+  "name": "cases-brazil-fallback-middle",
   "contexts": [
     "cases-cases-brazil-fallback-followup"
   ],
@@ -23,9 +23,6 @@
           "title": "",
           "textToSpeech": "",
           "lang": "pt-br",
-          "speech": [
-            "Ainda não consegui identificar o local selecionado. \n\nVocê pode consultar casos de qualquer cidade ou estado no Brasil. Qual gostaria de consultar? 🔎\n\nUm exemplo de pesquisa. \u003cCidade Estado\u003e Pelotas RS"
-          ],
           "condition": ""
         }
       ],
@@ -33,7 +30,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": true,
   "events": [],

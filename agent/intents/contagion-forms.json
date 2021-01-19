@@ -1,22 +1,16 @@
 {
   "id": "78c329fd-9e87-40e5-bf68-085373a893eb",
-  "name": "contagion-contagion-forms",
+  "name": "contagion-forms",
   "auto": true,
-  "contexts": [
-    "contagio"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
       "affectedContexts": [
         {
-          "name": "contagio",
-          "lifespan": 5
-        },
-        {
-          "name": "sair",
-          "lifespan": 5
+          "name": "contagion-prevention-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],

@@ -17,23 +17,11 @@
       "messages": [
         {
           "type": "0",
-          "platform": "telegram",
           "title": "",
           "textToSpeech": "",
           "lang": "pt-br",
           "speech": [
-            "Desculpe, algumas perguntas ainda\\n não consigo te responder. 😓",
-            "Me diga, qual a sua dúvida relacionada\\n ao Coronavírus?"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "pt-br",
-          "speech": [
-            "Desculpe, não consegui entender."
+            "Desculpe, algumas perguntas ainda não consigo te responder. 😓\n\nMe diga, qual a sua dúvida relacionada ao Coronavírus?"
           ],
           "condition": ""
         }

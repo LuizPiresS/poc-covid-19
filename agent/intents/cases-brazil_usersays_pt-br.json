@@ -1,5 +1,49 @@
 [
   {
+    "id": "44710387-9fac-41d1-8328-bbafca80e97c",
+    "data": [
+      {
+        "text": "Infectados no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "521a16ef-23d5-4410-87f4-bed4bf72376e",
+    "data": [
+      {
+        "text": "Casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": true
+      },
+      {
+        "text": " na ",
+        "userDefined": false
+      },
+      {
+        "text": "Bahia",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "9fd37c02-3df6-4015-a5b8-8c6da6123c67",
     "data": [
       {

@@ -1,7 +1,7 @@
 import { AnythingElse } from '../response/AnythingElse'
 import { UtilsIntents } from '../utils/UtilsIntents'
 
-export class FallBackCasesFromBrazil {
+export class CasesBrazilFallbackFinal {
   static execute (agent) {
     const response = [{
       text: 'Desculpe, sigo sem conseguir identificar\n ' +

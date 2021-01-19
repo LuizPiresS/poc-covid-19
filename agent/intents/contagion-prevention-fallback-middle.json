@@ -1,15 +1,18 @@
 {
-  "id": "5daab705-028a-4c50-a8cc-6ae17b915e60",
-  "name": "prevention-basic-prevention",
-  "auto": true,
-  "contexts": [],
+  "id": "5510cda0-db84-4b39-9b9d-df96f682dae9",
+  "parentId": "51d8e6d3-2c99-4cd3-b5ae-5277393ac737",
+  "rootParentId": "51d8e6d3-2c99-4cd3-b5ae-5277393ac737",
+  "name": "contagion-prevention-fallback-middle",
+  "contexts": [
+    "contagion-prevention-fallback-initial-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
+      "action": "contagion.contagion-prevention-fallback-initial.contagion-prevention-fallback-middle",
       "affectedContexts": [
         {
-          "name": "contagion-prevention-followup",
+          "name": "contagion-prevention-fallback-middle-followup",
           "lifespan": 1
         }
       ],
@@ -29,7 +32,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "fallbackIntent": false,
+  "fallbackIntent": true,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

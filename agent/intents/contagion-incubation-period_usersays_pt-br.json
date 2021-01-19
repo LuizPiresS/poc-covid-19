@@ -1,5 +1,75 @@
 [
   {
+    "id": "5040f6e5-bca9-4fe6-90c7-02db91b5a12b",
+    "data": [
+      {
+        "text": "Quanto tempo leva ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a doença se manifestar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5392aaa4-1d28-4107-aa2c-6b163da08001",
+    "data": [
+      {
+        "text": "Quanto tempo leva ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a doença aparecer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6ff5dc61-a97b-40a0-875d-dbf12861c32e",
+    "data": [
+      {
+        "text": "A incubação é de quanto tempo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0be53ed2-e283-4d2d-ad1a-009a16f5269a",
+    "data": [
+      {
+        "text": "O virus fica encubado por quanto tempo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "a2b98da4-59b3-4aeb-b5eb-cdd996f9be98",
     "data": [
       {

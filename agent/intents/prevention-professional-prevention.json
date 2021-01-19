@@ -2,26 +2,20 @@
   "id": "8c55d8a1-d755-4e41-a991-359eb6fc5a88",
   "name": "prevention-professional-prevention",
   "auto": true,
-  "contexts": [
-    "prevencao"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
       "affectedContexts": [
         {
-          "name": "sair",
-          "lifespan": 5
-        },
-        {
-          "name": "prevencao",
-          "lifespan": 5
+          "name": "contagion-prevention-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [
         {
-          "id": "51c07e1e-cedf-4928-a34f-e00ce866f9dc",
+          "id": "c5da5359-6986-4559-a23c-761d3b972043",
           "name": "profissionais-saude",
           "required": false,
           "dataType": "@profissionais-saude",

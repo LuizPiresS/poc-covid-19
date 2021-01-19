@@ -5,7 +5,7 @@ export * from './cases/CasesInBrazil'
 export * from './cases/CasesInBrazilByStates'
 export * from './cases/CasesInBrazilByCities'
 
-export * from './cases/FallBackCasesFromBrazil'
+export * from './cases/CasesBrazilFallbackFinal'
 export * from './cases/CasesBrazilFallbackInitial'
 export * from './cases/CasesBrazilFallbackMiddle'
 

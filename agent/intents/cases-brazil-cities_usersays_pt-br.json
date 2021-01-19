@@ -1,5 +1,112 @@
 [
   {
+    "id": "e3822b8c-e98f-4f08-bad4-56a7eb0415a1",
+    "data": [
+      {
+        "text": "Cidade do ",
+        "userDefined": false
+      },
+      {
+        "text": "Rio de Janeiro",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "00f210b5-dce2-4012-a328-99d1ae27756a",
+    "data": [
+      {
+        "text": "Casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " na cidade do ",
+        "userDefined": false
+      },
+      {
+        "text": "rio de janeiro",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7685a6a8-2613-459b-bf4e-ae402dddff89",
+    "data": [
+      {
+        "text": "Casos da cidade de ",
+        "userDefined": false
+      },
+      {
+        "text": "Caçador",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "67e1af12-6375-4354-8110-fcc9f093f8cd",
+    "data": [
+      {
+        "text": "Doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " na cidade de ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b70591fb-1e4f-4ffe-a14c-da96f1e56fc7",
+    "data": [
+      {
+        "text": "Casos na cidade de ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "97a337b8-a055-4634-adbe-fb6e94edbbe7",
     "data": [
       {

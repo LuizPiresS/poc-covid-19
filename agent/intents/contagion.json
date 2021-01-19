@@ -1,6 +1,6 @@
 {
   "id": "09a03718-5a4d-47aa-8fbc-f9f63b1b780c",
-  "name": "contagion-contagion",
+  "name": "contagion",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -9,12 +9,12 @@
       "action": "",
       "affectedContexts": [
         {
-          "name": "contagio",
+          "name": "contagion-followup",
           "lifespan": 1
         },
         {
-          "name": "contagion-contagion-followup",
-          "lifespan": 2
+          "name": "contagion-prevention-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],

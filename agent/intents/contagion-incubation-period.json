@@ -2,21 +2,15 @@
   "id": "bc3b0541-0724-45dc-8ea9-03400e7a7f7b",
   "name": "contagion-incubation-period",
   "auto": true,
-  "contexts": [
-    "contagio"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
       "affectedContexts": [
         {
-          "name": "contagio",
-          "lifespan": 5
-        },
-        {
-          "name": "sair",
-          "lifespan": 5
+          "name": "contagion-prevention-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],

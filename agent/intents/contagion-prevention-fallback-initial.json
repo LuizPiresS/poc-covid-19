@@ -1,18 +1,16 @@
 {
-  "id": "ffd985eb-11ab-4a71-9229-7a31f5b11cee",
-  "parentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "rootParentId": "12a572a4-f8d1-4b92-b258-dd400c661423",
-  "name": "cases-cases-brazil-fallback",
+  "id": "51d8e6d3-2c99-4cd3-b5ae-5277393ac737",
+  "name": "contagion-prevention-fallback-initial",
   "contexts": [
-    "cases-cases-brazil-followup"
+    "contagion-prevention-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "cases-cases-brazil.cases-cases-brazil-fallback",
+      "action": "contagion.contagion-prevention-fallback-initial",
       "affectedContexts": [
         {
-          "name": "cases-cases-brazil-fallback-followup",
+          "name": "contagion-prevention-fallback-initial-followup",
           "lifespan": 1
         }
       ],
@@ -23,9 +21,6 @@
           "title": "",
           "textToSpeech": "",
           "lang": "pt-br",
-          "speech": [
-            "Desculpe, não consegui identificar o local \nselecionado. 😕\n\nQual local você quer consultar? 🔎"
-          ],
           "condition": ""
         }
       ],
@@ -33,7 +28,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": true,
   "events": [],

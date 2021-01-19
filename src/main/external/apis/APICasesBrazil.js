@@ -60,7 +60,6 @@ export class APICasesBrazil {
 
   /**
    * Trás as informações sobre o número de casos no brasil
-   * @param agent
    * @returns {Promise<string | void>}
    */
   async getCasesFromCountries () {

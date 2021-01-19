@@ -42,7 +42,7 @@ export class CasesInBrazilByCities {
       }
       // TODO: O bot deve guardar a cidade que o usuario pesquisou e perguntar apenas o estado
       if (citiesData.count > 1) {
-        message = `O Brasil possui mais de uma cidade com o nome de ${results.city}, por favor informe a cidade e o estado para que eu possa te ajudar`
+        message = `O Brasil possui mais de uma cidade com o nome de ${results.city},\n por favor informe a cidade e o estado para que eu possa te ajudar`
       }
 
       agent.add(new Text(message))
