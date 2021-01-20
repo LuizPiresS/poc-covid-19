@@ -1,4 +1,4 @@
-import { UtilsIntents } from '../utils/UtilsIntents'
+import { UtilsIntents } from '../../utils/UtilsIntents'
 
 export class CasesBrazilFallbackMiddle {
   static execute (agent) {

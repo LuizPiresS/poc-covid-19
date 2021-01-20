@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: separado os dados das mensagens e foram adiconados verificação de erros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazilFallbackFinal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/cases-in-brazil/CasesBrazilFallbackFinal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazilFallbackInitial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/cases-in-brazil/CasesBrazilFallbackInitial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesBrazilFallbackMiddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/cases-in-brazil/CasesBrazilFallbackMiddle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/ContagionPreventionFallbackInitial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackInitial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/ContagionPreventionFallbackResponseFinal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackResponseFinal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/contagion/ContagionPreventionFallbackResponseMiddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackResponseMiddle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,14 +260,8 @@
       <workItem from="1610732646592" duration="4785000" />
       <workItem from="1610962926253" duration="27260000" />
       <workItem from="1611036458745" duration="3769000" />
-      <workItem from="1611042026520" duration="23968000" />
-    </task>
-    <task id="LOCAL-00042" summary="feat: nova versão do client">
-      <created>1609260090371</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1609260090371</updated>
+      <workItem from="1611042026520" duration="24765000" />
+      <workItem from="1611144393289" duration="739000" />
     </task>
     <task id="LOCAL-00043" summary="refactor: renomeado diretório de message para response">
       <created>1609359974251</created>
@@ -599,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611073469490</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="refactor: adicionado fallback nlp generico">
+      <created>1611083076486</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1611083076487</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

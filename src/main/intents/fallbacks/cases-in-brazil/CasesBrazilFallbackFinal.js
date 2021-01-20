@@ -1,5 +1,5 @@
-import { AnythingElse } from '../response/AnythingElse'
-import { UtilsIntents } from '../utils/UtilsIntents'
+import { AnythingElse } from '../../response/AnythingElse'
+import { UtilsIntents } from '../../utils/UtilsIntents'
 
 export class CasesBrazilFallbackFinal {
   static execute (agent) {
