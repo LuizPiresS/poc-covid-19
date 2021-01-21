@@ -1,5 +1,6 @@
 export * from './response/Welcome'
 export * from './response/Farewell'
+export * from './response/response-swearing-words'
 
 export * from './cases/CasesInBrazil'
 export * from './cases/CasesInBrazilByStates'

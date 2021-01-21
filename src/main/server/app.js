@@ -26,7 +26,8 @@ import {
   ContagionPreventionFallbackResponseFinal,
   NLPErroEntendimentoFallbackInitial,
   NLPErroEntendimentoFallbackMiddle,
-  NLPErroEntendimentoFallbackFinal
+  NLPErroEntendimentoFallbackFinal,
+  ResponseSwearingWords
 } from '../intents'
 
 const app = express()
@@ -37,6 +38,7 @@ app
     const intentMap = new Map()
     intentMap.set('response-welcome', Welcome.execute)
     intentMap.set('response-farewell', Farewell.execute)
+    intentMap.set('response-swearing-words', ResponseSwearingWords.execute)
 
     intentMap.set('nlp-erro-entendimento-fallback-initial', NLPErroEntendimentoFallbackInitial.execute)
     intentMap.set('nlp-erro-entendimento-fallback-middle', NLPErroEntendimentoFallbackMiddle.execute)
