@@ -25,7 +25,8 @@ import {
   ContagionPreventionFallbackResponseMiddle,
   ContagionPreventionFallbackResponseFinal,
   NLPErroEntendimentoFallbackInitial,
-  NLPErroEntendimentoFallbackMiddle
+  NLPErroEntendimentoFallbackMiddle,
+  NLPErroEntendimentoFallbackFinal
 } from '../intents'
 
 const app = express()
@@ -39,7 +40,7 @@ app
 
     intentMap.set('nlp-erro-entendimento-fallback-initial', NLPErroEntendimentoFallbackInitial.execute)
     intentMap.set('nlp-erro-entendimento-fallback-middle', NLPErroEntendimentoFallbackMiddle.execute)
-    intentMap.set('nlp-erro-entendimento-fallback-final', ContagionPreventionFallbackResponseFinal.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-final', NLPErroEntendimentoFallbackFinal.execute)
 
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
@@ -51,7 +52,7 @@ app
 
     intentMap.set('contagion-prevention-fallback-initial', ContagionPreventionFallbackInitial.execute)
     intentMap.set('contagion-prevention-fallback-middle', ContagionPreventionFallbackResponseMiddle.execute)
-    intentMap.set('contagion-prevention-fallback-fina', ContagionPreventionFallbackResponseFinal.execute)
+    intentMap.set('contagion-prevention-fallback-finall', ContagionPreventionFallbackResponseFinal.execute)
 
     intentMap.set('main-menu', MainMenu.execute)
 

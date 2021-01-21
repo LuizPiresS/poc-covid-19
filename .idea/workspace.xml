@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: criado diretorio exclusivo para os fallbacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackInitial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackInitial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackResponseFinal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackResponseFinal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackResponseMiddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/contagion-prevention/ContagionPreventionFallbackResponseMiddle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/fallbacks/nlp-generic/NLPErroEntendimentoFallbackFinal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/nlp-generic/NLPErroEntendimentoFallbackFinal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/fallbacks/nlp-generic/NLPErroEntendimentoFallbackInitial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/nlp-generic/NLPErroEntendimentoFallbackInitial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/fallbacks/nlp-generic/NLPErroEntendimentoFallbackMiddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/nlp-generic/NLPErroEntendimentoFallbackMiddle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +264,8 @@
       <workItem from="1611144393289" duration="4401000" />
       <workItem from="1611151501470" duration="593000" />
       <workItem from="1611216830949" duration="1263000" />
-      <workItem from="1611228532860" duration="615000" />
-    </task>
-    <task id="LOCAL-00044" summary="refactor: renomeado menu para show menu">
-      <created>1609772640168</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1609772640168</updated>
+      <workItem from="1611228532860" duration="2736000" />
+      <workItem from="1611231424759" duration="1176000" />
     </task>
     <task id="LOCAL-00045" summary="feat: adicionado casos brasil">
       <created>1609793192252</created>
@@ -605,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611145477610</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="fix: conserto na formatação dos textos">
+      <created>1611229291073</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1611229291073</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +641,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chore: adicionado husky e lint-staged para execução dos testes antes dos commits e push" />
     <MESSAGE value="fix: resolvido problema no ci" />
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="refactor: novos argumentos para os métodos para desacoplar código" />
@@ -661,7 +665,8 @@
     <MESSAGE value="refactor: adicionado nova versão do agent" />
     <MESSAGE value="refactor: adicionado fallback nlp generico" />
     <MESSAGE value="refactor: criado diretorio exclusivo para os fallbacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: criado diretorio exclusivo para os fallbacks" />
+    <MESSAGE value="fix: conserto na formatação dos textos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: conserto na formatação dos textos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,6 +675,12 @@
           <url>file://$PROJECT_DIR$/src/main/intents/respostas/xingamentos.js</url>
           <line>7</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/server/app.js</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
