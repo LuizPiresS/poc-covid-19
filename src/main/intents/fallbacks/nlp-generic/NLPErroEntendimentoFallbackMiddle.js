@@ -3,11 +3,7 @@ import { UtilsIntents } from '../../utils/UtilsIntents'
 export class NLPErroEntendimentoFallbackMiddle {
   static execute (agent) {
     const response = [{
-      text: 'Ainda não consegui identificar a sua dúvida.\n' +
-        '\n' +
-        '\n' +
-        'Você pode me perguntar sobre\n' +
-        'prevenção, contágio, casos no Brasil 😊'
+      text: 'Eu ainda não entendi o que você disse. Vamos tentar novamente...'
     }]
     UtilsIntents.setResponse(agent, response)
   }

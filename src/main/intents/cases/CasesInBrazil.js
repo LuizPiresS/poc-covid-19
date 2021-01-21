@@ -33,7 +33,7 @@ export class CasesInBrazil {
       }
     } catch (error) {
       console.log(error)
-      agent.add(new Text('Desculpe, não estou conseguindo acessar o\n sistema no momento. Por favor, tente\n novamente mais tarde.'))
+      agent.add(new Text('Desculpe, não estou conseguindo acessar o sistema no momento. Por favor, tente novamente mais tarde.'))
       AnythingElse.helpMenu(agent)
     }
   }

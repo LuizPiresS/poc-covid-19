@@ -12,7 +12,7 @@ export class CasesInBrazilByCities {
 
       // Verifica se houve algum erro  com a comunicação com a api
       if (citiesData.statusCode === 500) {
-        agent.add(new Text('Desculpe, não estou conseguindo acessar o\n sistema no momento. Por favor, tente\n novamente mais tarde.'))
+        agent.add(new Text('Desculpe, não estou conseguindo acessar o sistema no momento. Por favor, tente novamente mais tarde.'))
         AnythingElse.helpMenu(agent)
       }
 
@@ -34,11 +34,9 @@ export class CasesInBrazilByCities {
       `
 
       if (citiesData.count === 0) {
-        message = 'Sinto muito! Por enquanto meu banco de dados\n' +
-                  'ainda não possui estas informações detalhadas.\n' +
-                  '\n' +
-                  'Mas estou sempre aprendendo. Você pode\n' +
-                  'tentar de novo no futuro.'
+        message = 'Sinto muito! Por enquanto meu banco de dados ainda não possui estas informações detalhadas.\n' +
+          '\n' +
+          'Mas estou sempre aprendendo. Você pode tentar de novo no futuro.'
       }
       // TODO: O bot deve guardar a cidade que o usuario pesquisou e perguntar apenas o estado
       if (citiesData.count > 1) {
@@ -49,7 +47,7 @@ export class CasesInBrazilByCities {
       AnythingElse.helpMenu(agent)
     } catch (error) {
       console.log(error)
-      agent.add(new Text('Desculpe, não estou conseguindo acessar o\n sistema no momento. Por favor, tente\n novamente mais tarde.'))
+      agent.add(new Text('Desculpe, não estou conseguindo acessar o sistema no momento. Por favor, tente novamente mais tarde.'))
       AnythingElse.helpMenu(agent)
     }
   }
