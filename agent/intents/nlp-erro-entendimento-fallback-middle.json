@@ -12,8 +12,12 @@
       "action": "nlp-erro-entendimento.nlp-erro-entendimento-fallback",
       "affectedContexts": [
         {
-          "name": "nlp-erro-entendimento-fallback-followup",
+          "name": "nlp-erro-entendimento-fallback-fallback-followup",
           "lifespan": 1
+        },
+        {
+          "name": "nlp-erro-entendimento-fallback-middle-followup",
+          "lifespan": 2
         }
       ],
       "parameters": [],
@@ -23,9 +27,6 @@
           "title": "",
           "textToSpeech": "",
           "lang": "pt-br",
-          "speech": [
-            "Ainda não consegui identificar a sua dúvida.\n\n\nVocê pode me perguntar sobre\nprevenção, contágio, casos no Brasil\nou realizar um\npré-diagnóstico, por exemplo. 😊"
-          ],
           "condition": ""
         }
       ],

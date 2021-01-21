@@ -1,5 +1,34 @@
 [
   {
+    "id": "12219ca6-76cc-49c8-b04c-152c3d7190b9",
+    "data": [
+      {
+        "text": "mostra os ",
+        "userDefined": false
+      },
+      {
+        "text": "casos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " em ",
+        "userDefined": false
+      },
+      {
+        "text": "rio grande",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "e3822b8c-e98f-4f08-bad4-56a7eb0415a1",
     "data": [
       {
@@ -166,6 +195,79 @@
     "data": [
       {
         "text": "Rio Grande",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d0a5eef7-0593-448c-8062-d5012978e050",
+    "data": [
+      {
+        "text": "Quantidade de deontes em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "294a1664-ab1a-414b-a02e-cfdb9c4ee69b",
+    "data": [
+      {
+        "text": "Quantos ",
+        "userDefined": false
+      },
+      {
+        "text": "mortos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " tem em ",
+        "userDefined": false
+      },
+      {
+        "text": "pelotas",
+        "meta": "@cities",
+        "alias": "cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "84325988-3f95-4444-a821-277a0665fcab",
+    "data": [
+      {
+        "text": "Mortos",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " em ",
+        "userDefined": false
+      },
+      {
+        "text": "Pelotas",
         "meta": "@cities",
         "alias": "cities",
         "userDefined": false

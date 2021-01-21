@@ -1,5 +1,5 @@
 {
-  "id": "5510cda0-db84-4b39-9b9d-df96f682dae9",
+  "id": "83a3369c-9f61-48ed-84c9-c2b6da91fe8e",
   "parentId": "51d8e6d3-2c99-4cd3-b5ae-5277393ac737",
   "rootParentId": "51d8e6d3-2c99-4cd3-b5ae-5277393ac737",
   "name": "contagion-prevention-fallback-middle",
@@ -9,11 +9,15 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "contagion.contagion-prevention-fallback-initial.contagion-prevention-fallback-middle",
+      "action": "contagion-prevention-fallback-initial.contagion-prevention-fallback-initial-fallback",
       "affectedContexts": [
         {
-          "name": "contagion-prevention-fallback-middle-followup",
+          "name": "contagion-prevention-fallback-initial-fallback-followup",
           "lifespan": 1
+        },
+        {
+          "name": "contagion-prevention-fallback-middle-followup",
+          "lifespan": 2
         }
       ],
       "parameters": [],

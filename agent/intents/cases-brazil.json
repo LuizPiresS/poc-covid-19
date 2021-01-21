@@ -23,7 +23,7 @@
       ],
       "parameters": [
         {
-          "id": "da710ff5-d018-4be4-86b7-dde528e8275c",
+          "id": "17494dca-8da3-489c-9cac-e62beb1a3ef6",
           "name": "contaminados",
           "required": false,
           "dataType": "@contaminados",
@@ -37,25 +37,11 @@
           "outputDialogContexts": []
         },
         {
-          "id": "b73b9142-e969-4055-89fe-95005ae58e0d",
+          "id": "b0f78f1d-6f64-43d9-90fe-1f56b6629f7a",
           "name": "country",
           "required": false,
           "dataType": "@country",
           "value": "$country",
-          "defaultValue": "",
-          "isList": false,
-          "prompts": [],
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": []
-        },
-        {
-          "id": "6653e1d3-4230-41b3-91c9-e911cff1f601",
-          "name": "states",
-          "required": false,
-          "dataType": "@states",
-          "value": "$states",
           "defaultValue": "",
           "isList": false,
           "prompts": [],

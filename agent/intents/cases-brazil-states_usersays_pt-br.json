@@ -1,5 +1,92 @@
 [
   {
+    "id": "286302b8-ad16-4f33-b699-8f4e72c6d060",
+    "data": [
+      {
+        "text": "Existe ",
+        "userDefined": false
+      },
+      {
+        "text": "doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " em ",
+        "userDefined": false
+      },
+      {
+        "text": "São Paulo",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "dfb65682-a685-484c-b517-a0f988ca278d",
+    "data": [
+      {
+        "text": "Mostra quantos ",
+        "userDefined": false
+      },
+      {
+        "text": "doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " tem no ",
+        "userDefined": false
+      },
+      {
+        "text": "Rio Grande do Sul",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "44955be9-602e-4cde-89ef-859b038294a2",
+    "data": [
+      {
+        "text": "Quantidade de ",
+        "userDefined": false
+      },
+      {
+        "text": "doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " no ",
+        "userDefined": false
+      },
+      {
+        "text": "Rio Grande do Sul",
+        "meta": "@states",
+        "alias": "states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "cd10cbdb-2a7f-4460-9585-6f90ae8c7d33",
     "data": [
       {

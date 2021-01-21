@@ -1,9 +1,19 @@
 [
   {
-    "id": "44710387-9fac-41d1-8328-bbafca80e97c",
+    "id": "d374266f-ac7c-4c90-8bbb-ea9c51138246",
     "data": [
       {
-        "text": "Infectados no ",
+        "text": "Quantidade de ",
+        "userDefined": false
+      },
+      {
+        "text": "doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " no ",
         "userDefined": false
       },
       {
@@ -19,22 +29,146 @@
     "updated": 0
   },
   {
-    "id": "521a16ef-23d5-4410-87f4-bed4bf72376e",
+    "id": "6a24c222-22d0-4f6b-8923-f43aeeaebfdd",
     "data": [
       {
-        "text": "Casos",
-        "meta": "@contaminados",
-        "alias": "contaminados",
-        "userDefined": true
-      },
-      {
-        "text": " na ",
+        "text": "Mostra os ",
         "userDefined": false
       },
       {
-        "text": "Bahia",
-        "meta": "@states",
-        "alias": "states",
+        "text": "doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " do ",
+        "userDefined": false
+      },
+      {
+        "text": "brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "15a3e216-5bfb-45c1-aad8-755ff93b811c",
+    "data": [
+      {
+        "text": "Mostra os casos no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "688cbaba-6439-47f7-a48b-fa94b824038d",
+    "data": [
+      {
+        "text": "Doentes",
+        "meta": "@contaminados",
+        "alias": "contaminados",
+        "userDefined": false
+      },
+      {
+        "text": " no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4477b0ad-74d6-41c0-84ce-4b09426a1144",
+    "data": [
+      {
+        "text": "Pessoas mortas no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8d873e17-8437-499e-979c-08bc52711e03",
+    "data": [
+      {
+        "text": "Número de mortes no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e4e52980-7167-43ea-88dc-891d1e3522af",
+    "data": [
+      {
+        "text": "Contagiados no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "44710387-9fac-41d1-8328-bbafca80e97c",
+    "data": [
+      {
+        "text": "Infectados no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@country",
+        "alias": "country",
         "userDefined": false
       }
     ],
@@ -206,30 +340,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "3bb4281f-98b9-4358-b5f9-0faf82c3d33f",
-    "data": [
-      {
-        "text": "Casos",
-        "meta": "@sys.ignore",
-        "userDefined": true
-      },
-      {
-        "text": " no ",
-        "userDefined": false
-      },
-      {
-        "text": "Brasil",
-        "meta": "@country",
-        "alias": "country",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   }

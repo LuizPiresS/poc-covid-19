@@ -1,5 +1,66 @@
 [
   {
+    "id": "3ae70c59-d6c1-41b3-9648-7fca29004aec",
+    "data": [
+      {
+        "text": "como que o virus incuba",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c17ac0f9-7c4c-4dda-88e2-4a2b8aa40f0c",
+    "data": [
+      {
+        "text": "Depois de quanto tempo as pessoas ficam doentes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "55f0f15d-13ac-4bee-9dee-1fdb160293d0",
+    "data": [
+      {
+        "text": "Tempo ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a doença aparecer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8626c70b-1239-4ece-a411-c32a030c51ff",
+    "data": [
+      {
+        "text": "Quero saber como é a incubação do virus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "5040f6e5-bca9-4fe6-90c7-02db91b5a12b",
     "data": [
       {

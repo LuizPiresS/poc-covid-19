@@ -17,7 +17,7 @@ export class CasesInBrazilByCities {
       }
 
       const results = citiesData.results[0]
-      // console.log(citiesData)
+
       let message = `
       Aqui estão os dados mais recentes para a cidade de ${results.city}:
 
@@ -32,15 +32,18 @@ export class CasesInBrazilByCities {
       - Mortes: ${results.new_deaths}
 
       `
+      // TODO: Refatorar para fazer o tratamento das cidades com nomes iguais
+      if (citiesData.count > 1) {
+        console.log('mais de uma cidade', agent.parameters.states)
+        // const context = { name: 'cases-brazil', lifespan: 1, parameters: { city: `${results.city}` } }
+        // agent.setContext(context)
+        message = `O Brasil possui mais de uma cidade com o nome de ${results.city},\n por favor informe a cidade e o estado para que eu possa te ajudar`
+      }
 
       if (citiesData.count === 0) {
         message = 'Sinto muito! Por enquanto meu banco de dados ainda não possui estas informações detalhadas.\n' +
           '\n' +
           'Mas estou sempre aprendendo. Você pode tentar de novo no futuro.'
-      }
-      // TODO: O bot deve guardar a cidade que o usuario pesquisou e perguntar apenas o estado
-      if (citiesData.count > 1) {
-        message = `O Brasil possui mais de uma cidade com o nome de ${results.city},\n por favor informe a cidade e o estado para que eu possa te ajudar`
       }
 
       agent.add(new Text(message))
