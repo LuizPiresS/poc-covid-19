@@ -59,14 +59,16 @@
     "nodemon": "^2.0.6",
     "supertest": "^6.0.1"
   },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged",
-            "pre-push": "npm run test:ci"
-        }
-    },
-
-    "lint-staged": {
-        "*.js": ["npm run lint:fix", "npm run test:staged" ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test:ci"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:fix",
+      "npm run test:staged"
+    ]
+  }
 }
