@@ -24,10 +24,11 @@ import {
   ContagionPreventionFallbackInitial,
   ContagionPreventionFallbackResponseMiddle,
   ContagionPreventionFallbackResponseFinal,
-  NLPErroEntendimentoFallbackInitial,
-  NLPErroEntendimentoFallbackMiddle,
-  NLPErroEntendimentoFallbackFinal,
-  ResponseSwearingWords
+  NlpGenericFallbackInitial,
+  NlpGenericFallbackMiddle,
+  NlpGenericFallbackFinal,
+  ResponseSwearingWords,
+  Symptoms
 } from '../intents'
 
 const app = express()
@@ -40,9 +41,9 @@ app
     intentMap.set('response-farewell', Farewell.execute)
     intentMap.set('response-swearing-words', ResponseSwearingWords.execute)
 
-    intentMap.set('nlp-erro-entendimento-fallback-initial', NLPErroEntendimentoFallbackInitial.execute)
-    intentMap.set('nlp-erro-entendimento-fallback-middle', NLPErroEntendimentoFallbackMiddle.execute)
-    intentMap.set('nlp-erro-entendimento-fallback-final', NLPErroEntendimentoFallbackFinal.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-initial', NlpGenericFallbackInitial.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-middle', NlpGenericFallbackMiddle.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-final', NlpGenericFallbackFinal.execute)
 
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
@@ -65,6 +66,8 @@ app
     intentMap.set('cases-brazil-fallback-initial', CasesBrazilFallbackInitial.execute)
     intentMap.set('cases-brazil-fallback-middle', CasesBrazilFallbackMiddle.execute)
     intentMap.set('fallback-cases-brazil-final', CasesBrazilFallbackFinal.execute)
+
+    intentMap.set('symptoms', Symptoms.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })
