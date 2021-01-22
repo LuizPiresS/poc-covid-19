@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: criado diretorio exclusivo para os fallbacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/fallbacks/cases-in-brazil/CasesBrazilFallbackFinal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/cases-in-brazil/CasesBrazilFallbackFinal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/main-menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/AnythingElse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/anything-else.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/farewell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,11 +118,11 @@
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\mocks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\menu" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\fallbacks\contagion-prevention" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\fallbacks\cases-in-brazil" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\external\apis" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\data" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
@@ -260,21 +269,8 @@
       <workItem from="1611151501470" duration="593000" />
       <workItem from="1611216830949" duration="1263000" />
       <workItem from="1611228532860" duration="2736000" />
-      <workItem from="1611231424759" duration="7424000" />
-    </task>
-    <task id="LOCAL-00048" summary="refactor: modificado para utilizar a lib dialogflow-fulfillment-helper">
-      <created>1609907529941</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1609907529941</updated>
-    </task>
-    <task id="LOCAL-00049" summary="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos">
-      <created>1609955968446</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1609955968446</updated>
+      <workItem from="1611231424759" duration="8254000" />
+      <workItem from="1611246920571" duration="2990000" />
     </task>
     <task id="LOCAL-00050" summary="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos">
       <created>1609956775716</created>
@@ -605,7 +601,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611239277385</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="feat: adicionado tratamento de xingamentos">
+      <created>1611240254985</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1611240254985</updated>
+    </task>
+    <task id="LOCAL-00098" summary="feat: adicionado tratamento de xingamentos">
+      <created>1611240462580</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1611240462580</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +646,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: bug fix na mensagem do estado do RJ" />
     <MESSAGE value="fix: bug fix nos scripts de test" />
     <MESSAGE value="test: adicionado os mocks para os testes unitarios" />
     <MESSAGE value="feat: nova versão agent" />
@@ -661,7 +670,8 @@
     <MESSAGE value="fix: corrigido o nome do objeto em nlp-erro-entendimento-fallback-final" />
     <MESSAGE value="fix: corrigido paragrafos das mensagens para o usuario" />
     <MESSAGE value="feat: nova versão do agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão do agent" />
+    <MESSAGE value="feat: adicionado tratamento de xingamentos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado tratamento de xingamentos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

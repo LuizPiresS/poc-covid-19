@@ -1,5 +1,5 @@
-import { AnythingElse } from '../../response/AnythingElse'
-import { UtilsIntents } from '../../utils/UtilsIntents'
+import { AnythingElse } from '../../menu/anything-else'
+import { UtilsIntents } from '../../utils/utils-intents'
 
 export class CasesBrazilFallbackFinal {
   static execute (agent) {
@@ -8,6 +8,6 @@ export class CasesBrazilFallbackFinal {
         'o local que você informou. 😓 '
     }]
     UtilsIntents.setResponse(agent, response)
-    AnythingElse.helpMenu(agent)
+    AnythingElse.execute(agent)
   }
 }

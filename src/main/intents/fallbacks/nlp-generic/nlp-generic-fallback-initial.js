@@ -1,6 +1,6 @@
-import { UtilsIntents } from '../../utils/UtilsIntents'
+import { UtilsIntents } from '../../utils/utils-intents'
 
-export class NLPErroEntendimentoFallbackInitial {
+export class NlpGenericFallbackInitial {
   static execute (agent) {
     const response = [{
       text: 'Desculpe, não consegui entender.'

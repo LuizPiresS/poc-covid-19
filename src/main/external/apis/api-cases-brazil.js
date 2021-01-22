@@ -1,7 +1,7 @@
 import axios from 'axios'
 import config from 'config'
 
-export class APICasesBrazil {
+export class ApiCasesBrazil {
   /**
    * Pega as informações sobre o número de casos no brasil por estado
    * @returns {Promise<string | void>}

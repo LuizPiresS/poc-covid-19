@@ -1,12 +1,12 @@
 import { Text } from 'dialogflow-fulfillment-helper'
 
-import { APICasesBrazil } from '../../external/apis/APICasesBrazil'
-import { AnythingElse } from '../response/AnythingElse'
+import { ApiCasesBrazil } from '../../external/apis/api-cases-brazil'
+import { AnythingElse } from '../menu/anything-else'
 
 export class CasesInBrazil {
   static async execute (agent) {
     try {
-      const apiCasesBrazil = new APICasesBrazil()
+      const apiCasesBrazil = new ApiCasesBrazil()
       const countryData = await apiCasesBrazil.getCasesFromCountries()
       if (agent.parameters.country !== 'Brasil') {
         agent.add(new Text('Desculpe, no momento eu consigo te\n ' +
@@ -34,7 +34,7 @@ export class CasesInBrazil {
     } catch (error) {
       console.log(error)
       agent.add(new Text('Desculpe, não estou conseguindo acessar o sistema no momento. Por favor, tente novamente mais tarde.'))
-      AnythingElse.helpMenu(agent)
+      AnythingElse.execute(agent)
     }
   }
 }

@@ -1,18 +1,18 @@
 import { Text } from 'dialogflow-fulfillment-helper'
 
-import { APICasesBrazil } from '../../external/apis/APICasesBrazil'
-import { AnythingElse } from '../response/AnythingElse'
+import { ApiCasesBrazil } from '../../external/apis/api-cases-brazil'
+import { AnythingElse } from '../menu/anything-else'
 
 export class CasesInBrazilByStates {
   static async execute (agent) {
     try {
-      const apiCasesBrazil = new APICasesBrazil()
+      const apiCasesBrazil = new ApiCasesBrazil()
       const stateData = await apiCasesBrazil.getCasesByStates(agent.parameters.states)
 
       // Verifica se houve algum erro  com a comunicação com a api
       if (stateData.statusCode === 500) {
         agent.add(new Text('Desculpe, não estou conseguindo acessar o\n sistema no momento. Por favor, tente\n novamente mais tarde.'))
-        AnythingElse.helpMenu(agent)
+        AnythingElse.execute(agent)
       }
 
       const results = stateData.results[0]
@@ -42,15 +42,15 @@ export class CasesInBrazilByStates {
 
        ${messageSPRJ}`
 
-      // const apiCasesBrazil = new APICasesBrazil()
+      // const apiCasesBrazil = new ApiCasesBrazil()
 
       agent.add(new Text(message))
 
-      AnythingElse.helpMenu(agent)
+      AnythingElse.execute(agent)
     } catch (error) {
       console.log(error)
       agent.add(new Text('Desculpe, não estou conseguindo acessar o sistema no momento. Por favor, tente novamente mais tarde.'))
-      AnythingElse.helpMenu(agent)
+      AnythingElse.execute(agent)
     }
   }
 }

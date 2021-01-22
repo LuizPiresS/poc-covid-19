@@ -1,6 +1,6 @@
 import { Text } from 'dialogflow-fulfillment-helper'
 
-import { AnythingElse } from '../response/AnythingElse'
+import { AnythingElse } from '../menu/anything-else'
 
 export class BasicPrevention {
   /**
@@ -29,6 +29,6 @@ export class BasicPrevention {
     agent.add(new Text(mensagem))
     agent.add(new Text('Você também pode assistir o video\n informativo do Ministério da Saúde:\n \n https://www.youtube.com/watch?v=cvdskDhw-Ps'))
 
-    AnythingElse.helpMenu(agent)
+    AnythingElse.execute(agent)
   }
 }

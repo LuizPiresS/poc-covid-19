@@ -1,5 +1,5 @@
-import { MainMenu } from '../menu/MainMenu'
-import { UtilsIntents } from '../utils/UtilsIntents'
+import { MainMenu } from '../menu/main-menu'
+import { UtilsIntents } from '../utils/utils-intents'
 export class Welcome {
   /**
    * Exibe mensagem de boas-vindas
