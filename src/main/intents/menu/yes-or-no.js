@@ -1,18 +1,9 @@
-import { Suggestion } from 'dialogflow-fulfillment-helper'
+import { yesOrNo } from '../../responses'
+import { UtilsIntents } from '../utils/utils-intents'
 
 export class YesOrNo {
-  static execute (agent) {
-    agent.add(new Suggestion({
-      title: 'Posso ajudar em mais algo? 🙂',
-      reply: 'Sim',
-      platform: agent.source
-    }))
-    console.log(agent.source)
-    agent.add(new Suggestion({
-      title: 'Não, era só isso',
-      reply: 'Não, era só isso',
-      platform: agent.source
-
-    }))
+  static execute (agent, title) {
+    const titleSuggest = title || yesOrNo[0].title
+    UtilsIntents.setSuggestion(agent, titleSuggest, yesOrNo[0].suggestions)
   }
 }

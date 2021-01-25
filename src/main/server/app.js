@@ -28,7 +28,9 @@ import {
   NlpGenericFallbackMiddle,
   NlpGenericFallbackFinal,
   ResponseSwearingWords,
-  Symptoms
+  Symptoms,
+  DiagnosticBasic,
+  DiagnosticBasicYes
 } from '../intents'
 
 const app = express()
@@ -68,6 +70,8 @@ app
     intentMap.set('fallback-cases-brazil-final', CasesBrazilFallbackFinal.execute)
 
     intentMap.set('symptoms', Symptoms.execute)
+    intentMap.set('diagnostic-basic', DiagnosticBasic.execute)
+    intentMap.set('diagnostic-basic-yes', DiagnosticBasicYes.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })

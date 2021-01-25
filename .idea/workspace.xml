@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: criado diretorio exclusivo para os fallbacks">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByCities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/cases/CasesInBrazilByStates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/fallbacks/cases-in-brazil/CasesBrazilFallbackFinal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/fallbacks/cases-in-brazil/CasesBrazilFallbackFinal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/main-menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/prevention/BasicPrevention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/AnythingElse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/anything-else.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Farewell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/farewell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/response/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/yes-or-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/yes-or-no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/response-swearing-words.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/swearing-words/response-swearing-words.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/response/welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/welcome/welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/utils-intents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/utils-intents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +24,9 @@
     <option name="groupingKeys">
       <option value="directory" />
     </option>
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/src/main/intents/utils/utils-intents.js" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,7 +94,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/fallbacks/nlp-generic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/responses/symptoms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -112,17 +112,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-basic" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\fallbacks\nlp-generic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\contagion" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\mocks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-basic" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\menus" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\swearing-words" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\welcome" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\menu" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\fallbacks\contagion-prevention" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\fallbacks\cases-in-brazil" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\external\apis" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\data" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
@@ -271,20 +272,13 @@
       <workItem from="1611228532860" duration="2736000" />
       <workItem from="1611231424759" duration="8254000" />
       <workItem from="1611246920571" duration="2990000" />
-    </task>
-    <task id="LOCAL-00050" summary="feat: adicionado filtros para cidades homônimas, capitais e estados homônimos">
-      <created>1609956775716</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1609956775717</updated>
-    </task>
-    <task id="LOCAL-00051" summary="feat: adicionado o menu de ajuda">
-      <created>1609958351831</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1609958351831</updated>
+      <workItem from="1611313644594" duration="1185000" />
+      <workItem from="1611318235964" duration="1979000" />
+      <workItem from="1611337772056" duration="1587000" />
+      <workItem from="1611518515425" duration="4678000" />
+      <workItem from="1611570289692" duration="4416000" />
+      <workItem from="1611578543207" duration="7683000" />
+      <workItem from="1611590739390" duration="6453000" />
     </task>
     <task id="LOCAL-00052" summary="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;">
       <created>1609961053409</created>
@@ -615,7 +609,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611240462580</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="refactor: arquivos renomeados">
+      <created>1611314662034</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1611314662034</updated>
+    </task>
+    <task id="LOCAL-00100" summary="feat: adicionado sintomas">
+      <created>1611314777969</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1611314777969</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,8 +654,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: bug fix nos scripts de test" />
-    <MESSAGE value="test: adicionado os mocks para os testes unitarios" />
     <MESSAGE value="feat: nova versão agent" />
     <MESSAGE value=" fiz: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value=" fix: resolvido problemas de espaçamento nos paragrafos" />
@@ -671,7 +677,9 @@
     <MESSAGE value="fix: corrigido paragrafos das mensagens para o usuario" />
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="feat: adicionado tratamento de xingamentos" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado tratamento de xingamentos" />
+    <MESSAGE value="refactor: arquivos renomeados" />
+    <MESSAGE value="feat: adicionado sintomas" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado sintomas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -99,4 +99,8 @@ export class UtilsIntents {
       }
     })
   }
+
+  static findArray (response, title) {
+    return response.find(element => element[`${title}`])[`${title}`]
+  }
 }

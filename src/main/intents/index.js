@@ -1,6 +1,6 @@
-export * from './response/welcome'
+export * from './welcome/welcome'
 export * from './menu/farewell'
-export * from './response/response-swearing-words'
+export * from './swearing-words/response-swearing-words'
 
 export * from './cases/cases-in-brazil'
 export * from './cases/cases-in-brazil-by-states'
@@ -28,3 +28,5 @@ export * from './fallbacks/nlp-generic/nlp-generic-fallback-final'
 export * from './menu/main-menu'
 
 export * from './symptoms/symptoms'
+export * from './symptoms/diagnostic-basic/diagnostic-basic'
+export * from './symptoms/diagnostic-basic/diagnostic-basic-yes'
