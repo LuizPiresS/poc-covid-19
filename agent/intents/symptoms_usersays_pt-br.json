@@ -1,0 +1,174 @@
+[
+  {
+    "id": "63f2c1a7-9d74-4324-9969-da3f5907a76c",
+    "data": [
+      {
+        "text": "Como sei que estou infectado?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f857ce07-703e-402c-a305-892e4f6afca1",
+    "data": [
+      {
+        "text": "Tenho ",
+        "userDefined": false
+      },
+      {
+        "text": "febre",
+        "meta": "@symptoms",
+        "alias": "symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "posso estar com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4347acc1-fd95-4190-aa6c-0a91acc9a957",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8b3f4701-f59c-476a-b04c-317bdc4e9d77",
+    "data": [
+      {
+        "text": "Como saber se estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6eb12725-02c5-4ac4-85b5-0e73de337c86",
+    "data": [
+      {
+        "text": "Como saber se estou infectado?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "444aaeb8-d98f-4315-a390-ed51b6027cb9",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "febre",
+        "meta": "@symptoms",
+        "alias": "symptoms",
+        "userDefined": true
+      },
+      {
+        "text": ", posso estar infectado?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "44840f2d-d03c-4538-85e8-f9babbc6c97e",
+    "data": [
+      {
+        "text": "Posso",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "estar com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

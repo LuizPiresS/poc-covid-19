@@ -1,0 +1,56 @@
+{
+  "id": "66e689c4-2161-47bf-8d17-e68a84f9a962",
+  "name": "symptoms",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "symptoms-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "diagnostic-basic",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "35a1b44f-01c6-40c7-abd5-317cda22f957",
+          "name": "symptoms",
+          "required": false,
+          "dataType": "@symptoms",
+          "value": "$symptoms",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

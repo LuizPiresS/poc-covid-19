@@ -1,0 +1,42 @@
+{
+  "id": "7ff442b7-656b-4f60-b4a7-f9a145bd6438",
+  "parentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
+  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
+  "name": "diagnostic-basic",
+  "auto": true,
+  "contexts": [
+    "symptoms-followup",
+    "diagnostic-basic"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "symptoms.symptoms-custom",
+      "affectedContexts": [
+        {
+          "name": "diagnostic-basic-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

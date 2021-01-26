@@ -1,0 +1,90 @@
+[
+  {
+    "id": "78e051ca-78b8-46ae-83a0-95ce872d1531",
+    "data": [
+      {
+        "text": "Pertenço",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "75ba7039-f23d-42b7-9307-681d8226c3fe",
+    "data": [
+      {
+        "text": "Estou febril",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a0b7bfcf-e23f-4be2-921f-c78363d3fa76",
+    "data": [
+      {
+        "text": "Estive com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0c4277a8-df3b-4399-9117-a6da0004cbb0",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c62ef07a-ad9a-47c9-908e-539817a2713c",
+    "data": [
+      {
+        "text": "Tive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "fae940ae-d71c-45fb-bc9c-68c67aee3cae",
+    "data": [
+      {
+        "text": "Sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

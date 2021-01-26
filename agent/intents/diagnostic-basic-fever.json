@@ -1,0 +1,41 @@
+{
+  "id": "52510b5f-ecfe-4fcb-ad16-888e064b8bdb",
+  "parentId": "93b927a3-12fb-4ef7-bb1a-40bd653c8648",
+  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
+  "name": "diagnostic-basic-fever",
+  "auto": true,
+  "contexts": [
+    "diagnostic-basic-group-of-risk-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom",
+      "affectedContexts": [
+        {
+          "name": "diagnostic-basic-fever-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

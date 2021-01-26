@@ -1,0 +1,120 @@
+[
+  {
+    "id": "02657048-c953-4552-b2d8-3b080e692538",
+    "data": [
+      {
+        "text": "Topo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1e3eb5e0-85ec-47af-8d91-6c25e0cd9385",
+    "data": [
+      {
+        "text": "To",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " dentro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b4a78e45-7cf3-4200-81ac-abe6c70a31a9",
+    "data": [
+      {
+        "text": "Com certeza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "26b3eb45-d907-445e-90eb-7c4644ca310d",
+    "data": [
+      {
+        "text": "Quero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ad27ccc2-a612-4c4f-83fb-cb4fa9b2e8e6",
+    "data": [
+      {
+        "text": "Pode ser",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5d09c6ce-8453-437d-9c47-69b18166224a",
+    "data": [
+      {
+        "text": "Claro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " que sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7b295d5c-1602-4cc6-87fa-ed4429750726",
+    "data": [
+      {
+        "text": "Claro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b461c4cb-96b1-44e1-a89c-4f365c3a5399",
+    "data": [
+      {
+        "text": "Sim",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

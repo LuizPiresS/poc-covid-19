@@ -1,0 +1,41 @@
+{
+  "id": "93b927a3-12fb-4ef7-bb1a-40bd653c8648",
+  "parentId": "7ff442b7-656b-4f60-b4a7-f9a145bd6438",
+  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
+  "name": "diagnostic-basic-group-of-risk",
+  "auto": true,
+  "contexts": [
+    "diagnostic-basic-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "symptoms.symptoms-custom.diagnostic-basic-yes",
+      "affectedContexts": [
+        {
+          "name": "diagnostic-basic-group-of-risk-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

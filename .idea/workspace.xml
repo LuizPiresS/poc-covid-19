@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: criado diretorio exclusivo para os fallbacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic-fever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic-fever.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic-fever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/diagnostic-basic/response-diagnostic-basic-fever.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/diagnostic-basic/response-diagnostic-basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/response-symptoms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agent.json" beforeDir="false" afterPath="$PROJECT_DIR$/agent/agent.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,14 +269,7 @@
       <workItem from="1611570289692" duration="4416000" />
       <workItem from="1611578543207" duration="7683000" />
       <workItem from="1611590739390" duration="13118000" />
-      <workItem from="1611660634883" duration="17403000" />
-    </task>
-    <task id="LOCAL-00055" summary="feat: adicionado o fallback &quot;Casos no Brasil&quot;">
-      <created>1610004694403</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1610004694403</updated>
+      <workItem from="1611660634883" duration="18849000" />
     </task>
     <task id="LOCAL-00056" summary="feat: adicionado o fallback &quot;Casos no Brasil&quot;">
       <created>1610004744240</created>
@@ -622,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611661990279</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="feat: adiiconado diagnostic-mild-symptoms">
+      <created>1611690164108</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1611690164108</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +645,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value="feat: adicionado validação de error de comunicação com a api" />
     <MESSAGE value="refactor: movido o local das mensagens que serão mostradas para o usuario final" />
     <MESSAGE value="fiz: removido a mensagem para clicar nos botões" />
@@ -678,7 +669,8 @@
     <MESSAGE value="chore: edit editor config" />
     <MESSAGE value="feat: add feature basic diagnosticBasic" />
     <MESSAGE value="feat: adicionado diagnostic-basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado diagnostic-basic" />
+    <MESSAGE value="feat: adiiconado diagnostic-mild-symptoms" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adiiconado diagnostic-mild-symptoms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
