@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: criado diretorio exclusivo para os fallbacks">
-      <change afterPath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic-group-of-risk.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic-yes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic-fever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic-fever.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic-group-of-risk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic-fever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/diagnostic-basic/response-diagnostic-basic-fever.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/diagnostic-basic/response-diagnostic-basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/response-symptoms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/responses/symptoms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/symptoms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -109,18 +110,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\fallbacks\nlp-generic" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\menus" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\swearing-words" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\welcome" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\menu" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
@@ -276,14 +277,7 @@
       <workItem from="1611570289692" duration="4416000" />
       <workItem from="1611578543207" duration="7683000" />
       <workItem from="1611590739390" duration="13118000" />
-      <workItem from="1611660634883" duration="895000" />
-    </task>
-    <task id="LOCAL-00054" summary="feat: integração parcial com o Messenger">
-      <created>1609966161413</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1609966161413</updated>
+      <workItem from="1611660634883" duration="17403000" />
     </task>
     <task id="LOCAL-00055" summary="feat: adicionado o fallback &quot;Casos no Brasil&quot;">
       <created>1610004694403</created>
@@ -621,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611599805712</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="feat: adicionado diagnostic-basic">
+      <created>1611661990279</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1611661990279</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +653,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" fix: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value="fix: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value="feat: adicionado validação de error de comunicação com a api" />
     <MESSAGE value="refactor: movido o local das mensagens que serão mostradas para o usuario final" />
@@ -677,7 +677,8 @@
     <MESSAGE value="feat: adicionado sintomas" />
     <MESSAGE value="chore: edit editor config" />
     <MESSAGE value="feat: add feature basic diagnosticBasic" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add feature basic diagnosticBasic" />
+    <MESSAGE value="feat: adicionado diagnostic-basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado diagnostic-basic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

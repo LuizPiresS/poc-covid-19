@@ -31,7 +31,8 @@ import {
   Symptoms,
   DiagnosticBasic,
   DiagnosticBasicGroupOfRisk,
-  DiagnosticBasicFever
+  DiagnosticBasicFever,
+  DiagnosticMildSymptoms
 } from '../intents'
 
 const app = express()
@@ -74,6 +75,7 @@ app
     intentMap.set('diagnostic-basic', DiagnosticBasic.execute)
     intentMap.set('diagnostic-basic-group-of-risk', DiagnosticBasicGroupOfRisk.execute)
     intentMap.set('diagnostic-basic-fever', DiagnosticBasicFever.execute)
+    intentMap.set('diagnostic-mild-symptoms', DiagnosticMildSymptoms.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })
