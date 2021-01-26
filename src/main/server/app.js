@@ -30,7 +30,8 @@ import {
   ResponseSwearingWords,
   Symptoms,
   DiagnosticBasic,
-  DiagnosticBasicYes
+  DiagnosticBasicGroupOfRisk,
+  DiagnosticBasicFever
 } from '../intents'
 
 const app = express()
@@ -71,7 +72,8 @@ app
 
     intentMap.set('symptoms', Symptoms.execute)
     intentMap.set('diagnostic-basic', DiagnosticBasic.execute)
-    intentMap.set('diagnostic-basic-yes', DiagnosticBasicYes.execute)
+    intentMap.set('diagnostic-basic-group-of-risk', DiagnosticBasicGroupOfRisk.execute)
+    intentMap.set('diagnostic-basic-fever', DiagnosticBasicFever.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })

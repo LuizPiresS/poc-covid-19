@@ -1,4 +1,4 @@
-export const responseDiagnosticBasicYes = [
+export const responseDiagnosticBasicGroupOfRisk = [
   {
     text: '👴 Pessoas com mais de 60 anos; \n' +
       '🤰 Gestantes;\n' +

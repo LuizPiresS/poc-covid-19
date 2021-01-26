@@ -29,4 +29,5 @@ export * from './menu/main-menu'
 
 export * from './symptoms/symptoms'
 export * from './symptoms/diagnostic-basic/diagnostic-basic'
-export * from './symptoms/diagnostic-basic/diagnostic-basic-yes'
+export * from './symptoms/diagnostic-basic/diagnostic-basic-group-of-risk'
+export * from './symptoms/diagnostic-basic/diagnostic-basic-fever'

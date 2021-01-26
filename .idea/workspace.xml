@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: criado diretorio exclusivo para os fallbacks">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic-group-of-risk.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/yes-or-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/yes-or-no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/response-swearing-words.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/swearing-words/response-swearing-words.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/response/welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/welcome/welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/utils/utils-intents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/utils-intents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic-yes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/diagnostic-basic/diagnostic-basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic-group-of-risk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/response-diagnostic-basic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +70,6 @@
         </option>
       </RecentBranches>
     </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1lUXIB25wwrY5nHc5iAGrA37VD8" />
   <component name="ProjectLevelVcsManager">
@@ -278,21 +275,8 @@
       <workItem from="1611518515425" duration="4678000" />
       <workItem from="1611570289692" duration="4416000" />
       <workItem from="1611578543207" duration="7683000" />
-      <workItem from="1611590739390" duration="6453000" />
-    </task>
-    <task id="LOCAL-00052" summary="fix: fix bug no fluxo do sim do &quot;Posso ajudar em algo mais&quot;">
-      <created>1609961053409</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1609961053409</updated>
-    </task>
-    <task id="LOCAL-00053" summary="refactor: api movido para o diretorio external em src">
-      <created>1609962482279</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1609962482279</updated>
+      <workItem from="1611590739390" duration="13118000" />
+      <workItem from="1611660634883" duration="895000" />
     </task>
     <task id="LOCAL-00054" summary="feat: integração parcial com o Messenger">
       <created>1609966161413</created>
@@ -623,7 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611314777969</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="chore: edit editor config">
+      <created>1611599712794</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1611599712795</updated>
+    </task>
+    <task id="LOCAL-00102" summary="feat: add feature basic diagnosticBasic">
+      <created>1611599805712</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1611599805712</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,8 +652,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: nova versão agent" />
-    <MESSAGE value=" fiz: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value=" fix: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value="fix: resolvido problemas de espaçamento nos paragrafos" />
     <MESSAGE value="feat: adicionado validação de error de comunicação com a api" />
@@ -679,7 +675,9 @@
     <MESSAGE value="feat: adicionado tratamento de xingamentos" />
     <MESSAGE value="refactor: arquivos renomeados" />
     <MESSAGE value="feat: adicionado sintomas" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado sintomas" />
+    <MESSAGE value="chore: edit editor config" />
+    <MESSAGE value="feat: add feature basic diagnosticBasic" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add feature basic diagnosticBasic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
