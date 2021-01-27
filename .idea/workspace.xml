@@ -7,8 +7,9 @@
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: criado diretorio exclusivo para os fallbacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/menu/main-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/menu/main-menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/pre-diagnostic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/response-pre-diagnostic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +68,11 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
   <component name="ProjectId" id="1lUXIB25wwrY5nHc5iAGrA37VD8" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -77,6 +83,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
     <property name="HOTFIX_customHotfixCommitMessage_text" value="Tagging hotfix %name%" />
     <property name="RELEASE_customTagCommitMessage_text" value="Tagging version %name%" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -86,8 +93,8 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/dist/main/intents/covid/contagio/contagio.js&#10;C:/Users/luiz.pires/Development/poc-covid-19/node_modules/dialogflow-fulfillment/src/dialogflow-fulfillment.js" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/responses/symptoms/diagnostic-mild-symptoms" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/symptoms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -99,17 +106,17 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-mild-symptoms" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-basic" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms\diagnostic-basic" />
@@ -274,14 +281,11 @@
       <workItem from="1611590739390" duration="13118000" />
       <workItem from="1611660634883" duration="19518000" />
       <workItem from="1611748296138" duration="2236000" />
-      <workItem from="1611751690082" duration="3212000" />
-    </task>
-    <task id="LOCAL-00057" summary="feat: adicionado fallback no contagio">
-      <created>1610029322814</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1610029322815</updated>
+      <workItem from="1611751690082" duration="6294000" />
+      <workItem from="1611758541714" duration="4388000" />
+      <workItem from="1611767142203" duration="7866000" />
+      <workItem from="1611777565008" duration="51000" />
+      <workItem from="1611777977888" duration="1258000" />
     </task>
     <task id="LOCAL-00058" summary="feat: adicionado fluxo de confiabilidade">
       <created>1610051686424</created>
@@ -619,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611692811557</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="feat: adicionado diagnostic-mild-symptoms-three-or-more">
+      <created>1611755526693</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1611755526693</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +661,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: movido o local das mensagens que serão mostradas para o usuario final" />
     <MESSAGE value="fiz: removido a mensagem para clicar nos botões" />
     <MESSAGE value="fix: removido a mensagem para clicar nos botões" />
     <MESSAGE value="fix: removido a mensagem duplicada de &quot;Posso ajudar&quot;" />
@@ -675,7 +685,8 @@
     <MESSAGE value="feat: adicionado diagnostic-basic" />
     <MESSAGE value="feat: adiiconado diagnostic-mild-symptoms" />
     <MESSAGE value="feat: nova versão agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão agent" />
+    <MESSAGE value="feat: adicionado diagnostic-mild-symptoms-three-or-more" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado diagnostic-mild-symptoms-three-or-more" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

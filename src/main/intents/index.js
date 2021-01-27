@@ -27,9 +27,13 @@ export * from './fallbacks/nlp-generic/nlp-generic-fallback-final'
 
 export * from './menu/main-menu'
 
-export * from './symptoms/symptoms'
-export * from './symptoms/diagnostic-basic/diagnostic-basic'
-export * from './symptoms/diagnostic-basic/diagnostic-basic-group-of-risk'
-export * from './symptoms/diagnostic-basic/diagnostic-basic-fever'
-export * from './symptoms/diagnostic-mild-symptoms/diagnostic-mild-symptoms'
-export * from './symptoms/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more'
+export * from './pre-diagnostic/pre-diagnostic'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever'
+
+export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine'
+
+export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms'

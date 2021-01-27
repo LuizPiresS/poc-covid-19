@@ -28,12 +28,14 @@ import {
   NlpGenericFallbackMiddle,
   NlpGenericFallbackFinal,
   ResponseSwearingWords,
-  Symptoms,
+  PreDiagnostic,
   DiagnosticBasic,
   DiagnosticBasicGroupOfRisk,
   DiagnosticBasicFever,
   DiagnosticMildSymptoms,
-  DiagnosticMildSymptomsThreeOrMore
+  DiagnosticMildSymptomsThreeOrMore,
+  DiagnosticMildSymptomsMedicine,
+  DiagnosticSevereSymptoms
 } from '../intents'
 
 const app = express()
@@ -72,13 +74,16 @@ app
     intentMap.set('cases-brazil-fallback-middle', CasesBrazilFallbackMiddle.execute)
     intentMap.set('fallback-cases-brazil-final', CasesBrazilFallbackFinal.execute)
 
-    intentMap.set('symptoms', Symptoms.execute)
+    intentMap.set('pre-diagnostic', PreDiagnostic.execute)
     intentMap.set('diagnostic-basic', DiagnosticBasic.execute)
     intentMap.set('diagnostic-basic-group-of-risk', DiagnosticBasicGroupOfRisk.execute)
     intentMap.set('diagnostic-basic-fever', DiagnosticBasicFever.execute)
 
-    intentMap.set('diagnostic-mild-symptoms', DiagnosticMildSymptoms.execute)
-    intentMap.set('diagnostic-mild-symptoms-three-or-more', DiagnosticMildSymptomsThreeOrMore.execute)
+    intentMap.set('diagnostic-mild-pre-diagnostic', DiagnosticMildSymptoms.execute)
+    intentMap.set('diagnostic-mild-pre-diagnostic-three-or-more', DiagnosticMildSymptomsThreeOrMore.execute)
+    intentMap.set('diagnostic-mild-pre-diagnostic-medicine', DiagnosticMildSymptomsMedicine.execute)
+
+    intentMap.set('diagnostic-severe-pre-diagnostic', DiagnosticSevereSymptoms.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })
