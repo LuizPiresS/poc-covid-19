@@ -5,5 +5,6 @@ export * from './symptoms/diagnostic-basic/response-diagnostic-basic-fever'
 export * from './symptoms/diagnostic-basic/response-diagnostic-basic-group-of-risk'
 
 export * from './symptoms/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms'
+export * from './symptoms/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-three-or-more'
 
 export * from './menus/menus'
