@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="refactor: criado diretorio exclusivo para os fallbacks">
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado diagnostic-severe-symptoms">
+      <change afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-result/response-diagnostic-result.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/symptoms/symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/symptoms/pre-diagnostic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/symptoms/response-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/symptoms/response-pre-diagnostic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +97,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/symptoms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -112,21 +115,41 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-basic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\pre-diagnostic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\menus" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\swearing-words" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\welcome" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint:fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -142,16 +165,6 @@
       <command value="run" />
       <scripts>
         <script value="start:production" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -189,10 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.lint:fix" />
+        <item itemvalue="npm.lint" />
         <item itemvalue="npm.test:unit" />
         <item itemvalue="npm.test:staged" />
         <item itemvalue="npm.test:integration" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -285,14 +299,8 @@
       <workItem from="1611758541714" duration="4388000" />
       <workItem from="1611767142203" duration="7866000" />
       <workItem from="1611777565008" duration="51000" />
-      <workItem from="1611777977888" duration="1258000" />
-    </task>
-    <task id="LOCAL-00058" summary="feat: adicionado fluxo de confiabilidade">
-      <created>1610051686424</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1610051686424</updated>
+      <workItem from="1611777977888" duration="2023000" />
+      <workItem from="1611830188625" duration="25737000" />
     </task>
     <task id="LOCAL-00059" summary="refactor: helpMenu renomeado para AnythingElse e movido de lugar">
       <created>1610106863175</created>
@@ -630,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611755526693</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="feat: adicionado diagnostic-severe-symptoms">
+      <created>1611785155580</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1611785155580</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,8 +676,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fiz: removido a mensagem para clicar nos botões" />
-    <MESSAGE value="fix: removido a mensagem para clicar nos botões" />
     <MESSAGE value="fix: removido a mensagem duplicada de &quot;Posso ajudar&quot;" />
     <MESSAGE value="feat: adicionado verificação de erro" />
     <MESSAGE value="fix: adicionado regeneratorRuntime" />
@@ -686,7 +699,9 @@
     <MESSAGE value="feat: adiiconado diagnostic-mild-symptoms" />
     <MESSAGE value="feat: nova versão agent" />
     <MESSAGE value="feat: adicionado diagnostic-mild-symptoms-three-or-more" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado diagnostic-mild-symptoms-three-or-more" />
+    <MESSAGE value="feat: adicionado diagnostic-severe-symptoms" />
+    <MESSAGE value="feat: adicionado diagnostic-result" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado diagnostic-result" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

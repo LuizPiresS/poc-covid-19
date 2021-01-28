@@ -10,4 +10,6 @@ export * from './pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mil
 
 export * from './pre-diagnostic/diagnostic-severe-symptoms/response-diagnostic-severe-symptoms'
 
+export * from './pre-diagnostic/diagnostic-result/response-diagnostic-result'
+
 export * from './menus/menus'

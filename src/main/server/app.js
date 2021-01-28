@@ -35,7 +35,8 @@ import {
   DiagnosticMildSymptoms,
   DiagnosticMildSymptomsThreeOrMore,
   DiagnosticMildSymptomsMedicine,
-  DiagnosticSevereSymptoms
+  DiagnosticSevereSymptoms,
+  DiagnosticResult
 } from '../intents'
 
 const app = express()
@@ -79,11 +80,13 @@ app
     intentMap.set('diagnostic-basic-group-of-risk', DiagnosticBasicGroupOfRisk.execute)
     intentMap.set('diagnostic-basic-fever', DiagnosticBasicFever.execute)
 
-    intentMap.set('diagnostic-mild-pre-diagnostic', DiagnosticMildSymptoms.execute)
-    intentMap.set('diagnostic-mild-pre-diagnostic-three-or-more', DiagnosticMildSymptomsThreeOrMore.execute)
-    intentMap.set('diagnostic-mild-pre-diagnostic-medicine', DiagnosticMildSymptomsMedicine.execute)
+    intentMap.set('diagnostic-mild-symptoms', DiagnosticMildSymptoms.execute)
+    intentMap.set('diagnostic-mild-symptoms-three-or-more', DiagnosticMildSymptomsThreeOrMore.execute)
+    intentMap.set('diagnostic-mild-symptoms-medicine', DiagnosticMildSymptomsMedicine.execute)
 
-    intentMap.set('diagnostic-severe-pre-diagnostic', DiagnosticSevereSymptoms.execute)
+    intentMap.set('diagnostic-severe-symptoms', DiagnosticSevereSymptoms.execute)
+
+    intentMap.set('diagnostic-result', DiagnosticResult.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })

@@ -37,3 +37,5 @@ export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptom
 export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine'
 
 export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms'
+
+export * from './pre-diagnostic/diagnostic-result/diagnostic-result'
