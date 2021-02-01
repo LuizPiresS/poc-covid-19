@@ -7,12 +7,14 @@
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado diagnostic-severe-symptoms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-initial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-mid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-initial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-mid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-fever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-fever.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +99,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -115,18 +117,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-mild-symptoms\fallbacks" />
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\pre-diagnostic\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\pre-diagnostic\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-mild-symptoms" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-basic\fallback" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\pre-diagnostic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\symptoms\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\symptoms\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\menus" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\swearing-words" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start:dev">
@@ -302,14 +304,7 @@
       <workItem from="1611777977888" duration="2023000" />
       <workItem from="1611830188625" duration="26949000" />
       <workItem from="1611919356369" duration="17724000" />
-      <workItem from="1612179260446" duration="8834000" />
-    </task>
-    <task id="LOCAL-00060" summary="feat: adicionado métodos para a manipulação das suggestions e responses">
-      <created>1610107055985</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1610107055985</updated>
+      <workItem from="1612179260446" duration="17396000" />
     </task>
     <task id="LOCAL-00061" summary="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
       <created>1610129830981</created>
@@ -647,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611867579646</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="feat: adicionado fallbacks do grupo de risco e febre">
+      <created>1612190247499</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1612190247499</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,7 +680,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: removido a mensagem duplicada de &quot;Posso ajudar&quot;" />
     <MESSAGE value="feat: adicionado verificação de erro" />
     <MESSAGE value="fix: adicionado regeneratorRuntime" />
     <MESSAGE value="refactor: separado os dados das mensagens e foram adiconados verificação de erros" />
@@ -703,7 +704,8 @@
     <MESSAGE value="feat: adicionado diagnostic-mild-symptoms-three-or-more" />
     <MESSAGE value="feat: adicionado diagnostic-severe-symptoms" />
     <MESSAGE value="feat: adicionado diagnostic-result" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado diagnostic-result" />
+    <MESSAGE value="feat: adicionado fallbacks do grupo de risco e febre" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fallbacks do grupo de risco e febre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

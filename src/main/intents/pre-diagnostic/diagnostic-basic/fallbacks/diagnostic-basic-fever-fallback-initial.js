@@ -1,6 +1,6 @@
 
-import { responseDiagnosticFeverFallbackInitial } from '../../../responses'
-import { UtilsIntents } from '../../utils/utils-intents'
+import { responseDiagnosticFeverFallbackInitial } from '../../../../responses'
+import { UtilsIntents } from '../../../utils/utils-intents'
 
 export class DiagnosticBasicFeverFallbackInitial {
   static execute (agent) {

@@ -38,10 +38,15 @@ import {
   DiagnosticBasicGroupOfRiskFallbackMid,
   DiagnosticBasicGroupOfRiskFallbackFinal,
   DiagnosticBasicFever,
+  DiagnosticBasicFeverYes,
+  DiagnosticBasicFeverNo,
   DiagnosticBasicFeverFallbackInitial,
   DiagnosticBasicFeverFallbackMid,
   DiagnosticBasicFeverFallbackFinal,
   DiagnosticMildSymptoms,
+  DiagnosticMildSymptomsFallbackInitial,
+  DiagnosticMildSymptomsFallbackMid,
+  DiagnosticMildSymptomsFallbackFinal,
   DiagnosticMildSymptomsThreeOrMore,
   DiagnosticMildSymptomsMedicine,
   DiagnosticSevereSymptoms,
@@ -59,9 +64,9 @@ app
     intentMap.set('response-farewell', Farewell.execute)
     intentMap.set('response-swearing-words', ResponseSwearingWords.execute)
 
-    intentMap.set('nlp-erro-entendimento-fallback-initial', NlpGenericFallbackInitial.execute)
-    intentMap.set('nlp-erro-entendimento-fallback-middle', NlpGenericFallbackMiddle.execute)
-    intentMap.set('nlp-erro-entendimento-fallback-final', NlpGenericFallbackFinal.execute)
+    intentMap.set('nlp-erro-entendimento-fallbacks-initial', NlpGenericFallbackInitial.execute)
+    intentMap.set('nlp-erro-entendimento-fallbacks-middle', NlpGenericFallbackMiddle.execute)
+    intentMap.set('nlp-erro-entendimento-fallbacks-final', NlpGenericFallbackFinal.execute)
 
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)
@@ -71,9 +76,9 @@ app
     intentMap.set('contagion-forms', ContagionForms.execute)
     intentMap.set('contagion-incubation-period', IncubationPeriod.execute)
 
-    intentMap.set('contagion-prevention-fallback-initial', ContagionPreventionFallbackInitial.execute)
-    intentMap.set('contagion-prevention-fallback-middle', ContagionPreventionFallbackResponseMiddle.execute)
-    intentMap.set('contagion-prevention-fallback-finall', ContagionPreventionFallbackResponseFinal.execute)
+    intentMap.set('contagion-prevention-fallbacks-initial', ContagionPreventionFallbackInitial.execute)
+    intentMap.set('contagion-prevention-fallbacks-middle', ContagionPreventionFallbackResponseMiddle.execute)
+    intentMap.set('contagion-prevention-fallbacks-finall', ContagionPreventionFallbackResponseFinal.execute)
 
     intentMap.set('main-menu', MainMenu.execute)
 
@@ -81,9 +86,9 @@ app
     intentMap.set('cases-brazil-states', CasesInBrazilByStates.execute)
     intentMap.set('cases-brazil-cities', CasesInBrazilByCities.execute)
 
-    intentMap.set('cases-brazil-fallback-initial', CasesBrazilFallbackInitial.execute)
-    intentMap.set('cases-brazil-fallback-middle', CasesBrazilFallbackMiddle.execute)
-    intentMap.set('fallback-cases-brazil-final', CasesBrazilFallbackFinal.execute)
+    intentMap.set('cases-brazil-fallbacks-initial', CasesBrazilFallbackInitial.execute)
+    intentMap.set('cases-brazil-fallbacks-middle', CasesBrazilFallbackMiddle.execute)
+    intentMap.set('fallbacks-cases-brazil-final', CasesBrazilFallbackFinal.execute)
 
     intentMap.set('pre-diagnostic', PreDiagnostic.execute)
     intentMap.set('diagnostic-basic', DiagnosticBasic.execute)
@@ -92,16 +97,24 @@ app
     intentMap.set('diagnostic-basic-group-of-risk', DiagnosticBasicGroupOfRisk.execute)
     intentMap.set('diagnostic-basic-group-of-risk-yes', DiagnosticBasicGroupOfRiskYes.execute)
     intentMap.set('diagnostic-basic-group-of-risk-no', DiagnosticBasicGroupOfRiskNo.execute)
-    intentMap.set('diagnostic-basic-group-of-risk-fallback-initial', DiagnosticBasicGroupOfRiskFallbackInitial.execute)
-    intentMap.set('diagnostic-basic-group-of-risk-fallback-mid', DiagnosticBasicGroupOfRiskFallbackMid.execute)
-    intentMap.set('diagnostic-basic-group-of-risk-fallback-final', DiagnosticBasicGroupOfRiskFallbackFinal.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-fallbacks-initial', DiagnosticBasicGroupOfRiskFallbackInitial.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-fallbacks-mid', DiagnosticBasicGroupOfRiskFallbackMid.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-fallbacks-final', DiagnosticBasicGroupOfRiskFallbackFinal.execute)
 
     intentMap.set('diagnostic-basic-fever', DiagnosticBasicFever.execute)
-    intentMap.set('diagnostic-basic-fever-fallback-initial', DiagnosticBasicFeverFallbackInitial.execute)
-    intentMap.set('diagnostic-basic-fever-fallback-mid', DiagnosticBasicFeverFallbackMid.execute)
-    intentMap.set('diagnostic-basic-fever-fallback-final', DiagnosticBasicFeverFallbackFinal.execute)
+    intentMap.set('diagnostic-basic-fever-yes', DiagnosticBasicFeverYes.execute)
+    intentMap.set('diagnostic-basic-fever-no', DiagnosticBasicFeverNo.execute)
+
+    intentMap.set('diagnostic-basic-fever-fallbacks-initial', DiagnosticBasicFeverFallbackInitial.execute)
+    intentMap.set('diagnostic-basic-fever-fallbacks-mid', DiagnosticBasicFeverFallbackMid.execute)
+    intentMap.set('diagnostic-basic-fever-fallbacks-final', DiagnosticBasicFeverFallbackFinal.execute)
 
     intentMap.set('diagnostic-mild-symptoms', DiagnosticMildSymptoms.execute)
+
+    intentMap.set('diagnostic-mild-symptoms-fallback-initial', DiagnosticMildSymptomsFallbackInitial.execute)
+    intentMap.set('diagnostic-mild-symptoms-fallback-mid', DiagnosticMildSymptomsFallbackMid.execute)
+    intentMap.set('diagnostic-mild-symptoms-fallback-final', DiagnosticMildSymptomsFallbackFinal.execute)
+
     intentMap.set('diagnostic-mild-symptoms-three-or-more', DiagnosticMildSymptomsThreeOrMore.execute)
     intentMap.set('diagnostic-mild-symptoms-medicine', DiagnosticMildSymptomsMedicine.execute)
 

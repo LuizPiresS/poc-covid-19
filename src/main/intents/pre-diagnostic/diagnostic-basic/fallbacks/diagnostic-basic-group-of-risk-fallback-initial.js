@@ -1,6 +1,6 @@
 
-import { responseDiagnosticBasicGroupOfRiskNoInitial } from '../../../responses'
-import { UtilsIntents } from '../../utils/utils-intents'
+import { responseDiagnosticBasicGroupOfRiskNoInitial } from '../../../../responses'
+import { UtilsIntents } from '../../../utils/utils-intents'
 
 export class DiagnosticBasicGroupOfRiskFallbackInitial {
   static execute (agent) {

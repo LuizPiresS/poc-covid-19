@@ -15,7 +15,10 @@ export class DiagnosticMildSymptomsThreeOrMore {
     if (agent.query === 'Mais de três sintomas' || agent.query > 3) {
       threeOrMoreSymptoms = true
     }
-    agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk: true, fever: true, threeOrMoreSymptoms } })
+
+    const { groupOfRisk, fever, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
+
+    agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } })
     console.log(agent.context.get('pre-diagnostic'))
     UtilsIntents.setResponse(agent, responseDiagnosticMildSymptomsThreeOrMore)
     UtilsIntents.setSuggestion(agent, responseDiagnosticMildSymptomsThreeOrMore[0].title, responseDiagnosticMildSymptomsThreeOrMore[0].suggestions)

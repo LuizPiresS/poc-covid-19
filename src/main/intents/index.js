@@ -34,17 +34,25 @@ export * from './pre-diagnostic/diagnostic-basic/pre-diagnostic-no'
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk'
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes'
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-no'
-export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-initial'
-export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-mid'
-export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-final'
 
-export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-initial'
-export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-mid'
-export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-final'
+export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-initial'
+export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-mid'
+export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-final'
+
+export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-initial'
+export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-mid'
+export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-final'
 
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-no'
 
 export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms'
+
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-initial'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-mid'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-final'
+
 export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine'
 
