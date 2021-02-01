@@ -30,13 +30,23 @@ import {
   ResponseSwearingWords,
   PreDiagnostic,
   DiagnosticBasic,
+  PreDiagnosticNo,
   DiagnosticBasicGroupOfRisk,
+  DiagnosticBasicGroupOfRiskYes,
+  DiagnosticBasicGroupOfRiskNo,
+  DiagnosticBasicGroupOfRiskFallbackInitial,
+  DiagnosticBasicGroupOfRiskFallbackMid,
+  DiagnosticBasicGroupOfRiskFallbackFinal,
   DiagnosticBasicFever,
+  DiagnosticBasicFeverFallbackInitial,
+  DiagnosticBasicFeverFallbackMid,
+  DiagnosticBasicFeverFallbackFinal,
   DiagnosticMildSymptoms,
   DiagnosticMildSymptomsThreeOrMore,
   DiagnosticMildSymptomsMedicine,
   DiagnosticSevereSymptoms,
   DiagnosticResult
+
 } from '../intents'
 
 const app = express()
@@ -77,8 +87,19 @@ app
 
     intentMap.set('pre-diagnostic', PreDiagnostic.execute)
     intentMap.set('diagnostic-basic', DiagnosticBasic.execute)
+    intentMap.set('pre-diagnostic-no', PreDiagnosticNo.execute)
+
     intentMap.set('diagnostic-basic-group-of-risk', DiagnosticBasicGroupOfRisk.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-yes', DiagnosticBasicGroupOfRiskYes.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-no', DiagnosticBasicGroupOfRiskNo.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-fallback-initial', DiagnosticBasicGroupOfRiskFallbackInitial.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-fallback-mid', DiagnosticBasicGroupOfRiskFallbackMid.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-fallback-final', DiagnosticBasicGroupOfRiskFallbackFinal.execute)
+
     intentMap.set('diagnostic-basic-fever', DiagnosticBasicFever.execute)
+    intentMap.set('diagnostic-basic-fever-fallback-initial', DiagnosticBasicFeverFallbackInitial.execute)
+    intentMap.set('diagnostic-basic-fever-fallback-mid', DiagnosticBasicFeverFallbackMid.execute)
+    intentMap.set('diagnostic-basic-fever-fallback-final', DiagnosticBasicFeverFallbackFinal.execute)
 
     intentMap.set('diagnostic-mild-symptoms', DiagnosticMildSymptoms.execute)
     intentMap.set('diagnostic-mild-symptoms-three-or-more', DiagnosticMildSymptomsThreeOrMore.execute)

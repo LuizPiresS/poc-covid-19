@@ -29,7 +29,19 @@ export * from './menu/main-menu'
 
 export * from './pre-diagnostic/pre-diagnostic'
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic'
+export * from './pre-diagnostic/diagnostic-basic/pre-diagnostic-no'
+
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-no'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-initial'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-mid'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-final'
+
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-initial'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-mid'
+export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-final'
+
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever'
 
 export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms'

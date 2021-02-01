@@ -1,14 +1,14 @@
 
-import { responseDiagnosticBasicGroupOfRisk } from '../../../responses'
+import { responseDiagnosticBasicGroupOfRiskNoFinal } from '../../../responses'
 import { UtilsIntents } from '../../utils/utils-intents'
 
-export class DiagnosticBasicGroupOfRisk {
+export class DiagnosticBasicGroupOfRiskFallbackFinal {
   static execute (agent) {
     // Recupera os dados do context
     const { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
     agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } })
 
-    UtilsIntents.setSuggestion(agent, responseDiagnosticBasicGroupOfRisk[0].title, responseDiagnosticBasicGroupOfRisk[0].suggestions)
-    UtilsIntents.setResponse(agent, responseDiagnosticBasicGroupOfRisk)
+    UtilsIntents.setResponse(agent, responseDiagnosticBasicGroupOfRiskNoFinal)
+    // UtilsIntents.setSuggestion(agent, responseDiagnosticBasicGroupOfRiskNoFinal[0].title, responseDiagnosticBasicGroupOfRiskNoFinal[0].suggestions)
   }
 }
