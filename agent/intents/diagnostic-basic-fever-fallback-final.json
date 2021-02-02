@@ -1,0 +1,36 @@
+{
+  "id": "28491973-3a1f-4869-a4ff-95f0abcbb874",
+  "parentId": "cca09b3f-5563-402d-bd42-631b9a59f84d",
+  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
+  "name": "diagnostic-basic-fever-fallback-final",
+  "contexts": [
+    "diagnostic-basic-fever-fallback-mid-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom.diagnostic-basic-fever-fallback.diagnostic-basic-fever-fallback-initial-fallback.diagnostic-basic-fever-fallback-mid-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

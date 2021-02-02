@@ -1,28 +1,23 @@
 {
-  "id": "52510b5f-ecfe-4fcb-ad16-888e064b8bdb",
+  "id": "19ef1a96-1eb5-4ae3-9cb1-7227563ba0e9",
   "parentId": "93b927a3-12fb-4ef7-bb1a-40bd653c8648",
   "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-basic-fever",
+  "name": "diagnostic-basic-group-of-risk-no",
   "auto": true,
   "contexts": [
-    "diagnostic-basic-group-of-risk-followup",
-    "fever"
+    "diagnostic-basic-group-of-risk-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom",
+      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-no",
       "affectedContexts": [
         {
-          "name": "diagnostic-basic-fever-followup",
+          "name": "diagnostic-basic-group-of-risk-yes-followup",
           "lifespan": 1
         },
         {
-          "name": "pre-diagnostic",
-          "lifespan": 1
-        },
-        {
-          "name": "diagnostic-mild-symptoms",
+          "name": "diagnostic-basic-group-of-risk-followup",
           "lifespan": 1
         },
         {

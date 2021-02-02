@@ -6,16 +6,70 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado diagnostic-severe-symptoms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-initial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-fallback-mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-mid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-initial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-fallback-mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-mid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/agent.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/cities.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/cities_entries_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/contaminados.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/contaminados_entries_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/country.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/country_entries_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/profissionais-saude.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/profissionais-saude_entries_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/states.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/states_entries_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/symptoms.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/entities/symptoms_entries_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-brazil-cities.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-brazil-cities_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-brazil-fallback-initial.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-brazil-fallback-middle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-brazil-states.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-brazil-states_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-brazil.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/cases-brazil_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-forms.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-forms_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-incubation-period.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-incubation-period_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-prevention-fallback-final.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-prevention-fallback-finall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-prevention-fallback-initial.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion-prevention-fallback-middle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/contagion_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/diagnostic-basic-fever.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/diagnostic-basic-fever_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/diagnostic-basic-group-of-risk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/diagnostic-basic-group-of-risk_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/diagnostic-basic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/diagnostic-basic_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/diagnostic-mild-symptoms.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/diagnostic-mild-symptoms_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/fallback-cases-brazil-final.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/main-menu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/main-menu_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento-fallback-final.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento-fallback-initial.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/nlp-erro-entendimento-fallback-middle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/prevention-basic-prevention.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/prevention-basic-prevention_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/prevention-professional-prevention.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/prevention-professional-prevention_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/prevention.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/prevention_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/response-farewell.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/response-farewell_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/response-reliability.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/response-reliability_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/response-swearing-words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/response-swearing-words_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/response-welcome.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/response-welcome_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/respostas-xingamentos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/respostas-xingamentos_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/symptoms.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/intents/symptoms_usersays_pt-br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.lint:fix" />
-        <item itemvalue="npm.lint" />
         <item itemvalue="npm.test:unit" />
         <item itemvalue="npm.test:staged" />
         <item itemvalue="npm.test:integration" />
+        <item itemvalue="npm.lint:fix" />
+        <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
   </component>
@@ -304,21 +358,9 @@
       <workItem from="1611777977888" duration="2023000" />
       <workItem from="1611830188625" duration="26949000" />
       <workItem from="1611919356369" duration="17724000" />
-      <workItem from="1612179260446" duration="17396000" />
-    </task>
-    <task id="LOCAL-00061" summary="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
-      <created>1610129830981</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1610129830981</updated>
-    </task>
-    <task id="LOCAL-00062" summary="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
-      <created>1610133931801</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1610133931802</updated>
+      <workItem from="1612179260446" duration="18847000" />
+      <workItem from="1612304671227" duration="14000" />
+      <workItem from="1612304713834" duration="1305000" />
     </task>
     <task id="LOCAL-00063" summary="fix: concertado os bugs relacionados ao fluxo de &quot;Casos no Brasil&quot;">
       <created>1610134088038</created>
@@ -649,7 +691,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612190247499</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="feat: adicionado fallbacks dos sintomas leves">
+      <created>1612208295214</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1612208295214</updated>
+    </task>
+    <task id="LOCAL-00111" summary="feat: adicionado fallbacks dos sintomas leves">
+      <created>1612208308361</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1612208308361</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +736,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adicionado verificação de erro" />
     <MESSAGE value="fix: adicionado regeneratorRuntime" />
     <MESSAGE value="refactor: separado os dados das mensagens e foram adiconados verificação de erros" />
     <MESSAGE value="refactor: Fallbacks implementados via fulfillment" />
@@ -705,7 +760,8 @@
     <MESSAGE value="feat: adicionado diagnostic-severe-symptoms" />
     <MESSAGE value="feat: adicionado diagnostic-result" />
     <MESSAGE value="feat: adicionado fallbacks do grupo de risco e febre" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fallbacks do grupo de risco e febre" />
+    <MESSAGE value="feat: adicionado fallbacks dos sintomas leves" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fallbacks dos sintomas leves" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,7 +774,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-no.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>

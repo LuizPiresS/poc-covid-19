@@ -1,33 +1,19 @@
 {
-  "id": "52510b5f-ecfe-4fcb-ad16-888e064b8bdb",
+  "id": "c78ffe2f-55cc-4cb2-b47d-2b7b91b8fdc0",
   "parentId": "93b927a3-12fb-4ef7-bb1a-40bd653c8648",
   "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-basic-fever",
-  "auto": true,
+  "name": "diagnostic-basic-group-of-risk-fallback-initial",
   "contexts": [
-    "diagnostic-basic-group-of-risk-followup",
-    "fever"
+    "diagnostic-basic-group-of-risk-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom",
+      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-fallback",
       "affectedContexts": [
         {
-          "name": "diagnostic-basic-fever-followup",
-          "lifespan": 1
-        },
-        {
-          "name": "pre-diagnostic",
-          "lifespan": 1
-        },
-        {
-          "name": "diagnostic-mild-symptoms",
-          "lifespan": 1
-        },
-        {
-          "name": "fever",
-          "lifespan": 1
+          "name": "diagnostic-basic-group-of-risk-fallback-initial-followup",
+          "lifespan": 2
         }
       ],
       "parameters": [],
@@ -46,7 +32,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "fallbackIntent": false,
+  "fallbackIntent": true,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

@@ -1,28 +1,21 @@
 {
-  "id": "99d14d89-577b-4c12-8eb9-1f9bfa1941dd",
-  "name": "respostas-xingamentos",
+  "id": "0f30cce9-e871-4d59-a018-16fe286d93f5",
+  "parentId": "52510b5f-ecfe-4fcb-ad16-888e064b8bdb",
+  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
+  "name": "diagnostic-basic-fever-no",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "diagnostic-basic-fever-followup",
+    "pre-diagnostic",
+    "diagnostic-mild-symptoms"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
+      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom.diagnostic-basic-fever-no",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
-        {
-          "type": "0",
-          "platform": "telegram",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "pt-br",
-          "speech": [
-            "Quero ver falar assim depois que estiver entubado!!!",
-            "Não precisa ser mau educado!",
-            "Para que isso? Estou aqui para te ajudar"
-          ],
-          "condition": ""
-        },
         {
           "type": "0",
           "title": "",

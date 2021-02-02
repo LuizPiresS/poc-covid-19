@@ -1,27 +1,9 @@
 [
   {
-    "id": "4520afb9-2535-4f75-bff8-131fd26e5120",
+    "id": "0892d434-96d5-4955-842e-8e1e10db87bc",
     "data": [
       {
-        "text": "ai que burro de ",
-        "userDefined": false
-      },
-      {
-        "text": "zero",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "para",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ele",
+        "text": "Sim",
         "userDefined": false
       }
     ],
@@ -31,11 +13,10 @@
     "updated": 0
   },
   {
-    "id": "5ff39a95-a3d2-413f-a4e5-92b239932251",
+    "id": "75d87408-3de2-43da-a51b-a67e1740beb9",
     "data": [
       {
-        "text": "burra",
-        "meta": "@sys.ignore",
+        "text": "Não pertenço",
         "userDefined": false
       }
     ],
@@ -45,10 +26,49 @@
     "updated": 0
   },
   {
-    "id": "ecb0881c-8bd0-46d2-bb8f-bf6856545fbe",
+    "id": "62a12716-c44e-4505-bb81-ce94a1062b4e",
     "data": [
       {
-        "text": "Burro",
+        "text": "discordo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3b7cd8a6-35d4-4c4c-81d8-0105a94a5186",
+    "data": [
+      {
+        "text": "definitivamente não",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b107cc6f-3956-432b-bcf1-a3a1b59c9e5b",
+    "data": [
+      {
+        "text": "não obrigado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "10b41714-9064-4dcd-b3f0-8fd9df2ac672",
+    "data": [
+      {
+        "text": "acho que não",
         "userDefined": false
       }
     ],
@@ -58,10 +78,23 @@
     "updated": 0
   },
   {
-    "id": "e78ecb59-ffea-4434-9229-3e613da5ee5a",
+    "id": "bde2d10c-a5ce-41eb-a561-8e76cb0a54fe",
     "data": [
       {
-        "text": "Que bosta",
+        "text": "não",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 4,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "311868a9-e66f-439a-85ec-9245b63a76a7",
+    "data": [
+      {
+        "text": "não tenho interesse",
         "userDefined": false
       }
     ],
@@ -71,10 +104,10 @@
     "updated": 0
   },
   {
-    "id": "1dad2d25-e41a-47f6-8b8e-de17d15e28f3",
+    "id": "97b9a95e-8568-485f-98d5-c94f6f4d5bc7",
     "data": [
       {
-        "text": "imbecil",
+        "text": "não quero isso",
         "userDefined": false
       }
     ],
@@ -84,83 +117,28 @@
     "updated": 0
   },
   {
-    "id": "56cffc77-1712-4d30-97cc-1057c94e6d65",
+    "id": "1a4178d9-8337-4564-bd19-7857acf90673",
     "data": [
       {
-        "text": "idiota",
-        "meta": "@sys.ignore",
+        "text": "não faça isso",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },
   {
-    "id": "b9916714-2ba2-414a-9901-c0d32d6861ab",
+    "id": "57cb9c30-3725-44e2-bb73-aee05a1089b2",
     "data": [
       {
-        "text": "trouxa",
+        "text": "não mesmo",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "71462565-2590-471c-a8b7-c2418eb606a9",
-    "data": [
-      {
-        "text": "toma no cu",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "9a02fd4b-f242-499b-be00-959dacf46ef2",
-    "data": [
-      {
-        "text": "merda",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "b1dd4de8-b9a2-4cf6-a32e-e4da94b36b99",
-    "data": [
-      {
-        "text": "vai se fuder",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "00f45b6a-6ff7-4f7c-bea2-a9548225de3c",
-    "data": [
-      {
-        "text": "tnc",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "pt-br",
     "updated": 0
   }

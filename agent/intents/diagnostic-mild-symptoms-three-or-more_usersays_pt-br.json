@@ -1,9 +1,11 @@
 [
   {
-    "id": "b677485b-50c7-492d-b1f7-0c36fa88f21c",
+    "id": "1cb0631e-3756-4234-aa45-e7affa0b8418",
     "data": [
       {
-        "text": "Pertenço",
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "number",
         "userDefined": false
       }
     ],
@@ -13,10 +15,12 @@
     "updated": 0
   },
   {
-    "id": "75ba7039-f23d-42b7-9307-681d8226c3fe",
+    "id": "0a0f57bf-483a-478c-b9a5-beb41ee48b6c",
     "data": [
       {
-        "text": "Estou febril",
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "number",
         "userDefined": false
       }
     ],
@@ -26,59 +30,47 @@
     "updated": 0
   },
   {
-    "id": "a0b7bfcf-e23f-4be2-921f-c78363d3fa76",
+    "id": "8774cc1e-93a5-49ca-b64f-274ce2e55906",
     "data": [
       {
-        "text": "Estive com",
+        "text": "1",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4c1138b6-a1d6-418f-9c53-c016577adb95",
+    "data": [
+      {
+        "text": "Nenhum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "76f48690-fb23-4eb1-a67e-efaa612aeec9",
+    "data": [
+      {
+        "text": "Mais de ",
+        "userDefined": false
+      },
+      {
+        "text": "três",
         "meta": "@sys.ignore",
         "userDefined": false
       },
       {
-        "text": " febre",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "0c4277a8-df3b-4399-9117-a6da0004cbb0",
-    "data": [
-      {
-        "text": "Estou com",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " febre",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "c62ef07a-ad9a-47c9-908e-539817a2713c",
-    "data": [
-      {
-        "text": "Tive",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "fae940ae-d71c-45fb-bc9c-68c67aee3cae",
-    "data": [
-      {
-        "text": "Sim",
+        "text": " sintomas",
         "userDefined": false
       }
     ],

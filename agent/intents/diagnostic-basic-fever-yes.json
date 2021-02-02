@@ -1,8 +1,8 @@
 {
-  "id": "3300dfac-1ec9-4337-9169-a6bf8f3991be",
+  "id": "44fd1584-9340-4ac6-961e-0ca59a829e22",
   "parentId": "52510b5f-ecfe-4fcb-ad16-888e064b8bdb",
   "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-mild-symptoms",
+  "name": "diagnostic-basic-fever-yes",
   "auto": true,
   "contexts": [
     "diagnostic-basic-fever-followup",
@@ -12,13 +12,8 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom.diagnostic-basic-fever-custom",
-      "affectedContexts": [
-        {
-          "name": "diagnostic-mild-symptoms-followup",
-          "lifespan": 1
-        }
-      ],
+      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom.diagnostic-basic-fever-yes",
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {

@@ -1,5 +1,18 @@
 [
   {
+    "id": "23b50c70-c008-4a3b-bdb3-9016a9812b34",
+    "data": [
+      {
+        "text": "Pré-diagnóstico",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "63f2c1a7-9d74-4324-9969-da3f5907a76c",
     "data": [
       {
@@ -21,8 +34,7 @@
       },
       {
         "text": "febre",
-        "meta": "@symptoms",
-        "alias": "symptoms",
+        "meta": "@sys.ignore",
         "userDefined": false
       },
       {
@@ -130,8 +142,7 @@
       },
       {
         "text": "febre",
-        "meta": "@symptoms",
-        "alias": "symptoms",
+        "meta": "@sys.ignore",
         "userDefined": true
       },
       {
