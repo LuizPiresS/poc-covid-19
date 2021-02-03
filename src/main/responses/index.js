@@ -9,8 +9,12 @@ export * from './pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group
 
 export * from './pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-fallback'
+
 export * from './pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-three-or-more'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-three-or-more-fallback'
+
 export * from './pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine-fallback'
 
 export * from './pre-diagnostic/diagnostic-severe-symptoms/response-diagnostic-severe-symptoms'
 

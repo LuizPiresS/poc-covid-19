@@ -48,7 +48,13 @@ import {
   DiagnosticMildSymptomsFallbackMid,
   DiagnosticMildSymptomsFallbackFinal,
   DiagnosticMildSymptomsThreeOrMore,
+  DiagnosticMildSymptomsThreeOrMoreFallbackInitial,
+  DiagnosticMildSymptomsThreeOrMoreFallbackMid,
+  DiagnosticMildSymptomsThreeOrMoreFallbackFinal,
   DiagnosticMildSymptomsMedicine,
+  DiagnosticMildSymptomsMedicineFallbackInitial,
+  DiagnosticMildSymptomsMedicineFallbackMid,
+  DiagnosticMildSymptomsMedicineFallbackFinal,
   DiagnosticSevereSymptoms,
   DiagnosticResult
 
@@ -116,7 +122,14 @@ app
     intentMap.set('diagnostic-mild-symptoms-fallback-final', DiagnosticMildSymptomsFallbackFinal.execute)
 
     intentMap.set('diagnostic-mild-symptoms-three-or-more', DiagnosticMildSymptomsThreeOrMore.execute)
+    intentMap.set('diagnostic-mild-symptoms-three-or-more-fallback-initial', DiagnosticMildSymptomsThreeOrMoreFallbackInitial.execute)
+    intentMap.set('diagnostic-mild-symptoms-three-or-more-fallback-mid', DiagnosticMildSymptomsThreeOrMoreFallbackMid.execute)
+    intentMap.set('diagnostic-mild-symptoms-three-or-more-fallback-final', DiagnosticMildSymptomsThreeOrMoreFallbackFinal.execute)
+
     intentMap.set('diagnostic-mild-symptoms-medicine', DiagnosticMildSymptomsMedicine.execute)
+    intentMap.set('diagnostic-mild-symptoms-medicine-fallback-initial', DiagnosticMildSymptomsMedicineFallbackInitial.execute)
+    intentMap.set('diagnostic-mild-symptoms-medicine-fallback-mid', DiagnosticMildSymptomsMedicineFallbackMid.execute)
+    intentMap.set('diagnostic-mild-symptoms-medicine-fallback-final', DiagnosticMildSymptomsMedicineFallbackFinal.execute)
 
     intentMap.set('diagnostic-severe-symptoms', DiagnosticSevereSymptoms.execute)
 
