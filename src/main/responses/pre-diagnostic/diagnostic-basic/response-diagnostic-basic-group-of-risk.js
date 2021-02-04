@@ -11,13 +11,18 @@ export const responseDiagnosticBasicGroupOfRisk = [
 ]
 
 export const responseDiagnosticBasicGroupOfRiskYes = [{
-  text: 'Ok. Pelo o que você me contou, vejo que você se enquadra no grupo de risco. \n' +
+  title: 'Ok. Pelo o que você me contou, vejo que você se enquadra no grupo de risco. \n' +
     '\n' +
-    'Vamos continuar?'
+    'Vamos continuar?',
+
+  suggestions: ['Sim', 'Não']
 }]
 
 export const responseDiagnosticBasicGroupOfRiskNo = [{
-  text: 'Ok. Pelo o que você me contou, vejo que você não se enquadra no grupo de risco. \n' +
+  title: 'Ok. Pelo o que você me contou, vejo que você não se enquadra no grupo de risco. \n' +
     '\n' +
-    'Vamos continuar?'
+    'Vamos continuar?',
+
+  suggestions: ['Sim', 'Não']
+
 }]

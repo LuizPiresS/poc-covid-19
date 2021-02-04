@@ -41,6 +41,7 @@ export class DiagnosticResult {
       }
     })
 
+    console.log('resultado do exame')
     const context = agent.context.get('pre-diagnostic').parameters
 
     /**

@@ -59,6 +59,8 @@ export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mi
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-three-or-more-fallback-final.js'
 
 export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine-took-effect'
+
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-initial.js'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-mid.js'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-final.js'

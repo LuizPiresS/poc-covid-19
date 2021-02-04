@@ -14,7 +14,9 @@ export class DiagnosticSevereSymptoms {
         takenEffect: true
       }
     })
+
     console.log(agent.context.get('pre-diagnostic'))
+    console.log('severos')
     UtilsIntents.setResponse(agent, responseDiagnosticSevereSymptoms)
     UtilsIntents.setSuggestion(agent, responseDiagnosticSevereSymptoms[0].title, responseDiagnosticSevereSymptoms[0].suggestions)
   }

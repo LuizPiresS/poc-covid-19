@@ -7,9 +7,11 @@
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado diagnostic-severe-symptoms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +70,9 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/dialogflow-fulfillment-helper/src/dialogflow-fulfillment.js" root0="SKIP_INSPECTION" />
+  </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
     <bower-package value="" />
@@ -90,11 +95,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/dist/main/intents/covid/contagio/contagio.js&#10;C:/Users/luiz.pires/Development/poc-covid-19/node_modules/dialogflow-fulfillment/src/dialogflow-fulfillment.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/dist/main/intents/covid/contagio/contagio.js&#10;C:/Users/luiz.pires/Development/poc-covid-19/node_modules/dialogflow-fulfillment/src/dialogflow-fulfillment.js&#10;C:/Users/luiz.pires/Development/poc-covid-19/node_modules/dialogflow-fulfillment-helper/src/dialogflow-fulfillment.js" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -107,16 +112,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-mild-symptoms\fallbacks" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\pre-diagnostic\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-basic" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\pre-diagnostic\diagnostic-basic" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-basic\fallback" />
@@ -302,14 +307,7 @@
       <workItem from="1612179260446" duration="18847000" />
       <workItem from="1612304671227" duration="14000" />
       <workItem from="1612304713834" duration="2746000" />
-      <workItem from="1612344874976" duration="19535000" />
-    </task>
-    <task id="LOCAL-00064" summary="fix: concertado bug no fluxo do menu principal">
-      <created>1610136615732</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1610136615732</updated>
+      <workItem from="1612344874976" duration="40268000" />
     </task>
     <task id="LOCAL-00065" summary="feat: adicionado o fluxo para perguntas de fora do brasil">
       <created>1610137109027</created>
@@ -647,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612307603525</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="feat: adicionado fallback sintomas leves">
+      <created>1612374682341</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1612374682341</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,7 +683,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: adicionado regeneratorRuntime" />
     <MESSAGE value="refactor: separado os dados das mensagens e foram adiconados verificação de erros" />
     <MESSAGE value="refactor: Fallbacks implementados via fulfillment" />
     <MESSAGE value="refactor: fallbacks implementados via fulfillment" />
@@ -703,7 +707,8 @@
     <MESSAGE value="feat: adicionado fallbacks do grupo de risco e febre" />
     <MESSAGE value="feat: adicionado fallbacks dos sintomas leves" />
     <MESSAGE value="feat: nova versão agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão agent" />
+    <MESSAGE value="feat: adicionado fallback sintomas leves" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fallback sintomas leves" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

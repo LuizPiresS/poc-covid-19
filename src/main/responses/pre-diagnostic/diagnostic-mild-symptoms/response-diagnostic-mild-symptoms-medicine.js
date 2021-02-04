@@ -5,3 +5,14 @@ export const responseDiagnosticMildSymptomsMedicine = [
     suggestions: ['Sim', 'Não']
   }
 ]
+
+export const responseDiagnosticMildSymptomsMedicineTookEffect = [
+  {
+    text: 'Ótimo! Sem sintomas gripais. 😊',
+
+    title: 'Podemos continuar?',
+
+    suggestions: ['Sim', 'Não']
+  }
+
+]
