@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado diagnostic-severe-symptoms">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado diagnostic-severe-symptoms" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,14 +298,7 @@
       <workItem from="1612179260446" duration="18847000" />
       <workItem from="1612304671227" duration="14000" />
       <workItem from="1612304713834" duration="2746000" />
-      <workItem from="1612344874976" duration="40268000" />
-    </task>
-    <task id="LOCAL-00065" summary="feat: adicionado o fluxo para perguntas de fora do brasil">
-      <created>1610137109027</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1610137109027</updated>
+      <workItem from="1612344874976" duration="40763000" />
     </task>
     <task id="LOCAL-00066" summary="fix: correção de bug de logica &quot;Casos no Brasil&quot;">
       <created>1610371031217</created>
@@ -652,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612374682341</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="feat: adicionado fluxo de medicamentos e sintomas graves assim como resultado">
+      <created>1612445159064</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1612445159064</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +674,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: separado os dados das mensagens e foram adiconados verificação de erros" />
     <MESSAGE value="refactor: Fallbacks implementados via fulfillment" />
     <MESSAGE value="refactor: fallbacks implementados via fulfillment" />
     <MESSAGE value="feat: adicionado os fallbacks de &quot;casos no brasil&quot;" />
@@ -708,7 +698,8 @@
     <MESSAGE value="feat: adicionado fallbacks dos sintomas leves" />
     <MESSAGE value="feat: nova versão agent" />
     <MESSAGE value="feat: adicionado fallback sintomas leves" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fallback sintomas leves" />
+    <MESSAGE value="feat: adicionado fluxo de medicamentos e sintomas graves assim como resultado" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fluxo de medicamentos e sintomas graves assim como resultado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

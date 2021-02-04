@@ -32,7 +32,7 @@
   },
   "defaultTimezone": "America/Buenos_Aires",
   "webhook": {
-    "url": "https://68829b9aaff0.ngrok.io",
+    "url": "https://12523d95dffe.ngrok.io",
     "username": "",
     "headers": {},
     "available": true,

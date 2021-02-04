@@ -1,5 +1,116 @@
 [
   {
+    "id": "0aa69142-aba3-46f7-8b55-488a9274734a",
+    "data": [
+      {
+        "text": "Tenho ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b2e5e5c5-69d0-40ff-b13e-78622f76d689",
+    "data": [
+      {
+        "text": "Apenas ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7824cc36-7ccc-4dfa-98f0-b24d4f20c989",
+    "data": [
+      {
+        "text": "Tenho ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " doenças destas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4507278f-e8ca-4505-b7de-371d71a2c51a",
+    "data": [
+      {
+        "text": "Eu possuo ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "de29625f-1f1a-4964-b3ca-eceeec527854",
+    "data": [
+      {
+        "text": "Eu tenho ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "1cb0631e-3756-4234-aa45-e7affa0b8418",
     "data": [
       {
@@ -15,41 +126,12 @@
     "updated": 0
   },
   {
-    "id": "0a0f57bf-483a-478c-b9a5-beb41ee48b6c",
-    "data": [
-      {
-        "text": "2",
-        "meta": "@sys.number",
-        "alias": "number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "8774cc1e-93a5-49ca-b64f-274ce2e55906",
-    "data": [
-      {
-        "text": "1",
-        "meta": "@sys.number",
-        "alias": "number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
     "id": "4c1138b6-a1d6-418f-9c53-c016577adb95",
     "data": [
       {
         "text": "Nenhum",
-        "userDefined": false
+        "meta": "@sys.ignore",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
@@ -61,13 +143,22 @@
     "id": "76f48690-fb23-4eb1-a67e-efaa612aeec9",
     "data": [
       {
-        "text": "Mais de ",
+        "text": "Mais ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
         "userDefined": false
       },
       {
         "text": "três",
         "meta": "@sys.ignore",
-        "userDefined": false
+        "userDefined": true
       },
       {
         "text": " sintomas",

@@ -1,17 +1,24 @@
 {
-  "id": "1f23ead9-0909-4676-8892-890ebc24434e",
-  "parentId": "c1aa5377-3247-4f97-bc49-d1df005847c5",
+  "id": "1cd900bd-48ec-4c51-94e2-a6ca09bd6e94",
+  "parentId": "99885e7c-e205-46c1-9e5c-185790b88496",
   "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
   "name": "diagnostic-result",
   "auto": true,
   "contexts": [
-    "diagnostic-severe-symptoms-followup"
+    "diagnostic-severe-symptoms-context",
+    "diagnostic-severe-symptoms-followup",
+    "diagnostic-result-context"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom.diagnostic-basic-fever-custom.diagnostic-mild-symptoms-custom.diagnostic-mild-symptoms-three-or-more-custom.diagnostic-severe-symptoms-custom",
-      "affectedContexts": [],
+      "action": "diagnostic-mild-symptoms-medicine-took-effect.diagnostic-mild-symptoms-medicine-took-effect-custom.diagnostic-severe-symptoms-custom",
+      "affectedContexts": [
+        {
+          "name": "diagnostic-result-context",
+          "lifespan": 1
+        }
+      ],
       "parameters": [],
       "messages": [
         {
@@ -32,5 +39,6 @@
   "events": [],
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": []
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
 }

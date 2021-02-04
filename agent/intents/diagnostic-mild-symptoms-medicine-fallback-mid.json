@@ -1,19 +1,18 @@
 {
-  "id": "1093ff03-adf7-40b7-8035-7b346f6d3387",
-  "parentId": "9d9e2bc9-fa77-45ef-b1d0-305b13e2e40a",
+  "id": "bc643921-8039-4c00-8f76-2a2491b4fa77",
+  "parentId": "1a297a29-1f03-4948-928c-df5bf19b2157",
   "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-mild-symptoms-medicine",
-  "auto": true,
+  "name": "diagnostic-mild-symptoms-medicine-fallback-mid",
   "contexts": [
-    "diagnostic-mild-symptoms-three-or-more-followup"
+    "diagnostic-mild-symptoms-medicine-fallback-initial-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom.diagnostic-basic-fever-custom.diagnostic-mild-symptoms-custom.diagnostic-mild-symptoms-three-or-more-custom",
+      "action": "diagnostic-mild-symptoms-medicine-fallback-initial.diagnostic-mild-symptoms-medicine-fallback-initial-fallback",
       "affectedContexts": [
         {
-          "name": "diagnostic-mild-symptoms-medicine-followup",
+          "name": "diagnostic-mild-symptoms-medicine-fallback-mid-followup",
           "lifespan": 1
         }
       ],
@@ -24,9 +23,6 @@
           "title": "",
           "textToSpeech": "",
           "lang": "pt-br",
-          "speech": [
-            "Sim"
-          ],
           "condition": ""
         }
       ],
@@ -36,7 +32,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "fallbackIntent": false,
+  "fallbackIntent": true,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

@@ -1,22 +1,9 @@
 [
   {
-    "id": "49fabb8f-87cc-450f-8e43-bc4d6e8263ab",
+    "id": "31c7ec9f-9533-4c70-9839-45f288d29e6e",
     "data": [
       {
         "text": "Sim",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "82d5993c-3bcf-4d81-8021-e83273d6d835",
-    "data": [
-      {
-        "text": "Resultado do diagnostico",
         "userDefined": false
       }
     ],

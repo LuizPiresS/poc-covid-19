@@ -1,28 +1,23 @@
 {
-  "id": "99885e7c-e205-46c1-9e5c-185790b88496",
-  "parentId": "453cc46b-425d-4a76-a12b-42d576b0b263",
+  "id": "453cc46b-425d-4a76-a12b-42d576b0b263",
+  "parentId": "1093ff03-adf7-40b7-8035-7b346f6d3387",
   "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-severe-symptoms",
+  "name": "diagnostic-mild-symptoms-medicine-took-effect",
   "auto": true,
   "contexts": [
-    "diagnostic-mild-symptoms-medicine-took-effect-followup",
-    "diagnostic-severe-symptoms-context"
+    "diagnostic-mild-symptoms-medicine-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "diagnostic-mild-symptoms-medicine-took-effect.diagnostic-mild-symptoms-medicine-took-effect-custom",
+      "action": "diagnostic-mild-symptoms-medicine-took-effect",
       "affectedContexts": [
         {
+          "name": "diagnostic-mild-symptoms-medicine-took-effect-followup",
+          "lifespan": 1
+        },
+        {
           "name": "diagnostic-severe-symptoms-context",
-          "lifespan": 1
-        },
-        {
-          "name": "diagnostic-severe-symptoms-followup",
-          "lifespan": 1
-        },
-        {
-          "name": "diagnostic-result-context",
           "lifespan": 1
         }
       ],
