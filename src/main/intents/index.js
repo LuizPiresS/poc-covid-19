@@ -69,4 +69,8 @@ export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-sym
 export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-yes'
 export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-no'
 
+export * from './pre-diagnostic/diagnostic-severe-symptoms/fallbacks/diagnostic-severe-symptoms-fallback-initial'
+export * from './pre-diagnostic/diagnostic-severe-symptoms/fallbacks/diagnostic-severe-symptoms-fallback-mid'
+export * from './pre-diagnostic/diagnostic-severe-symptoms/fallbacks/diagnostic-severe-symptoms-fallback-final'
+
 export * from './pre-diagnostic/diagnostic-result/diagnostic-result'

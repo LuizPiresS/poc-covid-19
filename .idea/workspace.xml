@@ -7,20 +7,8 @@
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado diagnostic-severe-symptoms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine-took-effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine-took-effect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-basic/response-diagnostic-basic-group-of-risk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-mid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +96,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/fallbacks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -126,11 +114,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-severe-symptoms\fallbacks" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-severe-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-mild-symptoms\fallbacks" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\pre-diagnostic\diagnostic-mild-symptoms" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-basic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-basic\fallback" />
@@ -321,14 +309,7 @@
       <workItem from="1612524364478" duration="122000" />
       <workItem from="1612524550522" duration="59000" />
       <workItem from="1612524626370" duration="8462000" />
-      <workItem from="1612545304190" duration="1185000" />
-    </task>
-    <task id="LOCAL-00067" summary="feat: adicionado validação se a api esta retornando alguma cidade">
-      <created>1610531133342</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1610531133342</updated>
+      <workItem from="1612545304190" duration="9302000" />
     </task>
     <task id="LOCAL-00068" summary="refactor: removendo console log desnecessario">
       <created>1610531211953</created>
@@ -666,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612445234946</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="feat: adicionado pre-diagnostic">
+      <created>1612547125686</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1612547125686</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,7 +685,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: Fallbacks implementados via fulfillment" />
     <MESSAGE value="refactor: fallbacks implementados via fulfillment" />
     <MESSAGE value="feat: adicionado os fallbacks de &quot;casos no brasil&quot;" />
     <MESSAGE value="refactor: adicionado nova versão do agent" />
@@ -722,7 +709,8 @@
     <MESSAGE value="feat: adicionado fallback sintomas leves" />
     <MESSAGE value="feat: adicionado fluxo de medicamentos e sintomas graves assim como resultado" />
     <MESSAGE value="feat: nova versão do agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão do agent" />
+    <MESSAGE value="feat: adicionado pre-diagnostic" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado pre-diagnostic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

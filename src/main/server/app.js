@@ -57,8 +57,12 @@ import {
   DiagnosticMildSymptomsMedicineFallbackMid,
   DiagnosticMildSymptomsMedicineFallbackFinal,
   DiagnosticSevereSymptoms,
-  DiagnosticResult, DiagnosticSevereSymptomsYes, DiagnosticSevereSymptomsNo
-
+  DiagnosticSevereSymptomsYes,
+  DiagnosticSevereSymptomsNo,
+  DiagnosticSevereSymptomsFallbackInitial,
+  DiagnosticSevereSymptomsFallbackMid,
+  DiagnosticSevereSymptomsFallbackFinal,
+  DiagnosticResult
 } from '../intents'
 
 const app = express()
@@ -104,17 +108,18 @@ app
     intentMap.set('diagnostic-basic-group-of-risk', DiagnosticBasicGroupOfRisk.execute)
     intentMap.set('diagnostic-basic-group-of-risk-yes', DiagnosticBasicGroupOfRiskYes.execute)
     intentMap.set('diagnostic-basic-group-of-risk-no', DiagnosticBasicGroupOfRiskNo.execute)
-    intentMap.set('diagnostic-basic-group-of-risk-fallbacks-initial', DiagnosticBasicGroupOfRiskFallbackInitial.execute)
-    intentMap.set('diagnostic-basic-group-of-risk-fallbacks-mid', DiagnosticBasicGroupOfRiskFallbackMid.execute)
-    intentMap.set('diagnostic-basic-group-of-risk-fallbacks-final', DiagnosticBasicGroupOfRiskFallbackFinal.execute)
+
+    intentMap.set('diagnostic-basic-group-of-risk-fallback-initial', DiagnosticBasicGroupOfRiskFallbackInitial.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-fallback-mid', DiagnosticBasicGroupOfRiskFallbackMid.execute)
+    intentMap.set('diagnostic-basic-group-of-risk-fallback-final', DiagnosticBasicGroupOfRiskFallbackFinal.execute)
 
     intentMap.set('diagnostic-basic-fever', DiagnosticBasicFever.execute)
     intentMap.set('diagnostic-basic-fever-yes', DiagnosticBasicFeverYes.execute)
     intentMap.set('diagnostic-basic-fever-no', DiagnosticBasicFeverNo.execute)
 
-    intentMap.set('diagnostic-basic-fever-fallbacks-initial', DiagnosticBasicFeverFallbackInitial.execute)
-    intentMap.set('diagnostic-basic-fever-fallbacks-mid', DiagnosticBasicFeverFallbackMid.execute)
-    intentMap.set('diagnostic-basic-fever-fallbacks-final', DiagnosticBasicFeverFallbackFinal.execute)
+    intentMap.set('diagnostic-basic-fever-fallback-initial', DiagnosticBasicFeverFallbackInitial.execute)
+    intentMap.set('diagnostic-basic-fever-fallback-mid', DiagnosticBasicFeverFallbackMid.execute)
+    intentMap.set('diagnostic-basic-fever-fallback-final', DiagnosticBasicFeverFallbackFinal.execute)
 
     intentMap.set('diagnostic-mild-symptoms', DiagnosticMildSymptoms.execute)
 
@@ -138,7 +143,13 @@ app
     intentMap.set('diagnostic-severe-symptoms-yes', DiagnosticSevereSymptomsYes.execute)
     intentMap.set('diagnostic-severe-symptoms-no', DiagnosticSevereSymptomsNo.execute)
 
-    intentMap.set('pre-diagnostic-result', DiagnosticResult.execute)
+    intentMap.set('diagnostic-severe-symptoms-fallback-initial', DiagnosticSevereSymptomsFallbackInitial.execute)
+    intentMap.set('diagnostic-severe-symptoms-fallback-mid', DiagnosticSevereSymptomsFallbackMid.execute)
+    intentMap.set('diagnostic-severe-symptoms-fallback-final', DiagnosticSevereSymptomsFallbackFinal.execute)
+
+    intentMap.set('pre-diagnostic-result-fallback-initial', DiagnosticResult.execute)
+    intentMap.set('pre-diagnostic-result-fallback-mid', DiagnosticResult.execute)
+    intentMap.set('pre-diagnostic-result-fallback-final', DiagnosticResult.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })
@@ -146,3 +157,7 @@ app
     res.json('Tu não deveria estar aqui, ou deveria?')
   })
 export default app
+
+// diagnostic-severe-symptoms-context
+// diagnostic-severe-symptoms-yes
+// diagnostic-severe-symptoms-no

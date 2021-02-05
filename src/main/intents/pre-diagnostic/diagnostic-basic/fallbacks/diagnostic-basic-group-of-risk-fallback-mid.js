@@ -12,3 +12,5 @@ export class DiagnosticBasicGroupOfRiskFallbackMid {
     UtilsIntents.setSuggestion(agent, responseDiagnosticBasicGroupOfRiskNoMid[0].title, responseDiagnosticBasicGroupOfRiskNoMid[0].suggestions)
   }
 }
+// diagnostic-basic-group-of-risk-no
+// diagnostic-basic-group-of-risk-followup
