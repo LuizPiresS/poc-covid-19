@@ -66,5 +66,7 @@ export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mi
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-final.js'
 
 export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms'
+export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-yes'
+export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-no'
 
 export * from './pre-diagnostic/diagnostic-result/diagnostic-result'

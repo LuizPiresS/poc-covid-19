@@ -57,7 +57,7 @@ import {
   DiagnosticMildSymptomsMedicineFallbackMid,
   DiagnosticMildSymptomsMedicineFallbackFinal,
   DiagnosticSevereSymptoms,
-  DiagnosticResult
+  DiagnosticResult, DiagnosticSevereSymptomsYes, DiagnosticSevereSymptomsNo
 
 } from '../intents'
 
@@ -135,8 +135,10 @@ app
     intentMap.set('diagnostic-mild-symptoms-medicine-fallback-final', DiagnosticMildSymptomsMedicineFallbackFinal.execute)
 
     intentMap.set('diagnostic-severe-symptoms', DiagnosticSevereSymptoms.execute)
+    intentMap.set('diagnostic-severe-symptoms-yes', DiagnosticSevereSymptomsYes.execute)
+    intentMap.set('diagnostic-severe-symptoms-no', DiagnosticSevereSymptomsNo.execute)
 
-    intentMap.set('diagnostic-result', DiagnosticResult.execute)
+    intentMap.set('pre-diagnostic-result', DiagnosticResult.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })

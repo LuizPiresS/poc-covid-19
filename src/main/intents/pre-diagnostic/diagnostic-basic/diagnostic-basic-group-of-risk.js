@@ -8,6 +8,7 @@ export class DiagnosticBasicGroupOfRisk {
     const { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
     agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } })
 
+    console.log('------------------', agent.context.get('pre-diagnostic').parameters, '------------------')
     UtilsIntents.setSuggestion(agent, responseDiagnosticBasicGroupOfRisk[0].title, responseDiagnosticBasicGroupOfRisk[0].suggestions)
     UtilsIntents.setResponse(agent, responseDiagnosticBasicGroupOfRisk)
   }

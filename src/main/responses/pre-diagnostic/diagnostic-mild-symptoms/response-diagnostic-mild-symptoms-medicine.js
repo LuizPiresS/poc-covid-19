@@ -8,11 +8,8 @@ export const responseDiagnosticMildSymptomsMedicine = [
 
 export const responseDiagnosticMildSymptomsMedicineTookEffect = [
   {
-    text: 'Ótimo! Sem sintomas gripais. 😊',
+    text: 'Ótimo! Sem sintomas gripais. 😊'
 
-    title: 'Podemos continuar?',
-
-    suggestions: ['Sim', 'Não']
   }
 
 ]
