@@ -1,28 +1,29 @@
 {
-  "id": "99885e7c-e205-46c1-9e5c-185790b88496",
-  "parentId": "453cc46b-425d-4a76-a12b-42d576b0b263",
-  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-severe-symptoms",
+  "id": "a1924cf4-0c58-4536-8939-c3c2d1f97c07",
+  "name": "pre-diagnostic-severe-symptoms",
   "auto": true,
   "contexts": [
-    "diagnostic-mild-symptoms-medicine-took-effect-followup",
-    "diagnostic-severe-symptoms-context"
+    "pre-diagnostic-severe-symptoms-context"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "diagnostic-mild-symptoms-medicine-took-effect.diagnostic-mild-symptoms-medicine-took-effect-custom",
+      "action": "",
       "affectedContexts": [
         {
-          "name": "diagnostic-severe-symptoms-context",
+          "name": "pre-diagnostic-severe-symptoms-context",
           "lifespan": 1
         },
         {
-          "name": "diagnostic-severe-symptoms-followup",
+          "name": "pre-diagnostic-severe-symptoms-followup",
           "lifespan": 1
         },
         {
-          "name": "diagnostic-result-context",
+          "name": "pre-diagnostic-severe-symptoms-yes-context",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-severe-symptoms-no-context",
           "lifespan": 1
         }
       ],
@@ -43,7 +44,11 @@
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [],
+  "events": [
+    {
+      "name": "pre-diagnostic-severe-symptoms-event"
+    }
+  ],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

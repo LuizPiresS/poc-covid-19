@@ -139,17 +139,15 @@ app
     intentMap.set('diagnostic-mild-symptoms-medicine-fallback-mid', DiagnosticMildSymptomsMedicineFallbackMid.execute)
     intentMap.set('diagnostic-mild-symptoms-medicine-fallback-final', DiagnosticMildSymptomsMedicineFallbackFinal.execute)
 
-    intentMap.set('diagnostic-severe-symptoms', DiagnosticSevereSymptoms.execute)
-    intentMap.set('diagnostic-severe-symptoms-yes', DiagnosticSevereSymptomsYes.execute)
-    intentMap.set('diagnostic-severe-symptoms-no', DiagnosticSevereSymptomsNo.execute)
+    intentMap.set('pre-diagnostic-severe-symptoms', DiagnosticSevereSymptoms.execute)
+    intentMap.set('pre-diagnostic-severe-symptoms-yes', DiagnosticSevereSymptomsYes.execute)
+    intentMap.set('pre-diagnostic-severe-symptoms-no', DiagnosticSevereSymptomsNo.execute)
 
-    intentMap.set('diagnostic-severe-symptoms-fallback-initial', DiagnosticSevereSymptomsFallbackInitial.execute)
-    intentMap.set('diagnostic-severe-symptoms-fallback-mid', DiagnosticSevereSymptomsFallbackMid.execute)
-    intentMap.set('diagnostic-severe-symptoms-fallback-final', DiagnosticSevereSymptomsFallbackFinal.execute)
+    intentMap.set('pre-diagnostic-severe-symptoms-fallback-initial', DiagnosticSevereSymptomsFallbackInitial.execute)
+    intentMap.set('pre-diagnostic-severe-symptoms-fallback-mid', DiagnosticSevereSymptomsFallbackMid.execute)
+    intentMap.set('pre-diagnostic-severe-symptoms-fallback-final', DiagnosticSevereSymptomsFallbackFinal.execute)
 
-    intentMap.set('pre-diagnostic-result-fallback-initial', DiagnosticResult.execute)
-    intentMap.set('pre-diagnostic-result-fallback-mid', DiagnosticResult.execute)
-    intentMap.set('pre-diagnostic-result-fallback-final', DiagnosticResult.execute)
+    intentMap.set('pre-diagnostic-result', DiagnosticResult.execute)
 
     agent.handleRequest(intentMap).catch(err => console.log(err))
   })
@@ -157,7 +155,3 @@ app
     res.json('Tu não deveria estar aqui, ou deveria?')
   })
 export default app
-
-// diagnostic-severe-symptoms-context
-// diagnostic-severe-symptoms-yes
-// diagnostic-severe-symptoms-no

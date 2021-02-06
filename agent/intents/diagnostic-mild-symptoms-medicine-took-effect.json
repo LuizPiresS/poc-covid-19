@@ -17,7 +17,7 @@
           "lifespan": 1
         },
         {
-          "name": "diagnostic-severe-symptoms-context",
+          "name": "pre-diagnostic-severe-symptoms-context",
           "lifespan": 1
         }
       ],

@@ -13,7 +13,19 @@
       "affectedContexts": [
         {
           "name": "diagnostic-basic-group-of-risk-fallback-mid-followup",
-          "lifespan": 2
+          "lifespan": 1
+        },
+        {
+          "name": "diagnostic-basic-group-of-risk-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "diagnostic-basic-group-of-risk-yes",
+          "lifespan": 1
+        },
+        {
+          "name": "diagnostic-basic-group-of-risk-no",
+          "lifespan": 1
         }
       ],
       "parameters": [],

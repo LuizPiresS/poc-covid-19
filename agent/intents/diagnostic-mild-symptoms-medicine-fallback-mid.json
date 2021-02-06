@@ -14,6 +14,10 @@
         {
           "name": "diagnostic-mild-symptoms-medicine-fallback-mid-followup",
           "lifespan": 1
+        },
+        {
+          "name": "diagnostic-mild-symptoms-three-or-more-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],

@@ -1,5 +1,5 @@
 {
-  "id": "44fd1584-9340-4ac6-961e-0ca59a829e22",
+  "id": "3df0e922-959f-430c-92d6-4cb5cea5ca9d",
   "parentId": "52510b5f-ecfe-4fcb-ad16-888e064b8bdb",
   "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
   "name": "diagnostic-basic-fever-yes",
@@ -7,13 +7,23 @@
   "contexts": [
     "diagnostic-basic-fever-followup",
     "pre-diagnostic",
-    "diagnostic-mild-symptoms"
+    "diagnostic-mild-symptoms",
+    "fever-yes"
   ],
   "responses": [
     {
       "resetContexts": false,
       "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom.diagnostic-basic-fever-yes",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "diagnostic-mild-symptoms",
+          "lifespan": 1
+        },
+        {
+          "name": "diagnostic-basic-fever-followup",
+          "lifespan": 1
+        }
+      ],
       "parameters": [],
       "messages": [
         {

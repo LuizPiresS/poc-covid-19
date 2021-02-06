@@ -1,23 +1,19 @@
 {
-  "id": "1a297a29-1f03-4948-928c-df5bf19b2157",
-  "parentId": "1093ff03-adf7-40b7-8035-7b346f6d3387",
-  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-mild-symptoms-medicine-fallback-initial",
+  "id": "be968407-e00a-4251-a92b-058cde04eb9d",
+  "parentId": "2e8a9fa0-3b95-46e5-a469-5000d2d6ddfd",
+  "rootParentId": "3f4ecfea-3f9c-4448-a5c4-5537a69dd6ef",
+  "name": "pre-diagnostic-result-fallback-mid",
   "contexts": [
-    "diagnostic-mild-symptoms-medicine-followup"
+    "pre-diagnostic-result-fallback-initial-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "diagnostic-mild-symptoms-medicine-fallback-initial",
+      "action": "pre-diagnostic-result.pre-diagnostic-result-fallback.pre-diagnostic-result-fallback-initial-fallback",
       "affectedContexts": [
         {
-          "name": "diagnostic-mild-symptoms-medicine-fallback-initial-followup",
-          "lifespan": 1
-        },
-        {
-          "name": "diagnostic-mild-symptoms-three-or-more-followup",
-          "lifespan": 1
+          "name": "pre-diagnostic-result-fallback-mid-followup",
+          "lifespan": 2
         }
       ],
       "parameters": [],

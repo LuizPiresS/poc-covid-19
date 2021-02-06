@@ -1,0 +1,35 @@
+{
+  "id": "c52cc890-9a3b-4070-96b1-aa44692b3cd2",
+  "parentId": "be968407-e00a-4251-a92b-058cde04eb9d",
+  "rootParentId": "3f4ecfea-3f9c-4448-a5c4-5537a69dd6ef",
+  "name": "pre-diagnostic-result-fallback-final",
+  "contexts": [
+    "pre-diagnostic-result-fallback-mid-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pre-diagnostic-result.pre-diagnostic-result-fallback.pre-diagnostic-result-fallback-initial-fallback.pre-diagnostic-result-fallback-mid-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

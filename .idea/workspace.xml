@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado diagnostic-severe-symptoms">
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-mid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/responses/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine-took-effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine-took-effect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -309,14 +307,8 @@
       <workItem from="1612524364478" duration="122000" />
       <workItem from="1612524550522" duration="59000" />
       <workItem from="1612524626370" duration="8462000" />
-      <workItem from="1612545304190" duration="9302000" />
-    </task>
-    <task id="LOCAL-00068" summary="refactor: removendo console log desnecessario">
-      <created>1610531211953</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1610531211953</updated>
+      <workItem from="1612545304190" duration="10005000" />
+      <workItem from="1612631947977" duration="6874000" />
     </task>
     <task id="LOCAL-00069" summary="fix: correção da formatação de textos e nomenclatura de metodos e intents">
       <created>1610531444853</created>
@@ -654,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612547125686</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="feat: adicionado severe-symptoms fallback">
+      <created>1612560178853</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1612560178853</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +684,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: fallbacks implementados via fulfillment" />
     <MESSAGE value="feat: adicionado os fallbacks de &quot;casos no brasil&quot;" />
     <MESSAGE value="refactor: adicionado nova versão do agent" />
     <MESSAGE value="refactor: adicionado fallback nlp generico" />
@@ -710,7 +708,8 @@
     <MESSAGE value="feat: adicionado fluxo de medicamentos e sintomas graves assim como resultado" />
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="feat: adicionado pre-diagnostic" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado pre-diagnostic" />
+    <MESSAGE value="feat: adicionado severe-symptoms fallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado severe-symptoms fallback" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

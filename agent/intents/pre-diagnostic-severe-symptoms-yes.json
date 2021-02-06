@@ -1,35 +1,29 @@
 {
-  "id": "52510b5f-ecfe-4fcb-ad16-888e064b8bdb",
-  "parentId": "93b927a3-12fb-4ef7-bb1a-40bd653c8648",
-  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-basic-fever",
+  "id": "2c81e6cf-9ef2-4386-8b0a-e657265932d2",
+  "parentId": "a1924cf4-0c58-4536-8939-c3c2d1f97c07",
+  "rootParentId": "a1924cf4-0c58-4536-8939-c3c2d1f97c07",
+  "name": "pre-diagnostic-severe-symptoms-yes",
   "auto": true,
   "contexts": [
-    "diagnostic-basic-group-of-risk-followup"
+    "pre-diagnostic-severe-symptoms-context",
+    "pre-diagnostic-severe-symptoms-followup",
+    "pre-diagnostic-severe-symptoms-yes-context"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom",
+      "action": "pre-diagnostic-severe-symptoms.pre-diagnostic-severe-symptoms-yes",
       "affectedContexts": [
         {
-          "name": "diagnostic-basic-fever-followup",
+          "name": "pre-diagnostic-severe-symptoms-yes-context",
           "lifespan": 1
         },
         {
-          "name": "diagnostic-mild-symptoms",
+          "name": "pre-diagnostic-result-context",
           "lifespan": 1
         },
         {
-          "name": "fever-yes",
-          "lifespan": 1
-        },
-        {
-          "name": "fever-no",
-          "lifespan": 1
-        },
-        {
-          "name": "diagnostic-basic-fever-followup-2",
+          "name": "pre-diagnostic-severe-symptoms-yes-followup",
           "lifespan": 1
         }
       ],
@@ -52,7 +46,7 @@
   "fallbackIntent": false,
   "events": [
     {
-      "name": "diagnostic-basic-fever-event"
+      "name": "pre-diagnostic-severe-symptoms-yes-event"
     }
   ],
   "conditionalResponses": [],

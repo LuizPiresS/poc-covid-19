@@ -5,7 +5,8 @@
   "name": "diagnostic-basic-group-of-risk-yes",
   "auto": true,
   "contexts": [
-    "diagnostic-basic-group-of-risk-followup"
+    "diagnostic-basic-group-of-risk-followup",
+    "diagnostic-basic-group-of-risk-yes"
   ],
   "responses": [
     {
@@ -42,7 +43,11 @@
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [],
+  "events": [
+    {
+      "name": "diagnostic-basic-group-of-risk-yes-event"
+    }
+  ],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

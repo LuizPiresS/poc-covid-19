@@ -1,21 +1,21 @@
 {
-  "id": "1cd900bd-48ec-4c51-94e2-a6ca09bd6e94",
-  "parentId": "99885e7c-e205-46c1-9e5c-185790b88496",
-  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-result",
+  "id": "f4086467-3a23-4177-b91f-c2dfc9dc401e",
+  "parentId": "a1924cf4-0c58-4536-8939-c3c2d1f97c07",
+  "rootParentId": "a1924cf4-0c58-4536-8939-c3c2d1f97c07",
+  "name": "pre-diagnostic-severe-symptoms-no",
   "auto": true,
   "contexts": [
-    "diagnostic-severe-symptoms-context",
-    "diagnostic-severe-symptoms-followup",
-    "diagnostic-result-context"
+    "pre-diagnostic-severe-symptoms-context",
+    "pre-diagnostic-severe-symptoms-followup",
+    "pre-diagnostic-severe-symptoms-no-context"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "diagnostic-mild-symptoms-medicine-took-effect.diagnostic-mild-symptoms-medicine-took-effect-custom.diagnostic-severe-symptoms-custom",
+      "action": "pre-diagnostic-severe-symptoms.pre-diagnostic-severe-symptoms-no",
       "affectedContexts": [
         {
-          "name": "diagnostic-result-context",
+          "name": "pre-diagnostic-result-context",
           "lifespan": 1
         }
       ],
@@ -39,6 +39,5 @@
   "events": [],
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "endInteraction": true
+  "conditionalFollowupEvents": []
 }

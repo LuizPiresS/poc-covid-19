@@ -1,22 +1,21 @@
 {
-  "id": "1a297a29-1f03-4948-928c-df5bf19b2157",
-  "parentId": "1093ff03-adf7-40b7-8035-7b346f6d3387",
-  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-mild-symptoms-medicine-fallback-initial",
+  "id": "3f4ecfea-3f9c-4448-a5c4-5537a69dd6ef",
+  "name": "pre-diagnostic-result",
+  "auto": true,
   "contexts": [
-    "diagnostic-mild-symptoms-medicine-followup"
+    "pre-diagnostic-result-context"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "diagnostic-mild-symptoms-medicine-fallback-initial",
+      "action": "",
       "affectedContexts": [
         {
-          "name": "diagnostic-mild-symptoms-medicine-fallback-initial-followup",
+          "name": "pre-diagnostic-result-followup",
           "lifespan": 1
         },
         {
-          "name": "diagnostic-mild-symptoms-three-or-more-followup",
+          "name": "pre-diagnostic-result-context",
           "lifespan": 1
         }
       ],
@@ -36,8 +35,12 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
-  "events": [],
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "pre-diagnostic-result-event"
+    }
+  ],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

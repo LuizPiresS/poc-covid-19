@@ -1,0 +1,56 @@
+{
+  "id": "ce3537e3-c5ff-4e8d-81a9-28e3dba1ec68",
+  "parentId": "f37f9585-83bf-4358-98bb-937bed882bd9",
+  "rootParentId": "a1924cf4-0c58-4536-8939-c3c2d1f97c07",
+  "name": "pre-diagnostic-severe-symptoms-fallback-mid",
+  "contexts": [
+    "pre-diagnostic-severe-symptoms-fallback-initial-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pre-diagnostic-severe-symptoms.pre-diagnostic-severe-symptoms-fallback.pre-diagnostic-severe-symptoms-fallback-initial-fallback",
+      "affectedContexts": [
+        {
+          "name": "pre-diagnostic-severe-symptoms-fallback-mid-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-severe-symptoms-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-severe-symptoms-yes-context",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-severe-symptoms-no-context",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-severe-symptoms-context",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

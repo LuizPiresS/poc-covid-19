@@ -1,5 +1,150 @@
 [
   {
+    "id": "c4e13ee6-5dd8-482a-85d9-6be9e86b7dfd",
+    "data": [
+      {
+        "text": "Usei alguns remédios",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5c9f1197-8ed2-452c-acc3-2d3e95ebb204",
+    "data": [
+      {
+        "text": "Não usei medicamentos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "54996af4-f25d-47eb-8a41-6c4c3a45a331",
+    "data": [
+      {
+        "text": "Usei medicamentos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ed10e9cd-9c62-4236-815b-718f52b165db",
+    "data": [
+      {
+        "text": "Tomei medicamentos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "078f8fd9-cc69-4f2c-bca7-74279890e009",
+    "data": [
+      {
+        "text": "Não tomei medicamentos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "765d0c3a-4041-4484-b041-1cd98a226e03",
+    "data": [
+      {
+        "text": "Não tomei nada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e7f0c80f-e76c-4162-9d19-cc0e062d3a60",
+    "data": [
+      {
+        "text": "Tomei apenas ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " remédio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "419f9709-6885-4112-8b59-1e958dc2a8d2",
+    "data": [
+      {
+        "text": "Tomei ",
+        "userDefined": false
+      },
+      {
+        "text": "alguns",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "81c63a90-8942-4850-98d1-a8cdc8d38015",
+    "data": [
+      {
+        "text": "Tomei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b3913425-d693-4ae8-b788-b8ed8e5f4f09",
+    "data": [
+      {
+        "text": "Não",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "4b4d7337-7996-4be3-8c84-dbaeaa2a1947",
     "data": [
       {

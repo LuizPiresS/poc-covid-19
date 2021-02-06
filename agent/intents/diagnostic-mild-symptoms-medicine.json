@@ -17,16 +17,28 @@
           "lifespan": 1
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "a9c22e8f-abd1-4fb7-89bb-29d1d7e95237",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
       "messages": [
         {
           "type": "0",
           "title": "",
           "textToSpeech": "",
           "lang": "pt-br",
-          "speech": [
-            "Sim"
-          ],
           "condition": ""
         }
       ],

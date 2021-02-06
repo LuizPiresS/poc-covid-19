@@ -1,0 +1,112 @@
+[
+  {
+    "id": "cb630ed3-e2d9-4204-94b3-9080484da9d7",
+    "data": [
+      {
+        "text": "Tenho sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2864b3d5-e7d5-47fb-8321-ebc4c2e548c3",
+    "data": [
+      {
+        "text": "Claro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " que tenho",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4e79764f-d823-4ffd-b1f8-3f33b32ebd1c",
+    "data": [
+      {
+        "text": "Eu tenho",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "00177f3f-82de-43c8-b41f-1c55d74e4b47",
+    "data": [
+      {
+        "text": "Eu tenho estes sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "dc86e55a-c135-4de5-8e52-ac8786230ec8",
+    "data": [
+      {
+        "text": "Claro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "65a7433e-3631-4706-b55a-1c7ec06ae0c7",
+    "data": [
+      {
+        "text": "Possuo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0b241a01-f015-417f-aa2f-e01783f36abe",
+    "data": [
+      {
+        "text": "Possuo alguns destes sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "31438e95-369c-4791-8186-7b33e929f441",
+    "data": [
+      {
+        "text": "Sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]
