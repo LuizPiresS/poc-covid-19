@@ -13,7 +13,9 @@
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "282a83db-29ee-4f5a-af35-91fb2a0aba96"
+    ],
     "oAuthLinking": {
       "required": false,
       "providerId": "",
@@ -38,7 +40,7 @@
     "available": true,
     "useForDomains": false,
     "cloudFunctionsEnabled": false,
-    "cloudFunctionsInitialized": false
+    "cloudFunctionsInitialized": true
   },
   "isPrivate": true,
   "mlMinConfidence": 0.6,

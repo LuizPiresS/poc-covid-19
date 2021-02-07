@@ -47,18 +47,18 @@ export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever'
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes'
 export * from './pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-no'
 
-export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms'
 
-export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-initial'
-export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-mid'
-export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-final'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-fallback-initial'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-fallback-mid'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-fallback-final'
 
-export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-three-or-more-fallback-initial.js'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-three-or-more-fallback-mid.js'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-three-or-more-fallback-final.js'
 
-export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine-took-effect'
 
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-initial.js'

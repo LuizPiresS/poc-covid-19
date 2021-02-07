@@ -1,0 +1,60 @@
+[
+  {
+    "id": "346ee3b8-06c1-4a23-92ca-f772b3a8f0a4",
+    "data": [
+      {
+        "text": "Tive ",
+        "userDefined": false
+      },
+      {
+        "text": "febre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "alta",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f9a8158f-9822-46cd-8af5-d0eeb1321303",
+    "data": [
+      {
+        "text": "Tive ",
+        "userDefined": false
+      },
+      {
+        "text": "febre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3b6162c2-491d-48ea-abf1-633c1df778dc",
+    "data": [
+      {
+        "text": "Sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

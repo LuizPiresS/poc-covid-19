@@ -1,0 +1,80 @@
+[
+  {
+    "id": "8e67b6b9-75a7-44c6-bac2-986e5072baeb",
+    "data": [
+      {
+        "text": "Mais de ",
+        "userDefined": false
+      },
+      {
+        "text": "três",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "fee69070-9b7b-4af8-adf2-0ab4fd1762bf",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "23f4687a-ff85-4522-9b28-4fe9eb16d992",
+    "data": [
+      {
+        "text": "2",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e4ce66c4-d4a2-47f0-9606-f4b8b9636cc6",
+    "data": [
+      {
+        "text": "1",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e5bba943-e4cb-453d-bd2b-3a1d40c5db84",
+    "data": [
+      {
+        "text": "Nenhum",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

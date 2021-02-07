@@ -1,0 +1,55 @@
+{
+  "id": "c0b32250-0237-499b-ba78-ba4637656190",
+  "parentId": "8e40e8a0-59f3-4687-a2fc-762d58a105f5",
+  "rootParentId": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
+  "name": "pre-diagnostic-mild-symptoms-fallback-middle",
+  "contexts": [
+    "pre-diagnostic-mild-symptoms-context",
+    "pre-diagnostic-mild-symptoms-followup",
+    "pre-diagnostic-mild-symptoms-three-or-more-context",
+    "pre-diagnostic-mild-symptoms-fallback-initial-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pre-diagnostic-mild-symptoms.pre-diagnostic-mild-symptoms-fallback.pre-diagnostic-mild-symptoms-fallback-initial-fallback",
+      "affectedContexts": [
+        {
+          "name": "pre-diagnostic-mild-symptoms-context",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-three-or-more-context",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-fallback-middle-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

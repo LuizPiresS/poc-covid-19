@@ -13,7 +13,15 @@
       "affectedContexts": [
         {
           "name": "pre-diagnostic-result-fallback-initial-followup",
-          "lifespan": 2
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-context",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],

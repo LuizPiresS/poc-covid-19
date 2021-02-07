@@ -1,0 +1,39 @@
+{
+  "id": "282a83db-29ee-4f5a-af35-91fb2a0aba96",
+  "parentId": "c0b32250-0237-499b-ba78-ba4637656190",
+  "rootParentId": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
+  "name": "pre-diagnostic-mild-symptoms-fallback-finall",
+  "contexts": [
+    "pre-diagnostic-mild-symptoms-context",
+    "pre-diagnostic-mild-symptoms-followup",
+    "pre-diagnostic-mild-symptoms-three-or-more-context",
+    "pre-diagnostic-mild-symptoms-fallback-middle-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pre-diagnostic-mild-symptoms.pre-diagnostic-mild-symptoms-fallback.pre-diagnostic-mild-symptoms-fallback-initial-fallback.pre-diagnostic-mild-symptoms-fallback-middle-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

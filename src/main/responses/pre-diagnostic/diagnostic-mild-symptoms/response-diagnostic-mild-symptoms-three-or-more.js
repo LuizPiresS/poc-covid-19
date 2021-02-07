@@ -17,3 +17,9 @@ export const responseDiagnosticMildSymptomsLessThree = [
     suggestions: ['Sim', 'Não']
   }
 ]
+
+export const responseDiagnosticMildSymptomsNone = [
+  {
+    text: 'Que bom! Sem sintomas de gripe. 😊'
+  }
+]

@@ -2,7 +2,7 @@
 import { responseDiagnosticMildSymptomsFallbackMid } from '../../../../responses'
 import { UtilsIntents } from '../../../utils/utils-intents'
 
-export class DiagnosticMildSymptomsFallbackMid {
+export class PreDiagnosticMildSymptomsFallbackMid {
   static execute (agent) {
     // Recupera os dados do context
     const { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } = agent.context.get('pre-diagnostic').parameters

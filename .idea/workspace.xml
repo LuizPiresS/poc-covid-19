@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-fallback-final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-fallback-initial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-fallback-mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-fallback-mid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -308,14 +317,7 @@
       <workItem from="1612524626370" duration="8462000" />
       <workItem from="1612545304190" duration="10005000" />
       <workItem from="1612631947977" duration="7069000" />
-      <workItem from="1612717113566" duration="3784000" />
-    </task>
-    <task id="LOCAL-00071" summary="fix: resolvido problema no ci">
-      <created>1610547806139</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1610547806139</updated>
+      <workItem from="1612717113566" duration="13263000" />
     </task>
     <task id="LOCAL-00072" summary="refactor: novos argumentos para os métodos para desacoplar código">
       <created>1610566136751</created>
@@ -653,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612639599103</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="feat: nova versão agent">
+      <created>1612721172226</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1612721172226</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -701,7 +710,6 @@
     <MESSAGE value="feat: adicionado diagnostic-result" />
     <MESSAGE value="feat: adicionado fallbacks do grupo de risco e febre" />
     <MESSAGE value="feat: adicionado fallbacks dos sintomas leves" />
-    <MESSAGE value="feat: nova versão agent" />
     <MESSAGE value="feat: adicionado fallback sintomas leves" />
     <MESSAGE value="feat: adicionado fluxo de medicamentos e sintomas graves assim como resultado" />
     <MESSAGE value="feat: nova versão do agent" />
@@ -709,7 +717,8 @@
     <MESSAGE value="feat: adicionado severe-symptoms fallback" />
     <MESSAGE value="refactor: severe simptoms" />
     <MESSAGE value="refactor: severe symptoms" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: severe symptoms" />
+    <MESSAGE value="feat: nova versão agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão agent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

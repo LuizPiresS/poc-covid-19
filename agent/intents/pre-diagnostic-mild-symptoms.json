@@ -1,24 +1,25 @@
 {
-  "id": "3df0e922-959f-430c-92d6-4cb5cea5ca9d",
-  "parentId": "52510b5f-ecfe-4fcb-ad16-888e064b8bdb",
-  "rootParentId": "66e689c4-2161-47bf-8d17-e68a84f9a962",
-  "name": "diagnostic-basic-fever-yes",
+  "id": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
+  "name": "pre-diagnostic-mild-symptoms",
   "auto": true,
   "contexts": [
-    "diagnostic-basic-fever-followup",
-    "fever-yes"
+    "pre-diagnostic-mild-symptoms-context"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "symptoms.symptoms-custom.diagnostic-basic-yes.diagnostic-basic-group-of-risk-custom.diagnostic-basic-fever-yes",
+      "action": "",
       "affectedContexts": [
         {
-          "name": "diagnostic-basic-fever-followup",
+          "name": "pre-diagnostic-mild-symptoms-context",
           "lifespan": 1
         },
         {
-          "name": "pre-diagnostic-mild-symptoms-context",
+          "name": "pre-diagnostic-mild-symptoms-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-three-or-more-context",
           "lifespan": 1
         }
       ],
@@ -39,7 +40,11 @@
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [],
+  "events": [
+    {
+      "name": "pre-diagnostic-mild-symptoms-event"
+    }
+  ],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

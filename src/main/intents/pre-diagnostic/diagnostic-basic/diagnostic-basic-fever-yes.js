@@ -4,6 +4,6 @@ export class DiagnosticBasicFeverYes {
     agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever: true, threeOrMoreSymptoms, severeSymptoms } })
 
     console.log('yes------------------', agent.context.get('pre-diagnostic').parameters, '------------------ teve febre')
-    agent.setFollowupEvent('diagnostic-mild-symptoms-event')
+    agent.setFollowupEvent('pre-diagnostic-mild-symptoms-event')
   }
 }
