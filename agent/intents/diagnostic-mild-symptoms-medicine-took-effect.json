@@ -5,7 +5,8 @@
   "name": "diagnostic-mild-symptoms-medicine-took-effect",
   "auto": true,
   "contexts": [
-    "diagnostic-mild-symptoms-medicine-followup"
+    "diagnostic-mild-symptoms-medicine-followup",
+    "diagnostic-mild-symptoms-medicine-took-effect-context"
   ],
   "responses": [
     {
@@ -18,6 +19,10 @@
         },
         {
           "name": "pre-diagnostic-severe-symptoms-context",
+          "lifespan": 1
+        },
+        {
+          "name": "diagnostic-mild-symptoms-medicine-took-effect-context",
           "lifespan": 1
         }
       ],
@@ -38,7 +43,11 @@
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [],
+  "events": [
+    {
+      "name": "diagnostic-mild-symptoms-medicine-took-effect-event"
+    }
+  ],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

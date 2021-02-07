@@ -1,5 +1,31 @@
 [
   {
+    "id": "7bb7c8f6-5828-43f0-a20a-9693f98d761e",
+    "data": [
+      {
+        "text": "Não usei medicamentos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d118563a-b658-4e03-8b76-64cb76137034",
+    "data": [
+      {
+        "text": "Usei medicamentos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "4c780e35-e7a5-4225-8145-9c6e3ae76aac",
     "data": [
       {

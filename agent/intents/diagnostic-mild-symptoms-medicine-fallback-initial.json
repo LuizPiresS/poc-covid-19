@@ -18,6 +18,14 @@
         {
           "name": "diagnostic-mild-symptoms-three-or-more-followup",
           "lifespan": 1
+        },
+        {
+          "name": "diagnostic-mild-symptoms-medicine-took-effect-context",
+          "lifespan": 1
+        },
+        {
+          "name": "diagnostic-mild-symptoms-medicine-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],

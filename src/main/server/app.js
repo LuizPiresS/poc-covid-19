@@ -155,3 +155,10 @@ app
     res.json('Tu não deveria estar aqui, ou deveria?')
   })
 export default app
+
+// diagnostic-mild-symptoms-medicine-took-effect-event
+// diagnostic-mild-symptoms-medicine-took-effect-context
+
+// took effect
+// diagnostic-mild-symptoms-medicine-followup
+// diagnostic-mild-symptoms-medicine-took-effect-context
