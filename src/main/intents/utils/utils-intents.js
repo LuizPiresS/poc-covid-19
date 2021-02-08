@@ -1,3 +1,6 @@
+
+import axios from 'axios'
+import config from 'config'
 import { Suggestion, Text } from 'dialogflow-fulfillment-helper'
 
 import User from '../../../database/models/user'
@@ -102,5 +105,63 @@ export class UtilsIntents {
 
   static findArray (response, title) {
     return response.find(element => element[`${title}`])[`${title}`]
+  }
+
+  static async logChatbaseMessagesUsers (agent, intent) {
+    const tokenAPIChatbase = config.get('App.Auth.tokenAPIChatbase')
+    console.log('------- Enviou o log')
+    const dataMessage =
+      {
+        api_key: tokenAPIChatbase,
+        type: 'user',
+        platform: 'Telegram',
+        message: agent.query,
+        intent: intent,
+        version: '1.0',
+        user_id: 'user-00'
+
+      }
+    console.log('------- Enviou o log', dataMessage)
+
+    return await axios.post('https://chatbase.com/api/message', dataMessage)
+      .then(res => {
+        return res.data
+      })
+      .catch(err => {
+        console.log(err)
+        if (err.response.status === 500 || err.response.status === 400) {
+          return {
+            statusCode: 500
+          }
+        }
+      })
+  }
+
+  static async logChatbaseMessagesAgent (agent) {
+    const tokenAPIChatbase = config.get('App.Auth.tokenAPIChatbase')
+
+    const dataMessage =
+      {
+        api_key: tokenAPIChatbase,
+        type: 'agent',
+        platform: 'Telegram',
+        message: agent.query,
+        intent: 'teste',
+        version: '1.0',
+        user_id: 'user-00'
+
+      }
+    return await axios.post('https://chatbase.com/api/message', dataMessage)
+      .then(res => {
+        return res.data
+      })
+      .catch(err => {
+        console.log(err)
+        if (err.response.status === 500 || err.response.status === 400) {
+          return {
+            statusCode: 500
+          }
+        }
+      })
   }
 }

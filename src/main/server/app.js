@@ -64,12 +64,18 @@ import {
   DiagnosticSevereSymptomsFallbackFinal,
   DiagnosticResult
 } from '../intents'
+import { UtilsIntents } from '../intents/utils/utils-intents'
 
 const app = express()
 app
   .use(bodyParser.json())
   .post('/', (req, res) => {
     const agent = new WebhookClient({ request: req, response: res })
+
+    // Envia as mensagens do usuario para o chatbase
+    UtilsIntents.logChatbaseMessagesUsers(agent, req.body.queryResult.intent.displayName)
+      .then(r => console.log(r)).catch(error => console.log(error))
+
     const intentMap = new Map()
     intentMap.set('response-welcome', Welcome.execute)
     intentMap.set('response-farewell', Farewell.execute)

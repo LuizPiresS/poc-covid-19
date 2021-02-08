@@ -2,7 +2,7 @@ import { responseDiagnosticBasic } from '../../../responses'
 import { UtilsIntents } from '../../utils/utils-intents'
 
 export class DiagnosticBasic {
-  static execute (agent) {
+  static async execute (agent) {
     agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk: null, fever: null, threeOrMoreSymptoms: null, severeSymptoms: null } })
 
     UtilsIntents.setResponse(agent, responseDiagnosticBasic)

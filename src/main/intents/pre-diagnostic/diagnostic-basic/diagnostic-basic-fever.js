@@ -3,7 +3,9 @@ import { responseDiagnosticFever, responseDiagnosticBasicGroupOfRiskYes, respons
 import { UtilsIntents } from '../../utils/utils-intents'
 
 export class DiagnosticBasicFever {
-  static execute (agent) {
+  static async execute (agent) {
+    await UtilsIntents.logChatbaseMessagesUsers(agent)
+
     const { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
 
     agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } })

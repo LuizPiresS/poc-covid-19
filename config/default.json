@@ -9,7 +9,8 @@
       "dbName": "development"
     },
     "Auth": {
-      "tokenAPICovid": "9bbfe596e4642833247989ec464db2159a013298"
+      "tokenAPICovid": "9bbfe596e4642833247989ec464db2159a013298",
+      "tokenAPIChatbase": "2d0db8f0-7f20-432d-b668-7e5bb053c359"
     }
   }
 }
