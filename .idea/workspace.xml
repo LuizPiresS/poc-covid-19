@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/fallbacks/pre-diagnostic-basic-fever-fallback-initial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine-took-effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-took-effect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-medicine-fallback-final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-initial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-medicine-fallback-initial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-medicine-fallback-mid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-result/diagnostic-result.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -315,21 +310,8 @@
       <workItem from="1612524626370" duration="8462000" />
       <workItem from="1612545304190" duration="10005000" />
       <workItem from="1612631947977" duration="7069000" />
-      <workItem from="1612717113566" duration="24083000" />
-    </task>
-    <task id="LOCAL-00074" summary="fix: bug fix nos scripts de test">
-      <created>1610626407085</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1610626407085</updated>
-    </task>
-    <task id="LOCAL-00075" summary="test: adicionado os mocks para os testes unitarios">
-      <created>1610626730523</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1610626730523</updated>
+      <workItem from="1612717113566" duration="24246000" />
+      <workItem from="1612786619066" duration="5563000" />
     </task>
     <task id="LOCAL-00076" summary="test: adicionado os mocks para os testes unitarios">
       <created>1610626754921</created>
@@ -660,7 +642,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612732367595</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="refactor: basic symptoms fever">
+      <created>1612752262346</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1612752262347</updated>
+    </task>
+    <task id="LOCAL-00124" summary="refactor: basic symptoms fever">
+      <created>1612752303567</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1612752303567</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +687,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: criado diretorio exclusivo para os fallbacks" />
     <MESSAGE value="fix: conserto na formatação dos textos" />
     <MESSAGE value="fix: corrigido o nome do objeto em nlp-erro-entendimento-fallback-final" />
     <MESSAGE value="fix: corrigido paragrafos das mensagens para o usuario" />
@@ -716,7 +711,8 @@
     <MESSAGE value="refactor: severe symptoms" />
     <MESSAGE value="feat: nova versão agent" />
     <MESSAGE value="refactor: mild symptoms three or more symptoms" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: mild symptoms three or more symptoms" />
+    <MESSAGE value="refactor: basic symptoms fever" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: basic symptoms fever" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

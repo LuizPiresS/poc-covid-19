@@ -85,7 +85,7 @@ export class DiagnosticResult {
     /**
      * Dentro do grupo de risco
      */
-    if (context.groupOfRisk && !context.fever && context.threeOrMoreSymptoms === 'poucos' && !context.severeSymptoms) {
+    if (context.groupOfRisk && !context.fever && context.threeOrMoreSymptoms === 'nenhum' && !context.severeSymptoms) {
       UtilsIntents.setResponse(agent, responseRiskGroupA1)
     }
 
@@ -97,7 +97,7 @@ export class DiagnosticResult {
       UtilsIntents.setResponse(agent, responseRiskGroupA3)
     }
 
-    if (context.groupOfRisk && !context.fever && context.threeOrMoreSymptoms === 'muitos' && context.severeSymptoms) {
+    if (context.groupOfRisk && !context.fever && context.threeOrMoreSymptoms === 'poucos' && context.severeSymptoms) {
       UtilsIntents.setResponse(agent, responseRiskGroupA4)
     }
 

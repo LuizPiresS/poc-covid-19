@@ -155,3 +155,6 @@ app
     res.json('Tu não deveria estar aqui, ou deveria?')
   })
 export default app
+
+// diagnostic-basic-group-of-risk-yes
+// diagnostic-basic-group-of-risk-followup diagnostic-basic-group-of-risk-yes
