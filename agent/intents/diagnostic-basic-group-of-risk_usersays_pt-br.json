@@ -1,5 +1,147 @@
 [
   {
+    "id": "e37a24b2-1e4c-4402-907e-128f14350bb7",
+    "data": [
+      {
+        "text": "Quero sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d8bec73b-d4e2-4c64-b179-354703a5f38f",
+    "data": [
+      {
+        "text": "Só se for ",
+        "userDefined": false
+      },
+      {
+        "text": "agora",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "db364835-955d-4aa6-b733-b0e3c08e85a2",
+    "data": [
+      {
+        "text": "Com certeza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "aebc675b-717d-4a37-af8d-05472d65f997",
+    "data": [
+      {
+        "text": "Certo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b4b916b4-e73e-447c-a578-bed5fffd6a51",
+    "data": [
+      {
+        "text": "Bora",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "729bb3c6-c812-4a14-9137-fc673596d8dd",
+    "data": [
+      {
+        "text": "Pergunte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8c2eff4d-e1a9-4d20-9bba-88b4e6f55850",
+    "data": [
+      {
+        "text": "Claro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " que sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b970e209-cba8-4bf4-8ec5-225894478411",
+    "data": [
+      {
+        "text": "Pode perguntar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b96be0ed-064a-4361-9907-fcf7afda151c",
+    "data": [
+      {
+        "text": "Quero fazer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c7e6be73-83bd-42e9-bd2c-4a830224f31b",
+    "data": [
+      {
+        "text": "Claro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "d4053e19-96e5-48aa-be35-80d5d9a7c7a1",
     "data": [
       {
