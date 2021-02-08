@@ -39,7 +39,7 @@ export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-grou
 export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-mid'
 export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-group-of-risk-fallback-final'
 
-export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-initial'
+export * from './pre-diagnostic/diagnostic-basic/fallbacks/pre-diagnostic-basic-fever-fallback-initial'
 export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-mid'
 export * from './pre-diagnostic/diagnostic-basic/fallbacks/diagnostic-basic-fever-fallback-final'
 
@@ -59,11 +59,11 @@ export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mi
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-three-or-more-fallback-final.js'
 
 export * from './pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine'
-export * from './pre-diagnostic/diagnostic-mild-symptoms/diagnostic-mild-symptoms-medicine-took-effect'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-took-effect'
 
-export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-initial.js'
-export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-mid.js'
-export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mild-symptoms-medicine-fallback-final.js'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-medicine-fallback-initial.js'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-medicine-fallback-mid.js'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-medicine-fallback-final.js'
 
 export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms'
 export * from './pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-yes'

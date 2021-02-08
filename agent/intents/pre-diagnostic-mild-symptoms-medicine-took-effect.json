@@ -1,24 +1,24 @@
 {
-  "id": "e4878e79-1057-4f13-85ce-a5a8d7007ac8",
-  "parentId": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
+  "id": "80fc9f5f-b54c-4a65-8552-dfe7e0cdbbc1",
+  "parentId": "b4602720-6612-4fe7-a8d1-eb9d0aaf96c3",
   "rootParentId": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
-  "name": "pre-diagnostic-mild-symptoms-three-or-more",
+  "name": "pre-diagnostic-mild-symptoms-medicine-took-effect",
   "auto": true,
   "contexts": [
-    "pre-diagnostic-mild-symptoms-context",
-    "pre-diagnostic-mild-symptoms-followup"
+    "pre-diagnostic-mild-symptoms-medicine-followup",
+    "pre-diagnostic-mild-symptoms-medicine-took-effect-context"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "pre-diagnostic-mild-symptoms.pre-diagnostic-mild-symptoms-custom",
+      "action": "pre-diagnostic-mild-symptoms.pre-diagnostic-mild-symptoms-custom.pre-diagnostic-mild-symptoms-three-or-more-yes.pre-diagnostic-mild-symptoms-medicine-custom",
       "affectedContexts": [
         {
-          "name": "pre-diagnostic-mild-symptoms-three-or-more-followup",
+          "name": "pre-diagnostic-severe-symptoms-context",
           "lifespan": 1
         },
         {
-          "name": "pre-diagnostic-mild-symptoms-medicine-context",
+          "name": "pre-diagnostic-mild-symptoms-medicine-took-effect-context",
           "lifespan": 1
         }
       ],
@@ -39,11 +39,7 @@
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "pre-diagnostic-mild-symptoms-three-or-more-event"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

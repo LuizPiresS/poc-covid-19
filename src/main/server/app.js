@@ -40,7 +40,7 @@ import {
   DiagnosticBasicFever,
   DiagnosticBasicFeverYes,
   DiagnosticBasicFeverNo,
-  DiagnosticBasicFeverFallbackInitial,
+  PreDiagnosticBasicFeverFallbackInitial,
   DiagnosticBasicFeverFallbackMid,
   DiagnosticBasicFeverFallbackFinal,
   PreDiagnosticMildSymptoms,
@@ -52,10 +52,10 @@ import {
   DiagnosticMildSymptomsThreeOrMoreFallbackMid,
   DiagnosticMildSymptomsThreeOrMoreFallbackFinal,
   PreDiagnosticMildSymptomsMedicine,
-  DiagnosticMildSymptomsMedicineTookEffect,
-  DiagnosticMildSymptomsMedicineFallbackInitial,
-  DiagnosticMildSymptomsMedicineFallbackMid,
-  DiagnosticMildSymptomsMedicineFallbackFinal,
+  PreDiagnosticMildSymptomsMedicineTookEffect,
+  PreDiagnosticMildSymptomsMedicineFallbackInitial,
+  PreDiagnosticMildSymptomsMedicineFallbackMid,
+  PreDiagnosticMildSymptomsMedicineFallbackFinal,
   DiagnosticSevereSymptoms,
   DiagnosticSevereSymptomsYes,
   DiagnosticSevereSymptomsNo,
@@ -117,7 +117,7 @@ app
     intentMap.set('diagnostic-basic-fever-yes', DiagnosticBasicFeverYes.execute)
     intentMap.set('diagnostic-basic-fever-no', DiagnosticBasicFeverNo.execute)
 
-    intentMap.set('diagnostic-basic-fever-fallback-initial', DiagnosticBasicFeverFallbackInitial.execute)
+    intentMap.set('pre-diagnostic-basic-fever-fallback-initial', PreDiagnosticBasicFeverFallbackInitial.execute)
     intentMap.set('diagnostic-basic-fever-fallback-mid', DiagnosticBasicFeverFallbackMid.execute)
     intentMap.set('diagnostic-basic-fever-fallback-final', DiagnosticBasicFeverFallbackFinal.execute)
 
@@ -133,11 +133,11 @@ app
     intentMap.set('diagnostic-mild-symptoms-three-or-more-fallback-final', DiagnosticMildSymptomsThreeOrMoreFallbackFinal.execute)
 
     intentMap.set('pre-diagnostic-mild-symptoms-medicine', PreDiagnosticMildSymptomsMedicine.execute)
-    intentMap.set('diagnostic-mild-symptoms-medicine-took-effect', DiagnosticMildSymptomsMedicineTookEffect.execute)
+    intentMap.set('pre-diagnostic-mild-symptoms-medicine-took-effect', PreDiagnosticMildSymptomsMedicineTookEffect.execute)
 
-    intentMap.set('diagnostic-mild-symptoms-medicine-fallback-initial', DiagnosticMildSymptomsMedicineFallbackInitial.execute)
-    intentMap.set('diagnostic-mild-symptoms-medicine-fallback-mid', DiagnosticMildSymptomsMedicineFallbackMid.execute)
-    intentMap.set('diagnostic-mild-symptoms-medicine-fallback-final', DiagnosticMildSymptomsMedicineFallbackFinal.execute)
+    intentMap.set('pre-diagnostic-mild-symptoms-medicine-fallback-initial', PreDiagnosticMildSymptomsMedicineFallbackInitial.execute)
+    intentMap.set('pre-diagnostic-mild-symptoms-medicine-fallback-mid', PreDiagnosticMildSymptomsMedicineFallbackMid.execute)
+    intentMap.set('pre-diagnostic-mild-symptoms-medicine-fallback-final', PreDiagnosticMildSymptomsMedicineFallbackFinal.execute)
 
     intentMap.set('pre-diagnostic-severe-symptoms', DiagnosticSevereSymptoms.execute)
     intentMap.set('pre-diagnostic-severe-symptoms-yes', DiagnosticSevereSymptomsYes.execute)
@@ -155,20 +155,3 @@ app
     res.json('Tu não deveria estar aqui, ou deveria?')
   })
 export default app
-
-// diagnostic-mild-symptoms-medicine-took-effect-event
-// diagnostic-mild-symptoms-medicine-took-effect-context
-
-// took effect
-// diagnostic-mild-symptoms-medicine-followup
-// diagnostic-mild-symptoms-medicine-took-effect-context
-
-// pre-diagnostic-mild-symptoms-three-or-more
-
-// pre-diagnostic-mild-symptoms-context
-// pre-diagnostic-mild-symptoms-followup
-// pre-diagnostic-mild-symptoms-three-or-more-context
-
-// loop infinito
-// pre-diagnostic-mild-symptoms-three-or-more-context
-//

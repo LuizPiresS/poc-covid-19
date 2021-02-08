@@ -1,17 +1,17 @@
 {
-  "id": "e4878e79-1057-4f13-85ce-a5a8d7007ac8",
-  "parentId": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
+  "id": "c9c24337-5e3c-4774-b46b-efe8ed4b215e",
+  "parentId": "3eb424b0-e201-4834-bccf-6cc97d716c79",
   "rootParentId": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
-  "name": "pre-diagnostic-mild-symptoms-three-or-more",
-  "auto": true,
+  "name": "pre-diagnostic-mild-symptoms-medicine-fallback-mid",
   "contexts": [
-    "pre-diagnostic-mild-symptoms-context",
-    "pre-diagnostic-mild-symptoms-followup"
+    "pre-diagnostic-mild-symptoms-medicine-context",
+    "pre-diagnostic-mild-symptoms-three-or-more-followup",
+    "pre-diagnostic-mild-symptoms-medicine-fallback-initial-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "pre-diagnostic-mild-symptoms.pre-diagnostic-mild-symptoms-custom",
+      "action": "pre-diagnostic-mild-symptoms.pre-diagnostic-mild-symptoms-custom.pre-diagnostic-mild-symptoms-three-or-more-fallback.pre-diagnostic-mild-symptoms-medicine-fallback-initial-fallback",
       "affectedContexts": [
         {
           "name": "pre-diagnostic-mild-symptoms-three-or-more-followup",
@@ -20,6 +20,10 @@
         {
           "name": "pre-diagnostic-mild-symptoms-medicine-context",
           "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-medicine-fallback-mid-followup",
+          "lifespan": 2
         }
       ],
       "parameters": [],
@@ -38,12 +42,8 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "fallbackIntent": false,
-  "events": [
-    {
-      "name": "pre-diagnostic-mild-symptoms-three-or-more-event"
-    }
-  ],
+  "fallbackIntent": true,
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

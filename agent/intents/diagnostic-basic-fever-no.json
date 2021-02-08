@@ -22,6 +22,14 @@
         {
           "name": "diagnostic-basic-fever-followup",
           "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-context",
+          "lifespan": 1
+        },
+        {
+          "name": "diagnostic-basic-fever-yes-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],

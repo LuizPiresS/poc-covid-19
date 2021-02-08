@@ -1,9 +1,9 @@
 [
   {
-    "id": "c40db2cc-f367-4511-addb-1c1a9ad8fdc6",
+    "id": "8914d930-a4f0-426d-89d3-b536d55017de",
     "data": [
       {
-        "text": "Não pertenço a nenhum dos grupos",
+        "text": "Não",
         "userDefined": false
       }
     ],
@@ -13,10 +13,10 @@
     "updated": 0
   },
   {
-    "id": "75d87408-3de2-43da-a51b-a67e1740beb9",
+    "id": "6ff43edc-b379-4ca3-95a1-bb1d1512151c",
     "data": [
       {
-        "text": "Não pertenço",
+        "text": "Não estou sentindo mais nada",
         "userDefined": false
       }
     ],
@@ -26,7 +26,139 @@
     "updated": 0
   },
   {
-    "id": "0892d434-96d5-4955-842e-8e1e10db87bc",
+    "id": "fe2f19be-7f36-4521-b487-701d84c3bdb9",
+    "data": [
+      {
+        "text": "Estou ",
+        "userDefined": false
+      },
+      {
+        "text": "curado",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8fd25dd9-186f-4491-94c9-7c422dcf43a6",
+    "data": [
+      {
+        "text": "Os sintomas desapareceram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "967f9666-a2a0-4723-a3aa-5edab8b1cf24",
+    "data": [
+      {
+        "text": "Não tenho mais nenhum sintoma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9e78ae34-f86a-45c2-8bb3-cfba710c96b1",
+    "data": [
+      {
+        "text": "Fiquei ",
+        "userDefined": false
+      },
+      {
+        "text": "curado",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0bb515c6-5aaf-448f-a4cd-6ac75f7c5915",
+    "data": [
+      {
+        "text": "Fez efeito sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1fb59295-2f8a-44d3-a840-b86306b7eb11",
+    "data": [
+      {
+        "text": "Sim, fez efeito",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "58023ec6-ad54-48b9-b6b0-8618c587a04b",
+    "data": [
+      {
+        "text": "Claro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " que fez",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "715b66a6-62ea-4f3a-aace-7f6de2bcf2e8",
+    "data": [
+      {
+        "text": "O medicamento fez efeito",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6c30ae57-cf09-47de-a38c-4c7ebd19e345",
+    "data": [
+      {
+        "text": "Sim o remédio fez efeito",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "65f6a779-d988-48df-a222-d25d06841cd1",
     "data": [
       {
         "text": "Sim",
@@ -34,124 +166,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "62a12716-c44e-4505-bb81-ce94a1062b4e",
-    "data": [
-      {
-        "text": "discordo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "3b7cd8a6-35d4-4c4c-81d8-0105a94a5186",
-    "data": [
-      {
-        "text": "definitivamente não",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "b107cc6f-3956-432b-bcf1-a3a1b59c9e5b",
-    "data": [
-      {
-        "text": "não obrigado",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "10b41714-9064-4dcd-b3f0-8fd9df2ac672",
-    "data": [
-      {
-        "text": "acho que não",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "bde2d10c-a5ce-41eb-a561-8e76cb0a54fe",
-    "data": [
-      {
-        "text": "não",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 4,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "311868a9-e66f-439a-85ec-9245b63a76a7",
-    "data": [
-      {
-        "text": "não tenho interesse",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "97b9a95e-8568-485f-98d5-c94f6f4d5bc7",
-    "data": [
-      {
-        "text": "não quero isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "1a4178d9-8337-4564-bd19-7857acf90673",
-    "data": [
-      {
-        "text": "não faça isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "57cb9c30-3725-44e2-bb73-aee05a1089b2",
-    "data": [
-      {
-        "text": "não mesmo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   }

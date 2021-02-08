@@ -1,0 +1,48 @@
+{
+  "id": "3eb424b0-e201-4834-bccf-6cc97d716c79",
+  "parentId": "e4878e79-1057-4f13-85ce-a5a8d7007ac8",
+  "rootParentId": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
+  "name": "pre-diagnostic-mild-symptoms-medicine-fallback-initial",
+  "contexts": [
+    "pre-diagnostic-mild-symptoms-three-or-more-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pre-diagnostic-mild-symptoms.pre-diagnostic-mild-symptoms-custom.pre-diagnostic-mild-symptoms-three-or-more-fallback",
+      "affectedContexts": [
+        {
+          "name": "pre-diagnostic-mild-symptoms-medicine-context",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-three-or-more-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-medicine-fallback-initial-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
