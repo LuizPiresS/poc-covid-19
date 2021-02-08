@@ -78,6 +78,7 @@ export class UtilsIntents {
       for (let index = 1; index < suggestions.length; index++) {
         currentSuggestions.addReply_(suggestions[index])
       }
+      UtilsIntents.logChatbaseMessagesAgent(agent, suggestions.title).then(r => console.log(r, 'log agent ----------------')).catch(err => console.log(err))
 
       agent.add(currentSuggestions)
     }
@@ -99,6 +100,7 @@ export class UtilsIntents {
         agent.add(ssmlText)
       } else {
         agent.add(response.text)
+        UtilsIntents.logChatbaseMessagesAgent(agent, response.text).then(r => console.log(r, 'log agent ----------------')).catch(error => console.log(error))
       }
     })
   }
@@ -137,7 +139,7 @@ export class UtilsIntents {
       })
   }
 
-  static async logChatbaseMessagesAgent (agent) {
+  static async logChatbaseMessagesAgent (agent, botMessage) {
     const tokenAPIChatbase = config.get('App.Auth.tokenAPIChatbase')
 
     const dataMessage =
@@ -145,11 +147,9 @@ export class UtilsIntents {
         api_key: tokenAPIChatbase,
         type: 'agent',
         platform: 'Telegram',
-        message: agent.query,
-        intent: 'teste',
+        message: botMessage,
         version: '1.0',
-        user_id: 'user-00'
-
+        user_id: 'user-01'
       }
     return await axios.post('https://chatbase.com/api/message', dataMessage)
       .then(res => {
