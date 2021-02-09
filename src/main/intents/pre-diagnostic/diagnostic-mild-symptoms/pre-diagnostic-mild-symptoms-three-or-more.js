@@ -10,19 +10,20 @@ export class PreDiagnosticMildSymptomsThreeOrMore {
     let threeOrMoreSymptoms
     let response
 
+    console.log('--------------------> ', agent.parameters.numbers)
     const agentQuery = agent.query
     const numberSymptoms = agentQuery.replace(/([^\d])+/gim, '')
 
-    if (numberSymptoms <= 3) {
+    if (numberSymptoms <= 3 || agent.parameters.numbers <= 3) {
       threeOrMoreSymptoms = 'poucos'
       response = responseDiagnosticMildSymptomsLessThree
     }
-    if (agentQuery === 'Mais de três sintomas' || numberSymptoms > 3) {
+    if (agentQuery === 'Mais de três sintomas' || numberSymptoms > 3 || agent.parameters.numbers > 3) {
       threeOrMoreSymptoms = 'muitos'
       response = responseDiagnosticMildSymptomsThreeOrMore
     }
 
-    if (agentQuery === 'Nenhum') {
+    if (agentQuery === 'Nenhum' || agentQuery === 0 || agent.parameters.numbers === 0) {
       threeOrMoreSymptoms = 'nenhum'
       response = responseDiagnosticMildSymptomsNone
     }
