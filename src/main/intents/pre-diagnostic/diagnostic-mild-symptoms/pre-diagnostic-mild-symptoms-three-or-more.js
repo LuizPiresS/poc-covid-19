@@ -38,3 +38,5 @@ export class PreDiagnosticMildSymptomsThreeOrMore {
     }
   }
 }
+// pre-diagnostic-no
+// symptoms-followup diagnostic-basic pre-diagnostic-followup pre-diagnostic-no-context

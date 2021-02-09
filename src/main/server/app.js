@@ -82,9 +82,9 @@ app
     intentMap.set('response-farewell', Farewell.execute)
     intentMap.set('response-swearing-words', ResponseSwearingWords.execute)
 
-    intentMap.set('nlp-erro-entendimento-fallbacks-initial', NlpGenericFallbackInitial.execute)
-    intentMap.set('nlp-erro-entendimento-fallbacks-middle', NlpGenericFallbackMiddle.execute)
-    intentMap.set('nlp-erro-entendimento-fallbacks-final', NlpGenericFallbackFinal.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-initial', NlpGenericFallbackInitial.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-middle', NlpGenericFallbackMiddle.execute)
+    intentMap.set('nlp-erro-entendimento-fallback-final', NlpGenericFallbackFinal.execute)
 
     intentMap.set('prevention', Prevention.execute)
     intentMap.set('prevention-basic-prevention', BasicPrevention.execute)

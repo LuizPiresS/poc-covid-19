@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback" />
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,14 +314,7 @@
       <workItem from="1612820053788" duration="44000" />
       <workItem from="1612826418402" duration="3328000" />
       <workItem from="1612831742312" duration="106000" />
-      <workItem from="1612872304066" duration="5097000" />
-    </task>
-    <task id="LOCAL-00082" summary="fix: removido a mensagem para clicar nos botões">
-      <created>1610973903813</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1610973903813</updated>
+      <workItem from="1612872304066" duration="9977000" />
     </task>
     <task id="LOCAL-00083" summary="fix: removido a mensagem duplicada de &quot;Posso ajudar&quot;">
       <created>1610973955929</created>
@@ -655,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612879709047</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="feat: nova versão do agent">
+      <created>1612879794435</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1612879794435</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,7 +703,6 @@
     <MESSAGE value="feat: adicionado fallbacks dos sintomas leves" />
     <MESSAGE value="feat: adicionado fallback sintomas leves" />
     <MESSAGE value="feat: adicionado fluxo de medicamentos e sintomas graves assim como resultado" />
-    <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="feat: adicionado pre-diagnostic" />
     <MESSAGE value="feat: adicionado severe-symptoms fallback" />
     <MESSAGE value="refactor: severe simptoms" />
@@ -711,7 +714,8 @@
     <MESSAGE value="feat: adicionado integração com chatbase" />
     <MESSAGE value="feat: adicionado fluxo de medicamentos" />
     <MESSAGE value="feat: adicionado reconhecimento de número por extenso nas frases" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado reconhecimento de número por extenso nas frases" />
+    <MESSAGE value="feat: nova versão do agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão do agent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
