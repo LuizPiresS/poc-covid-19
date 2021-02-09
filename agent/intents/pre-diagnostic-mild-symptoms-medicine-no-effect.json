@@ -1,0 +1,42 @@
+{
+  "id": "8407efe9-7059-43a6-af9e-4de78f3186eb",
+  "parentId": "b4602720-6612-4fe7-a8d1-eb9d0aaf96c3",
+  "rootParentId": "fa94e86e-183d-483b-8b73-ef8ef61c7ce7",
+  "name": "pre-diagnostic-mild-symptoms-medicine-no-effect",
+  "auto": true,
+  "contexts": [
+    "pre-diagnostic-mild-symptoms-medicine-followup",
+    "pre-diagnostic-mild-symptoms-medicine-no-effect-context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pre-diagnostic-mild-symptoms.pre-diagnostic-mild-symptoms-custom.pre-diagnostic-mild-symptoms-three-or-more-yes.pre-diagnostic-mild-symptoms-medicine-custom",
+      "affectedContexts": [
+        {
+          "name": "pre-diagnostic-severe-symptoms-context",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

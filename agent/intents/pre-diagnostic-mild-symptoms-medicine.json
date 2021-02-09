@@ -20,6 +20,10 @@
         {
           "name": "pre-diagnostic-mild-symptoms-medicine-took-effect-context",
           "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-medicine-no-effect-context",
+          "lifespan": 1
         }
       ],
       "parameters": [],

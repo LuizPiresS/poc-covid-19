@@ -1,5 +1,83 @@
 [
   {
+    "id": "ba969f21-cb10-48ec-9b94-f30bdea0e08f",
+    "data": [
+      {
+        "text": "Não estou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7731cb36-fe49-4766-91f4-4ad3a2d22ff7",
+    "data": [
+      {
+        "text": "Não estou nos grupos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "357bfb9e-967b-498d-93ee-4b26c8d5f34d",
+    "data": [
+      {
+        "text": "Não tenho diabetes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7b48c9c6-f57d-49a0-b382-843d01e15648",
+    "data": [
+      {
+        "text": "Não estou gravida",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "58c226e3-2cea-4434-9ec8-d9afd1ea6e23",
+    "data": [
+      {
+        "text": "Não sou nada disso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "696a0afb-7cdd-4de3-b743-e4d0427f4f49",
+    "data": [
+      {
+        "text": "Não faço parte de nenhum dos grupo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "c40db2cc-f367-4511-addb-1c1a9ad8fdc6",
     "data": [
       {
@@ -26,32 +104,6 @@
     "updated": 0
   },
   {
-    "id": "0892d434-96d5-4955-842e-8e1e10db87bc",
-    "data": [
-      {
-        "text": "Sim",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "62a12716-c44e-4505-bb81-ce94a1062b4e",
-    "data": [
-      {
-        "text": "discordo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
     "id": "3b7cd8a6-35d4-4c4c-81d8-0105a94a5186",
     "data": [
       {
@@ -61,19 +113,6 @@
     ],
     "isTemplate": false,
     "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "b107cc6f-3956-432b-bcf1-a3a1b59c9e5b",
-    "data": [
-      {
-        "text": "não obrigado",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
     "lang": "pt-br",
     "updated": 0
   },
@@ -100,45 +139,6 @@
     ],
     "isTemplate": false,
     "count": 4,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "311868a9-e66f-439a-85ec-9245b63a76a7",
-    "data": [
-      {
-        "text": "não tenho interesse",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "97b9a95e-8568-485f-98d5-c94f6f4d5bc7",
-    "data": [
-      {
-        "text": "não quero isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "1a4178d9-8337-4564-bd19-7857acf90673",
-    "data": [
-      {
-        "text": "não faça isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },

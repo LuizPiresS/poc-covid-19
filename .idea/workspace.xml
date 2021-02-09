@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
-    </list>
+    <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -313,14 +310,7 @@
       <workItem from="1612820053788" duration="44000" />
       <workItem from="1612826418402" duration="3328000" />
       <workItem from="1612831742312" duration="106000" />
-      <workItem from="1612872304066" duration="4426000" />
-    </task>
-    <task id="LOCAL-00081" summary="refactor: movido o local das mensagens que serão mostradas para o usuario final">
-      <created>1610973823081</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1610973823081</updated>
+      <workItem from="1612872304066" duration="5097000" />
     </task>
     <task id="LOCAL-00082" summary="fix: removido a mensagem para clicar nos botões">
       <created>1610973903813</created>
@@ -658,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612831817518</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="feat: adicionado reconhecimento de número por extenso nas frases">
+      <created>1612879709047</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1612879709047</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,7 +686,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adicionado tratamento de xingamentos" />
     <MESSAGE value="refactor: arquivos renomeados" />
     <MESSAGE value="feat: adicionado sintomas" />
     <MESSAGE value="chore: edit editor config" />
@@ -714,7 +710,8 @@
     <MESSAGE value="fix: fix do bug group of risk que não registrava o valor correto no context" />
     <MESSAGE value="feat: adicionado integração com chatbase" />
     <MESSAGE value="feat: adicionado fluxo de medicamentos" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado fluxo de medicamentos" />
+    <MESSAGE value="feat: adicionado reconhecimento de número por extenso nas frases" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado reconhecimento de número por extenso nas frases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

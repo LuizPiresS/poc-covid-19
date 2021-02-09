@@ -1,5 +1,75 @@
 [
   {
+    "id": "804e40ae-ed36-44c0-9c4a-b6a33e73530c",
+    "data": [
+      {
+        "text": "Sem chance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b9b5090d-8772-4279-8209-c3493fd0a518",
+    "data": [
+      {
+        "text": "Possivelmente não",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a5c18c05-c655-4159-8685-afedfbde6fea",
+    "data": [
+      {
+        "text": "Acredito que não",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "11241549-7769-447f-b4d0-846dfb4cfa9d",
+    "data": [
+      {
+        "text": "Sem febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2fd06bd3-2518-4396-a447-c4f760943786",
+    "data": [
+      {
+        "text": "Não estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "614e1a54-0384-4103-a0f4-49666952aaa6",
     "data": [
       {
@@ -13,19 +83,6 @@
     "updated": 0
   },
   {
-    "id": "62a12716-c44e-4505-bb81-ce94a1062b4e",
-    "data": [
-      {
-        "text": "discordo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
     "id": "3b7cd8a6-35d4-4c4c-81d8-0105a94a5186",
     "data": [
       {
@@ -35,19 +92,6 @@
     ],
     "isTemplate": false,
     "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "b107cc6f-3956-432b-bcf1-a3a1b59c9e5b",
-    "data": [
-      {
-        "text": "não obrigado",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 2,
     "lang": "pt-br",
     "updated": 0
   },
@@ -74,45 +118,6 @@
     ],
     "isTemplate": false,
     "count": 4,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "311868a9-e66f-439a-85ec-9245b63a76a7",
-    "data": [
-      {
-        "text": "não tenho interesse",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "97b9a95e-8568-485f-98d5-c94f6f4d5bc7",
-    "data": [
-      {
-        "text": "não quero isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "1a4178d9-8337-4564-bd19-7857acf90673",
-    "data": [
-      {
-        "text": "não faça isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },

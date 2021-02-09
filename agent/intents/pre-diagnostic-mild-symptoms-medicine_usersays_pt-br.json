@@ -1,9 +1,53 @@
 [
   {
-    "id": "b812947d-40ec-4f02-ae7f-30a68c0e3c5d",
+    "id": "a392af40-1164-4116-81dc-ed87ded87c84",
     "data": [
       {
-        "text": "Não",
+        "text": "sim, tomei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b82a3cee-c141-475f-914f-fb0652046961",
+    "data": [
+      {
+        "text": "Tomei remédio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "da5569bc-7785-40b0-866f-cba1eafef0ab",
+    "data": [
+      {
+        "text": "Tomei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "60337c87-a1b0-4383-a03f-015d3bad234e",
+    "data": [
+      {
+        "text": "sim, ",
+        "userDefined": false
+      },
+      {
+        "text": "claro",
+        "meta": "@sys.ignore",
         "userDefined": false
       }
     ],
@@ -26,23 +70,10 @@
     "updated": 0
   },
   {
-    "id": "954a9cc2-7daa-41f8-9d74-e22b5d3e6692",
-    "data": [
-      {
-        "text": "faça isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
     "id": "3b46c4c1-14b4-42bb-b7d5-38e7d2043d80",
     "data": [
       {
-        "text": "confirmar",
+        "text": "confirmo",
         "userDefined": false
       }
     ],
@@ -94,7 +125,7 @@
     "id": "48b56467-9832-488f-b4e3-c416f288f0e6",
     "data": [
       {
-        "text": "parece bom",
+        "text": "parece que sim",
         "userDefined": false
       }
     ],
@@ -107,25 +138,12 @@
     "id": "81a4475b-a451-4bea-b3ff-2c34dadfae25",
     "data": [
       {
-        "text": "claro",
+        "text": "claro que sim",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 2,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "6d1510d2-fe02-4d00-8969-0ef77840ca97",
-    "data": [
-      {
-        "text": "exatamente",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },

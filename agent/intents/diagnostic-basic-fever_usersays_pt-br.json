@@ -1,9 +1,9 @@
 [
   {
-    "id": "54d5f463-3cf9-400c-a7a0-89f4d896314b",
+    "id": "5b61a07f-ff65-4e9f-883f-0b46eed99cc9",
     "data": [
       {
-        "text": "Tive febre",
+        "text": "Com certeza",
         "userDefined": false
       }
     ],
@@ -13,10 +13,89 @@
     "updated": 0
   },
   {
-    "id": "b677485b-50c7-492d-b1f7-0c36fa88f21c",
+    "id": "a1d5a966-c38c-43eb-9489-e70a7b67b52e",
     "data": [
       {
-        "text": "Pertenço",
+        "text": "Possivelmente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ffd468dd-891c-438d-a9bf-181804db4511",
+    "data": [
+      {
+        "text": "Acredito que sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e4ccc33d-33ed-4bd9-8604-d981b31da7f9",
+    "data": [
+      {
+        "text": "Acho que sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f890f41e-725a-423e-9f71-4f41b25a89e3",
+    "data": [
+      {
+        "text": "Estive com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " muita febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0ab12a4e-cf1d-4446-8ea5-8b698491846b",
+    "data": [
+      {
+        "text": "Tive ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " graus de febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "54d5f463-3cf9-400c-a7a0-89f4d896314b",
+    "data": [
+      {
+        "text": "Tive febre",
         "userDefined": false
       }
     ],

@@ -20,9 +20,28 @@
         {
           "name": "pre-diagnostic-mild-symptoms-medicine-context",
           "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-mild-symptoms-three-or-more-context",
+          "lifespan": 1
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "b8429e17-3513-473b-9883-c21bb191bda7",
+          "name": "numbers",
+          "required": false,
+          "dataType": "@numbers",
+          "value": "$numbers",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
       "messages": [
         {
           "type": "0",

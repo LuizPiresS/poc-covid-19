@@ -1,5 +1,124 @@
 [
   {
+    "id": "9e81cd38-0bd3-40bf-bb8c-881b39ca5c77",
+    "data": [
+      {
+        "text": "Quero ver se ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " doente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7762530b-0bab-44f0-873b-e1944be649f7",
+    "data": [
+      {
+        "text": "Quero fazer o teste ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ver",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "af883b42-8a00-40be-9156-0c73fbb09b90",
+    "data": [
+      {
+        "text": "Bora",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a3d1562a-1d09-4e3c-bbb1-23c3d3feba6f",
+    "data": [
+      {
+        "text": "Com toda a certeza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f736f0f4-b01f-4b8e-9783-f4d8f85ade40",
+    "data": [
+      {
+        "text": "Quero saber se tenho",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "34782fa5-99c6-4664-96ef-ec9aa7f188e9",
+    "data": [
+      {
+        "text": "Quero saber se estou doente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4aec8f13-a4e4-4bf6-8622-60b812ad0769",
+    "data": [
+      {
+        "text": "Quero fazer ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " Pré-diagnóstico",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "02657048-c953-4552-b2d8-3b080e692538",
     "data": [
       {
@@ -35,8 +154,13 @@
     "id": "b4a78e45-7cf3-4200-81ac-abe6c70a31a9",
     "data": [
       {
-        "text": "Com certeza",
+        "text": "Com ",
         "userDefined": false
+      },
+      {
+        "text": "certeza",
+        "meta": "@sys.ignore",
+        "userDefined": true
       }
     ],
     "isTemplate": false,

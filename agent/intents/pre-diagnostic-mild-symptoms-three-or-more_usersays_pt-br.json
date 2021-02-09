@@ -1,14 +1,122 @@
 [
   {
-    "id": "8e67b6b9-75a7-44c6-bac2-986e5072baeb",
+    "id": "31e1fae4-9beb-4dff-b29e-a52a2e1f2d18",
     "data": [
       {
-        "text": "Mais de ",
+        "text": "Tenho ",
         "userDefined": false
       },
       {
-        "text": "três",
+        "text": "poucos",
+        "meta": "@numbers",
+        "alias": "numbers",
+        "userDefined": true
+      },
+      {
+        "text": " sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "da0f056d-bd34-48ea-b831-1b4a87fe17b3",
+    "data": [
+      {
+        "text": "Estou com",
         "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "muitos",
+        "meta": "@numbers",
+        "alias": "numbers",
+        "userDefined": true
+      },
+      {
+        "text": " destes sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f88745e1-735d-4261-bc53-2269c2c40b48",
+    "data": [
+      {
+        "text": "To com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cinco",
+        "meta": "@numbers",
+        "alias": "numbers",
+        "userDefined": false
+      },
+      {
+        "text": " doenças",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "36398fc9-bcb1-4241-a189-f9537bba8998",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "todos",
+        "meta": "@numbers",
+        "alias": "numbers",
+        "userDefined": true
+      },
+      {
+        "text": " os sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b18e9061-6f37-4e6e-8e5b-d10c53f732de",
+    "data": [
+      {
+        "text": "Tenho apenas ",
+        "userDefined": false
+      },
+      {
+        "text": "dois",
+        "meta": "@numbers",
+        "alias": "numbers",
         "userDefined": false
       },
       {
@@ -22,11 +130,20 @@
     "updated": 0
   },
   {
-    "id": "fee69070-9b7b-4af8-adf2-0ab4fd1762bf",
+    "id": "c0f0e608-9967-4992-83e3-28e106f7eeca",
     "data": [
       {
-        "text": "3",
-        "meta": "@sys.ignore",
+        "text": "Tenho ",
+        "userDefined": false
+      },
+      {
+        "text": "três",
+        "meta": "@numbers",
+        "alias": "numbers",
+        "userDefined": true
+      },
+      {
+        "text": " sintomas ou mais",
         "userDefined": false
       }
     ],
@@ -36,11 +153,25 @@
     "updated": 0
   },
   {
-    "id": "23f4687a-ff85-4522-9b28-4fe9eb16d992",
+    "id": "9d2d36f6-2120-4e21-9cc3-dcefa1706c56",
     "data": [
       {
-        "text": "2",
+        "text": "Estou com",
         "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cinco",
+        "meta": "@numbers",
+        "alias": "numbers",
+        "userDefined": true
+      },
+      {
+        "text": " sintomas",
         "userDefined": false
       }
     ],
@@ -50,11 +181,20 @@
     "updated": 0
   },
   {
-    "id": "e4ce66c4-d4a2-47f0-9606-f4b8b9636cc6",
+    "id": "8e67b6b9-75a7-44c6-bac2-986e5072baeb",
     "data": [
       {
-        "text": "1",
-        "meta": "@sys.ignore",
+        "text": "Mais de ",
+        "userDefined": false
+      },
+      {
+        "text": "três",
+        "meta": "@numbers",
+        "alias": "numbers",
+        "userDefined": true
+      },
+      {
+        "text": " sintomas",
         "userDefined": false
       }
     ],
@@ -68,8 +208,9 @@
     "data": [
       {
         "text": "Nenhum",
-        "meta": "@sys.ignore",
-        "userDefined": false
+        "meta": "@numbers",
+        "alias": "numbers",
+        "userDefined": true
       }
     ],
     "isTemplate": false,

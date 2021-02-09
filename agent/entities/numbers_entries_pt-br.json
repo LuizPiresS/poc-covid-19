@@ -3,7 +3,8 @@
     "value": "0",
     "synonyms": [
       "0",
-      "Nenhum"
+      "Nenhum",
+      "zero"
     ]
   },
   {
@@ -17,14 +18,16 @@
     "value": "2",
     "synonyms": [
       "2",
-      "dois"
+      "dois",
+      "poucos"
     ]
   },
   {
     "value": "3",
     "synonyms": [
       "3",
-      "três"
+      "três",
+      "alguns"
     ]
   },
   {
@@ -38,7 +41,9 @@
     "value": "5",
     "synonyms": [
       "5",
-      "cinco"
+      "cinco",
+      "todos",
+      "muitos"
     ]
   },
   {
@@ -60,6 +65,20 @@
     "synonyms": [
       "8",
       "oito"
+    ]
+  },
+  {
+    "value": "9",
+    "synonyms": [
+      "9",
+      "nove"
+    ]
+  },
+  {
+    "value": "10",
+    "synonyms": [
+      "10",
+      "dez"
     ]
   }
 ]

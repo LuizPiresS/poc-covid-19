@@ -1,128 +1,14 @@
 [
   {
-    "id": "8db3f68d-0d20-4a8a-ad3c-75ad38b445a9",
+    "id": "f3bf34d6-121f-45e9-abfe-e44cf96dadae",
     "data": [
       {
-        "text": "Estou pra la de especial",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "0da66c23-5317-4381-96ac-bdb8604a2365",
-    "data": [
-      {
-        "text": "Logico",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "fe2f19be-7f36-4521-b487-701d84c3bdb9",
-    "data": [
-      {
-        "text": "Estou ",
-        "userDefined": false
-      },
-      {
-        "text": "curado",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "8fd25dd9-186f-4491-94c9-7c422dcf43a6",
-    "data": [
-      {
-        "text": "Os sintomas desapareceram",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "967f9666-a2a0-4723-a3aa-5edab8b1cf24",
-    "data": [
-      {
-        "text": "Não tenho mais nenhum sintoma",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "9e78ae34-f86a-45c2-8bb3-cfba710c96b1",
-    "data": [
-      {
-        "text": "Fiquei ",
-        "userDefined": false
-      },
-      {
-        "text": "curado",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "0bb515c6-5aaf-448f-a4cd-6ac75f7c5915",
-    "data": [
-      {
-        "text": "Fez efeito sim",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "1fb59295-2f8a-44d3-a840-b86306b7eb11",
-    "data": [
-      {
-        "text": "Sim, fez efeito",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "58023ec6-ad54-48b9-b6b0-8618c587a04b",
-    "data": [
-      {
-        "text": "Claro",
+        "text": "To",
         "meta": "@sys.ignore",
         "userDefined": false
       },
       {
-        "text": " que fez",
+        "text": " mal das pernas",
         "userDefined": false
       }
     ],
@@ -132,10 +18,15 @@
     "updated": 0
   },
   {
-    "id": "715b66a6-62ea-4f3a-aace-7f6de2bcf2e8",
+    "id": "9fc116e0-b818-43dc-9559-f66350588af8",
     "data": [
       {
-        "text": "O medicamento fez efeito",
+        "text": "Continuo com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " muitos sintomas",
         "userDefined": false
       }
     ],
@@ -145,10 +36,10 @@
     "updated": 0
   },
   {
-    "id": "6c30ae57-cf09-47de-a38c-4c7ebd19e345",
+    "id": "e95b1bbd-4a6b-4e51-906b-bdbc766b497f",
     "data": [
       {
-        "text": "Sim o remédio fez efeito",
+        "text": "Estou piorando cada vez mais",
         "userDefined": false
       }
     ],
@@ -158,10 +49,119 @@
     "updated": 0
   },
   {
-    "id": "65f6a779-d988-48df-a222-d25d06841cd1",
+    "id": "6d919e63-fd5a-4201-8d32-25398bd2d14b",
     "data": [
       {
-        "text": "Sim",
+        "text": "Estou mal de vida",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6fe06295-e4f5-408f-a684-2d26219b4c34",
+    "data": [
+      {
+        "text": "Piorei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "046efc45-2341-4b4b-9c58-61656332cd70",
+    "data": [
+      {
+        "text": "Estou pior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b4360f1a-e47b-45bf-b456-851bac049021",
+    "data": [
+      {
+        "text": "Ainda estou doente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1e8a78ac-210f-406b-94bd-33fb060cd270",
+    "data": [
+      {
+        "text": "Continuo doente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "190a5a97-7d85-45a8-bbd2-8c31ef9f42db",
+    "data": [
+      {
+        "text": "Continuo com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " os sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2256d14b-d9d1-486d-a008-bc9716c6d143",
+    "data": [
+      {
+        "text": "Não me curei dos sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8140805b-c46f-4d8e-bddc-8359357b764c",
+    "data": [
+      {
+        "text": "Não melhorei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2538c95c-5417-4307-827d-7e9205967a22",
+    "data": [
+      {
+        "text": "Não",
         "userDefined": false
       }
     ],

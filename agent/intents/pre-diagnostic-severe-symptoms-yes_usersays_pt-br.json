@@ -1,9 +1,119 @@
 [
   {
-    "id": "954a9cc2-7daa-41f8-9d74-e22b5d3e6692",
+    "id": "19d61fda-31db-41c8-b10e-9e86a192ef66",
     "data": [
       {
-        "text": "faça isso",
+        "text": "Fiquei pálido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "924226fb-1530-40c9-b1bb-495c9a237d23",
+    "data": [
+      {
+        "text": "Quase desmaiei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "bcef5315-8049-4e53-823a-2b2381a20ce3",
+    "data": [
+      {
+        "text": "Me pretiou as vistas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "da9795bf-7dea-44a0-b36e-d52d5656d004",
+    "data": [
+      {
+        "text": "Tive vontade de vomitar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b7a3adc1-a569-4f59-bc10-3a260ead2490",
+    "data": [
+      {
+        "text": "Eu convulsionei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2c99eadc-288d-45a3-9351-d6e007d3a24f",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " dificuldades ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " respirar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e0158993-4843-4c92-88bc-ca7c0f484182",
+    "data": [
+      {
+        "text": "Sim tenho estes sintomas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "56bb4b79-6beb-4145-a3f4-5ab8fc0fea07",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " alguns destes sintomas",
         "userDefined": false
       }
     ],
@@ -16,7 +126,7 @@
     "id": "3b46c4c1-14b4-42bb-b7d5-38e7d2043d80",
     "data": [
       {
-        "text": "confirmar",
+        "text": "confirmo",
         "userDefined": false
       }
     ],
@@ -43,32 +153,6 @@
     "data": [
       {
         "text": "isso mesmo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "e1e3af12-9b71-4d8a-bf67-f52ad8e59c7e",
-    "data": [
-      {
-        "text": "concordo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "48b56467-9832-488f-b4e3-c416f288f0e6",
-    "data": [
-      {
-        "text": "parece bom",
         "userDefined": false
       }
     ],
