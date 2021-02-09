@@ -6,7 +6,7 @@ export const responseDiagnosticMildSymptomsMedicine = [
   }
 ]
 
-export const responseDiagnosticMildSymptomsMedicineTookEffect = [
+export const responseDiagnosticMildSymptomsMedicineNoEffect = [
   {
     text: 'Ótimo! Sem sintomas gripais. 😊'
 

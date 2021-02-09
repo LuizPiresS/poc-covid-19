@@ -3,7 +3,7 @@ import { UtilsIntents } from '../../utils/utils-intents'
 
 export class DiagnosticSevereSymptoms {
   static execute (agent) {
-    const { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
+    const { groupOfRisk, fever, threeOrMoreSymptoms, tookEffect, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
 
     agent.context.set({
       name: 'pre-diagnostic',
@@ -12,6 +12,7 @@ export class DiagnosticSevereSymptoms {
         groupOfRisk,
         fever,
         threeOrMoreSymptoms,
+        tookEffect,
         severeSymptoms
       }
     })

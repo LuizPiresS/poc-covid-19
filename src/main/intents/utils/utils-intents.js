@@ -109,6 +109,17 @@ export class UtilsIntents {
     return response.find(element => element[`${title}`])[`${title}`]
   }
 
+  static getUserID (agent) {
+    let userId
+    if (agent.source === 'FACEBOOK') {
+      userId = agent.originalRequest.payload.data.sender.id
+    } else {
+      userId = agent.originalRequest.payload.data.from.id
+    }
+
+    return userId
+  }
+
   static async logChatbaseMessagesUsers (agent, intent) {
     const tokenAPIChatbase = config.get('App.Auth.tokenAPIChatbase')
     console.log('------- Enviou o log')
@@ -120,10 +131,10 @@ export class UtilsIntents {
         message: agent.query,
         intent: intent,
         version: '1.0',
-        user_id: 'user-00'
+        user_id: UtilsIntents.getUserID(agent)
 
       }
-    console.log('------- Enviou o log', dataMessage)
+    console.log('------- Enviou o log usuário', dataMessage)
 
     return await axios.post('https://chatbase.com/api/message', dataMessage)
       .then(res => {
@@ -141,7 +152,7 @@ export class UtilsIntents {
 
   static async logChatbaseMessagesAgent (agent, botMessage) {
     const tokenAPIChatbase = config.get('App.Auth.tokenAPIChatbase')
-
+    console.log('------- Enviou o log agent', botMessage)
     const dataMessage =
       {
         api_key: tokenAPIChatbase,
@@ -149,7 +160,7 @@ export class UtilsIntents {
         platform: 'Telegram',
         message: botMessage,
         version: '1.0',
-        user_id: 'user-01'
+        user_id: UtilsIntents.getUserID(agent)
       }
     return await axios.post('https://chatbase.com/api/message', dataMessage)
       .then(res => {

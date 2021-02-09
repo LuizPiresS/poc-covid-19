@@ -6,7 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk-yes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-group-of-risk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/pre-diagnostic-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/pre-diagnostic-no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-took-effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-took-effect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms-yes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/utils/utils-intents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/utils/utils-intents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/responses/pre-diagnostic/diagnostic-mild-symptoms/response-diagnostic-mild-symptoms-medicine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +111,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/fallbacks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -111,9 +129,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-severe-symptoms\fallbacks" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-severe-symptoms" />
-      <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-mild-symptoms" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\intents\pre-diagnostic\diagnostic-mild-symptoms\fallbacks" />
       <recent name="C:\Users\luiz.pires\Development\poc-covid-19\src\main\responses\pre-diagnostic\diagnostic-mild-symptoms" />
     </key>
@@ -309,14 +327,10 @@
       <workItem from="1612545304190" duration="10005000" />
       <workItem from="1612631947977" duration="7069000" />
       <workItem from="1612717113566" duration="24246000" />
-      <workItem from="1612786619066" duration="16676000" />
-    </task>
-    <task id="LOCAL-00079" summary="fix: resolvido problemas de espaçamento nos paragrafos">
-      <created>1610973633541</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1610973633541</updated>
+      <workItem from="1612786619066" duration="19804000" />
+      <workItem from="1612820053788" duration="44000" />
+      <workItem from="1612826418402" duration="3328000" />
+      <workItem from="1612831742312" duration="9000" />
     </task>
     <task id="LOCAL-00080" summary="feat: adicionado validação de error de comunicação com a api">
       <created>1610973761551</created>
@@ -654,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612812438150</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="feat: adicionado integração com chatbase">
+      <created>1612814361478</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1612814361478</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

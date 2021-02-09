@@ -53,6 +53,7 @@ import {
   DiagnosticMildSymptomsThreeOrMoreFallbackFinal,
   PreDiagnosticMildSymptomsMedicine,
   PreDiagnosticMildSymptomsMedicineTookEffect,
+  PreDiagnosticMildSymptomsMedicineNoEffect,
   PreDiagnosticMildSymptomsMedicineFallbackInitial,
   PreDiagnosticMildSymptomsMedicineFallbackMid,
   PreDiagnosticMildSymptomsMedicineFallbackFinal,
@@ -140,6 +141,7 @@ app
 
     intentMap.set('pre-diagnostic-mild-symptoms-medicine', PreDiagnosticMildSymptomsMedicine.execute)
     intentMap.set('pre-diagnostic-mild-symptoms-medicine-took-effect', PreDiagnosticMildSymptomsMedicineTookEffect.execute)
+    intentMap.set('pre-diagnostic-mild-symptoms-medicine-no-effect', PreDiagnosticMildSymptomsMedicineNoEffect.execute)
 
     intentMap.set('pre-diagnostic-mild-symptoms-medicine-fallback-initial', PreDiagnosticMildSymptomsMedicineFallbackInitial.execute)
     intentMap.set('pre-diagnostic-mild-symptoms-medicine-fallback-mid', PreDiagnosticMildSymptomsMedicineFallbackMid.execute)

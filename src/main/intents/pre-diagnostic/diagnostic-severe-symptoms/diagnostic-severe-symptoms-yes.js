@@ -1,6 +1,6 @@
 export class DiagnosticSevereSymptomsYes {
   static execute (agent) {
-    const { groupOfRisk, fever, threeOrMoreSymptoms } = agent.context.get('pre-diagnostic').parameters
+    const { groupOfRisk, fever, threeOrMoreSymptoms, tookEffect } = agent.context.get('pre-diagnostic').parameters
 
     agent.context.set({
       name: 'pre-diagnostic',
@@ -9,6 +9,7 @@ export class DiagnosticSevereSymptomsYes {
         groupOfRisk,
         fever,
         threeOrMoreSymptoms,
+        tookEffect,
         severeSymptoms: true
       }
     })

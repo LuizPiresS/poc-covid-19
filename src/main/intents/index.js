@@ -60,6 +60,7 @@ export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/diagnostic-mi
 
 export * from './pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-took-effect'
+export * from './pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-no-effect'
 
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-medicine-fallback-initial.js'
 export * from './pre-diagnostic/diagnostic-mild-symptoms/fallbacks/pre-diagnostic-mild-symptoms-medicine-fallback-mid.js'

@@ -6,9 +6,9 @@ export class DiagnosticBasicFever {
   static async execute (agent) {
     await UtilsIntents.logChatbaseMessagesUsers(agent)
 
-    const { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
+    const { groupOfRisk, fever, threeOrMoreSymptoms, tookEffect, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
 
-    agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } })
+    agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, tookEffect, severeSymptoms } })
 
     if (groupOfRisk) {
       UtilsIntents.setResponse(agent, responseDiagnosticBasicGroupOfRiskYes)

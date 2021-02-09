@@ -27,11 +27,13 @@ export class PreDiagnosticMildSymptomsThreeOrMore {
       response = responseDiagnosticMildSymptomsNone
     }
 
-    const { groupOfRisk, fever, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
+    const { groupOfRisk, fever, severeSymptoms, tookEffect } = agent.context.get('pre-diagnostic').parameters
 
-    agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms } })
+    agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms, tookEffect } })
     console.log('three or more------------------', agent.context.get('pre-diagnostic').parameters, '------------------')
     UtilsIntents.setResponse(agent, response)
-    UtilsIntents.setSuggestion(agent, responseDiagnosticMildSymptomsThreeOrMore[0].title, responseDiagnosticMildSymptomsThreeOrMore[0].suggestions)
+    if (agentQuery !== 'Nenhum') {
+      UtilsIntents.setSuggestion(agent, responseDiagnosticMildSymptomsThreeOrMore[0].title, responseDiagnosticMildSymptomsThreeOrMore[0].suggestions)
+    }
   }
 }
