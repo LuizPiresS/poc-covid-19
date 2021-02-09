@@ -1,5 +1,19 @@
 [
   {
+    "id": "9e497141-7ec1-4278-96cf-5490228c37b4",
+    "data": [
+      {
+        "text": "Claro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "8db3f68d-0d20-4a8a-ad3c-75ad38b445a9",
     "data": [
       {

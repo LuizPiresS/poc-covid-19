@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-no-effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-no-effect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,14 +314,7 @@
       <workItem from="1612820053788" duration="44000" />
       <workItem from="1612826418402" duration="3328000" />
       <workItem from="1612831742312" duration="106000" />
-      <workItem from="1612872304066" duration="9977000" />
-    </task>
-    <task id="LOCAL-00083" summary="fix: removido a mensagem duplicada de &quot;Posso ajudar&quot;">
-      <created>1610973955929</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1610973955930</updated>
+      <workItem from="1612872304066" duration="14013000" />
     </task>
     <task id="LOCAL-00084" summary="feat: adicionado verificação de erro">
       <created>1610981756982</created>
@@ -659,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612879794435</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="fix: os intents de nlp generico não estavam sendo reconhecidos">
+      <created>1612891069124</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1612891069124</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +690,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: arquivos renomeados" />
     <MESSAGE value="feat: adicionado sintomas" />
     <MESSAGE value="chore: edit editor config" />
     <MESSAGE value="feat: add feature basic diagnosticBasic" />
@@ -715,7 +714,8 @@
     <MESSAGE value="feat: adicionado fluxo de medicamentos" />
     <MESSAGE value="feat: adicionado reconhecimento de número por extenso nas frases" />
     <MESSAGE value="feat: nova versão do agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nova versão do agent" />
+    <MESSAGE value="fix: os intents de nlp generico não estavam sendo reconhecidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: os intents de nlp generico não estavam sendo reconhecidos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

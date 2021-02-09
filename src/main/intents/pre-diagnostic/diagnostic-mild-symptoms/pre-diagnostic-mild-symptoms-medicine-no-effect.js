@@ -7,3 +7,5 @@ export class PreDiagnosticMildSymptomsMedicineNoEffect {
     agent.setFollowupEvent('pre-diagnostic-severe-symptoms-event')
   }
 }
+
+// pre-diagnostic-mild-symptoms-medicine-followup pre-diagnostic-mild-symptoms-medicine-no-effect-context

@@ -1,5 +1,32 @@
 [
   {
+    "id": "7cdd85c2-33cf-4386-85e9-60011f6d249c",
+    "data": [
+      {
+        "text": "Vamos",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "aa0dd57e-6e8b-4ff3-ba41-507e3a40daec",
+    "data": [
+      {
+        "text": "Quero saber se estou doente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "51c2d05c-3b94-433c-9243-701636d857e6",
     "data": [
       {
@@ -165,6 +192,20 @@
     ],
     "isTemplate": false,
     "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d13cfd34-2800-4e74-aa5f-b6981afd9fb9",
+    "data": [
+      {
+        "text": "Quero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },

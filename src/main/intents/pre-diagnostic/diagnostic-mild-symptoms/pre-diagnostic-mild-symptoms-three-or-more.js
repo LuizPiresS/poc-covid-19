@@ -33,10 +33,8 @@ export class PreDiagnosticMildSymptomsThreeOrMore {
     agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, severeSymptoms, tookEffect } })
     console.log('three or more------------------', agent.context.get('pre-diagnostic').parameters, '------------------')
     UtilsIntents.setResponse(agent, response)
-    if (agentQuery !== 'Nenhum') {
-      UtilsIntents.setSuggestion(agent, responseDiagnosticMildSymptomsThreeOrMore[0].title, responseDiagnosticMildSymptomsThreeOrMore[0].suggestions)
-    }
+    UtilsIntents.setSuggestion(agent, responseDiagnosticMildSymptomsThreeOrMore[0].title, responseDiagnosticMildSymptomsThreeOrMore[0].suggestions)
   }
 }
-// pre-diagnostic-no
-// symptoms-followup diagnostic-basic pre-diagnostic-followup pre-diagnostic-no-context
+// pre-diagnostic-mild-symptoms-medicine
+// pre-diagnostic-mild-symptoms-three-or-more-followup

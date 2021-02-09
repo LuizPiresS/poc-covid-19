@@ -6,8 +6,8 @@
   "auto": true,
   "contexts": [
     "symptoms-followup",
-    "diagnostic-basic",
-    "pre-diagnostic-followup"
+    "pre-diagnostic-followup",
+    "pre-diagnostic-no-context"
   ],
   "responses": [
     {

@@ -1,5 +1,80 @@
 [
   {
+    "id": "a2734e64-33aa-4bda-8861-31bd0fc83300",
+    "data": [
+      {
+        "text": "Dedos azulados e pálidos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "682c57e5-08b1-4ca7-8667-13443f6b424e",
+    "data": [
+      {
+        "text": "Sensação de desmaio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "451ab4eb-24af-4890-bbc5-707a036a9cc9",
+    "data": [
+      {
+        "text": "Dificuldade ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " respirar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6f08eaef-b70c-4de7-a5f0-7ea3372907bd",
+    "data": [
+      {
+        "text": "Vômito",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "88f8e62b-8dca-4f5b-8c20-ef53e48bdff2",
+    "data": [
+      {
+        "text": "Convulsão",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "19d61fda-31db-41c8-b10e-9e86a192ef66",
     "data": [
       {

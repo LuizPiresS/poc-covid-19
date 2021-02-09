@@ -16,6 +16,18 @@
         {
           "name": "diagnostic-basic-followup",
           "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-no-context",
+          "lifespan": 1
+        },
+        {
+          "name": "symptoms-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-followup",
+          "lifespan": 1
         }
       ],
       "parameters": [],
