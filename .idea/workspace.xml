@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-no-effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-medicine-no-effect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/swearing-words/response-swearing-words.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/swearing-words/response-swearing-words.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,14 +316,9 @@
       <workItem from="1612820053788" duration="44000" />
       <workItem from="1612826418402" duration="3328000" />
       <workItem from="1612831742312" duration="106000" />
-      <workItem from="1612872304066" duration="14013000" />
-    </task>
-    <task id="LOCAL-00084" summary="feat: adicionado verificação de erro">
-      <created>1610981756982</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1610981756982</updated>
+      <workItem from="1612872304066" duration="14915000" />
+      <workItem from="1612898066820" duration="3357000" />
+      <workItem from="1612953902657" duration="6570000" />
     </task>
     <task id="LOCAL-00085" summary="refactor: separado os dados das mensagens e foram adiconados verificação de erros">
       <created>1610995645890</created>
@@ -659,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612891069124</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="feat: nova versão agent">
+      <created>1612896815080</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1612896815080</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +694,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adicionado sintomas" />
     <MESSAGE value="chore: edit editor config" />
     <MESSAGE value="feat: add feature basic diagnosticBasic" />
     <MESSAGE value="feat: adicionado diagnostic-basic" />
@@ -706,7 +709,6 @@
     <MESSAGE value="feat: adicionado severe-symptoms fallback" />
     <MESSAGE value="refactor: severe simptoms" />
     <MESSAGE value="refactor: severe symptoms" />
-    <MESSAGE value="feat: nova versão agent" />
     <MESSAGE value="refactor: mild symptoms three or more symptoms" />
     <MESSAGE value="refactor: basic symptoms fever" />
     <MESSAGE value="fix: fix do bug group of risk que não registrava o valor correto no context" />
@@ -715,7 +717,9 @@
     <MESSAGE value="feat: adicionado reconhecimento de número por extenso nas frases" />
     <MESSAGE value="feat: nova versão do agent" />
     <MESSAGE value="fix: os intents de nlp generico não estavam sendo reconhecidos" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: os intents de nlp generico não estavam sendo reconhecidos" />
+    <MESSAGE value="feat: nova versão agent" />
+    <MESSAGE value="fix: removido o bug da mensagem em medicamentos e adicionado contagem de sintomas em frases" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: removido o bug da mensagem em medicamentos e adicionado contagem de sintomas em frases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,4 @@
-import { responseDiagnosticSevereSymptoms } from '../../../responses'
+import { responseDiagnosticMildSymptomsNone, responseDiagnosticSevereSymptoms } from '../../../responses'
 import { UtilsIntents } from '../../utils/utils-intents'
 
 export class DiagnosticSevereSymptoms {
@@ -17,8 +17,10 @@ export class DiagnosticSevereSymptoms {
       }
     })
 
-    console.log('------------------', agent.context.get('pre-diagnostic').parameters, '------------------')
-
+    console.log('Severe symptoms ------------------', agent.context.get('pre-diagnostic').parameters, '------------------')
+    if (threeOrMoreSymptoms === 'nenhum') {
+      UtilsIntents.setResponse(agent, responseDiagnosticMildSymptomsNone)
+    }
     UtilsIntents.setResponse(agent, responseDiagnosticSevereSymptoms)
     UtilsIntents.setSuggestion(agent, responseDiagnosticSevereSymptoms[0].title, responseDiagnosticSevereSymptoms[0].suggestions)
   }
