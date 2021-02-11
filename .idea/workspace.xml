@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms-three-or-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-severe-symptoms/diagnostic-severe-symptoms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/swearing-words/response-swearing-words.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/swearing-words/response-swearing-words.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,14 +315,8 @@
       <workItem from="1612831742312" duration="106000" />
       <workItem from="1612872304066" duration="14915000" />
       <workItem from="1612898066820" duration="3357000" />
-      <workItem from="1612953902657" duration="6570000" />
-    </task>
-    <task id="LOCAL-00085" summary="refactor: separado os dados das mensagens e foram adiconados verificação de erros">
-      <created>1610995645890</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1610995645890</updated>
+      <workItem from="1612953902657" duration="12783000" />
+      <workItem from="1613043923562" duration="1532000" />
     </task>
     <task id="LOCAL-00086" summary="refactor: fallbacks implementados via fulfillment">
       <created>1611053218703</created>
@@ -663,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612896815080</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="fix: removido o bug da mensagem em medicamentos e adicionado contagem de sintomas em frases">
+      <created>1612963209223</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1612963209224</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
