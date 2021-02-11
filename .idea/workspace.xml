@@ -316,14 +316,7 @@
       <workItem from="1612872304066" duration="14915000" />
       <workItem from="1612898066820" duration="3357000" />
       <workItem from="1612953902657" duration="12783000" />
-      <workItem from="1613043923562" duration="1532000" />
-    </task>
-    <task id="LOCAL-00086" summary="refactor: fallbacks implementados via fulfillment">
-      <created>1611053218703</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1611053218704</updated>
+      <workItem from="1613043923562" duration="3358000" />
     </task>
     <task id="LOCAL-00087" summary="feat: adicionado os fallbacks de &quot;casos no brasil&quot;">
       <created>1611064326741</created>
@@ -661,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612963209224</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="feat: adicionado reconhecimento de valores numéricos em febre">
+      <created>1613047454582</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1613047454582</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +692,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chore: edit editor config" />
     <MESSAGE value="feat: add feature basic diagnosticBasic" />
     <MESSAGE value="feat: adicionado diagnostic-basic" />
     <MESSAGE value="feat: adiiconado diagnostic-mild-symptoms" />
@@ -717,7 +716,8 @@
     <MESSAGE value="fix: os intents de nlp generico não estavam sendo reconhecidos" />
     <MESSAGE value="feat: nova versão agent" />
     <MESSAGE value="fix: removido o bug da mensagem em medicamentos e adicionado contagem de sintomas em frases" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: removido o bug da mensagem em medicamentos e adicionado contagem de sintomas em frases" />
+    <MESSAGE value="feat: adicionado reconhecimento de valores numéricos em febre" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado reconhecimento de valores numéricos em febre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,7 +3,7 @@ export class DiagnosticBasicFeverYes {
     const { groupOfRisk, threeOrMoreSymptoms, tookEffect, severeSymptoms } = agent.context.get('pre-diagnostic').parameters
 
     let fever = true
-    if (agent.context.get('fever-yes').parameters.number < 37.8) {
+    if (agent.context.get('fever-yes').parameters.number < 37.8 && agent.context.get('fever-yes').parameters.number !== '') {
       fever = false
     }
     agent.context.set({ name: 'pre-diagnostic', lifespan: 1, parameters: { groupOfRisk, fever, threeOrMoreSymptoms, tookEffect, severeSymptoms } })
