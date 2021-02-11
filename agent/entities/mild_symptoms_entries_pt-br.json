@@ -1,0 +1,100 @@
+[
+  {
+    "value": "Coriza",
+    "synonyms": [
+      "Coriza",
+      "nariz entupido",
+      "ranho",
+      "defluxão",
+      "defluxeira",
+      "defluxo",
+      "estalicídio",
+      "muco",
+      "monco",
+      "puxeira"
+    ]
+  },
+  {
+    "value": "Cansaço",
+    "synonyms": [
+      "Cansaço",
+      "Lombeira",
+      "Canseira",
+      "Canso",
+      "esgotamento",
+      "estafa",
+      "exaustão",
+      "fadiga",
+      "moleza",
+      "abatimento",
+      "apatia",
+      "debilidade"
+    ]
+  },
+  {
+    "value": "Dor de cabeça",
+    "synonyms": [
+      "Dor de cabeça",
+      "Enxaqueca",
+      "cefaleia",
+      "hemialgia",
+      "hemicrania",
+      "cefalalgia"
+    ]
+  },
+  {
+    "value": "Dores no corpo",
+    "synonyms": [
+      "Dores no corpo",
+      "mal estar",
+      "padecimento",
+      "dores abdominais"
+    ]
+  },
+  {
+    "value": "Dor de garganta",
+    "synonyms": [
+      "Dor de garganta",
+      "odinofagia"
+    ]
+  },
+  {
+    "value": "Diarreia",
+    "synonyms": [
+      "Diarreia",
+      "caganeira",
+      "afitamento",
+      "andaço",
+      "cambras",
+      "desarranjo",
+      "desajanrro intestinal",
+      "destempero",
+      "soltura",
+      "soltura de ventre",
+      "To me esvaindo em merda"
+    ]
+  },
+  {
+    "value": "Tosse",
+    "synonyms": [
+      "Tosse",
+      "Tussindo"
+    ]
+  },
+  {
+    "value": "Perda de paladar",
+    "synonyms": [
+      "Perda de paladar",
+      "Disgeusia",
+      "Não sinto o gosto"
+    ]
+  },
+  {
+    "value": "Derda de Olfato",
+    "synonyms": [
+      "Derda de Olfato",
+      "Não sinto o cheiro",
+      "Não consigo cheirar"
+    ]
+  }
+]

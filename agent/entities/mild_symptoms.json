@@ -1,0 +1,9 @@
+{
+  "id": "410e6cbd-a8c6-4187-8cba-e6f631f99d8d",
+  "name": "mild_symptoms",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

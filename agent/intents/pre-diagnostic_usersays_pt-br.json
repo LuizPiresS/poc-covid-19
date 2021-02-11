@@ -1,10 +1,22 @@
 [
   {
-    "id": "7cdd85c2-33cf-4386-85e9-60011f6d249c",
+    "id": "514fadd2-f79f-4784-9045-e19fca8423b5",
     "data": [
       {
-        "text": "Vamos",
-        "meta": "@sys.ignore",
+        "text": "Quero saber se tenho covid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "cb24f903-09d1-4b98-818b-023c2303417a",
+    "data": [
+      {
+        "text": "quero fazer o pre diagnostico",
         "userDefined": false
       }
     ],

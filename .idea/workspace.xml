@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b447e660-53a7-429f-b272-155a8ace0c29" name="Default Changelist" comment="feat: adicionado severe-symptoms fallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-basic/diagnostic-basic-fever-yes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/intents/pre-diagnostic/diagnostic-mild-symptoms/pre-diagnostic-mild-symptoms.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,14 +316,7 @@
       <workItem from="1612872304066" duration="14915000" />
       <workItem from="1612898066820" duration="3357000" />
       <workItem from="1612953902657" duration="12783000" />
-      <workItem from="1613043923562" duration="3358000" />
-    </task>
-    <task id="LOCAL-00087" summary="feat: adicionado os fallbacks de &quot;casos no brasil&quot;">
-      <created>1611064326741</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1611064326741</updated>
+      <workItem from="1613043923562" duration="4258000" />
     </task>
     <task id="LOCAL-00088" summary="refactor: adicionado nova versão do agent">
       <created>1611068005758</created>
@@ -661,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613047454582</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="fix: removido bug que atribuia false a variavel fever caso não fosse usado valores numericos">
+      <created>1613049129484</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1613049129484</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,8 +692,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add feature basic diagnosticBasic" />
-    <MESSAGE value="feat: adicionado diagnostic-basic" />
     <MESSAGE value="feat: adiiconado diagnostic-mild-symptoms" />
     <MESSAGE value="feat: adicionado diagnostic-mild-symptoms-three-or-more" />
     <MESSAGE value="feat: adicionado diagnostic-severe-symptoms" />
@@ -717,7 +715,9 @@
     <MESSAGE value="feat: nova versão agent" />
     <MESSAGE value="fix: removido o bug da mensagem em medicamentos e adicionado contagem de sintomas em frases" />
     <MESSAGE value="feat: adicionado reconhecimento de valores numéricos em febre" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado reconhecimento de valores numéricos em febre" />
+    <MESSAGE value="fix: removido bug que atribuia false a variavel fever caso não fosse usado valores numericos na resposta" />
+    <MESSAGE value="fix: removido bug que atribuia false a variavel fever caso não fosse usado valores numericos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: removido bug que atribuia false a variavel fever caso não fosse usado valores numericos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

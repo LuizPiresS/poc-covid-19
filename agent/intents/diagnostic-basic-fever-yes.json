@@ -26,7 +26,22 @@
           "lifespan": 1
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "641c0d0e-7b2d-4091-809b-1e8ec9542df7",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
       "messages": [
         {
           "type": "0",

@@ -1,5 +1,127 @@
 [
   {
+    "id": "1fbbd774-9e7d-4506-a517-17d59201b349",
+    "data": [
+      {
+        "text": "Tenho angina",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a83e6f30-a718-4ec4-a342-06e0d1bdebe9",
+    "data": [
+      {
+        "text": "Pulmão ta podre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b444b6fd-3a5b-48f5-ae40-ba217ee1a353",
+    "data": [
+      {
+        "text": "Tenho asma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9368af3c-52ac-4330-8098-2a122ca670ef",
+    "data": [
+      {
+        "text": "Tenho falta de ar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f052d97c-5232-46bd-ad08-669eb5796dc7",
+    "data": [
+      {
+        "text": "Tenho problema no coração",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9614a648-1b47-47d3-a1d2-f44549f87914",
+    "data": [
+      {
+        "text": "Sou gestante",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f4a46a7a-9d30-4620-87b5-32a6e13643b8",
+    "data": [
+      {
+        "text": "Sou diabético",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2e363cf4-bea3-413d-8c62-b2652998e6bc",
+    "data": [
+      {
+        "text": "Tenho ",
+        "userDefined": false
+      },
+      {
+        "text": "mais de 60 anos",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8321d106-32ed-45b2-9a36-19f171f1261c",
+    "data": [
+      {
+        "text": "Eu sou idoso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "51838f5e-f9f4-4cfc-87e4-fd2d5e17a5a6",
     "data": [
       {
@@ -87,54 +209,10 @@
     "updated": 0
   },
   {
-    "id": "bec1f154-c564-4798-96f6-befa65fee4db",
-    "data": [
-      {
-        "text": "Tenho problema no coração",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
     "id": "e2a27428-e4eb-4292-8932-ca313206a578",
     "data": [
       {
         "text": "Tenho Diabetes",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "a3445b8a-db32-4770-8316-8ab4df9f7c49",
-    "data": [
-      {
-        "text": "Sou gestante",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "2e363cf4-bea3-413d-8c62-b2652998e6bc",
-    "data": [
-      {
-        "text": "Tenho ",
-        "userDefined": false
-      },
-      {
-        "text": "mais de 60 anos",
-        "meta": "@sys.ignore",
         "userDefined": false
       }
     ],

@@ -35,7 +35,11 @@
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [],
+  "events": [
+    {
+      "name": "pre-diagnostic-mild-symptoms-medicine-no-effect-event"
+    }
+  ],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

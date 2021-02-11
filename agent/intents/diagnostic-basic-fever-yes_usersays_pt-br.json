@@ -1,5 +1,299 @@
 [
   {
+    "id": "062666e8-e0ca-4483-ae51-3d46199b3e8c",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " de febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d7223e19-3579-46dc-85f4-de8e5c9b5c04",
+    "data": [
+      {
+        "text": "Tive ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " de febre ",
+        "userDefined": false
+      },
+      {
+        "text": "ontem",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3fa18185-69e3-426b-8fbc-a62a46293775",
+    "data": [
+      {
+        "text": "Eu tive muita febre ",
+        "userDefined": false
+      },
+      {
+        "text": "ontem",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6f096122-ab62-492a-bb5d-cec6c647f34f",
+    "data": [
+      {
+        "text": "tive ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " de febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ef374387-0b83-47d1-8e97-c8a3df17ed17",
+    "data": [
+      {
+        "text": "Tenho mais de ",
+        "userDefined": false
+      },
+      {
+        "text": "38",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e5151965-8df1-4dea-a986-c0ab47079877",
+    "data": [
+      {
+        "text": "Tenho febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a064ea62-227b-4465-aafb-7f559588865c",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "graus",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "efa2fbf5-78a7-4b29-a6ef-fef2966e0e9c",
+    "data": [
+      {
+        "text": "Estou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "33803870-f97d-4f83-832c-1fe0e76edae7",
+    "data": [
+      {
+        "text": "Estou com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4df93821-58b0-4bca-af3c-a9ca6930c2cb",
+    "data": [
+      {
+        "text": "Tive pouca febre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f53c5629-889b-4cdb-b37c-24433efa7748",
+    "data": [
+      {
+        "text": "Estou febril",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9fa5a609-da29-4f98-9f86-0104fdd73a15",
+    "data": [
+      {
+        "text": "Tive febre fraca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3fdcad44-6e54-4185-8a98-0149f48a5411",
+    "data": [
+      {
+        "text": "tive febre forte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "926daa3a-10cf-4d14-84a5-54a251835a1d",
+    "data": [
+      {
+        "text": "tive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "470ae31a-b886-4217-bbc9-3dc8b2293327",
+    "data": [
+      {
+        "text": "Sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c84e11a7-978c-42d0-951b-89dfef4977a2",
+    "data": [
+      {
+        "text": "Sim tive ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "ab99c4ab-dd3a-4a32-a756-9f83a0c90695",
     "data": [
       {
@@ -9,84 +303,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "954a9cc2-7daa-41f8-9d74-e22b5d3e6692",
-    "data": [
-      {
-        "text": "faça isso",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "3b46c4c1-14b4-42bb-b7d5-38e7d2043d80",
-    "data": [
-      {
-        "text": "confirmar",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 3,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "9deec0c3-c469-4877-9f1b-901e88ae842f",
-    "data": [
-      {
-        "text": "sim",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 3,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "ee44902c-4d1e-41f7-942a-ea2932a587dd",
-    "data": [
-      {
-        "text": "isso mesmo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "e1e3af12-9b71-4d8a-bf67-f52ad8e59c7e",
-    "data": [
-      {
-        "text": "concordo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "pt-br",
-    "updated": 0
-  },
-  {
-    "id": "48b56467-9832-488f-b4e3-c416f288f0e6",
-    "data": [
-      {
-        "text": "parece bom",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1,
     "lang": "pt-br",
     "updated": 0
   },

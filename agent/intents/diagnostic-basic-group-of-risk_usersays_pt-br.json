@@ -1,5 +1,19 @@
 [
   {
+    "id": "66c958f8-b2e3-4c8f-8e4c-d64408681767",
+    "data": [
+      {
+        "text": "Vamos",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
     "id": "e37a24b2-1e4c-4402-907e-128f14350bb7",
     "data": [
       {

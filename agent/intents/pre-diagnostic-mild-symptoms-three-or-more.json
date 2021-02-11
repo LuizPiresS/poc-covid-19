@@ -32,17 +32,35 @@
         {
           "name": "pre-diagnostic-mild-symptoms-medicine-no-effect-context",
           "lifespan": 1
+        },
+        {
+          "name": "pre-diagnostic-severe-symptoms-context",
+          "lifespan": 1
         }
       ],
       "parameters": [
         {
-          "id": "f3bd6883-28ad-4d3e-8d0e-89451f830de1",
+          "id": "c24bef0f-d62d-4ae4-ba98-b383c452d1fd",
           "name": "numbers",
           "required": false,
           "dataType": "@numbers",
           "value": "$numbers",
           "defaultValue": "",
           "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2200b966-954e-44a2-88cf-155b57fc0b0b",
+          "name": "mild_symptoms",
+          "required": false,
+          "dataType": "@mild_symptoms",
+          "value": "$mild_symptoms",
+          "defaultValue": "",
+          "isList": true,
           "prompts": [],
           "promptMessages": [],
           "noMatchPromptMessages": [],
