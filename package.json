@@ -33,7 +33,7 @@
     "body-parser": "^1.19.0",
     "config": "^3.3.3",
     "dialogflow-fulfillment-helper": "^0.6.6",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongodb": "^3.6.3",
     "mongoose": "^5.11.7",
     "regenerator-runtime": "^0.13.7",
