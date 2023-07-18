@@ -35,7 +35,7 @@
     "dialogflow-fulfillment-helper": "^0.6.6",
     "express": "^4.17.1",
     "mongodb": "^3.6.3",
-    "mongoose": "^5.11.7",
+    "mongoose": "^5.13.20",
     "regenerator-runtime": "^0.13.7",
     "rimraf": "^3.0.2"
   },
